@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:30",
+ "updated": "2026-11-24T20:39",
  "source": "Veranstaltungskalender Stadt Ebersbach an der Fils",
  "items": [
   {
@@ -69,7 +69,7 @@
   {
    "start": "2026-11-30",
    "end": null,
-   "title": "Mitgliederversammlung",
+   "title": "Mitgliederversammlung Vortrag und neue Dauerausstellung: Historisches",
    "org": "Verbund der Ebersbacher Vereine e.V.",
    "place": "Kleintierzüchterheim",
    "importance": 0
@@ -77,10 +77,10 @@
   {
    "start": "2026-11-30",
    "end": null,
-   "title": "Vortrag und neue Dauerausstellung: Historisches Kochen vor 1900",
+   "title": "Kochen vor 1900",
    "org": "Stadtmuseum Alte Post",
    "place": "Stadtmuseum Alte Post",
-   "importance": 2
+   "importance": 1
   },
   {
    "start": "2026-12-01",
@@ -104,6 +104,14 @@
    "title": "Treff im Bürgerhaus Weiler",
    "org": "Förderverein Bürgerhaus Weiler",
    "place": "Bürgerhaus Weiler",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-04",
+   "end": null,
+   "title": "WKD WKD Team",
+   "org": "TV Bünzwangen e.V.",
+   "place": "Vereinsraum Turnverein Bünzwangen",
    "importance": 0
   },
   {
@@ -155,11 +163,27 @@
    "importance": 0
   },
   {
+   "start": "2026-12-09",
+   "end": null,
+   "title": "Mäschlestreff",
+   "org": "Dorfgemeinschaft Bünzwangen e.V.",
+   "place": "Historisches Rathaus Bünzwangen",
+   "importance": 0
+  },
+  {
    "start": "2026-12-10",
    "end": null,
    "title": "Kaffee- und Kuchennachmittag im Dorf",
    "org": "RVI Büchenbronn e.V.",
    "place": "Dorfgemeinschaftshaus Büchenbronn",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-10",
+   "end": null,
+   "title": "Cafe Asyl",
+   "org": "Flüchtlingshilfe Ebersbach",
+   "place": "Evangelisches Gemeindezentrum",
    "importance": 0
   },
   {
@@ -173,10 +197,18 @@
   {
    "start": "2026-12-11",
    "end": null,
-   "title": "WinterWasen",
-   "org": "Weiler Eventinitiative Ebersbach e.V.",
+   "title": "WinterWasen Weiler",
+   "org": "Eventinitiative Ebersbach e.V. Dorfgemeinschaft Bünzwangen e.V. / Evangelische",
    "place": "Gemeindehalle Weiler",
    "importance": 2
+  },
+  {
+   "start": "2026-12-11",
+   "end": null,
+   "title": "Mittagstisch",
+   "org": "Kirchengemeinde Ebersbach",
+   "place": "Gemeindehaus Bünzwangen",
+   "importance": 0
   },
   {
    "start": "2026-12-12",
@@ -191,13 +223,13 @@
    "end": null,
    "title": "Kinderweihnacht",
    "org": "Turnverein Ebersbach",
-   "place": "Raichberg-Sporthalle Ebersbach",
+   "place": "Raichberg-Sporthalle Ebersach",
    "importance": 2
   },
   {
    "start": "2026-12-12",
    "end": null,
-   "title": "EiE-Veranstaltung",
+   "title": "EiE- Veranstaltung",
    "org": "Eventinitiative Ebersbach e.V.",
    "place": "Gemeindehalle Weiler",
    "importance": 1
@@ -205,7 +237,7 @@
   {
    "start": "2026-12-13",
    "end": null,
-   "title": "Roßwälder Weihnachtsmarkt",
+   "title": "Roßwälder Weihnachtsmarkts",
    "org": "Förderverein der Grundschule Roßwälden",
    "place": "Roßwälden",
    "importance": 2
