@@ -7,7 +7,7 @@ Dashboard für das Samsung Galaxy Tab S6 im Querformat, angezeigt im Vollbild mi
 - Abfuhrtermine (AWB Landkreis Göppingen): Blaue Tonne, Restmüll, Bio, Gelber Sack, Grüngut – nächster Termin zuerst
 - Die nächsten 5 Veranstaltungen in Ebersbach (aus dem Veranstaltungskalender der Stadt)
 - Rezept des Tages, türkisch & deutsch, leicht und sättigend, mit Airfryer-Rezepten und Tipps
-- App-Leiste: YouTube, YouTube Music, Netflix, WhatsApp, Chrome
+- App-Leiste: YouTube, YouTube Music, Netflix, Spotify, Chrome
 - Hintergrund ändert sich mit der Tageszeit, nachts wird das Bild gedimmt
 
 ## Einrichten (einmalig)
