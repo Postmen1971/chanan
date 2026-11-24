@@ -17,14 +17,9 @@ Repository → **Settings** → **Pages** → *Branch*: `main`, Ordner `/ (root)
 Nach ein bis zwei Minuten ist das Dashboard erreichbar unter:
 `https://postmen1971.github.io/chanan/`
 
-### 2. Abfuhrtermine verbinden
-1. Auf **awb-gp.de → Abfallabholung → Abfuhrtermine** Ebersbach, Straße und Hausnummer wählen.
-2. Beim Knopf **ICS / Kalender** lange drücken → *Link kopieren*.
-3. Repository → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
-   Name: `ABFALL_ICS_URL` – Wert: der kopierte Link.
-4. Unter **Actions** → *Daten aktualisieren* → **Run workflow**.
-
-Der Link steht damit nicht öffentlich im Repository (er enthält die Adresse).
+### 2. Abfuhrtermine
+Läuft automatisch: Ebersbach hat keine Abfuhrbezirke, die Termine kommen für die ganze Stadt
+direkt vom AWB (abfall.io) – wie beim MORGEN-KNALLER. Nichts einzurichten.
 
 ### 3. Tablet
 1. **Fully Kiosk Browser** aus dem Play Store installieren.
