@@ -1,5 +1,71 @@
 {
- "updated": null,
+ "updated": "2026-11-24T22:15",
  "source": "AWB Landkreis Göppingen",
- "items": []
+ "items": [
+  {
+   "date": "2026-11-24",
+   "type": "bio",
+   "title": "Bioabfall"
+  },
+  {
+   "date": "2026-11-24",
+   "type": "gelb",
+   "title": "Gelber Sack"
+  },
+  {
+   "date": "2026-12-01",
+   "type": "bio",
+   "title": "Bioabfall"
+  },
+  {
+   "date": "2026-12-02",
+   "type": "papier",
+   "title": "Papiertonne"
+  },
+  {
+   "date": "2026-12-04",
+   "type": "rest",
+   "title": "Hausmüll"
+  },
+  {
+   "date": "2026-12-08",
+   "type": "bio",
+   "title": "Bioabfall"
+  },
+  {
+   "date": "2026-12-08",
+   "type": "gelb",
+   "title": "Gelber Sack"
+  },
+  {
+   "date": "2026-12-15",
+   "type": "bio",
+   "title": "Bioabfall"
+  },
+  {
+   "date": "2026-12-18",
+   "type": "rest",
+   "title": "Hausmüll"
+  },
+  {
+   "date": "2026-12-21",
+   "type": "bio",
+   "title": "Bioabfall"
+  },
+  {
+   "date": "2026-12-21",
+   "type": "gelb",
+   "title": "Gelber Sack"
+  },
+  {
+   "date": "2026-12-29",
+   "type": "bio",
+   "title": "Bioabfall"
+  },
+  {
+   "date": "2026-12-30",
+   "type": "papier",
+   "title": "Papiertonne"
+  }
+ ]
 }
