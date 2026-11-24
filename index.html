@@ -464,9 +464,8 @@ async function loadAbfall(){
   const box=$("bins");
   const items=(d&&d.items||[]).map(x=>({...x,day:parseDay(x.date)})).filter(x=>daysFrom(x.day)>=0);
   if(!items.length){
-    box.innerHTML = `<div class="hint">Die Abfuhrtermine werden gerade eingerichtet.<br><br>
-      Sobald der Kalender-Link vom <b>AWB Göppingen</b> hinterlegt ist, erscheinen hier
-      <b>Blaue Tonne, Restmüll, Bio, Gelber Sack</b> und <b>Grüngut</b> – immer der nächste Termin zuerst.</div>`;
+    box.innerHTML = Object.values(WASTE).map(w=>`<div class="bin"><div class="ic" style="background:${w.color}">${binIcon(w.shape)}</div>
+      <div><div class="nm">${w.name}</div><div class="dt">${w.sub}</div></div><div class="rel">Termin folgt</div></div>`).join("");
     return;
   }
   // je Tonne den nächsten Termin, danach nach Datum sortieren

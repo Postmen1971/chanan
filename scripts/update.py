@@ -2,14 +2,15 @@
 """
 Holt täglich die Daten für das Dashboard und schreibt sie nach data/:
 
-  data/abfall.json  – Abfuhrtermine (AWB Landkreis Göppingen, über abfall.io-ICS)
+  data/abfall.json  – Abfuhrtermine Ebersbach (AWB Landkreis Göppingen, über abfall.io)
   data/events.json  – Veranstaltungen in Ebersbach an der Fils (Veranstaltungskalender-PDF der Stadt)
 
 Läuft in GitHub Actions. Wenn eine Quelle nicht erreichbar ist oder nichts
 Brauchbares liefert, bleibt die vorhandene Datei unverändert.
 
-Abfall-Link: als Repository-Secret ABFALL_ICS_URL hinterlegen
-(auf awb-gp.de → Abfuhrtermine → Ort/Straße/Hausnummer wählen → Link des ICS-Knopfs kopieren).
+Abfall: Ebersbach hat keine Abfuhrbezirke – die Termine gelten für die ganze Stadt
+und kommen direkt aus der abfall.io-Schnittstelle des AWB (wie beim MORGEN-KNALLER).
+Optional kann ein eigener ICS-Link als Secret ABFALL_ICS_URL hinterlegt werden.
 """
 import datetime as dt
 import io
@@ -92,30 +93,64 @@ def parse_ics(text):
     return out
 
 
-def update_abfall():
-    url = os.environ.get("ABFALL_ICS_URL", "").strip()
-    if not url:
-        cfg = os.path.join(ROOT, "config.json")
-        if os.path.exists(cfg):
-            url = json.load(open(cfg, encoding="utf-8")).get("abfall_ics_url", "").strip()
-    if not url:
-        log("Abfall: kein ICS-Link hinterlegt – übersprungen")
-        return
-    try:
-        raw = fetch(fix_period(url)).decode("utf-8", "replace")
-    except Exception as e:  # noqa: BLE001
-        log("Abfall: Abruf fehlgeschlagen:", e)
-        return
+ABFALL_GQL = "https://widgets.abfall.io/graphql"
+ABFALL_KEY = "7a4730955599a7e7c0ceb39c548b6abbae874dc7e6a0afc5"
+EBERSBACH_HAUSNR_ID = "4021"   # Hauptstraße – gilt für ganz Ebersbach (keine Bezirke)
+WASTE_IDS = {"18": "rest", "19": "papier", "17": "gelb", "20": "bio", "59": "gruen"}
+
+
+def abfall_graphql():
+    body = json.dumps({
+        "query": "query($id:ID!){appointments(idHouseNumber:$id){date time location note wasteType{id name}}}",
+        "variables": {"id": EBERSBACH_HAUSNR_ID},
+    }).encode()
+    req = urllib.request.Request(ABFALL_GQL, data=body, method="POST", headers={
+        **UA, "Content-Type": "application/json", "Accept": "application/json",
+        "x-abfallplus-api-key": ABFALL_KEY,
+        "Origin": "https://awb-gp.de", "Referer": "https://awb-gp.de/",
+    })
+    with urllib.request.urlopen(req, timeout=40) as r:
+        data = json.loads(r.read().decode("utf-8"))
     items = []
+    for a in (data.get("data") or {}).get("appointments") or []:
+        wt = a.get("wasteType") or {}
+        key = WASTE_IDS.get(str(wt.get("id"))) or classify(wt.get("name") or "")
+        if not key or not a.get("date"):
+            continue
+        d = dt.date.fromisoformat(a["date"][:10])
+        items.append((d, key, wt.get("name") or ""))
+    return items
+
+
+def abfall_ics(url):
+    raw = fetch(fix_period(url)).decode("utf-8", "replace")
+    out = []
     for d, summary in parse_ics(raw):
         key = classify(summary)
-        if key is None or d < TODAY - dt.timedelta(days=1):
-            continue
-        items.append({"date": d.isoformat(), "type": key, "title": summary})
+        if key:
+            out.append((d, key, summary))
+    return out
+
+
+def update_abfall():
+    url = os.environ.get("ABFALL_ICS_URL", "").strip()
+    items = []
+    try:
+        items = abfall_ics(url) if url else abfall_graphql()
+    except Exception as e:  # noqa: BLE001
+        log("Abfall: Abruf fehlgeschlagen:", e)
+    if not items and url:
+        try:
+            items = abfall_graphql()
+        except Exception as e:  # noqa: BLE001
+            log("Abfall: GraphQL fehlgeschlagen:", e)
+    items = [{"date": d.isoformat(), "type": k, "title": t}
+             for d, k, t in items if d >= TODAY - dt.timedelta(days=1)]
     if not items:
-        log("Abfall: keine Termine im Kalender gefunden – alte Datei bleibt")
+        log("Abfall: keine Termine erhalten – alte Datei bleibt")
         return
     items.sort(key=lambda x: (x["date"], x["type"]))
+    log(f"Abfall: {len(items)} Termine")
     write_json("abfall.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"),
                                "source": "AWB Landkreis Göppingen", "items": items})
 
