@@ -1,0 +1,270 @@
+{
+ "updated": "2026-11-24T21:30",
+ "source": "Veranstaltungskalender Stadt Ebersbach an der Fils",
+ "items": [
+  {
+   "start": "2026-11-25",
+   "end": null,
+   "title": "Spieleabend",
+   "org": "RVI Büchenbronn e.V.",
+   "place": "Dorfgemeinschaftshaus Büchenbronn",
+   "importance": 0
+  },
+  {
+   "start": "2026-11-25",
+   "end": null,
+   "title": "D´r Kaffeetreff in Bünzwangen",
+   "org": "Förderverein Turn- und Festhalle Bünzwangen e.V.",
+   "place": "Mehrzweckhalle Bünzwangen",
+   "importance": 0
+  },
+  {
+   "start": "2026-11-25",
+   "end": null,
+   "title": "Mäschlestreff",
+   "org": "Dorfgemeinschaft Bünzwangen e.V.",
+   "place": "Historisches Rathaus Bünzwangen",
+   "importance": 0
+  },
+  {
+   "start": "2026-11-27",
+   "end": null,
+   "title": "Adventskonzert",
+   "org": "Musikschule Ebersbach/Schlierbach e.V.",
+   "place": "Benediktskirche Roßwälden",
+   "importance": 2
+  },
+  {
+   "start": "2026-11-28",
+   "end": null,
+   "title": "Dorfweihnacht",
+   "org": "RVI Büchenbronn e.V.",
+   "place": "Dorfgemeinschaftshaus Büchenbronn",
+   "importance": 2
+  },
+  {
+   "start": "2026-11-28",
+   "end": null,
+   "title": "Adventsgießen",
+   "org": "Verein der Garten- u. Blumenfreunde e.V.",
+   "place": "Vereinsgelände im Kümmelbachweg",
+   "importance": 2
+  },
+  {
+   "start": "2026-11-29",
+   "end": null,
+   "title": "Adventskonzert",
+   "org": "MV Ebersbach/Fils",
+   "place": "Herz-Jesu-Kirche Ebersbach",
+   "importance": 2
+  },
+  {
+   "start": "2026-11-29",
+   "end": null,
+   "title": "Weihnachtsmarkt",
+   "org": "Ev. Kirchengemeinde Ebersbach",
+   "place": "Bünzwangen",
+   "importance": 2
+  },
+  {
+   "start": "2026-11-30",
+   "end": null,
+   "title": "Mitgliederversammlung",
+   "org": "Verbund der Ebersbacher Vereine e.V.",
+   "place": "Kleintierzüchterheim",
+   "importance": 0
+  },
+  {
+   "start": "2026-11-30",
+   "end": null,
+   "title": "Vortrag und neue Dauerausstellung: Historisches Kochen vor 1900",
+   "org": "Stadtmuseum Alte Post",
+   "place": "Stadtmuseum Alte Post",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-01",
+   "end": "2026-12-20",
+   "title": "Briefkasten an den Weihnachtsmann",
+   "org": "Dorfgemeinschaft Bünzwangen e.V.",
+   "place": "Historisches Rathaus Bünzwangen",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-02",
+   "end": null,
+   "title": "Adventlicher Nachmittag mit Nikolaus",
+   "org": "Mittwochsclubs der katholischen Kirche Ebersbach",
+   "place": "",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-03",
+   "end": null,
+   "title": "Treff im Bürgerhaus Weiler",
+   "org": "Förderverein Bürgerhaus Weiler",
+   "place": "Bürgerhaus Weiler",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-04",
+   "end": null,
+   "title": "Nikolausfest",
+   "org": "Stadtbibliothek Ebersbach",
+   "place": "Stadtbibliothek Ebersbach",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "title": "Ebersbacher Adventszauber",
+   "org": "ProEbersbach e.V.",
+   "place": "Innenstadt",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-06",
+   "end": null,
+   "title": "Weißwurstfrühstück",
+   "org": "TGV Roßwälden",
+   "place": "TGV Halle Roßwälden",
+   "importance": 1
+  },
+  {
+   "start": "2026-12-08",
+   "end": null,
+   "title": "Linux-Café",
+   "org": "mitmacherei",
+   "place": "Seminarräume in der Kirchbergstr. 2",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-09",
+   "end": null,
+   "title": "Spieleabend",
+   "org": "RVI Büchenbronn e.V.",
+   "place": "Dorfgemeinschaftshaus Büchenbronn",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-09",
+   "end": null,
+   "title": "D´r Kaffeetreff in Bünzwangen",
+   "org": "Förderverein Turn- und Festhalle Bünzwangen e.V.",
+   "place": "Mehrzweckhalle Bünzwangen",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-10",
+   "end": null,
+   "title": "Kaffee- und Kuchennachmittag im Dorf",
+   "org": "RVI Büchenbronn e.V.",
+   "place": "Dorfgemeinschaftshaus Büchenbronn",
+   "importance": 0
+  },
+  {
+   "start": "2026-12-11",
+   "end": null,
+   "title": "Adventsfeier",
+   "org": "VdK",
+   "place": "Mühlradsaal im Haus Filsblick",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-11",
+   "end": null,
+   "title": "WinterWasen",
+   "org": "Weiler Eventinitiative Ebersbach e.V.",
+   "place": "Gemeindehalle Weiler",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-12",
+   "end": null,
+   "title": "Repair-Café",
+   "org": "mitmacherei",
+   "place": "Seminarräume in der Kirchbergstr. 2",
+   "importance": 1
+  },
+  {
+   "start": "2026-12-12",
+   "end": null,
+   "title": "Kinderweihnacht",
+   "org": "Turnverein Ebersbach",
+   "place": "Raichberg-Sporthalle Ebersbach",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-12",
+   "end": null,
+   "title": "EiE-Veranstaltung",
+   "org": "Eventinitiative Ebersbach e.V.",
+   "place": "Gemeindehalle Weiler",
+   "importance": 1
+  },
+  {
+   "start": "2026-12-13",
+   "end": null,
+   "title": "Roßwälder Weihnachtsmarkt",
+   "org": "Förderverein der Grundschule Roßwälden",
+   "place": "Roßwälden",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-13",
+   "end": null,
+   "title": "Adventskonzert",
+   "org": "TGV Roßwälden",
+   "place": "Benediktskirche Roßwälden",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-13",
+   "end": null,
+   "title": "Dorfweihnacht",
+   "org": "Gesangverein Eintracht Weiler",
+   "place": "Feuerwehrmagazin Weiler",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-13",
+   "end": null,
+   "title": "Altenchristtag",
+   "org": "Ev. Kirchengemeinde Ebersbach",
+   "place": "Ebersbach",
+   "importance": 1
+  },
+  {
+   "start": "2026-12-18",
+   "end": null,
+   "title": "Kaffee unterm Kirchturm",
+   "org": "Ev. Kirchengemeinde Ebersbach",
+   "place": "Gemeindesaal bei der Veitskirche",
+   "importance": 1
+  },
+  {
+   "start": "2026-12-20",
+   "end": null,
+   "title": "Dorfweihnacht",
+   "org": "Sulpacher Dorfgemeinschaft e.V.",
+   "place": "Dorfplatz Sulpach",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-23",
+   "end": null,
+   "title": "Weilermer Weihnachtsglühen",
+   "org": "Sportclub Weiler e.V.",
+   "place": "Gemeindehalle Weiler",
+   "importance": 2
+  },
+  {
+   "start": "2026-12-24",
+   "end": null,
+   "title": "Singen in der Kirche",
+   "org": "Gesangverein Eintracht Weiler",
+   "place": "Blasiuskirche Weiler",
+   "importance": 1
+  }
+ ]
+}

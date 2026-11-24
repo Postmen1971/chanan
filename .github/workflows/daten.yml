@@ -1,0 +1,42 @@
+name: Daten aktualisieren
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # täglich ca. 4:17 Uhr deutscher Zeit
+  workflow_dispatch: {}      # auf GitHub per Knopf "Run workflow" startbar
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/daten.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pdfplumber==0.11.4
+      - name: Abfall + Veranstaltungen holen
+        env:
+          ABFALL_ICS_URL: ${{ secrets.ABFALL_ICS_URL }}
+        run: python scripts/update.py
+      - name: Änderungen speichern
+        run: |
+          git config user.name "dashboard-bot"
+          git config user.email "dashboard-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Daten aktualisiert"
+            git push
+          fi
