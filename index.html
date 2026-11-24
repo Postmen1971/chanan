@@ -264,11 +264,11 @@ const ORT = {name:"Ebersbach an der Fils", lat:48.7158, lon:9.5236};
 
 // App-Leiste: Android-Paketnamen. Weitere Apps einfach ergänzen.
 const APPS = [
-  {name:"YouTube",  pkg:"com.google.android.youtube",            icon:"play"},
-  {name:"YT Music", pkg:"com.google.android.apps.youtube.music", icon:"music"},
-  {name:"Netflix",  pkg:"com.netflix.mediaclient",               icon:"film"},
-  {name:"WhatsApp", pkg:"com.whatsapp",                          icon:"chat"},
-  {name:"Chrome",   pkg:"com.android.chrome",                    icon:"web"},
+  {name:"YouTube",  pkg:"com.google.android.youtube",            icon:"play",  web:"https://www.youtube.com"},
+  {name:"YT Music", pkg:"com.google.android.apps.youtube.music", icon:"music", web:"https://music.youtube.com"},
+  {name:"Netflix",  pkg:"com.netflix.mediaclient",               icon:"film",  web:"https://www.netflix.com"},
+  {name:"WhatsApp", pkg:"com.whatsapp",                          icon:"chat",  web:"https://web.whatsapp.com"},
+  {name:"Chrome",   pkg:"com.android.chrome",                    icon:"web",   web:"https://www.google.de"},
 ];
 
 const WASTE = {
@@ -601,14 +601,17 @@ function renderTip(){
 /* ======================================================================
    App-Leiste
    ====================================================================== */
-function startApp(pkg){
+const IS_ANDROID = /Android/i.test(navigator.userAgent);
+function startApp(pkg, web){
+  // Am PC oder iPhone: Webseite in neuem Tab öffnen
+  if(!IS_ANDROID && !window.fully){ window.open(web, "_blank", "noopener"); return }
   try{
     if(window.fully && fully.startApplication){ fully.startApplication(pkg); return }
   }catch(e){}
   location.href = `intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=${pkg};end`;
 }
 $("dock").innerHTML = APPS.map((a,i)=>`<button class="appbtn" data-i="${i}">${APPICON[a.icon]||APPICON.web}<span>${a.name}</span></button>`).join("");
-$("dock").querySelectorAll(".appbtn").forEach(b=>b.onclick=()=>startApp(APPS[b.dataset.i].pkg));
+$("dock").querySelectorAll(".appbtn").forEach(b=>b.onclick=()=>startApp(APPS[b.dataset.i].pkg, APPS[b.dataset.i].web));
 
 /* ======================================================================
    Start + Aktualisierung
