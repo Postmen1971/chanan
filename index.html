@@ -111,7 +111,10 @@ body{
 .bin .rel{margin-left:auto;font-size:13px;font-weight:700;padding:6px 11px;border-radius:999px;background:rgba(255,255,255,.14);white-space:nowrap}
 .bin.soon{background:rgba(255,255,255,.2);border-color:rgba(255,255,255,.35);box-shadow:0 0 0 2px rgba(255,255,255,.12), 0 8px 26px rgba(0,0,0,.15)}
 .bin.soon .rel{background:#fff;color:#1d2440}
-.bin.today .rel{background:#ffcf3f;color:#3b2a00}
+.bin.today .rel{background:#e0102a;color:#fff;letter-spacing:.04em}
+.bin.today .dt b{color:#ff6b7d}
+.bin.off{opacity:.55}
+.bin.off .rel{background:none;font-weight:600;color:var(--muted)}
 .hint{font-size:14px;color:var(--muted);line-height:1.5}
 .hint b{color:#fff}
 
@@ -462,7 +465,9 @@ async function loadAbfall(){
   let d;
   try{ d = await getJSON("data/abfall.json"); store.set("abfall",d) }catch(e){ d = store.get("abfall") }
   const box=$("bins");
-  const items=(d&&d.items||[]).map(x=>({...x,day:parseDay(x.date)})).filter(x=>daysFrom(x.day)>=0);
+  // heutige Abholung bis 14 Uhr anzeigen, danach zählt der nächste Termin
+  const minDay = new Date().getHours()<14 ? 0 : 1;
+  const items=(d&&d.items||[]).map(x=>({...x,day:parseDay(x.date)})).filter(x=>daysFrom(x.day)>=minDay);
   if(!items.length){
     box.innerHTML = Object.values(WASTE).map(w=>`<div class="bin"><div class="ic" style="background:${w.color}">${binIcon(w.shape)}</div>
       <div><div class="nm">${w.name}</div><div class="dt">${w.sub}</div></div><div class="rel">Termin folgt</div></div>`).join("");
@@ -475,11 +480,15 @@ async function loadAbfall(){
   box.innerHTML = list.map(it=>{
     const w=WASTE[it.type], n=daysFrom(it.day);
     const cls = n===0?"bin soon today":n===1?"bin soon":"bin";
-    const extra = n===1 ? " · heute Abend raus!" : n===0 ? " · wird heute geleert" : "";
+    const extra = n===1 ? " · bis 6 Uhr rausstellen" : n===0 ? " · <b>heute!</b>" : "";
     return `<div class="${cls}"><div class="ic" style="background:${w.color}">${binIcon(w.shape)}</div>
       <div><div class="nm">${w.name}</div><div class="dt">${TK[it.day.getDay()]}, ${pad(it.day.getDate())}.${pad(it.day.getMonth()+1)}.${extra}</div></div>
-      <div class="rel">${relDay(n)}</div></div>`;
-  }).join("");
+      <div class="rel">${n===0?"HEUTE":relDay(n)}</div></div>`;
+  }).join("") +
+  // Tonnen ohne kommenden Termin (z. B. Grüngut im Winter) unten anzeigen
+  Object.keys(WASTE).filter(k=>!next[k]).map(k=>{const w=WASTE[k];
+    return `<div class="bin off"><div class="ic" style="background:${w.color}">${binIcon(w.shape)}</div>
+      <div><div class="nm">${w.name}</div><div class="dt">${w.sub}</div></div><div class="rel">${k==="gruen"?"Winterpause":"kein Termin"}</div></div>`}).join("");
 }
 
 /* ======================================================================
