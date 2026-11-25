@@ -467,18 +467,648 @@
    "file": "levrek_2.jpg"
   }
  ],
- "ezogelin": [],
- "dolma": [],
- "linsen": [],
- "lachs": [],
- "frikadellen": [],
- "gurkensalat": [],
- "kohlrouladen": [],
- "haehnchen": [],
- "frikassee": [],
- "zucchinipuffer": [],
- "erbsen": [],
- "blumenkohl": [],
- "roulade": [],
- "sucuk": []
+ "ezogelin": [
+  {
+   "title": "File:Turkish soup Ezo Gelin.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Turkish_soup_Ezo_Gelin.jpg/960px-Turkish_soup_Ezo_Gelin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Turkish_soup_Ezo_Gelin.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "ezogelin_0.jpg"
+  },
+  {
+   "title": "File:Ezogelin soup, bread, and water.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Ezogelin_soup%2C_bread%2C_and_water.jpg/960px-Ezogelin_soup%2C_bread%2C_and_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ezogelin_soup,_bread,_and_water.jpg",
+   "artist": "Matt Krause from Istanbul, Turkey",
+   "license": "CC BY 2.0",
+   "file": "ezogelin_1.jpg"
+  },
+  {
+   "title": "File:Ezogelin soup in Ankara.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Ezogelin_soup_in_Ankara.jpg/960px-Ezogelin_soup_in_Ankara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ezogelin_soup_in_Ankara.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "ezogelin_2.jpg"
+  },
+  {
+   "title": "File:20230430 Ezogelin çorbası.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg/960px-20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:20230430_Ezogelin_%C3%A7orbas%C4%B1.jpg",
+   "artist": "Basak",
+   "license": "CC BY-SA 4.0",
+   "file": "ezogelin_3.jpg"
+  },
+  {
+   "title": "File:Ezogelin soup in Turkey.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ezogelin_soup_in_Turkey.jpg/960px-Ezogelin_soup_in_Turkey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ezogelin_soup_in_Turkey.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "ezogelin_4.jpg"
+  },
+  {
+   "title": "File:Ezo Gelin soup.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ezo_Gelin_soup.jpg/960px-Ezo_Gelin_soup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ezo_Gelin_soup.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "ezogelin_5.jpg"
+  }
+ ],
+ "dolma": [
+  {
+   "title": "File:Stuffed red peppers, dark rye bread, Rostov-on-Don, Russia.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Stuffed_red_peppers%2C_dark_rye_bread%2C_Rostov-on-Don%2C_Russia.jpg/960px-Stuffed_red_peppers%2C_dark_rye_bread%2C_Rostov-on-Don%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Stuffed_red_peppers,_dark_rye_bread,_Rostov-on-Don,_Russia.jpg",
+   "artist": "Vyacheslav Argenberg",
+   "license": "CC BY 4.0",
+   "file": "dolma_0.jpg"
+  },
+  {
+   "title": "File:Quinoa stuffed peppers.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Quinoa_stuffed_peppers.jpg/960px-Quinoa_stuffed_peppers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Quinoa_stuffed_peppers.jpg",
+   "artist": "Mark Bonica",
+   "license": "CC BY 2.0",
+   "file": "dolma_1.jpg"
+  },
+  {
+   "title": "File:2025.09.02 Stuffed Peppers Paprika in Belarus by Dina Panayotis.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/2025.09.02_Stuffed_Peppers_Paprika_in_Belarus_by_Dina_Panayotis.jpg/960px-2025.09.02_Stuffed_Peppers_Paprika_in_Belarus_by_Dina_Panayotis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:2025.09.02_Stuffed_Peppers_Paprika_in_Belarus_by_Dina_Panayotis.jpg",
+   "artist": "Tess Mattew",
+   "license": "CC BY-SA 4.0",
+   "file": "dolma_2.jpg"
+  },
+  {
+   "title": "File:Stuffed peppers (15441051855).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Stuffed_peppers_%2815441051855%29.jpg/960px-Stuffed_peppers_%2815441051855%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Stuffed_peppers_(15441051855).jpg",
+   "artist": "jeffreyw",
+   "license": "CC BY 2.0",
+   "file": "dolma_3.jpg"
+  },
+  {
+   "title": "File:Stuffed peppers with rice.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Stuffed_peppers_with_rice.jpg/960px-Stuffed_peppers_with_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Stuffed_peppers_with_rice.jpg",
+   "artist": "Wiki leylek",
+   "license": "CC BY 4.0",
+   "file": "dolma_4.jpg"
+  },
+  {
+   "title": "File:Stuffed peppers with rice 09.09.2026.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Stuffed_peppers_with_rice_09.09.2026.jpg/960px-Stuffed_peppers_with_rice_09.09.2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Stuffed_peppers_with_rice_09.09.2026.jpg",
+   "artist": "Wiki leylek",
+   "license": "CC BY 4.0",
+   "file": "dolma_5.jpg"
+  }
+ ],
+ "linsen": [
+  {
+   "title": "File:Linseneintopf mit Blutwurst 1.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Linseneintopf_mit_Blutwurst_1.JPG/960px-Linseneintopf_mit_Blutwurst_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Linseneintopf_mit_Blutwurst_1.JPG",
+   "artist": "Brücke-Osteuropa",
+   "license": "CC0",
+   "file": "linsen_0.jpg"
+  },
+  {
+   "title": "File:Catalan lentil soup.JPG",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Catalan_lentil_soup.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Catalan_lentil_soup.JPG",
+   "artist": "Xufanc",
+   "license": "CC BY-SA 3.0",
+   "file": "linsen_1.jpg"
+  },
+  {
+   "title": "File:Linseneintopf mit Blutwurst 2.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Linseneintopf_mit_Blutwurst_2.JPG/960px-Linseneintopf_mit_Blutwurst_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Linseneintopf_mit_Blutwurst_2.JPG",
+   "artist": "Brücke-Osteuropa",
+   "license": "CC0",
+   "file": "linsen_2.jpg"
+  },
+  {
+   "title": "File:Linseneintopf.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Linseneintopf.jpg/960px-Linseneintopf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Linseneintopf.jpg",
+   "artist": "Matthias Lipinski",
+   "license": "CC0",
+   "file": "linsen_3.jpg"
+  },
+  {
+   "title": "File:Lamb-stew.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Lamb-stew.jpg/960px-Lamb-stew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Lamb-stew.jpg",
+   "artist": "FiveRings (talk)",
+   "license": "CC BY 3.0",
+   "file": "linsen_4.jpg"
+  }
+ ],
+ "lachs": [
+  {
+   "title": "File:02021 0652 (1) Kuskus with baked salmon and vegetable.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/02021_0652_%281%29_Kuskus_with_baked_salmon_and_vegetable.jpg/960px-02021_0652_%281%29_Kuskus_with_baked_salmon_and_vegetable.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:02021_0652_(1)_Kuskus_with_baked_salmon_and_vegetable.jpg",
+   "artist": "Silar",
+   "license": "CC BY-SA 4.0",
+   "file": "lachs_0.jpg"
+  },
+  {
+   "title": "File:Steckenroth, salmon on baked vegetables.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Steckenroth%2C_salmon_on_baked_vegetables.jpg/960px-Steckenroth%2C_salmon_on_baked_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Steckenroth,_salmon_on_baked_vegetables.jpg",
+   "artist": "Gerda Arendt",
+   "license": "CC0",
+   "file": "lachs_1.jpg"
+  },
+  {
+   "title": "File:Liat Portal for Foodie Disorder - Oven-baked teriyaki salmon with vegetables.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Liat_Portal_for_Foodie_Disorder_-_Oven-baked_teriyaki_salmon_with_vegetables.jpg/960px-Liat_Portal_for_Foodie_Disorder_-_Oven-baked_teriyaki_salmon_with_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Oven-baked_teriyaki_salmon_with_vegetables.jpg",
+   "artist": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "file": "lachs_2.jpg"
+  },
+  {
+   "title": "File:The everyday cook and recipe book - containing more than two thousand practical recipes for cooking every kind of meat, fish, poultry, game, soups, broths, vegetables and salads - also for making all (14781532762).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/The_everyday_cook_and_recipe_book_-_containing_more_than_two_thousand_practical_recipes_for_cooking_every_kind_of_meat%2C_fish%2C_poultry%2C_game%2C_soups%2C_broths%2C_vegetables_and_salads_-_also_for_making_all_%2814781532762%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:The_everyday_cook_and_recipe_book_-_containing_more_than_two_thousand_practical_recipes_for_cooking_every_kind_of_meat,_fish,_poultry,_game,_soups,_broths,_vegetables_and_salads_-_also_for_making_all_(14781532762).jpg",
+   "artist": "Neil, E",
+   "license": "No restrictions",
+   "file": "lachs_3.jpg"
+  },
+  {
+   "title": "File:General list - tested seeds for 1897 (1897) (20555159201).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/General_list_-_tested_seeds_for_1897_%281897%29_%2820555159201%29.jpg/960px-General_list_-_tested_seeds_for_1897_%281897%29_%2820555159201%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:General_list_-_tested_seeds_for_1897_(1897)_(20555159201).jpg",
+   "artist": "Huntington and Page;\n\nHenry G. Gilbert Nursery and Seed Trade Catalog Collection",
+   "license": "No restrictions",
+   "file": "lachs_4.jpg"
+  },
+  {
+   "title": "File:2018-09-09 AT Wien 10 Favoriten, Green Express Wien Hauptbahnhof, Lachsfilet mit Nudel und Gemüse L (50912141707).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/2018-09-09_AT_Wien_10_Favoriten%2C_Green_Express_Wien_Hauptbahnhof%2C_Lachsfilet_mit_Nudel_und_Gem%C3%BCse_L_%2850912141707%29.jpg/960px-2018-09-09_AT_Wien_10_Favoriten%2C_Green_Express_Wien_Hauptbahnhof%2C_Lachsfilet_mit_Nudel_und_Gem%C3%BCse_L_%2850912141707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:2018-09-09_AT_Wien_10_Favoriten,_Green_Express_Wien_Hauptbahnhof,_Lachsfilet_mit_Nudel_und_Gem%C3%BCse_L_(50912141707).jpg",
+   "artist": "Paul Korecky",
+   "license": "CC BY-SA 2.0",
+   "file": "lachs_5.jpg"
+  }
+ ],
+ "frikadellen": [
+  {
+   "title": "File:2023 Kotlety mielone.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2023_Kotlety_mielone.jpg/960px-2023_Kotlety_mielone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:2023_Kotlety_mielone.jpg",
+   "artist": "Jacek Halicki",
+   "license": "CC BY-SA 4.0",
+   "file": "frikadellen_0.jpg"
+  },
+  {
+   "title": "File:Rohe Frikadellen auf Schneidebrett-4502.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Rohe_Frikadellen_auf_Schneidebrett-4502.jpg/960px-Rohe_Frikadellen_auf_Schneidebrett-4502.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Rohe_Frikadellen_auf_Schneidebrett-4502.jpg",
+   "artist": "Raimond Spekking",
+   "license": "CC BY-SA 4.0",
+   "file": "frikadellen_1.jpg"
+  },
+  {
+   "title": "File:020230716 Frikadelle mit Gemüse und Kartoffeln.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/020230716_Frikadelle_mit_Gem%C3%BCse_und_Kartoffeln.jpg/960px-020230716_Frikadelle_mit_Gem%C3%BCse_und_Kartoffeln.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:020230716_Frikadelle_mit_Gem%C3%BCse_und_Kartoffeln.jpg",
+   "artist": "Silar",
+   "license": "CC BY-SA 4.0",
+   "file": "frikadellen_2.jpg"
+  },
+  {
+   "title": "File:Faschiertes Laibchen.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Faschiertes_Laibchen.jpg/960px-Faschiertes_Laibchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Faschiertes_Laibchen.jpg",
+   "artist": "Kobako",
+   "license": "CC BY-SA 2.5",
+   "file": "frikadellen_3.jpg"
+  },
+  {
+   "title": "File:Perkedel kentang.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Perkedel_kentang.JPG/960px-Perkedel_kentang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Perkedel_kentang.JPG",
+   "artist": "Sakurai Midori",
+   "license": "CC BY-SA 3.0",
+   "file": "frikadellen_4.jpg"
+  }
+ ],
+ "gurkensalat": [
+  {
+   "title": "File:Gurkensalat Potsdam.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Gurkensalat_Potsdam.jpg/960px-Gurkensalat_Potsdam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Gurkensalat_Potsdam.jpg",
+   "artist": "Benreis",
+   "license": "CC BY-SA 4.0",
+   "file": "gurkensalat_0.jpg"
+  },
+  {
+   "title": "File:Cucumber salad (7583512640).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cucumber_salad_%287583512640%29.jpg/960px-Cucumber_salad_%287583512640%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cucumber_salad_(7583512640).jpg",
+   "artist": "Karen and Brad Emerson",
+   "license": "CC BY 2.0",
+   "file": "gurkensalat_1.jpg"
+  },
+  {
+   "title": "File:Cucumber salad green onions dill.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Cucumber_salad_green_onions_dill.jpg/960px-Cucumber_salad_green_onions_dill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cucumber_salad_green_onions_dill.jpg",
+   "artist": "Prostologin 1",
+   "license": "CC BY-SA 4.0",
+   "file": "gurkensalat_2.jpg"
+  },
+  {
+   "title": "File:Cheese Cucumber Salad A Delicious Creamy Salad Recipe By Sonia Goyal.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Cheese_Cucumber_Salad_A_Delicious_Creamy_Salad_Recipe_By_Sonia_Goyal.jpg/960px-Cheese_Cucumber_Salad_A_Delicious_Creamy_Salad_Recipe_By_Sonia_Goyal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cheese_Cucumber_Salad_A_Delicious_Creamy_Salad_Recipe_By_Sonia_Goyal.jpg",
+   "artist": "Sonia Goyal Jaipur",
+   "license": "CC BY-SA 2.0",
+   "file": "gurkensalat_3.jpg"
+  },
+  {
+   "title": "File:Cucumber Salad (8644241005).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cucumber_Salad_%288644241005%29.jpg/960px-Cucumber_Salad_%288644241005%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cucumber_Salad_(8644241005).jpg",
+   "artist": "Charles Haynes",
+   "license": "CC BY-SA 2.0",
+   "file": "gurkensalat_4.jpg"
+  },
+  {
+   "title": "File:Liat Portal for Foodie Disorder - Cucumber salad with red onion, dill and parsley.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Liat_Portal_for_Foodie_Disorder_-_Cucumber_salad_with_red_onion%2C_dill_and_parsley.jpg/960px-Liat_Portal_for_Foodie_Disorder_-_Cucumber_salad_with_red_onion%2C_dill_and_parsley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Cucumber_salad_with_red_onion,_dill_and_parsley.jpg",
+   "artist": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "file": "gurkensalat_5.jpg"
+  }
+ ],
+ "kohlrouladen": [
+  {
+   "title": "File:00101 Vorkarpatische Küche Piroggen, Kohlrouladen, Kroketten.JPG",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/00101_Vorkarpatische_K%C3%BCche_Piroggen%2C_Kohlrouladen%2C_Kroketten.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:00101_Vorkarpatische_K%C3%BCche_Piroggen,_Kohlrouladen,_Kroketten.JPG",
+   "artist": "Silar",
+   "license": "CC BY-SA 3.0",
+   "file": "kohlrouladen_0.jpg"
+  },
+  {
+   "title": "File:02023 1140 Kohlrouladen mit der geriebenen Kartoffel.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/02023_1140_Kohlrouladen_mit_der_geriebenen_Kartoffel.jpg/960px-02023_1140_Kohlrouladen_mit_der_geriebenen_Kartoffel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:02023_1140_Kohlrouladen_mit_der_geriebenen_Kartoffel.jpg",
+   "artist": "Silar",
+   "license": "CC BY-SA 4.0",
+   "file": "kohlrouladen_1.jpg"
+  },
+  {
+   "title": "File:02023 1141 Kohlrouladen mit der geriebenen Kartoffel.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/02023_1141_Kohlrouladen_mit_der_geriebenen_Kartoffel.jpg/960px-02023_1141_Kohlrouladen_mit_der_geriebenen_Kartoffel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:02023_1141_Kohlrouladen_mit_der_geriebenen_Kartoffel.jpg",
+   "artist": "Silar",
+   "license": "CC BY-SA 4.0",
+   "file": "kohlrouladen_2.jpg"
+  },
+  {
+   "title": "File:Traditionelle rumänische Kohlrouladen mit Polenta (Maisgrießkugeln) (47981417742).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Traditionelle_rum%C3%A4nische_Kohlrouladen_mit_Polenta_%28Maisgrie%C3%9Fkugeln%29_%2847981417742%29.jpg/960px-Traditionelle_rum%C3%A4nische_Kohlrouladen_mit_Polenta_%28Maisgrie%C3%9Fkugeln%29_%2847981417742%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Traditionelle_rum%C3%A4nische_Kohlrouladen_mit_Polenta_(Maisgrie%C3%9Fkugeln)_(47981417742).jpg",
+   "artist": "dronepicr",
+   "license": "CC BY 2.0",
+   "file": "kohlrouladen_3.jpg"
+  },
+  {
+   "title": "File:02016 0420 Kohlrouladen mit Trüffeln, Krakau 2016-04-17 13-25-44.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/02016_0420_Kohlrouladen_mit_Tr%C3%BCffeln%2C_Krakau_2016-04-17_13-25-44.JPG/960px-02016_0420_Kohlrouladen_mit_Tr%C3%BCffeln%2C_Krakau_2016-04-17_13-25-44.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:02016_0420_Kohlrouladen_mit_Tr%C3%BCffeln,_Krakau_2016-04-17_13-25-44.JPG",
+   "artist": "Silar",
+   "license": "CC BY-SA 4.0",
+   "file": "kohlrouladen_4.jpg"
+  },
+  {
+   "title": "File:Lebensmittel-Kohlroulade1-Asio.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Lebensmittel-Kohlroulade1-Asio.JPG/960px-Lebensmittel-Kohlroulade1-Asio.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Lebensmittel-Kohlroulade1-Asio.JPG",
+   "artist": "Asio otus",
+   "license": "CC BY-SA 3.0",
+   "file": "kohlrouladen_5.jpg"
+  }
+ ],
+ "haehnchen": [
+  {
+   "title": "File:Chicken breast, roast broccoli, and celery - Massachusetts.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Chicken_breast%2C_roast_broccoli%2C_and_celery_-_Massachusetts.jpg/960px-Chicken_breast%2C_roast_broccoli%2C_and_celery_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_breast,_roast_broccoli,_and_celery_-_Massachusetts.jpg",
+   "artist": "Daderot",
+   "license": "CC0",
+   "file": "haehnchen_0.jpg"
+  },
+  {
+   "title": "File:Chicken breast with paprika and other spices, sauteed broccoli, and sauteed, sliced potato - Massachusetts.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Chicken_breast_with_paprika_and_other_spices%2C_sauteed_broccoli%2C_and_sauteed%2C_sliced_potato_-_Massachusetts.jpg/960px-Chicken_breast_with_paprika_and_other_spices%2C_sauteed_broccoli%2C_and_sauteed%2C_sliced_potato_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_breast_with_paprika_and_other_spices,_sauteed_broccoli,_and_sauteed,_sliced_potato_-_Massachusetts.jpg",
+   "artist": "Daderot",
+   "license": "CC0",
+   "file": "haehnchen_1.jpg"
+  },
+  {
+   "title": "File:Chicken breast in a mushroom & muscovado sauce with broccoli spears and mashed potato (34439545372).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chicken_breast_in_a_mushroom_%26_muscovado_sauce_with_broccoli_spears_and_mashed_potato_%2834439545372%29.jpg/960px-Chicken_breast_in_a_mushroom_%26_muscovado_sauce_with_broccoli_spears_and_mashed_potato_%2834439545372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_breast_in_a_mushroom_%26_muscovado_sauce_with_broccoli_spears_and_mashed_potato_(34439545372).jpg",
+   "artist": "CharmaineZoe's Marvelous Melange from England",
+   "license": "CC BY 2.0",
+   "file": "haehnchen_2.jpg"
+  },
+  {
+   "title": "File:Chicken breast, bell peppers, and broccoli on mixed vegetables and fried udon - Massachusetts.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Chicken_breast%2C_bell_peppers%2C_and_broccoli_on_mixed_vegetables_and_fried_udon_-_Massachusetts.jpg/960px-Chicken_breast%2C_bell_peppers%2C_and_broccoli_on_mixed_vegetables_and_fried_udon_-_Massachusetts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_breast,_bell_peppers,_and_broccoli_on_mixed_vegetables_and_fried_udon_-_Massachusetts.jpg",
+   "artist": "Daderot",
+   "license": "CC0",
+   "file": "haehnchen_3.jpg"
+  },
+  {
+   "title": "File:Chicken breast with bacon in an onion and demerara sauce, potato croquettes and broccoli (35444421323).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Chicken_breast_with_bacon_in_an_onion_and_demerara_sauce%2C_potato_croquettes_and_broccoli_%2835444421323%29.jpg/960px-Chicken_breast_with_bacon_in_an_onion_and_demerara_sauce%2C_potato_croquettes_and_broccoli_%2835444421323%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_breast_with_bacon_in_an_onion_and_demerara_sauce,_potato_croquettes_and_broccoli_(35444421323).jpg",
+   "artist": "CharmaineZoe's Marvelous Melange from England",
+   "license": "CC BY 2.0",
+   "file": "haehnchen_4.jpg"
+  }
+ ],
+ "frikassee": [
+  {
+   "title": "File:Chicken fricassee-01-3.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Chicken_fricassee-01-3.jpg/960px-Chicken_fricassee-01-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_fricassee-01-3.jpg",
+   "artist": "Chicken_fricassee-01.jpg: Like_the_Grand_Canyon\nderivative work: Hic et nunc",
+   "license": "CC BY 2.0",
+   "file": "frikassee_0.jpg"
+  },
+  {
+   "title": "File:18-10-20 MG 4656.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/18-10-20_MG_4656.jpg/960px-18-10-20_MG_4656.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:18-10-20_MG_4656.jpg",
+   "artist": "Daniela Kloth",
+   "license": "GFDL 1.2",
+   "file": "frikassee_1.jpg"
+  },
+  {
+   "title": "File:Jamaican fricassee chicken.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Jamaican_fricassee_chicken.jpg/960px-Jamaican_fricassee_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Jamaican_fricassee_chicken.jpg",
+   "artist": "Xaymacan",
+   "license": "CC BY-SA 4.0",
+   "file": "frikassee_2.jpg"
+  },
+  {
+   "title": "File:Chicken fricassee-01-1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Chicken_fricassee-01-1.jpg/960px-Chicken_fricassee-01-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_fricassee-01-1.jpg",
+   "artist": "Chicken_fricassee-01.jpg: Like_the_Grand_Canyon\nderivative work: Hic et nunc",
+   "license": "CC BY 2.0",
+   "file": "frikassee_3.jpg"
+  },
+  {
+   "title": "File:Chicken fricassee-01-2.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Chicken_fricassee-01-2.JPG/960px-Chicken_fricassee-01-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_fricassee-01-2.JPG",
+   "artist": "Chicken_fricassee-01.jpg: Like_the_Grand_Canyon\nderivative work: Regi51",
+   "license": "CC BY 2.0",
+   "file": "frikassee_4.jpg"
+  },
+  {
+   "title": "File:Chicken fricassee (3062217256).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Chicken_fricassee_%283062217256%29.jpg/960px-Chicken_fricassee_%283062217256%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_fricassee_(3062217256).jpg",
+   "artist": "Sheri Wetherell from Palo Alto",
+   "license": "CC BY 2.0",
+   "file": "frikassee_5.jpg"
+  }
+ ],
+ "zucchinipuffer": [
+  {
+   "title": "File:Zucchini & feta fritters (7804257920).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Zucchini_%26_feta_fritters_%287804257920%29.jpg/960px-Zucchini_%26_feta_fritters_%287804257920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Zucchini_%26_feta_fritters_(7804257920).jpg",
+   "artist": "Nicole Bratt from Seattle, WA, USA",
+   "license": "CC BY-SA 2.0",
+   "file": "zucchinipuffer_0.jpg"
+  },
+  {
+   "title": "File:Zucchini flowers in beignets.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/78/Zucchini_flowers_in_beignets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Zucchini_flowers_in_beignets.jpg",
+   "artist": "Agathe B (Agathe)",
+   "license": "CC BY 2.0",
+   "file": "zucchinipuffer_1.jpg"
+  },
+  {
+   "title": "File:Crispy Greek Zucchini Fritters (Kolokythokeftedes).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Crispy_Greek_Zucchini_Fritters_%28Kolokythokeftedes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Crispy_Greek_Zucchini_Fritters_(Kolokythokeftedes).jpg",
+   "artist": "Tsatsos",
+   "license": "CC BY-SA 4.0",
+   "file": "zucchinipuffer_2.jpg"
+  },
+  {
+   "title": "File:Tomato zucchini fritters (43129626882).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Tomato_zucchini_fritters_%2843129626882%29.jpg/960px-Tomato_zucchini_fritters_%2843129626882%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Tomato_zucchini_fritters_(43129626882).jpg",
+   "artist": "Joey Doll",
+   "license": "CC BY 2.0",
+   "file": "zucchinipuffer_3.jpg"
+  },
+  {
+   "title": "File:Greek Zucchini Fritters.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Greek_Zucchini_Fritters.jpg/960px-Greek_Zucchini_Fritters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Greek_Zucchini_Fritters.jpg",
+   "artist": "Christin568",
+   "license": "CC BY-SA 4.0",
+   "file": "zucchinipuffer_4.jpg"
+  }
+ ],
+ "erbsen": [
+  {
+   "title": "File:Brullsen.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Brullsen.jpg/960px-Brullsen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Brullsen.jpg",
+   "artist": "Erbseneintopf",
+   "license": "CC BY-SA 4.0",
+   "file": "erbsen_0.jpg"
+  },
+  {
+   "title": "File:Brullsen aus Westen.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Brullsen_aus_Westen.jpg/960px-Brullsen_aus_Westen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Brullsen_aus_Westen.jpg",
+   "artist": "Erbseneintopf",
+   "license": "CC BY-SA 4.0",
+   "file": "erbsen_1.jpg"
+  },
+  {
+   "title": "File:Notmensa vor der Mensa I der Christian-Albrechts-Universität (CAU) auf dem Campus Westring (Kiel 66.838).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Notmensa_vor_der_Mensa_I_der_Christian-Albrechts-Universit%C3%A4t_%28CAU%29_auf_dem_Campus_Westring_%28Kiel_66.838%29.jpg/960px-Notmensa_vor_der_Mensa_I_der_Christian-Albrechts-Universit%C3%A4t_%28CAU%29_auf_dem_Campus_Westring_%28Kiel_66.838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Notmensa_vor_der_Mensa_I_der_Christian-Albrechts-Universit%C3%A4t_(CAU)_auf_dem_Campus_Westring_(Kiel_66.838).jpg",
+   "artist": "Magnussen, Friedrich (1914-1987)",
+   "license": "CC BY-SA 3.0 de",
+   "file": "erbsen_2.jpg"
+  },
+  {
+   "title": "File:Notmensa vor der Mensa I der Christian-Albrechts-Universität (CAU) auf dem Campus Westring (Kiel 66.839).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Notmensa_vor_der_Mensa_I_der_Christian-Albrechts-Universit%C3%A4t_%28CAU%29_auf_dem_Campus_Westring_%28Kiel_66.839%29.jpg/960px-Notmensa_vor_der_Mensa_I_der_Christian-Albrechts-Universit%C3%A4t_%28CAU%29_auf_dem_Campus_Westring_%28Kiel_66.839%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Notmensa_vor_der_Mensa_I_der_Christian-Albrechts-Universit%C3%A4t_(CAU)_auf_dem_Campus_Westring_(Kiel_66.839).jpg",
+   "artist": "Magnussen, Friedrich (1914-1987)",
+   "license": "CC BY-SA 3.0 de",
+   "file": "erbsen_3.jpg"
+  },
+  {
+   "title": "File:Erbsensuppe Würschtchen Schneibsteinhaus.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Erbsensuppe_W%C3%BCrschtchen_Schneibsteinhaus.JPG/960px-Erbsensuppe_W%C3%BCrschtchen_Schneibsteinhaus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Erbsensuppe_W%C3%BCrschtchen_Schneibsteinhaus.JPG",
+   "artist": "Benreis",
+   "license": "CC BY 3.0",
+   "file": "erbsen_4.jpg"
+  }
+ ],
+ "blumenkohl": [
+  {
+   "title": "File:Roasted Cauliflower in Indian style.JPG",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Roasted_Cauliflower_in_Indian_style.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Roasted_Cauliflower_in_Indian_style.JPG",
+   "artist": "KoyeliC",
+   "license": "CC BY-SA 4.0",
+   "file": "blumenkohl_0.jpg"
+  },
+  {
+   "title": "File:Vegetarian Moussaka and Roasted Cauliflower - Foodilic 2025-10-13.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Vegetarian_Moussaka_and_Roasted_Cauliflower_-_Foodilic_2025-10-13.jpg/960px-Vegetarian_Moussaka_and_Roasted_Cauliflower_-_Foodilic_2025-10-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Vegetarian_Moussaka_and_Roasted_Cauliflower_-_Foodilic_2025-10-13.jpg",
+   "artist": "Andy Li",
+   "license": "CC0",
+   "file": "blumenkohl_1.jpg"
+  },
+  {
+   "title": "File:Liat Portal for Foodie Disorder – Whole roasted cauliflower.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Liat_Portal_for_Foodie_Disorder_%E2%80%93_Whole_roasted_cauliflower.jpg/960px-Liat_Portal_for_Foodie_Disorder_%E2%80%93_Whole_roasted_cauliflower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_%E2%80%93_Whole_roasted_cauliflower.jpg",
+   "artist": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "file": "blumenkohl_2.jpg"
+  },
+  {
+   "title": "File:Plated roasted cauliflower 10.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Plated_roasted_cauliflower_10.jpg/960px-Plated_roasted_cauliflower_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Plated_roasted_cauliflower_10.jpg",
+   "artist": "Wheeler Cowperthwaite",
+   "license": "CC BY 2.0",
+   "file": "blumenkohl_3.jpg"
+  },
+  {
+   "title": "File:Plated roasted cauliflower 39.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Plated_roasted_cauliflower_39.jpg/960px-Plated_roasted_cauliflower_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Plated_roasted_cauliflower_39.jpg",
+   "artist": "Wheeler Cowperthwaite",
+   "license": "CC BY 2.0",
+   "file": "blumenkohl_4.jpg"
+  },
+  {
+   "title": "File:Liat Portal for Foodie Disorder - Roasted Orange Cauliflower and Root Vegetables.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Liat_Portal_for_Foodie_Disorder_-_Roasted_Orange_Cauliflower_and_Root_Vegetables.jpg/960px-Liat_Portal_for_Foodie_Disorder_-_Roasted_Orange_Cauliflower_and_Root_Vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Roasted_Orange_Cauliflower_and_Root_Vegetables.jpg",
+   "artist": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "file": "blumenkohl_5.jpg"
+  }
+ ],
+ "roulade": [
+  {
+   "title": "File:Klosterstübel St. Marienstern - Rinderroulade mit Rotkohl.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Klosterst%C3%BCbel_St._Marienstern_-_Rinderroulade_mit_Rotkohl.jpg/960px-Klosterst%C3%BCbel_St._Marienstern_-_Rinderroulade_mit_Rotkohl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Klosterst%C3%BCbel_St._Marienstern_-_Rinderroulade_mit_Rotkohl.jpg",
+   "artist": "Dr. Bernd Gross",
+   "license": "CC BY-SA 4.0",
+   "file": "roulade_0.jpg"
+  },
+  {
+   "title": "File:Rinderroulade-zutaten-02.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rinderroulade-zutaten-02.JPG/960px-Rinderroulade-zutaten-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Rinderroulade-zutaten-02.JPG",
+   "artist": "Tamorlan",
+   "license": "CC BY-SA 2.5",
+   "file": "roulade_1.jpg"
+  },
+  {
+   "title": "File:Thüringer Rinderroulade mit Klößen.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Th%C3%BCringer_Rinderroulade_mit_Kl%C3%B6%C3%9Fen.JPG/960px-Th%C3%BCringer_Rinderroulade_mit_Kl%C3%B6%C3%9Fen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Th%C3%BCringer_Rinderroulade_mit_Kl%C3%B6%C3%9Fen.JPG",
+   "artist": "Dr. Bernd Gross",
+   "license": "CC BY-SA 4.0",
+   "file": "roulade_2.jpg"
+  },
+  {
+   "title": "File:Rinderroulade-zutaten-01.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Rinderroulade-zutaten-01.JPG/960px-Rinderroulade-zutaten-01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Rinderroulade-zutaten-01.JPG",
+   "artist": "Tamorlan",
+   "license": "CC BY-SA 2.5",
+   "file": "roulade_3.jpg"
+  },
+  {
+   "title": "File:Rinderroulade gefüllt Anschnitt 01.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Rinderroulade_gef%C3%BCllt_Anschnitt_01.jpg/960px-Rinderroulade_gef%C3%BCllt_Anschnitt_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Rinderroulade_gef%C3%BCllt_Anschnitt_01.jpg",
+   "artist": "X-angel",
+   "license": "CC BY-SA 4.0",
+   "file": "roulade_4.jpg"
+  }
+ ],
+ "sucuk": [
+  {
+   "title": "File:Sucuklu yumurta.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Sucuklu_yumurta.jpg/960px-Sucuklu_yumurta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sucuklu_yumurta.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "sucuk_0.jpg"
+  },
+  {
+   "title": "File:Sucuklu yumurta, Turkish sunday breakfast.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Sucuklu_yumurta%2C_Turkish_sunday_breakfast.jpg/960px-Sucuklu_yumurta%2C_Turkish_sunday_breakfast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sucuklu_yumurta,_Turkish_sunday_breakfast.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "sucuk_1.jpg"
+  },
+  {
+   "title": "File:Sucuklu yumurta (sucuk with eggs).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sucuklu_yumurta_%28sucuk_with_eggs%29.jpg/960px-Sucuklu_yumurta_%28sucuk_with_eggs%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sucuklu_yumurta_(sucuk_with_eggs).jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "sucuk_2.jpg"
+  },
+  {
+   "title": "File:Sucuklu yumurta with butter.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Sucuklu_yumurta_with_butter.jpg/960px-Sucuklu_yumurta_with_butter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sucuklu_yumurta_with_butter.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "sucuk_3.jpg"
+  },
+  {
+   "title": "File:Pan with sucuklu yumurta.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Pan_with_sucuklu_yumurta.jpg/960px-Pan_with_sucuklu_yumurta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Pan_with_sucuklu_yumurta.jpg",
+   "artist": "E4024",
+   "license": "CC BY-SA 4.0",
+   "file": "sucuk_4.jpg"
+  }
+ ]
 }
