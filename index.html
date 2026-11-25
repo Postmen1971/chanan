@@ -207,6 +207,22 @@ body{
 .small{font-size:12px;color:var(--faint)}
 .upd{font-size:11px;color:var(--faint);position:absolute;right:18px;top:20px}
 .err{color:#ffd0d0}
+
+/* ---------- Hochformat ---------- */
+@media (orientation: portrait){
+  html,body{height:auto;overflow-x:hidden;overflow-y:auto}
+  #app{height:auto;min-height:100vh;grid-template-columns:1fr 1fr;grid-template-rows:none;
+    grid-template-areas:"head head" "wetter wetter" "abfall termine" "rezept rezept" "news news"}
+  #head{flex-wrap:wrap;row-gap:12px}
+  #tipline{order:3;flex-basis:100%;max-width:none}
+  #dock{order:4;margin-left:0;width:100%;justify-content:space-between}
+  .appbtn{flex:1;width:auto}
+  #wetter{min-height:290px}
+  #abfall,#termine{min-height:330px}
+  #rezept{height:350px;grid-template-columns:42% 1fr}
+  #newscard{min-height:0}
+  .w-sun{max-width:520px;margin-left:auto;margin-right:auto;width:100%}
+}
 </style>
 </head>
 <body>
