@@ -67,7 +67,7 @@ body{
 #greet{font-size:20px;font-weight:700;color:#fff;white-space:nowrap}
 #dock{margin-left:auto;display:flex;gap:10px;padding:8px;border-radius:26px;background:var(--glass);
   border:1px solid var(--stroke);-webkit-backdrop-filter:blur(26px);backdrop-filter:blur(26px);box-shadow:var(--shadow)}
-.appbtn{border:0;background:rgba(255,255,255,.12);color:#fff;border-radius:18px;width:76px;height:60px;
+.appbtn{text-decoration:none;border:0;background:rgba(255,255,255,.12);color:#fff;border-radius:18px;width:76px;height:60px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font:600 11px Inter,sans-serif;cursor:pointer;
   transition:transform .15s, background .2s}
 .appbtn:active{transform:scale(.92);background:rgba(255,255,255,.28)}
@@ -306,11 +306,11 @@ const ORT = {name:"Ebersbach an der Fils", lat:48.7158, lon:9.5236};
 
 // App-Leiste: Android-Paketnamen. Weitere Apps einfach ergänzen.
 const APPS = [
-  {name:"YouTube",  pkg:"com.google.android.youtube",            icon:"play",  web:"https://www.youtube.com"},
-  {name:"YT Music", pkg:"com.google.android.apps.youtube.music", icon:"music", web:"https://music.youtube.com"},
-  {name:"Netflix",  pkg:"com.netflix.mediaclient",               icon:"film",  web:"https://www.netflix.com"},
-  {name:"Spotify",  pkg:"com.spotify.music",                     icon:"phones",web:"https://open.spotify.com"},
-  {name:"Chrome",   pkg:"com.android.chrome",                    icon:"web",   web:"https://www.google.de"},
+  {name:"YouTube",  pkg:"com.google.android.youtube",            icon:"play",  web:"https://www.youtube.com/"},
+  {name:"YT Music", pkg:"com.google.android.apps.youtube.music", icon:"music", web:"https://music.youtube.com/"},
+  {name:"Netflix",  pkg:"com.netflix.mediaclient",               icon:"film",  web:"https://www.netflix.com/browse"},
+  {name:"Spotify",  pkg:"com.spotify.music",                     icon:"phones",web:"https://open.spotify.com/"},
+  {name:"Chrome",   pkg:"com.android.chrome",                    icon:"web",   web:"https://www.google.de/"},
 ];
 
 const WASTE = {
@@ -682,11 +682,12 @@ function startApp(pkg, web){
 // Zum normalen Samsung-Startbildschirm (klappt auch, wenn Fully selbst als Startseiten-App eingestellt ist)
 const HOME_INTENT = "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.HOME;launchFlags=0x10000000;package=com.sec.android.app.launcher;end";
 function goHome(){ fireIntent(HOME_INTENT) }
-$("dock").innerHTML = APPS.map((a,i)=>`<button class="appbtn" data-i="${i}">${APPICON[a.icon]||APPICON.web}<span>${a.name}</span></button>`).join("") +
-  ((IS_ANDROID || window.fully) || /[?&]test/.test(location.search) ? `<span class="docksep"></span><button class="appbtn home" id="homebtn">
-    <svg viewBox="0 0 24 24" fill="none" stroke="#1d2440" stroke-width="2"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></svg><span>Tablet</span></button>` : "");
-$("dock").querySelectorAll(".appbtn[data-i]").forEach(b=>b.onclick=()=>startApp(APPS[b.dataset.i].pkg, APPS[b.dataset.i].web));
-if($("homebtn")) $("homebtn").onclick=goHome;
+// Echte Links: In Fully unter „Links to Open in Other Apps“ eingetragen, öffnet Android damit die jeweilige App.
+// Am PC gehen sie in einem neuen Tab auf.
+const LINK_TARGET = (IS_ANDROID || window.fully) ? "" : ' target="_blank" rel="noopener"';
+$("dock").innerHTML = APPS.map((a,i)=>`<a class="appbtn" href="${a.web}"${LINK_TARGET}>${APPICON[a.icon]||APPICON.web}<span>${a.name}</span></a>`).join("") +
+  ((IS_ANDROID || window.fully) || /[?&]test/.test(location.search) ? `<span class="docksep"></span><a class="appbtn home" id="homebtn" href="${HOME_INTENT}">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#1d2440" stroke-width="2"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></svg><span>Tablet</span></a>` : "");
 
 /* ======================================================================
    Start + Aktualisierung
@@ -701,7 +702,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-25d";
+const VERSION = "2026-11-25e";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
