@@ -678,8 +678,9 @@ const HOME_INTENT = "intent:#Intent;action=android.intent.action.MAIN;category=a
 function goHome(){
   try{
     if(window.fully){
-      if(fully.startIntent){ fully.startIntent(HOME_INTENT); return }
+      // Samsung-Startbildschirm direkt öffnen – klappt auch, wenn Fully selbst als Home-App eingestellt ist
       if(fully.startApplication){ fully.startApplication("com.sec.android.app.launcher"); return }
+      if(fully.startIntent){ fully.startIntent(HOME_INTENT); return }
     }
   }catch(e){}
   location.href = HOME_INTENT;
@@ -703,7 +704,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-25b";
+const VERSION = "2026-11-25c";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
