@@ -1,20 +1,6 @@
 {
- "updated": "2026-11-25T00:03",
+ "updated": "2026-11-25T00:04",
  "items": [
-  {
-   "title": "A7 bei Nerenstetten: Lkw verliert Eisplatten – Audi beschädigt",
-   "source": "BSAktuell",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTl9Uak0ySjVValZnOHlFZWhxY1BYaDNfWnBQOTMyOE0xRFF5bE14b1lqU3plQ0RJZjMyRTgtUXhXamlHUmdsS3dnVGkyNFpZTEgxR1JDRDBabHp4MHFPd1VKQWUweEZTMUQ4aVlmZlB5WWxjMVg2ZHViNHUzWF9Oam5SYUI0cWF1SklMaXd1dVVpZjVjbmdXRzhpRHhobTBzN2pKOHZ2d3ZWb0ZqTTdwUi1DZkRVcTRjMjlCTGhNU3BDWkt0ZWRxanQ2VXNUejgtUEE?oc=5",
-   "date": "2026-11-24T14:22+00:00",
-   "region": "Ebersbach"
-  },
-  {
-   "title": "Jugend",
-   "source": "NUSSBAUM.de",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aQzZET3NJM3JkU3dvZ3VrOXRyZ3dhWVBKWHBFYkJvUm1GbmdKZDZBdkVfRDlxTnJ0MEdNN3JSQUI2NFVndWNxYjFXMWFoZDRTR3VXTHFtOURqRi1PdGpTclB0SQ?oc=5",
-   "date": "2026-11-24T13:52+00:00",
-   "region": "Ebersbach"
-  },
   {
    "title": "Eisplatten fliegen von Lkw: Schaden auf der B10 bei Ebersbach",
    "source": "BSAktuell",
@@ -23,18 +9,32 @@
    "region": "Ebersbach"
   },
   {
-   "title": "Frontalzusammenstoß auf der L1152 bei Ebersbach: Audi und VW kollidieren",
-   "source": "BSAktuell",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVm8zdGkyWDdFc3VITUlfUXdDdjMzMXNfT180b2hHVXRIbGVha2Nsb1B0M2tVcUdvS3FDbENzNU5fbC1EWTNBNUZEYWg3T05sSXVWVEM3WE9WR0Mtal9KNGdQRFlnSHN3S0pXeE40TkZ4S25qNjhqSUNLQnhVaDhYVWY5YWZTc21COUZoTzlhbDdqUDR2eTIxUjVnQlV2QjN4ZTNfbVNjUm0tV0lfNWU1V0R6WWVzNVZJdHU4MmRB?oc=5",
-   "date": "2026-11-24T10:22+00:00",
+   "title": "40 Millionen Euro für das Raichberg-Schulzentrum: Was die Machbarkeitsstudie zeigt und wie es weitergeht",
+   "source": "Stadt Ebersbach",
+   "link": "https://www.ebersbach.de//40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956",
+   "date": null,
    "region": "Ebersbach"
   },
   {
-   "title": "Armin Ohran: „Wir hatten gegen den Ball eine gute Basis\"",
-   "source": "FuPa ⚽️",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYURZR1lTSExUeDNkaUNVUGZ0Q3FEaHJwa2FnQlJfOTdlSjUzLXJic0ZVN1Z2M1hubE83ZDYxblpqd2RxeXFPWUlRNEdjaTZpTFh4TVgweGpWbWdvd0NLVTdQOTk5NC10VmhjaXd5T0FNYXBQVHhxVk83aVFMdnc4QV9QRk5DN3psLU1OMWx2OVc?oc=5",
-   "date": "2026-11-23T13:42+00:00",
-   "region": "Ebersbach"
+   "title": "Frostwarnung für den Kreis Esslingen, den Kreis Göppingen und weitere Gebiete",
+   "source": "tixio - Nachrichten",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTdidjg2ZUwzS0FyelM5cnJBdmhRNUxKdlV5Nk9XZ0hpQkxzWjJqSWtRNVZOTGNjVzA3R2g2aHdGeFRzanZIbmk3c0w4Y1doYXVCZ0pkWkNzczl5Y3BUSkh4QldmeWN4M1VvUXRMT1JlbmJoWkdSY2ExcTl6UTFhVGE0VWRib1dWU3JpQlJGbXNsZ1QyQjFYM1U2NlM4aTlXRnhzQWZfRmI2OERTcXpLbWRxTUU?oc=5",
+   "date": "2026-11-24T23:34+00:00",
+   "region": "Göppingen"
+  },
+  {
+   "title": "Neuer Kunstpreis: Helmut Baumann Kunstpreis 2027",
+   "source": "art-in.de",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QOHFkRnlHZndXOE5oS0J6U25UWXhNcWZfY3NDUG1WVkQ1czFSaS1pSlZfbjQzOE1vaW8zTFQtTFVoZFdaY0pFVEtyME5lZkZpYVR6RFlxMFdMUQ?oc=5",
+   "date": "2026-11-24T22:52+00:00",
+   "region": "Göppingen"
+  },
+  {
+   "title": "Kammerjäger Göppingen: Filstal, Kreisstadt und die Pflicht auf dem eigenen Grundstück",
+   "source": "businessportal24",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVjQ2bkg3aE9JZmhNUXlZVDQwei1remR0T2t5Mk1hbnhpTzNUejJVZmJZUmZGeWV2eEt6bjJwOHJCODZyU1haOWRQNkwzZ0Nzck96Rm1aYjN2bVVMY3Rzc1ZlRWM1MFJYUk5Yek1sdzRtejdjMjBxYm5VcDF5UmJtbk1aODhxWU96alRtYXhzcWN6eHlucmVTZ3FWTloxazN6YUhqNEJBTS1BbE80ZzNtTmZUM1FpQ2JHTlhDSVg3ckFlZVY2Z0M3UQ?oc=5",
+   "date": "2026-11-24T19:04+00:00",
+   "region": "Göppingen"
   }
  ]
 }
