@@ -18,6 +18,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -265,7 +266,146 @@ def update_events():
                                "items": out})
 
 
+# ---------------------------------------------------------------- Nachrichten
+
+import html as htmlmod
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+
+GN_QUERIES = [
+    ("Ebersbach", '"Ebersbach an der Fils"'),
+    ("Ebersbach", '"Ebersbach" Fils'),
+    ("Göppingen", "Göppingen"),
+    ("Göppingen", '"Landkreis Göppingen"'),
+    ("Göppingen", "Uhingen OR Eislingen OR Faurndau OR Filstal"),
+]
+NEWS_BLOCK = ["blitzer", "wetter", "stellenangebot", "job", "immobilie", "wohnung", "zu verkaufen", "mieten",
+              "stau", "verkehrsmeldung", "baustelle a8", "tierseuchenkasse", "öffentliche zustellung",
+              "horoskop", "gewinnspiel", "prospekt", "angebote", "todesanzeige", "traueranzeige"]
+SPORT = ["frisch auf", "fußball", "handball", "sv ", "fc ", "tsv", "tabelle", "liga", "spieltag", "trainer",
+         "torjäger", "derby", "punktspiel", " sieg", "niederlage"]
+CITY_NEWS = "https://www.ebersbach.de/nachrichten"
+
+
+def strip_tags(s):
+    return re.sub(r"\s+", " ", htmlmod.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
+
+
+def google_news(query):
+    url = ("https://news.google.com/rss/search?q=" + urllib.parse.quote(query + " when:7d")
+           + "&hl=de&gl=DE&ceid=DE:de")
+    root = ET.fromstring(fetch(url))
+    out = []
+    for it in root.iter("item"):
+        title = (it.findtext("title") or "").strip()
+        src_el = it.find("source")
+        source = (src_el.text if src_el is not None else "") or ""
+        if source and title.endswith(" - " + source):
+            title = title[: -len(source) - 3].strip()
+        try:
+            when = parsedate_to_datetime(it.findtext("pubDate"))
+        except Exception:  # noqa: BLE001
+            when = None
+        out.append({"title": title, "source": source.strip(), "link": it.findtext("link") or "",
+                    "date": when.astimezone(dt.timezone.utc).isoformat(timespec="minutes") if when else None})
+    return out
+
+
+def city_news():
+    page = fetch(CITY_NEWS).decode("utf-8", "replace")
+    m = re.search(r'document="([^"]+)"', page)
+    if not m:
+        return []
+    api = ("https://www.ebersbach.de/api/news/list/news-article?document="
+           + urllib.parse.quote(m.group(1)) + "&limit=12&page=1")
+    req = urllib.request.Request(api, headers={**UA, "Accept": "application/json",
+                                               "X-Requested-With": "XMLHttpRequest"})
+    with urllib.request.urlopen(req, timeout=40) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    out = []
+    for art in re.split(r"<article\b", data.get("results") or "")[1:]:
+        t = re.search(r"<h[23][^>]*>(.*?)</h[23]>", art, re.S)
+        href = re.search(r'href="([^"]+)"', art)
+        if not t:
+            continue
+        link = href.group(1) if href else CITY_NEWS
+        # Die Stadt-Links haben absichtlich einen doppelten Schrägstrich (…de//Name-news-article123)
+        if link.startswith("//"):
+            link = "https://www.ebersbach.de" + link
+        elif link.startswith("/"):
+            link = "https://www.ebersbach.de/" + link
+        out.append({"title": strip_tags(t.group(1)), "source": "Stadt Ebersbach", "link": link, "date": None})
+    return out
+
+
+def words(t):
+    return set(w for w in re.findall(r"\w{4,}", t.lower()))
+
+
+def similar(a, b):
+    wa, wb = words(a), words(b)
+    if not wa or not wb:
+        return False
+    return len(wa & wb) / min(len(wa), len(wb)) >= 0.5
+
+
+def update_news():
+    cands = []
+    for region, q in GN_QUERIES:
+        try:
+            for n in google_news(q):
+                n["region"] = region
+                cands.append(n)
+        except Exception as e:  # noqa: BLE001
+            log("News:", q, "fehlgeschlagen:", e)
+    try:
+        for n in city_news():
+            n["region"] = "Ebersbach"
+            cands.append(n)
+    except Exception as e:  # noqa: BLE001
+        log("News: Stadtnachrichten fehlgeschlagen:", e)
+
+    now = dt.datetime.now(dt.timezone.utc)
+
+    def ok(n):
+        t = n["title"].lower()
+        return n["title"] and not any(b in t for b in NEWS_BLOCK)
+
+    def score(n):
+        age_h = 48.0
+        if n["date"]:
+            age_h = (now - dt.datetime.fromisoformat(n["date"])).total_seconds() / 3600
+        s = -age_h
+        if n["region"] == "Ebersbach" or "ebersbach" in n["title"].lower():
+            s += 36   # Ebersbach vor Göppingen
+        if n["source"] == "Stadt Ebersbach":
+            s += 6
+        return s
+
+    cands = [n for n in cands if ok(n)]
+    cands.sort(key=score, reverse=True)
+    picked, sport = [], 0
+    for n in cands:
+        if any(similar(n["title"], p["title"]) for p in picked):
+            continue
+        is_sport = any(w in " " + n["title"].lower() + " " for w in SPORT)
+        if is_sport and sport >= 1:
+            continue
+        sport += is_sport
+        picked.append(n)
+        if len(picked) == 5:
+            break
+    if len(picked) < 3:
+        log(f"News: nur {len(picked)} Meldungen – alte Datei bleibt")
+        return
+    for p in picked:
+        if "ebersbach" in p["title"].lower():
+            p["region"] = "Ebersbach"
+    write_json("news.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"), "items": picked})
+
+
 if __name__ == "__main__":
     os.makedirs(DATA, exist_ok=True)
     update_abfall()
     update_events()
+    update_news()

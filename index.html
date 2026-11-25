@@ -124,6 +124,22 @@ body{
 
 /* ---------- Termine ---------- */
 #termine{grid-area:termine}
+.tabs{display:flex;align-items:center;gap:6px;margin:-4px 0 8px}
+.tab{display:flex;align-items:center;gap:6px;border:0;border-radius:999px;padding:6px 12px;background:rgba(255,255,255,.1);
+  color:var(--muted);font:700 12.5px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
+.tab svg{width:15px;height:15px}
+.tab.on{background:rgba(255,255,255,.92);color:#1d2440}
+.tabdots{margin-left:auto;display:flex;gap:5px}
+.tabdots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.3)}
+.tabdots i.on{background:#fff}
+.pane{animation:fade .6s ease}
+.nw{display:flex;gap:11px;align-items:flex-start;padding:3px 0 4px;border-bottom:1px solid rgba(255,255,255,.1);cursor:pointer}
+.nw:last-child{border-bottom:0}
+.nw .no{flex:none;width:26px;height:26px;border-radius:9px;background:rgba(255,255,255,.18);display:grid;place-items:center;
+  font-size:13px;font-weight:800;margin-top:1px}
+.nw.eb .no{background:#ffd76a;color:#3b2a00}
+.nw .t{font-size:13.5px;font-weight:650;line-height:1.24;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nw .m{font-size:11.5px;color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ev{display:flex;gap:12px;align-items:center;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.1)}
 .ev:last-child{border-bottom:0}
 .ev .cal{width:44px;flex:none;border-radius:14px;overflow:hidden;text-align:center;background:rgba(255,255,255,.92);color:#1d2440;box-shadow:0 4px 14px rgba(0,0,0,.12)}
@@ -253,8 +269,13 @@ body{
   </section>
 
   <section class="card" id="termine">
-    <div class="label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Was ist los in Ebersbach</div>
-    <div id="events"><div class="hint">Lade …</div></div>
+    <div class="tabs" id="tabs">
+      <button class="tab on" data-p="events"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Termine</button>
+      <button class="tab" data-p="news"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 9h10M7 13h10M7 17h6"/></svg>Nachrichten</button>
+      <span class="tabdots"><i class="on"></i><i></i></span>
+    </div>
+    <div class="pane" id="events"><div class="hint">Lade …</div></div>
+    <div class="pane" id="news" hidden><div class="hint">Lade …</div></div>
   </section>
 </main>
 
@@ -499,6 +520,37 @@ async function loadAbfall(){
 /* ======================================================================
    Veranstaltungen
    ====================================================================== */
+/* ======================================================================
+   Nachrichten (Top 5 Ebersbach & Göppingen)
+   ====================================================================== */
+function ago(iso){
+  if(!iso) return "";
+  const m=Math.round((Date.now()-new Date(iso))/6e4);
+  if(m<60) return "vor "+Math.max(1,m)+" Min";
+  const h=Math.round(m/60); if(h<24) return "vor "+h+" Std";
+  const d=Math.round(h/24); return d===1?"gestern":"vor "+d+" Tagen";
+}
+async function loadNews(){
+  let d;
+  try{ d = await getJSON("data/news.json"); store.set("news",d) }catch(e){ d = store.get("news") }
+  const box=$("news"), items=(d&&d.items)||[];
+  if(!items.length){ box.innerHTML=`<div class="hint">Die Nachrichten werden heute Nacht zum ersten Mal geholt.</div>`; return }
+  box.innerHTML = items.slice(0,5).map((n,i)=>`<div class="nw ${n.region==="Ebersbach"?"eb":""}" data-l="${esc(n.link)}">
+    <div class="no">${i+1}</div><div style="min-width:0"><div class="t">${esc(n.title)}</div>
+    <div class="m">${n.region==="Ebersbach"?"📍 Ebersbach":"Göppingen"} · ${esc(n.source)}${n.date?" · "+ago(n.date):""}</div></div></div>`).join("");
+  box.querySelectorAll(".nw").forEach(el=>el.onclick=()=>{ if(el.dataset.l) window.open(el.dataset.l,"_blank") });
+}
+/* Reiter Termine / Nachrichten: wechselt automatisch, Antippen hält 2 Minuten fest */
+let paneNow="events", pinnedUntil=0;
+function showPane(p){
+  paneNow=p;
+  document.querySelectorAll("#tabs .tab").forEach(t=>t.classList.toggle("on",t.dataset.p===p));
+  document.querySelectorAll(".tabdots i").forEach((d,i)=>d.classList.toggle("on",(i===0)===(p==="events")));
+  $("events").hidden = p!=="events"; $("news").hidden = p!=="news";
+}
+document.querySelectorAll("#tabs .tab").forEach(t=>t.onclick=()=>{showPane(t.dataset.p); pinnedUntil=Date.now()+120e3});
+setInterval(()=>{ if(Date.now()>pinnedUntil) showPane(paneNow==="events"?"news":"events") }, 25e3);
+
 async function loadEvents(){
   let d;
   try{ d = await getJSON("data/events.json"); store.set("events",d) }catch(e){ d = store.get("events") }
@@ -636,10 +688,10 @@ if($("homebtn")) $("homebtn").onclick=goHome;
    Start + Aktualisierung
    ====================================================================== */
 tick(); setInterval(tick, 5000);
-loadWeather(); loadAbfall(); loadEvents(); loadRezepte();
+loadWeather(); loadAbfall(); loadEvents(); loadNews(); loadRezepte();
 setInterval(loadWeather, 20*60e3);
 setInterval(renderSun, 5*60e3);
-setInterval(()=>{loadAbfall(); loadEvents()}, 60*60e3);
+setInterval(()=>{loadAbfall(); loadEvents(); loadNews()}, 30*60e3);
 setInterval(renderTip, 45e3);
 // Neuer Tag: Listen neu sortieren, Rezept des Tages wechseln
 let lastDay=new Date().getDate();
