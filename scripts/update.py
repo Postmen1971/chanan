@@ -280,7 +280,13 @@ GN_QUERIES = [
 ]
 NEWS_BLOCK = ["blitzer", "wetter", "stellenangebot", "job", "immobilie", "wohnung", "zu verkaufen", "mieten",
               "stau", "verkehrsmeldung", "baustelle a8", "tierseuchenkasse", "öffentliche zustellung",
-              "horoskop", "gewinnspiel", "prospekt", "angebote", "todesanzeige", "traueranzeige"]
+              "horoskop", "gewinnspiel", "prospekt", "angebote", "todesanzeige", "traueranzeige",
+              "frost", "glätte", "unwetter", "warnung vor", "kammerjäger", "schlüsseldienst", "entrümpelung",
+              "umzugsfirma", "reinigungsfirma", "handwerker in", "seo ", "bestatter"]
+SPAM_SOURCES = ["businessportal24", "tixio", "openpr", "firmenpresse", "pr-gateway", "prnews24", "pressebox",
+                "lokalo24", "news.de", "meinestadt", "dastelefonbuch", "werbung"]
+GOOD_SOURCES = ["nwz", "swp", "südwest presse", "swr", "stuttgarter zeitung", "stuttgarter nachrichten",
+                "filstalexpress", "stadt ebersbach", "landkreis göppingen", "staatsanzeiger", "esslinger zeitung"]
 BLAULICHT = ["unfall", "zusammenstoß", "kollidier", "kollision", "polizei", "feuerwehr", "brand", "verletzt",
              "eisplatten", "lkw", "festgenommen", "einbruch", "diebstahl", "betrunken", "fahrerflucht", "blaulicht"]
 SPORT_SOURCES = ["fupa", "kicker", "transfermarkt"]
@@ -371,8 +377,10 @@ def update_news():
 
     def ok(n):
         t = n["title"].lower()
+        src = n["source"].lower()
         return (len(n["title"].split()) >= 4 and len(n["title"]) >= 25
-                and not any(b in t for b in NEWS_BLOCK))
+                and not any(b in t for b in NEWS_BLOCK)
+                and not any(x in src for x in SPAM_SOURCES))
 
     LOCAL = ["ebersbach", "göpping", "filstal", "fils", "uhingen", "eisling", "faurndau", "schlierbach",
              "plochingen", "roßwälden", "weiler", "bünzwangen", "sulpach", "büchenbronn", "landkreis"]
@@ -393,6 +401,8 @@ def update_news():
             s += 36   # Ebersbach vor Göppingen
         if n["source"] == "Stadt Ebersbach":
             s += 6
+        if any(x in n["source"].lower() for x in GOOD_SOURCES):
+            s += 18   # echte Zeitungen vor Sammelseiten
         return s
 
     cands = [n for n in cands if ok(n)]
