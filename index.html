@@ -665,26 +665,23 @@ function renderTip(){
    App-Leiste
    ====================================================================== */
 const IS_ANDROID = /Android/i.test(navigator.userAgent);
+// Apps über intent:-Links starten – funktioniert in der kostenlosen Fully-Version
+// (die Fully-JavaScript-Schnittstelle bräuchte die PLUS-Lizenz und wird bewusst nicht benutzt)
+function fireIntent(url){
+  const a=document.createElement("a"); a.href=url; a.rel="noopener";
+  document.body.appendChild(a); a.click(); a.remove();
+}
+function appIntent(pkg){
+  return `intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10000000;package=${pkg};end`;
+}
 function startApp(pkg, web){
   // Am PC oder iPhone: Webseite in neuem Tab öffnen
   if(!IS_ANDROID && !window.fully){ window.open(web, "_blank", "noopener"); return }
-  try{
-    if(window.fully && fully.startApplication){ fully.startApplication(pkg); return }
-  }catch(e){}
-  location.href = `intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=${pkg};end`;
+  fireIntent(appIntent(pkg));
 }
-// Zum normalen Startbildschirm des Tablets (Dashboard bleibt im Hintergrund offen)
-const HOME_INTENT = "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.HOME;launchFlags=0x10000000;end";
-function goHome(){
-  try{
-    if(window.fully){
-      // Samsung-Startbildschirm direkt öffnen – klappt auch, wenn Fully selbst als Home-App eingestellt ist
-      if(fully.startApplication){ fully.startApplication("com.sec.android.app.launcher"); return }
-      if(fully.startIntent){ fully.startIntent(HOME_INTENT); return }
-    }
-  }catch(e){}
-  location.href = HOME_INTENT;
-}
+// Zum normalen Samsung-Startbildschirm (klappt auch, wenn Fully selbst als Startseiten-App eingestellt ist)
+const HOME_INTENT = "intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.HOME;launchFlags=0x10000000;package=com.sec.android.app.launcher;end";
+function goHome(){ fireIntent(HOME_INTENT) }
 $("dock").innerHTML = APPS.map((a,i)=>`<button class="appbtn" data-i="${i}">${APPICON[a.icon]||APPICON.web}<span>${a.name}</span></button>`).join("") +
   ((IS_ANDROID || window.fully) || /[?&]test/.test(location.search) ? `<span class="docksep"></span><button class="appbtn home" id="homebtn">
     <svg viewBox="0 0 24 24" fill="none" stroke="#1d2440" stroke-width="2"><rect x="4" y="4" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="2"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="2"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="2"/></svg><span>Tablet</span></button>` : "");
@@ -704,7 +701,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-25c";
+const VERSION = "2026-11-25d";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
