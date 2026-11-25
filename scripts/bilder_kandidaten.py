@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Lädt für jedes Rezept Foto-Kandidaten von Wikimedia Commons (nur zur Auswahl)."""
-import json, os, re, sys, time, urllib.parse, urllib.request
+import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 UA = {"User-Agent": "Familien-Dashboard/1.0 (github.com/Postmen1971/chanan)"}
 OUT = "kandidaten"
@@ -32,8 +32,14 @@ SUCHE = {
 }
 
 def get(url, timeout=40):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
-        return r.read()
+    for versuch in range(6):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and versuch < 5:
+                time.sleep(10 * (versuch + 1)); continue
+            raise
 
 def commons(q, n=5):
     api = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6"
@@ -53,8 +59,11 @@ def commons(q, n=5):
     return out
 
 os.makedirs(OUT, exist_ok=True)
-index = {}
+ip = os.path.join(OUT, "index.json")
+index = json.load(open(ip)) if os.path.exists(ip) else {}
 for key, qs in SUCHE.items():
+    if index.get(key):
+        continue   # schon vorhanden
     seen, k = set(), 0
     index[key] = []
     for q in qs:
@@ -74,6 +83,6 @@ for key, qs in SUCHE.items():
             c["file"] = fn
             index[key].append(c)
             k += 1
-            time.sleep(0.3)
+            time.sleep(2)
     print(key, k, file=sys.stderr)
 json.dump(index, open(os.path.join(OUT, "index.json"), "w"), ensure_ascii=False, indent=1)
