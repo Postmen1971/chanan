@@ -46,9 +46,9 @@ body{
 
 /* ---------- Gerüst ---------- */
 #app{height:100vh;display:grid;gap:var(--gap);padding:14px 20px 18px;
-  grid-template-columns:1.25fr 1fr .95fr;
+  grid-template-columns:1.12fr 1fr 1fr;
   grid-template-rows:auto 1fr 1fr;
-  grid-template-areas:"head head head" "wetter wetter abfall" "rezept rezept termine";
+  grid-template-areas:"head head head" "wetter abfall termine" "rezept rezept news";
   transition:transform 2s}
 .card{position:relative;background:var(--glass);border:1px solid var(--stroke);border-radius:var(--radius);
   -webkit-backdrop-filter:blur(26px) saturate(170%);backdrop-filter:blur(26px) saturate(170%);
@@ -79,29 +79,26 @@ body{
 
 /* ---------- Wetter ---------- */
 #wetter{grid-area:wetter;display:flex;flex-direction:column}
-#wetter .label{margin-bottom:4px}
-.w-top{display:flex;align-items:center;gap:22px;flex:1;min-height:0}
-.w-now{display:flex;align-items:center;gap:14px}
-.w-icon{width:96px;height:96px;flex:none;filter:drop-shadow(0 10px 22px rgba(0,0,0,.18))}
-.w-temp{font-size:74px;font-weight:300;letter-spacing:-.05em;line-height:.95}
-.w-temp sup{font-size:32px;font-weight:400;vertical-align:top;position:relative;top:8px}
-.w-desc{font-size:19px;font-weight:700;margin-top:2px}
-.w-meta{font-size:13.5px;color:var(--muted);margin-top:3px;line-height:1.45}
-.w-sun{margin-left:auto;width:300px;flex:none}
-.w-sun svg{width:100%;height:auto;display:block;overflow:visible}
-.sun-times{display:grid;grid-template-columns:auto 1fr auto;align-items:end;font-size:12px;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.06em;font-weight:600}
-.sun-times b{display:block;color:#fff;font-size:20px;font-weight:700;letter-spacing:0;text-transform:none}
-.sun-times .r{text-align:right}
-.daylen{font-size:12px;color:var(--faint);text-align:center;text-transform:none;letter-spacing:0;font-weight:500;line-height:1.3}
-.w-days{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:10px}
-.day{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:8px 6px 7px;text-align:center;
-  display:grid;grid-template-columns:auto auto;grid-template-rows:auto auto;align-items:center;justify-content:center;column-gap:8px}
-.day .n{grid-column:1/3;font-size:14px;font-weight:700;color:var(--muted)}
-.day svg{width:44px;height:44px;grid-row:2}
-.day .tt2{grid-row:2;text-align:left}
-.day .t{font-size:19px;font-weight:700;line-height:1.1}
+#wetter .label{margin-bottom:6px}
+.w-top{display:flex;align-items:center;gap:12px}
+.w-now{display:flex;align-items:center;gap:12px;min-width:0}
+.w-icon{width:76px;height:76px;flex:none;filter:drop-shadow(0 8px 18px rgba(0,0,0,.18))}
+.w-temp{font-size:58px;font-weight:300;letter-spacing:-.05em;line-height:.95}
+.w-temp sup{font-size:26px;font-weight:400;vertical-align:top;position:relative;top:6px}
+.w-desc{font-size:17px;font-weight:700;margin-top:1px}
+.w-meta{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.4}
+.w-sun{display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:10px;margin:8px 0 2px;
+  font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.w-sun b{display:block;color:#fff;font-size:17px;font-weight:700;letter-spacing:0;text-transform:none}
+.w-sun .r{text-align:right}
+.w-sun svg{width:100%;height:46px;display:block;overflow:visible}
+.w-days{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:auto}
+.day{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:6px 3px 6px;text-align:center}
+.day .n{font-size:12.5px;font-weight:700;color:var(--muted)}
+.day svg{width:36px;height:36px;display:block;margin:1px auto}
+.day .t{font-size:15.5px;font-weight:700;line-height:1.1}
 .day .t span{color:var(--faint);font-weight:500}
-.day .r{font-size:12px;color:#cfe9ff;font-weight:600;min-height:14px}
+.day .r{font-size:10.5px;color:#cfe9ff;font-weight:600;min-height:13px;margin-top:1px}
 
 /* ---------- Abfall ---------- */
 #abfall{grid-area:abfall}
@@ -124,6 +121,7 @@ body{
 
 /* ---------- Termine ---------- */
 #termine{grid-area:termine}
+#newscard{grid-area:news}
 .tabs{display:flex;align-items:center;gap:6px;margin:-4px 0 8px}
 .tab{display:flex;align-items:center;gap:6px;border:0;border-radius:999px;padding:6px 12px;background:rgba(255,255,255,.1);
   color:var(--muted);font:700 12.5px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
@@ -133,12 +131,12 @@ body{
 .tabdots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.3)}
 .tabdots i.on{background:#fff}
 .pane{animation:fade .6s ease}
-.nw{display:flex;gap:11px;align-items:flex-start;padding:3px 0 4px;border-bottom:1px solid rgba(255,255,255,.1);cursor:pointer}
+.nw{display:flex;gap:10px;align-items:flex-start;padding:2px 0 3px;border-bottom:1px solid rgba(255,255,255,.1);cursor:pointer}
 .nw:last-child{border-bottom:0}
-.nw .no{flex:none;width:26px;height:26px;border-radius:9px;background:rgba(255,255,255,.18);display:grid;place-items:center;
+.nw .no{flex:none;width:24px;height:24px;border-radius:9px;background:rgba(255,255,255,.18);display:grid;place-items:center;
   font-size:13px;font-weight:800;margin-top:1px}
 .nw.eb .no{background:#ffd76a;color:#3b2a00}
-.nw .t{font-size:13.5px;font-weight:650;line-height:1.24;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nw .t{font-size:13px;font-weight:650;line-height:1.22;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .nw .m{font-size:11.5px;color:var(--muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ev{display:flex;gap:12px;align-items:center;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.1)}
 .ev:last-child{border-bottom:0}
@@ -237,8 +235,8 @@ body{
           <div class="w-meta" id="wmeta"></div>
         </div>
       </div>
-      <div class="w-sun" id="wsun"></div>
     </div>
+    <div class="w-sun" id="wsun"></div>
     <div class="w-days" id="wdays"></div>
   </section>
 
@@ -269,13 +267,13 @@ body{
   </section>
 
   <section class="card" id="termine">
-    <div class="tabs" id="tabs">
-      <button class="tab on" data-p="events"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Termine</button>
-      <button class="tab" data-p="news"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 9h10M7 13h10M7 17h6"/></svg>Nachrichten</button>
-      <span class="tabdots"><i class="on"></i><i></i></span>
-    </div>
-    <div class="pane" id="events"><div class="hint">Lade …</div></div>
-    <div class="pane" id="news" hidden><div class="hint">Lade …</div></div>
+    <div class="label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Was ist los in Ebersbach</div>
+    <div id="events"><div class="hint">Lade …</div></div>
+  </section>
+
+  <section class="card" id="newscard">
+    <div class="label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 9h10M7 13h10M7 17h6"/></svg>Nachrichten · Ebersbach &amp; Göppingen</div>
+    <div id="news"><div class="hint">Lade …</div></div>
   </section>
 </main>
 
@@ -449,7 +447,7 @@ function renderWeather(d, stale){
   $("wtemp").innerHTML = Math.round(c.temperature_2m)+"<sup>°</sup>";
   $("wdesc").textContent = text;
   $("wmeta").innerHTML = `Heute ${Math.round(dl.temperature_2m_min[0])}° bis ${Math.round(dl.temperature_2m_max[0])}° · gefühlt ${Math.round(c.apparent_temperature)}°<br>`+
-    `Wind ${Math.round(c.wind_speed_10m)} km/h · Luftfeuchte ${c.relative_humidity_2m} %`+
+    `Wind ${Math.round(c.wind_speed_10m)} km/h · Feuchte ${c.relative_humidity_2m} %`+
     (dl.precipitation_probability_max[0]!=null?` · Regen ${dl.precipitation_probability_max[0]} %`:"");
   SUN.rise = new Date(dl.sunrise[0]); SUN.set = new Date(dl.sunset[0]);
   lastPhase=""; applyPhase();
@@ -459,8 +457,8 @@ function renderWeather(d, stale){
     const day=parseDay(dl.time[i]); const [k]=wmo(dl.weather_code[i]);
     const rp=dl.precipitation_probability_max[i];
     html+=`<div class="day"><div class="n">${i===1?"Morgen":TK[day.getDay()]+", "+day.getDate()+"."}</div>${wIcon(k,1)}
-      <div class="tt2"><div class="t">${Math.round(dl.temperature_2m_max[i])}° <span>${Math.round(dl.temperature_2m_min[i])}°</span></div>
-      <div class="r">${rp>=20?"Regen "+rp+" %":"trocken"}</div></div></div>`;
+      <div><div class="t">${Math.round(dl.temperature_2m_max[i])}° <span>${Math.round(dl.temperature_2m_min[i])}°</span></div>
+      <div class="r">${rp>=20?"💧 "+rp+" %":"trocken"}</div></div></div>`;
   }
   $("wdays").innerHTML=html;
   $("wupd").textContent = stale ? "offline – letzter Stand" : "";
@@ -469,19 +467,19 @@ function renderSun(){
   if(!SUN.rise) return;
   const now=new Date(), r=SUN.rise, s=SUN.set;
   let p=(now-r)/(s-r); const up = p>=0 && p<=1; p=Math.max(0,Math.min(1,p));
-  const W=300,H=104,cx=W/2,cy=H-6,R=128;
-  const a=Math.PI*(1-p), x=cx+R*Math.cos(a), y=cy-R*Math.sin(a)*0.82;
+  const W=200,H=46,cx=W/2,cy=H-3,RX=92,RY=38;
+  const a=Math.PI*(1-p), x=cx+RX*Math.cos(a), y=cy-RY*Math.sin(a);
   const len=s-r, lh=Math.floor(len/36e5), lm=Math.round((len%36e5)/6e4);
-  $("wsun").innerHTML = `
-  <svg viewBox="0 0 ${W} ${H}">
-    <defs><linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#ffd36b" stop-opacity=".2"/><stop offset=".5" stop-color="#ffe9a8"/><stop offset="1" stop-color="#ff9b6b" stop-opacity=".2"/></linearGradient>
+  $("wsun").innerHTML = `<div>☀︎ Aufgang<b>${hm(r)}</b></div>
+  <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax meet">
+    <defs><linearGradient id="arc" x1="0" x2="1"><stop offset="0" stop-color="#ffd36b" stop-opacity=".25"/><stop offset=".5" stop-color="#ffe9a8"/><stop offset="1" stop-color="#ff9b6b" stop-opacity=".25"/></linearGradient>
     <radialGradient id="sg"><stop offset="0" stop-color="#fff6c8"/><stop offset=".5" stop-color="#ffd23f"/><stop offset="1" stop-color="#ffb02e" stop-opacity="0"/></radialGradient></defs>
-    <line x1="6" y1="${cy}" x2="${W-6}" y2="${cy}" stroke="rgba(255,255,255,.3)" stroke-width="1.5" stroke-dasharray="3 5"/>
-    <path d="M${cx-R} ${cy} A ${R} ${R*0.82} 0 0 1 ${cx+R} ${cy}" fill="none" stroke="url(#arc)" stroke-width="3" stroke-linecap="round"/>
-    ${up?`<circle cx="${x}" cy="${y}" r="20" fill="url(#sg)"/><circle cx="${x}" cy="${y}" r="8" fill="#ffe27a"/>`:
-         `<circle cx="${cx}" cy="${cy-38}" r="0"/>`}
+    <line x1="2" y1="${cy}" x2="${W-2}" y2="${cy}" stroke="rgba(255,255,255,.3)" stroke-width="1.2" stroke-dasharray="3 4"/>
+    <path d="M${cx-RX} ${cy} A ${RX} ${RY} 0 0 1 ${cx+RX} ${cy}" fill="none" stroke="url(#arc)" stroke-width="2.5" stroke-linecap="round"/>
+    ${up?`<circle cx="${x}" cy="${y}" r="13" fill="url(#sg)"/><circle cx="${x}" cy="${y}" r="5.5" fill="#ffe27a"/>`:""}
   </svg>
-  <div class="sun-times"><div>☀︎ Aufgang<b>${hm(r)}</b></div><div class="daylen">${lh} Std ${lm} Min<br>Tageslicht</div><div class="r">Untergang ☾<b>${hm(s)}</b></div></div>`;
+  <div class="r">Untergang ☾<b>${hm(s)}</b></div>`;
+  $("wsun").title = lh+" Std "+lm+" Min Tageslicht";
 }
 
 /* ======================================================================
@@ -540,17 +538,6 @@ async function loadNews(){
     <div class="m">${n.region==="Ebersbach"?"📍 Ebersbach":"Göppingen"} · ${esc(n.source)}${n.date?" · "+ago(n.date):""}</div></div></div>`).join("");
   box.querySelectorAll(".nw").forEach(el=>el.onclick=()=>{ if(el.dataset.l) window.open(el.dataset.l,"_blank") });
 }
-/* Reiter Termine / Nachrichten: wechselt automatisch, Antippen hält 2 Minuten fest */
-let paneNow="events", pinnedUntil=0;
-function showPane(p){
-  paneNow=p;
-  document.querySelectorAll("#tabs .tab").forEach(t=>t.classList.toggle("on",t.dataset.p===p));
-  document.querySelectorAll(".tabdots i").forEach((d,i)=>d.classList.toggle("on",(i===0)===(p==="events")));
-  $("events").hidden = p!=="events"; $("news").hidden = p!=="news";
-}
-document.querySelectorAll("#tabs .tab").forEach(t=>t.onclick=()=>{showPane(t.dataset.p); pinnedUntil=Date.now()+120e3});
-setInterval(()=>{ if(Date.now()>pinnedUntil) showPane(paneNow==="events"?"news":"events") }, 25e3);
-
 async function loadEvents(){
   let d;
   try{ d = await getJSON("data/events.json"); store.set("events",d) }catch(e){ d = store.get("events") }
