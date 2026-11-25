@@ -1,0 +1,18 @@
+name: Bilder-Kandidaten
+on:
+  push:
+    branches: [bilder-kandidaten]
+    paths: ["scripts/bilder_kandidaten.py", ".github/workflows/bilder.yml"]
+permissions:
+  contents: write
+jobs:
+  holen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/bilder_kandidaten.py
+      - run: |
+          git config user.name "dashboard-bot"
+          git config user.email "dashboard-bot@users.noreply.github.com"
+          git add kandidaten
+          git commit -m "Bild-Kandidaten" && git push origin HEAD:bilder-kandidaten
