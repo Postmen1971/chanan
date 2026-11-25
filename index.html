@@ -209,7 +209,7 @@ body{
 .err{color:#ffd0d0}
 
 /* ---------- Hochformat ---------- */
-@media (orientation: portrait){
+@media (orientation: portrait), (max-width: 900px){
   html,body{height:auto;overflow-x:hidden;overflow-y:auto}
   #app{height:auto;min-height:100vh;grid-template-columns:1fr 1fr;grid-template-rows:none;
     grid-template-areas:"head head" "wetter wetter" "abfall termine" "rezept rezept" "news news"}
@@ -702,6 +702,15 @@ setInterval(renderTip, 45e3);
 // Neuer Tag: Listen neu sortieren, Rezept des Tages wechseln
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
+// Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
+const VERSION = "2026-11-25b";
+setInterval(async()=>{
+  try{
+    const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
+    const m = t.match(/const VERSION = "([^"]+)"/);
+    if(m && m[1] !== VERSION) location.reload();
+  }catch(e){}
+}, 10*60e3);
 // Einmal nachts komplett neu laden (holt auch neue Versionen der Seite)
 setInterval(()=>{const n=new Date(); if(n.getHours()===4 && n.getMinutes()===30) location.reload()}, 60e3);
 // Display schonen: alle 3 Minuten minimal verschieben
