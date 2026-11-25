@@ -154,6 +154,9 @@ body{
 .r-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .8s}
 .r-img img.ok{opacity:1}
 .r-img .emo{position:absolute;inset:0;display:grid;place-items:center;font-size:96px}
+.hasimg .emo{display:none}
+.r-img .credit{position:absolute;left:10px;bottom:46px;z-index:2;max-width:92%;font-size:9px;line-height:1.2;color:rgba(255,255,255,.85);
+  background:rgba(0,0,0,.35);padding:2px 6px;border-radius:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .r-img .badges{position:absolute;left:10px;top:10px;display:flex;gap:6px;flex-wrap:wrap;z-index:2}
 .badge{font-size:12px;font-weight:700;padding:5px 10px;border-radius:999px;background:rgba(20,20,35,.45);
   -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.25)}
@@ -597,28 +600,21 @@ function renderRezept(){
   $("ring").innerHTML = r.zutaten.slice(0,6).map(z=>`<li>${esc(z)}</li>`).join("");
   $("rsteps").innerHTML = r.schritte.slice(0,4).map(s=>`<li><span>${esc(s)}</span></li>`).join("");
   $("rtip").innerHTML = `<b>Tipp:</b> ${esc(r.tipp)}`;
+  $("rimg").classList.remove("hasimg");
   $("rimg").innerHTML = `<div class="emo">${r.emoji||"🍽"}</div>
-    <div class="badges"><span class="badge">${tagK}</span>${r.airfryer?'<span class="badge">💨 Airfryer</span>':''}<span class="badge">👆 Antippen: ganzes Rezept</span></div>`;
+    <div class="badges"><span class="badge">${tagK}</span>${r.airfryer?'<span class="badge">💨 Airfryer</span>':''}<span class="badge">👆 Antippen: ganzes Rezept</span></div>
+    <div class="credit">${credit(r)}</div>`;
   loadPhoto(r);
 }
-async function loadPhoto(r){
-  const key="img:"+r.bild; let src=store.get(key);
-  if(!src){
-    for(const lang of ["de","en"]){
-      try{
-        const u=`https://${lang}.wikipedia.org/w/api.php?action=query&format=json&origin=*&generator=search&gsrlimit=1`+
-          `&gsrsearch=${encodeURIComponent(r.bild)}&prop=pageimages&piprop=thumbnail&pithumbsize=900`;
-        const j=await (await fetch(u)).json();
-        const pg=j.query&&Object.values(j.query.pages)[0];
-        if(pg&&pg.thumbnail){src=pg.thumbnail.source;break}
-      }catch(e){}
-    }
-    if(src) store.set(key,src);
-  }
-  if(!src || current()!==r) return;
-  const img=new Image(); img.alt=r.name; img.referrerPolicy="no-referrer";
-  img.onload=()=>img.classList.add("ok"); img.onerror=()=>img.remove();
-  img.src=src; $("rimg").prepend(img);
+function credit(r){
+  const f=r.foto; if(!f) return "";
+  return `Foto: ${esc(f.autor)}${f.lizenz?" · "+esc(f.lizenz):""} · Wikimedia Commons`;
+}
+function loadPhoto(r){
+  if(!r.foto) return;
+  const img=new Image(); img.alt=r.name; img.decoding="async";
+  img.onload=()=>{ if(current()===r){ img.classList.add("ok"); $("rimg").classList.add("hasimg") } }; img.onerror=()=>img.remove();
+  img.src=r.foto.datei; $("rimg").prepend(img);
 }
 function openModal(){
   const r=current(); if(!r) return;
@@ -628,7 +624,7 @@ function openModal(){
     <div class="cols"><div><h4>Zutaten</h4><ul>${r.zutaten.map(z=>`<li>${esc(z)}</li>`).join("")}</ul></div>
     <div><h4>Zubereitung</h4><ol>${r.schritte.map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
     <p style="margin-top:14px"><b style="color:#ffd76a">Tipp:</b> ${esc(r.tipp)}</p></div></div>
-    <p class="small" style="margin-top:18px">${esc(R.hinweis)}</p>`;
+    <p class="small" style="margin-top:18px">${esc(R.hinweis)}${r.foto?`<br>${credit(r)} – <span style="opacity:.8">${esc(r.foto.quelle)}</span>`:""}</p>`;
   $("modal").classList.add("open");
   $("mcard").querySelector(".close").onclick=closeModal;
 }
