@@ -274,7 +274,6 @@ from email.utils import parsedate_to_datetime
 
 GN_QUERIES = [
     ("Ebersbach", '"Ebersbach an der Fils"'),
-    ("Ebersbach", '"Ebersbach" Fils'),
     ("Göppingen", "Göppingen"),
     ("Göppingen", '"Landkreis Göppingen"'),
     ("Göppingen", "Uhingen OR Eislingen OR Faurndau OR Filstal"),
@@ -282,6 +281,9 @@ GN_QUERIES = [
 NEWS_BLOCK = ["blitzer", "wetter", "stellenangebot", "job", "immobilie", "wohnung", "zu verkaufen", "mieten",
               "stau", "verkehrsmeldung", "baustelle a8", "tierseuchenkasse", "öffentliche zustellung",
               "horoskop", "gewinnspiel", "prospekt", "angebote", "todesanzeige", "traueranzeige"]
+BLAULICHT = ["unfall", "zusammenstoß", "kollidier", "kollision", "polizei", "feuerwehr", "brand", "verletzt",
+             "eisplatten", "lkw", "festgenommen", "einbruch", "diebstahl", "betrunken", "fahrerflucht", "blaulicht"]
+SPORT_SOURCES = ["fupa", "kicker", "transfermarkt"]
 SPORT = ["frisch auf", "fußball", "handball", "sv ", "fc ", "tsv", "tabelle", "liga", "spieltag", "trainer",
          "torjäger", "derby", "punktspiel", " sieg", "niederlage"]
 CITY_NEWS = "https://www.ebersbach.de/nachrichten"
@@ -369,7 +371,18 @@ def update_news():
 
     def ok(n):
         t = n["title"].lower()
-        return n["title"] and not any(b in t for b in NEWS_BLOCK)
+        return (len(n["title"].split()) >= 4 and len(n["title"]) >= 25
+                and not any(b in t for b in NEWS_BLOCK))
+
+    LOCAL = ["ebersbach", "göpping", "filstal", "fils", "uhingen", "eisling", "faurndau", "schlierbach",
+             "plochingen", "roßwälden", "weiler", "bünzwangen", "sulpach", "büchenbronn", "landkreis"]
+    # Treffer der Ebersbach-Suche ohne Ortsbezug im Titel (z. B. Unfall bei Ulm) weglassen
+    cands = [n for n in cands if n["source"] == "Stadt Ebersbach" or n["region"] != "Ebersbach"
+             or any(w in n["title"].lower() for w in LOCAL)]
+    for n in cands:
+        # „Ebersbach“ nur, wenn es wirklich um Ebersbach geht
+        n["region"] = "Ebersbach" if "ebersbach" in n["title"].lower() or n["source"] == "Stadt Ebersbach" \
+            else "Göppingen"
 
     def score(n):
         age_h = 48.0
@@ -384,23 +397,28 @@ def update_news():
 
     cands = [n for n in cands if ok(n)]
     cands.sort(key=score, reverse=True)
-    picked, sport = [], 0
+    picked, sport, blau, ebers = [], 0, 0, 0
+    goe_left = sum(1 for n in cands if n["region"] == "Göppingen")
     for n in cands:
         if any(similar(n["title"], p["title"]) for p in picked):
             continue
-        is_sport = any(w in " " + n["title"].lower() + " " for w in SPORT)
-        if is_sport and sport >= 1:
+        t = " " + n["title"].lower() + " "
+        is_sport = any(w in t for w in SPORT) or any(x in n["source"].lower() for x in SPORT_SOURCES)
+        is_blau = any(w in t for w in BLAULICHT)
+        if (is_sport and sport >= 1) or (is_blau and blau >= 1):
             continue
+        if n["region"] == "Ebersbach" and ebers >= 3 and goe_left:
+            continue   # Platz für Göppingen lassen
         sport += is_sport
+        blau += is_blau
+        ebers += n["region"] == "Ebersbach"
         picked.append(n)
         if len(picked) == 5:
             break
+    picked.sort(key=lambda n: (n["region"] != "Ebersbach", -score(n)))
     if len(picked) < 3:
         log(f"News: nur {len(picked)} Meldungen – alte Datei bleibt")
         return
-    for p in picked:
-        if "ebersbach" in p["title"].lower():
-            p["region"] = "Ebersbach"
     write_json("news.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"), "items": picked})
 
 
