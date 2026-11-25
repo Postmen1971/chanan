@@ -528,6 +528,13 @@ function ago(iso){
   const h=Math.round(m/60); if(h<24) return "vor "+h+" Std";
   const d=Math.round(h/24); return d===1?"gestern":"vor "+d+" Tagen";
 }
+// Links: in Fully Kiosk im selben Fenster öffnen (Zurück-Taste führt zum Dashboard), sonst neuer Tab
+function openLink(u){
+  if(!u) return;
+  if(window.fully || IS_ANDROID){ location.href = u; return }
+  const w = window.open(u, "_blank", "noopener");
+  if(!w) location.href = u;
+}
 async function loadNews(){
   let d;
   try{ d = await getJSON("data/news.json"); store.set("news",d) }catch(e){ d = store.get("news") }
@@ -536,7 +543,7 @@ async function loadNews(){
   box.innerHTML = items.slice(0,5).map((n,i)=>`<div class="nw ${n.region==="Ebersbach"?"eb":""}" data-l="${esc(n.link)}">
     <div class="no">${i+1}</div><div style="min-width:0"><div class="t">${esc(n.title)}</div>
     <div class="m">${n.region==="Ebersbach"?"📍 Ebersbach":"Göppingen"} · ${esc(n.source)}${n.date?" · "+ago(n.date):""}</div></div></div>`).join("");
-  box.querySelectorAll(".nw").forEach(el=>el.onclick=()=>{ if(el.dataset.l) window.open(el.dataset.l,"_blank") });
+  box.querySelectorAll(".nw").forEach(el=>el.onclick=()=>openLink(el.dataset.l));
 }
 async function loadEvents(){
   let d;

@@ -357,6 +357,40 @@ def similar(a, b):
     return len(wa & wb) / min(len(wa), len(wb)) >= 0.5
 
 
+def resolve_google_link(link):
+    """Google-News-Umleitung in die echte Artikel-Adresse umwandeln (sonst Original behalten)."""
+    m = re.search(r"news\.google\.com/(?:rss/)?articles/([^?/]+)", link or "")
+    if not m:
+        return link
+    aid = m.group(1)
+    try:
+        sig = ts = None
+        for url in (f"https://news.google.com/articles/{aid}", f"https://news.google.com/rss/articles/{aid}"):
+            page = fetch(url).decode("utf-8", "replace")
+            ms = re.search(r'data-n-a-sg="([^"]+)"', page)
+            mt = re.search(r'data-n-a-ts="([^"]+)"', page)
+            if ms and mt:
+                sig, ts = ms.group(1), mt.group(1)
+                break
+        if not sig:
+            return link
+        inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
+                 f'"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{aid}",{ts},"{sig}"]')
+        body = "f.req=" + urllib.parse.quote(json.dumps([[["Fbv4je", inner, None, "generic"]]]))
+        req = urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                                     data=body.encode(), method="POST",
+                                     headers={**UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            text = r.read().decode("utf-8", "replace")
+        part = json.loads(text.split("\n\n")[1])
+        real = json.loads(part[0][2])[1]
+        if isinstance(real, str) and real.startswith("http"):
+            return real
+    except Exception as e:  # noqa: BLE001
+        log("News: Link nicht auflösbar:", e)
+    return link
+
+
 def update_news():
     cands = []
     for region, q in GN_QUERIES:
@@ -429,6 +463,9 @@ def update_news():
     if len(picked) < 3:
         log(f"News: nur {len(picked)} Meldungen – alte Datei bleibt")
         return
+    for p in picked:
+        p["link"] = resolve_google_link(p["link"])
+    log("News-Links:", [p["link"][:80] for p in picked])
     write_json("news.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"), "items": picked})
 
 
