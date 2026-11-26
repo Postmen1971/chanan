@@ -724,6 +724,2347 @@
     "lizenz": "CC BY-SA 4.0",
     "quelle": "https://commons.wikimedia.org/wiki/File:Sucuklu_yumurta_(sucuk_with_eggs).jpg"
    }
+  },
+  {
+   "name": "Mercimek Köftesi – Linsenbällchen",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 40,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🥙",
+   "zutaten": [
+    "200 g rote Linsen",
+    "80 g feiner Bulgur",
+    "1 Zwiebel",
+    "1 EL Paprikamark",
+    "1 Bund Petersilie, Frühlingszwiebeln",
+    "Kreuzkümmel, Pul Biber, Zitrone, Salatblätter"
+   ],
+   "schritte": [
+    "Linsen in 500 ml Wasser 15 Minuten weich kochen, Bulgur unterrühren und zugedeckt quellen lassen.",
+    "Zwiebel in wenig Öl mit Paprikamark anschwitzen und untermischen.",
+    "Kräuter und Gewürze dazu, kräftig kneten und kleine Bällchen formen.",
+    "In Salatblättern mit Zitrone servieren."
+   ],
+   "tipp": "Mehr Linsen, weniger Bulgur – so bleibt es sättigend bei weniger Kohlenhydraten.",
+   "id": "mercimekkoefte",
+   "foto": {
+    "datei": "img/rezepte/mercimekkoefte.jpg",
+    "autor": "Ahzaryamed",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Mercimekkoftesi.jpg"
+   }
+  },
+  {
+   "name": "Kısır – Bulgursalat",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🥗",
+   "zutaten": [
+    "120 g feiner Bulgur",
+    "2 Tomaten, 1 Gurke",
+    "1 Bund Petersilie, Minze",
+    "3 Frühlingszwiebeln",
+    "1 EL Paprikamark, Zitrone, Olivenöl",
+    "Granatapfelkerne"
+   ],
+   "schritte": [
+    "Bulgur mit 150 ml heißem Wasser und Paprikamark quellen lassen.",
+    "Gemüse und Kräuter sehr fein schneiden.",
+    "Alles mit Zitrone und Olivenöl mischen.",
+    "Mit Granatapfelkernen bestreuen."
+   ],
+   "tipp": "Viel Gemüse und Kräuter, wenig Bulgur – und Granatapfelsirup weglassen, Zitrone reicht.",
+   "id": "kisir",
+   "foto": {
+    "datei": "img/rezepte/kisir.jpg",
+    "autor": "Noumenon",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Kisir.jpg"
+   }
+  },
+  {
+   "name": "Zeytinyağlı Pırasa – Lauch in Olivenöl",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 40,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "3 Stangen Lauch",
+    "2 Karotten",
+    "1 Zwiebel",
+    "3 EL Olivenöl",
+    "1 EL Reis (optional)",
+    "Zitrone, Salz"
+   ],
+   "schritte": [
+    "Zwiebel in Olivenöl glasig dünsten.",
+    "Lauch in Stücken und Karottenscheiben dazugeben.",
+    "Mit wenig Wasser zugedeckt 25 Minuten schmoren.",
+    "Lauwarm mit Zitrone und Joghurt servieren."
+   ],
+   "tipp": "Der Reis ist nur zum Binden da – kann man auch ganz weglassen.",
+   "id": "pirasa",
+   "foto": {
+    "datei": "img/rezepte/pirasa.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Zeytinya%C4%9Fl%C4%B1_p%C4%B1rasa.jpg"
+   }
+  },
+  {
+   "name": "Zeytinyağlı Enginar – Artischocken",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 40,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🌿",
+   "zutaten": [
+    "4 Artischockenböden (frisch oder TK)",
+    "1 Karotte, 1 Kartoffel klein",
+    "100 g Erbsen",
+    "1 Zwiebel",
+    "3 EL Olivenöl",
+    "Zitrone, Dill"
+   ],
+   "schritte": [
+    "Zwiebel in Olivenöl anschwitzen.",
+    "Gemüse in Würfeln und Erbsen darin verteilen, Artischocken obenauf setzen.",
+    "Mit Zitronenwasser halb bedecken und 30 Minuten sanft garen.",
+    "Kalt mit viel Dill servieren."
+   ],
+   "tipp": "Artischocken haben viele Ballaststoffe und machen lange satt.",
+   "id": "enginar",
+   "foto": {
+    "datei": "img/rezepte/enginar.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Enginar.jpg"
+   }
+  },
+  {
+   "name": "Ispanak Yemeği mit Hack",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "1 kg Spinat",
+    "250 g mageres Rinderhack",
+    "1 Zwiebel",
+    "1 EL Tomatenmark",
+    "Joghurt mit Knoblauch",
+    "Pul Biber"
+   ],
+   "schritte": [
+    "Hack mit Zwiebel krümelig anbraten, Tomatenmark kurz mitrösten.",
+    "Spinat dazugeben und zusammenfallen lassen.",
+    "Mit etwas Wasser 10 Minuten köcheln.",
+    "Mit Knoblauchjoghurt servieren."
+   ],
+   "tipp": "Spinat mit Hack ist ein Klassiker – Eiweiß und Eisen in einem Topf.",
+   "id": "ispanak",
+   "foto": {
+    "datei": "img/rezepte/ispanak.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Ispanak_yeme%C4%9Fi.jpg"
+   }
+  },
+  {
+   "name": "Etli Kuru Fasulye – weiße Bohnen",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 60,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🫘",
+   "zutaten": [
+    "2 Dosen weiße Bohnen",
+    "300 g Rindergulasch",
+    "1 Zwiebel",
+    "1 EL Paprikamark, 1 EL Tomatenmark",
+    "800 ml Wasser",
+    "Pul Biber, Salz"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel scharf anbraten, Mark kurz mitrösten.",
+    "Mit Wasser ablöschen und 40 Minuten schmoren.",
+    "Abgespülte Bohnen dazu, 15 Minuten weiterköcheln.",
+    "Mit Turşu und Salat statt Reis servieren."
+   ],
+   "tipp": "Ohne Reis dazu essen: Die Bohnen machen allein schon richtig satt.",
+   "id": "kurufasulye",
+   "foto": {
+    "datei": "img/rezepte/kurufasulye.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Etli_kuru_fasulye.jpg"
+   }
+  },
+  {
+   "name": "Nohut Yemeği – Kichererbsen mit Fleisch",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 50,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🍲",
+   "zutaten": [
+    "2 Dosen Kichererbsen",
+    "250 g Rindfleischwürfel",
+    "1 Zwiebel, 1 Paprika",
+    "1 EL Tomatenmark",
+    "700 ml Brühe",
+    "Kreuzkümmel, Pul Biber"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel und Paprika anbraten.",
+    "Tomatenmark dazu und mit Brühe ablöschen, 30 Minuten schmoren.",
+    "Kichererbsen dazugeben und 10 Minuten mitgaren.",
+    "Mit Joghurt servieren."
+   ],
+   "tipp": "Kichererbsen liefern viel Eiweiß und Ballaststoffe.",
+   "id": "nohut",
+   "foto": {
+    "datei": "img/rezepte/nohut.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Nohut_yahni.jpg"
+   }
+  },
+  {
+   "name": "Türlü – Gemüseeintopf",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 50,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍆",
+   "zutaten": [
+    "1 Aubergine, 2 Zucchini",
+    "2 Paprika, 200 g grüne Bohnen",
+    "3 Tomaten",
+    "1 Zwiebel",
+    "250 g Lammwürfel (optional)",
+    "Olivenöl, Salz"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel anbraten (oder vegetarisch nur Zwiebel).",
+    "Gemüse grob würfeln und schichtweise dazugeben.",
+    "Tomaten obenauf, wenig Wasser, zugedeckt 35 Minuten schmoren.",
+    "Mit Joghurt servieren."
+   ],
+   "tipp": "Ein großer Topf Gemüse – reicht für zwei Tage und schmeckt aufgewärmt noch besser.",
+   "id": "tuerlue",
+   "foto": {
+    "datei": "img/rezepte/tuerlue.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:T%C3%BCrl%C3%BC_plate.jpg"
+   }
+  },
+  {
+   "name": "Patlıcan Musakka ohne Kartoffel",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 50,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍆",
+   "zutaten": [
+    "3 Auberginen",
+    "300 g mageres Hack",
+    "1 Zwiebel, 2 Spitzpaprika",
+    "2 Tomaten",
+    "1 EL Tomatenmark",
+    "Salz, Pfeffer"
+   ],
+   "schritte": [
+    "Auberginen in Scheiben im Airfryer bei 200 °C 12 Minuten rösten.",
+    "Hack mit Zwiebel, Paprika und Tomaten anbraten.",
+    "Abwechselnd in eine Form schichten, etwas Wasser angießen.",
+    "Im Ofen bei 180 °C 25 Minuten garen."
+   ],
+   "tipp": "Die Auberginen im Airfryer statt in der Pfanne – sie saugen sonst sehr viel Öl auf.",
+   "id": "musakka",
+   "foto": {
+    "datei": "img/rezepte/musakka.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Patatesli_musakka.jpg"
+   }
+  },
+  {
+   "name": "Mücver – türkische Zucchinipuffer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🥒",
+   "zutaten": [
+    "3 Zucchini",
+    "3 Eier",
+    "100 g Feta",
+    "1 Bund Dill und Petersilie",
+    "3 Frühlingszwiebeln",
+    "2 EL Mehl oder Haferflocken"
+   ],
+   "schritte": [
+    "Zucchini raspeln, salzen, 10 Minuten ziehen lassen und kräftig ausdrücken.",
+    "Mit Eiern, Feta, Kräutern und Mehl mischen.",
+    "Auf Backpapier kleine Puffer setzen, mit Öl besprühen.",
+    "Im Airfryer bei 190 °C 12–14 Minuten backen, einmal wenden."
+   ],
+   "tipp": "Mit Knoblauchjoghurt servieren – das Eiweiß macht satt.",
+   "id": "muecver",
+   "foto": {
+    "datei": "img/rezepte/muecver.jpg",
+    "autor": "William Neuheisel from DC, US",
+    "lizenz": "CC BY 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Zucchini_Fritters_-_Lunch_at_Yanyali_Fehmi_Lokantasi_(6421047753).jpg"
+   }
+  },
+  {
+   "name": "Tavuk Sote – Hähnchenpfanne",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🍗",
+   "zutaten": [
+    "500 g Hähnchenbrust",
+    "2 Paprika, 2 Spitzpaprika",
+    "1 Zwiebel",
+    "2 Tomaten",
+    "250 g Champignons",
+    "Thymian, Paprika, Salz"
+   ],
+   "schritte": [
+    "Hähnchen in Streifen scharf anbraten und herausnehmen.",
+    "Zwiebel, Paprika und Pilze in derselben Pfanne braten.",
+    "Tomaten dazu, kurz einkochen, Hähnchen zurückgeben.",
+    "Mit Thymian abschmecken."
+   ],
+   "tipp": "Schnell, viel Eiweiß, viel Gemüse – perfekt fürs Abendessen.",
+   "id": "tavuksote",
+   "foto": {
+    "datei": "img/rezepte/tavuksote.jpg",
+    "autor": "Huangdan2060",
+    "lizenz": "CC BY 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Hunan_cuisine,_stir-fried_diced_chicken_with_green_pepper.jpg"
+   }
+  },
+  {
+   "name": "Çılbır – Eier auf Knoblauchjoghurt",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍳",
+   "zutaten": [
+    "4 Eier",
+    "300 g Joghurt",
+    "1 Knoblauchzehe",
+    "1 EL Butter",
+    "1 TL Pul Biber",
+    "Dill"
+   ],
+   "schritte": [
+    "Joghurt mit Knoblauch und Salz verrühren, auf Teller verteilen.",
+    "Eier in siedendem Essigwasser 3–4 Minuten pochieren.",
+    "Eier auf den Joghurt setzen.",
+    "Butter mit Pul Biber schmelzen und darüberträufeln."
+   ],
+   "tipp": "Ein Frühstück mit viel Eiweiß – dazu Vollkornbrot statt Weißbrot.",
+   "id": "cilbir",
+   "foto": {
+    "datei": "img/rezepte/cilbir.jpg",
+    "autor": "Premshree Pillai from Brooklyn, NY, US",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:%C3%87%C4%B1lb%C4%B1r_with_duck-fat_saut%C3%A9ed_Ramps_(14826584557).jpg"
+   }
+  },
+  {
+   "name": "Şakşuka – Auberginen-Gemüse",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 30,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍆",
+   "zutaten": [
+    "2 Auberginen",
+    "2 Zucchini",
+    "2 Paprika",
+    "3 Tomaten",
+    "2 Knoblauchzehen",
+    "Olivenöl, Essig, Salz"
+   ],
+   "schritte": [
+    "Auberginen, Zucchini und Paprika würfeln, mit 1 EL Öl mischen.",
+    "Im Airfryer bei 200 °C 15 Minuten rösten, zweimal schütteln.",
+    "Tomaten mit Knoblauch zu einer Soße einkochen.",
+    "Gemüse unterheben, kalt oder warm servieren."
+   ],
+   "tipp": "Klassisch frittiert – im Airfryer braucht man nur einen Löffel Öl.",
+   "id": "saksuka",
+   "foto": {
+    "datei": "img/rezepte/saksuka.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Turkish_shakshuka_(%C5%9Eak%C5%9Fuka).jpg"
+   }
+  },
+  {
+   "name": "Yayla Çorbası – Joghurtsuppe",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🥣",
+   "zutaten": [
+    "500 g Joghurt",
+    "1 Ei",
+    "2 EL Reis",
+    "1 EL Mehl",
+    "1,2 l Brühe",
+    "Butter, getrocknete Minze"
+   ],
+   "schritte": [
+    "Reis in der Brühe 15 Minuten weich kochen.",
+    "Joghurt mit Ei und Mehl glatt rühren, mit etwas heißer Brühe angleichen.",
+    "Unter Rühren in die Suppe geben und kurz aufkochen lassen.",
+    "Minze in Butter anschwitzen und darübergeben."
+   ],
+   "tipp": "Nur 2 EL Reis für den ganzen Topf – die Suppe sättigt durch den Joghurt.",
+   "id": "yayla",
+   "foto": {
+    "datei": "img/rezepte/yayla.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Yayla_%C3%A7orbas%C4%B1_in_Ankara.jpg"
+   }
+  },
+  {
+   "name": "Domates Çorbası – Tomatensuppe",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍅",
+   "zutaten": [
+    "1 kg reife Tomaten (oder 2 Dosen)",
+    "1 Zwiebel, 1 Karotte",
+    "1 EL Tomatenmark",
+    "800 ml Brühe",
+    "geriebener Käse (Kaşar)",
+    "Basilikum"
+   ],
+   "schritte": [
+    "Zwiebel und Karotte anschwitzen, Tomatenmark mitrösten.",
+    "Tomaten und Brühe dazu, 20 Minuten köcheln.",
+    "Fein pürieren und abschmecken.",
+    "Mit etwas Käse bestreut servieren."
+   ],
+   "tipp": "Die Karotte bringt Süße – so braucht die Suppe keinen Zucker.",
+   "id": "domatescorba",
+   "foto": {
+    "datei": "img/rezepte/domatescorba.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Tomato_soup,_Turkish_style.jpg"
+   }
+  },
+  {
+   "name": "Tavuk Çorbası – Hühnersuppe",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 45,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍜",
+   "zutaten": [
+    "2 Hähnchenbrustfilets",
+    "1 Karotte",
+    "1 Ei, Saft einer Zitrone",
+    "1,5 l Wasser",
+    "2 EL Fadennudeln (optional)",
+    "Salz, Pfeffer"
+   ],
+   "schritte": [
+    "Hähnchen in Wasser 25 Minuten garen, herausnehmen und zerzupfen.",
+    "Karotte in Würfeln in der Brühe weich kochen.",
+    "Ei mit Zitrone verquirlen, mit Brühe angleichen und einrühren.",
+    "Hähnchen zurückgeben und abschmecken."
+   ],
+   "tipp": "Die Ei-Zitronen-Bindung (terbiye) macht die Suppe cremig ohne Sahne.",
+   "id": "tavukcorba",
+   "foto": {
+    "datei": "img/rezepte/tavukcorba.jpg",
+    "autor": "HaJunkiyada",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Chicken_Soup_with_Rice_Noodles.jpg"
+   }
+  },
+  {
+   "name": "Hünkâr Beğendi leicht",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 75,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍖",
+   "zutaten": [
+    "500 g Rindergulasch",
+    "1 Zwiebel, 2 Tomaten",
+    "3 große Auberginen",
+    "200 ml Milch",
+    "50 g geriebener Käse",
+    "1 EL Butter"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel anbraten, Tomaten dazu und 60 Minuten schmoren.",
+    "Auberginen im Ofen oder Airfryer weich rösten, schälen und fein hacken.",
+    "Mit Butter, Milch und Käse zu einem cremigen Püree rühren – ohne Mehl.",
+    "Fleisch auf dem Püree servieren."
+   ],
+   "tipp": "Ohne Mehlschwitze im Püree bleibt es leicht und trotzdem cremig.",
+   "id": "huenkar",
+   "foto": {
+    "datei": "img/rezepte/huenkar.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:H%C3%BCnkarbe%C4%9Fendi.jpg"
+   }
+  },
+  {
+   "name": "İzmir Köfte aus dem Ofen",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 45,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥘",
+   "zutaten": [
+    "500 g mageres Hack",
+    "1 Ei, 1 Zwiebel",
+    "3 Paprika",
+    "3 Tomaten",
+    "1 EL Tomatenmark",
+    "Kreuzkümmel, Salz"
+   ],
+   "schritte": [
+    "Hack mit Ei, Zwiebel und Gewürzen verkneten, längliche Köfte formen.",
+    "Köfte und Paprika in eine Form legen.",
+    "Tomatenmark mit 300 ml Wasser verrühren und angießen, Tomatenscheiben darauf.",
+    "Bei 200 °C 30 Minuten backen."
+   ],
+   "tipp": "Ohne Kartoffeln, dafür mehr Paprika – passt super zu Joghurt.",
+   "id": "izmirkoefte",
+   "foto": {
+    "datei": "img/rezepte/izmirkoefte.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Izmir_kofte_and_cac%C4%B1k.jpg"
+   }
+  },
+  {
+   "name": "Kuzu Şiş – Lammspieße aus dem Airfryer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🍢",
+   "zutaten": [
+    "600 g Lammkeule in Würfeln",
+    "1 Zwiebel (gerieben)",
+    "2 EL Joghurt",
+    "Paprika, Thymian, Salz",
+    "Paprika und Zwiebel",
+    "Sumach-Zwiebeln"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebelsaft, Joghurt und Gewürzen 2 Stunden marinieren.",
+    "Mit Gemüse auf Spieße stecken.",
+    "Im Airfryer bei 200 °C 12–14 Minuten garen, einmal wenden.",
+    "Mit Sumach-Zwiebeln und Salat servieren."
+   ],
+   "tipp": "Mageres Lamm aus der Keule nehmen – das Fett vom Rücken weglassen.",
+   "id": "kuzusis",
+   "foto": {
+    "datei": "img/rezepte/kuzusis.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Kuzu_%C5%9Fi%C5%9F_at_Ankara.jpg"
+   }
+  },
+  {
+   "name": "Adana Kebap aus dem Airfryer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🌶️",
+   "zutaten": [
+    "500 g Lamm- oder Rinderhack",
+    "1 rote Paprika fein gehackt",
+    "1 TL Pul Biber",
+    "Salz, Kreuzkümmel",
+    "Tomaten, Spitzpaprika zum Mitgrillen",
+    "Petersilie, Zwiebeln"
+   ],
+   "schritte": [
+    "Hack mit Paprika und Gewürzen lange kneten.",
+    "Längliche Würste um Spieße formen oder flach drücken.",
+    "Im Airfryer bei 200 °C 12 Minuten garen, Tomaten und Spitzpaprika mitgaren.",
+    "Mit Petersilien-Zwiebelsalat statt Fladenbrot servieren."
+   ],
+   "tipp": "Statt Lavaş einen großen Salat dazu – spart viele Kohlenhydrate.",
+   "id": "adana",
+   "foto": {
+    "datei": "img/rezepte/adana.jpg",
+    "autor": "Garrett Ziegler",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Adana_Kebap.jpg"
+   }
+  },
+  {
+   "name": "Piyaz – Bohnensalat",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🫘",
+   "zutaten": [
+    "2 Dosen weiße Bohnen",
+    "1 rote Zwiebel",
+    "2 Tomaten",
+    "1 Bund Petersilie",
+    "2 gekochte Eier",
+    "Olivenöl, Zitrone, Sumach"
+   ],
+   "schritte": [
+    "Bohnen abspülen und abtropfen lassen.",
+    "Zwiebel in Ringe schneiden und mit Sumach einreiben.",
+    "Mit Tomaten, Petersilie, Öl und Zitrone mischen.",
+    "Mit Eivierteln servieren."
+   ],
+   "tipp": "Passt perfekt zu Köfte – Bohnen bringen zusätzlich Eiweiß.",
+   "id": "piyaz",
+   "foto": {
+    "datei": "img/rezepte/piyaz.jpg",
+    "autor": "Miansari66",
+    "lizenz": "CC0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Piyaz..JPG"
+   }
+  },
+  {
+   "name": "Gavurdağı Salatası",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🥗",
+   "zutaten": [
+    "4 Tomaten",
+    "1 Gurke, 1 Paprika",
+    "1 Zwiebel",
+    "50 g Walnüsse",
+    "Petersilie",
+    "Olivenöl, Zitrone, Sumach"
+   ],
+   "schritte": [
+    "Gemüse sehr klein würfeln.",
+    "Walnüsse grob hacken.",
+    "Alles mit Olivenöl, Zitrone und Sumach mischen.",
+    "Sofort servieren."
+   ],
+   "tipp": "Walnüsse bringen gesunde Fette – ohne Granatapfelsirup bleibt er zuckerfrei.",
+   "id": "gavurdagi",
+   "foto": {
+    "datei": "img/rezepte/gavurdagi.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Salad_from_Turkey.jpg"
+   }
+  },
+  {
+   "name": "Patlıcan Salatası – Auberginensalat",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍆",
+   "zutaten": [
+    "3 Auberginen",
+    "2 Spitzpaprika",
+    "2 Tomaten",
+    "1 Knoblauchzehe",
+    "Petersilie",
+    "Olivenöl, Zitrone"
+   ],
+   "schritte": [
+    "Auberginen mehrfach einstechen und im Airfryer bei 200 °C 20 Minuten rösten.",
+    "Paprika mitrösten.",
+    "Schälen, grob hacken und mit Tomaten und Kräutern mischen.",
+    "Mit Öl, Zitrone und Knoblauch abschmecken."
+   ],
+   "tipp": "Rauchig wie vom Grill – schmeckt zu allem Gegrillten.",
+   "id": "patlicansalata",
+   "foto": {
+    "datei": "img/rezepte/patlicansalata.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Patl%C4%B1can_salata_(Eggplant_salad).jpg"
+   }
+  },
+  {
+   "name": "Haydari – Joghurt-Dip",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 10,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥛",
+   "zutaten": [
+    "400 g Süzme oder griechischer Joghurt",
+    "100 g Feta",
+    "2 Knoblauchzehen",
+    "Dill, Minze",
+    "2 EL Olivenöl",
+    "Pul Biber"
+   ],
+   "schritte": [
+    "Feta zerdrücken und mit Joghurt glatt rühren.",
+    "Knoblauch und Kräuter untermischen.",
+    "Mit Olivenöl und Pul Biber garnieren."
+   ],
+   "tipp": "Als Dip zu Gemüsesticks statt Brot – macht satt und hat viel Eiweiß.",
+   "id": "haydari",
+   "foto": {
+    "datei": "img/rezepte/haydari.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Haydari_meze.jpg"
+   }
+  },
+  {
+   "name": "Muhammara – Paprika-Walnuss-Dip",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🌶️",
+   "zutaten": [
+    "3 rote Paprika",
+    "80 g Walnüsse",
+    "1 EL Paprikamark",
+    "1 Knoblauchzehe",
+    "2 EL Olivenöl",
+    "Kreuzkümmel, Zitrone"
+   ],
+   "schritte": [
+    "Paprika im Airfryer bei 200 °C 15 Minuten rösten, häuten.",
+    "Walnüsse kurz anrösten.",
+    "Alles grob pürieren.",
+    "Mit Zitrone und Kreuzkümmel abschmecken."
+   ],
+   "tipp": "Statt Semmelbröseln nur Walnüsse – so bleibt der Dip kohlenhydratarm.",
+   "id": "muhammara",
+   "foto": {
+    "datei": "img/rezepte/muhammara.jpg",
+    "autor": "Krista",
+    "lizenz": "CC BY 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Tanoreen_muhammara.jpg"
+   }
+  },
+  {
+   "name": "Zeytinyağlı Barbunya",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 45,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🫘",
+   "zutaten": [
+    "2 Dosen Borlotti-Bohnen",
+    "2 Karotten",
+    "1 Zwiebel, 2 Knoblauchzehen",
+    "2 Tomaten",
+    "3 EL Olivenöl",
+    "Petersilie, Zitrone"
+   ],
+   "schritte": [
+    "Zwiebel, Knoblauch und Karotten in Olivenöl dünsten.",
+    "Tomaten und Bohnen dazu, mit wenig Wasser 25 Minuten köcheln.",
+    "Abkühlen lassen.",
+    "Kalt mit Petersilie und Zitrone servieren."
+   ],
+   "tipp": "Schmeckt am nächsten Tag noch besser – gut zum Vorkochen.",
+   "id": "barbunya",
+   "foto": {
+    "datei": "img/rezepte/barbunya.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Barbunya_pilaki_in_Ankara.jpg"
+   }
+  },
+  {
+   "name": "Balık Buğulama – gedünsteter Fisch",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "600 g Fischfilet (Dorade, Kabeljau)",
+    "2 Tomaten",
+    "1 Zwiebel, 2 Knoblauchzehen",
+    "2 Spitzpaprika",
+    "Zitrone, Petersilie",
+    "2 EL Olivenöl"
+   ],
+   "schritte": [
+    "Zwiebel und Paprika in Streifen in eine Pfanne legen.",
+    "Fisch darauf, mit Tomaten und Knoblauch belegen.",
+    "Olivenöl und Zitrone darüber, zugedeckt 15 Minuten dünsten.",
+    "Mit Petersilie servieren."
+   ],
+   "tipp": "Gedünstet statt gebraten – sehr leicht und saftig.",
+   "id": "bugulama",
+   "foto": {
+    "datei": "img/rezepte/bugulama.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Levrek_bugulama.jpg"
+   }
+  },
+  {
+   "name": "Hamsi aus dem Airfryer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "500 g Sardellen (Hamsi) oder Sardinen",
+    "2 EL Maismehl",
+    "Salz",
+    "Zitrone",
+    "Rucola",
+    "rote Zwiebel"
+   ],
+   "schritte": [
+    "Fische säubern, trocken tupfen und salzen.",
+    "Leicht in Maismehl wenden und mit Öl besprühen.",
+    "Im Airfryer bei 200 °C 8–10 Minuten knusprig garen.",
+    "Mit Zitrone und Zwiebelsalat servieren."
+   ],
+   "tipp": "Kleine Fische sind reich an Omega-3 – aus dem Airfryer fast ohne Fett.",
+   "id": "hamsi",
+   "foto": {
+    "datei": "img/rezepte/hamsi.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Hamsi_tava,_roka,_lemon_and_red_onions.jpg"
+   }
+  },
+  {
+   "name": "Uskumru – Makrele aus dem Airfryer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "2 Makrelen (ausgenommen)",
+    "1 Zitrone",
+    "Salz, Pfeffer",
+    "Rucola",
+    "rote Zwiebel",
+    "Sumach"
+   ],
+   "schritte": [
+    "Makrelen auf beiden Seiten einschneiden und würzen.",
+    "Im Airfryer bei 200 °C 14 Minuten garen, einmal wenden.",
+    "Mit Zitrone und Zwiebel-Rucola-Salat servieren."
+   ],
+   "tipp": "Makrele ist fettreich, aber gesund – sehr sättigend.",
+   "id": "uskumru",
+   "foto": {
+    "datei": "img/rezepte/uskumru.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Fish_shaped_plates.jpg"
+   }
+  },
+  {
+   "name": "Kabak Dolması – gefüllte Zucchini",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 50,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🥒",
+   "zutaten": [
+    "6 runde oder kurze Zucchini",
+    "300 g mageres Hack",
+    "2 EL Reis",
+    "1 Zwiebel, 1 Tomate",
+    "1 EL Tomatenmark",
+    "Minze, Petersilie"
+   ],
+   "schritte": [
+    "Zucchini aushöhlen, Fruchtfleisch hacken.",
+    "Hack mit Reis, Zwiebel, Tomate, Kräutern und Zucchinifleisch mischen.",
+    "Zucchini locker füllen und in einen Topf stellen.",
+    "Mit Tomatenmark-Wasser angießen, 35 Minuten schmoren."
+   ],
+   "tipp": "Mit Knoblauchjoghurt servieren.",
+   "id": "kabakdolma",
+   "foto": {
+    "datei": "img/rezepte/kabakdolma.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Etli_kabak_%C3%A7i%C3%A7e%C4%9Fi_dolmas%C4%B1.jpg"
+   }
+  },
+  {
+   "name": "Lahana Sarması – türkische Kohlrouladen",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 70,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🥬",
+   "zutaten": [
+    "1 Weißkohl",
+    "300 g mageres Hack",
+    "3 EL Reis",
+    "1 Zwiebel",
+    "1 EL Paprikamark",
+    "Minze, Pul Biber, Zitrone"
+   ],
+   "schritte": [
+    "Kohlblätter blanchieren und Rippen flach schneiden.",
+    "Hack mit Reis, Zwiebel und Gewürzen mischen.",
+    "Kleine Röllchen wickeln und dicht in einen Topf legen.",
+    "Mit Wasser und Paprikamark bedecken, 45 Minuten garen."
+   ],
+   "tipp": "Wenig Reis in der Füllung – der Kohl macht den Großteil satt.",
+   "id": "lahana",
+   "foto": {
+    "datei": "img/rezepte/lahana.jpg",
+    "autor": "Petar Milošević",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Postna_sarma_(vegetarian_sarma,_Cuisine_of_Serbia).jpg"
+   }
+  },
+  {
+   "name": "Etli Yaprak Sarma",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 80,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🍃",
+   "zutaten": [
+    "300 g Weinblätter (eingelegt)",
+    "300 g mageres Hack",
+    "3 EL Reis",
+    "1 Zwiebel",
+    "1 EL Tomatenmark",
+    "Minze, Zitrone"
+   ],
+   "schritte": [
+    "Weinblätter wässern.",
+    "Hack mit Reis, Zwiebel und Gewürzen mischen.",
+    "Kleine Röllchen wickeln und in einen Topf schichten.",
+    "Mit Wasser bedecken, beschweren und 50 Minuten garen."
+   ],
+   "tipp": "Mit Joghurt servieren – Fleisch statt nur Reis macht sie sättigender.",
+   "id": "sarma",
+   "foto": {
+    "datei": "img/rezepte/sarma.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Etli_yaprak_sarma_in_Turkey.jpg"
+   }
+  },
+  {
+   "name": "Bamya – Okra mit Fleisch",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 50,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🌿",
+   "zutaten": [
+    "500 g Okra (TK geht gut)",
+    "250 g Lammwürfel",
+    "1 Zwiebel",
+    "2 Tomaten, 1 EL Tomatenmark",
+    "Zitrone",
+    "Salz"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel anbraten.",
+    "Tomatenmark und Tomaten dazu, mit Wasser 25 Minuten schmoren.",
+    "Okra und Zitronensaft dazugeben, 15 Minuten garen.",
+    "Nicht zu viel rühren, damit die Okra ganz bleibt."
+   ],
+   "tipp": "Zitrone verhindert, dass Okra schleimig wird.",
+   "id": "bamya",
+   "foto": {
+    "datei": "img/rezepte/bamya.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Bamya_with_veal.jpg"
+   }
+  },
+  {
+   "name": "Etli Bezelye – Erbsen mit Fleisch",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 40,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🫛",
+   "zutaten": [
+    "600 g Erbsen (TK)",
+    "250 g Rindfleischwürfel",
+    "1 Zwiebel, 2 Karotten",
+    "1 EL Tomatenmark",
+    "500 ml Wasser",
+    "Dill"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel anbraten.",
+    "Tomatenmark und Karotten dazu, mit Wasser 20 Minuten schmoren.",
+    "Erbsen dazugeben und 10 Minuten garen.",
+    "Mit Dill und Joghurt servieren."
+   ],
+   "tipp": "Erbsen haben viel pflanzliches Eiweiß.",
+   "id": "bezelye",
+   "foto": {
+    "datei": "img/rezepte/bezelye.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Bezelye_yeme%C4%9Fi.jpg"
+   }
+  },
+  {
+   "name": "Hähnchenschenkel mit Gemüse aus dem Airfryer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 35,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍗",
+   "zutaten": [
+    "2 Hähnchenschenkel",
+    "1 Zucchini, 1 Paprika",
+    "1 rote Zwiebel",
+    "1 EL Paprikamark",
+    "1 EL Olivenöl",
+    "Thymian, Knoblauch"
+   ],
+   "schritte": [
+    "Schenkel mit Paprikamark, Öl und Gewürzen einreiben.",
+    "Im Airfryer mit der Haut nach unten bei 190 °C 12 Minuten garen.",
+    "Wenden, Gemüse dazugeben, weitere 13 Minuten garen.",
+    "Kerntemperatur 75 °C prüfen."
+   ],
+   "tipp": "Die Haut wird im Airfryer knusprig – das Fett tropft ab.",
+   "id": "firintavuk",
+   "foto": {
+    "datei": "img/rezepte/firintavuk.jpg",
+    "autor": "HaJunkiyada",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Home_Cooked_Chicken_and_Roasted_Vegetables.jpg"
+   }
+  },
+  {
+   "name": "Ispanaklı Yumurta – Spinat mit Ei",
+   "kueche": "türkisch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍳",
+   "zutaten": [
+    "400 g Spinat",
+    "4 Eier",
+    "1 Zwiebel",
+    "1 EL Butter oder Öl",
+    "Pul Biber",
+    "Joghurt"
+   ],
+   "schritte": [
+    "Zwiebel in Butter anschwitzen.",
+    "Spinat dazugeben und zusammenfallen lassen.",
+    "Mulden machen, Eier hineinschlagen und zugedeckt stocken lassen.",
+    "Mit Pul Biber und Joghurt servieren."
+   ],
+   "tipp": "Ein schnelles Frühstück oder Abendessen mit viel Eiweiß.",
+   "id": "ispanakliyumurta",
+   "foto": {
+    "datei": "img/rezepte/ispanakliyumurta.jpg",
+    "autor": "HaJunkiyada",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Tomato_Shakshuka_with_Spinach.jpg"
+   }
+  },
+  {
+   "name": "Lahmacun leicht mit Vollkornteig",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 40,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🫓",
+   "zutaten": [
+    "4 dünne Vollkorn-Tortillas",
+    "250 g mageres Hack",
+    "1 Zwiebel, 1 Tomate, 1 Paprika",
+    "1 EL Paprikamark",
+    "Petersilie",
+    "Zitrone, Salat"
+   ],
+   "schritte": [
+    "Hack mit fein gehacktem Gemüse, Mark und Gewürzen zu einer Paste mischen.",
+    "Dünn auf die Tortillas streichen.",
+    "Einzeln im Airfryer bei 200 °C 6–7 Minuten backen.",
+    "Mit viel Salat und Zitrone einrollen."
+   ],
+   "tipp": "Vollkorn-Tortilla statt Hefeteig – schneller und mit mehr Ballaststoffen.",
+   "id": "lahmacun",
+   "foto": {
+    "datei": "img/rezepte/lahmacun.jpg",
+    "autor": "No machine-readable author provided. Rainer Zenz assumed (ba",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Lahmacun.jpg"
+   }
+  },
+  {
+   "name": "Tavuk Kanat – Hähnchenflügel aus dem Airfryer",
+   "kueche": "türkisch",
+   "airfryer": true,
+   "zeit": 30,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍗",
+   "zutaten": [
+    "1 kg Hähnchenflügel",
+    "1 EL Paprikamark",
+    "1 EL Joghurt",
+    "Knoblauch, Thymian, Salz",
+    "Zitrone",
+    "Cacık zum Dippen"
+   ],
+   "schritte": [
+    "Flügel mit Paprikamark, Joghurt und Gewürzen marinieren.",
+    "Im Airfryer bei 200 °C 22–25 Minuten garen, zweimal schütteln.",
+    "Mit Zitrone und Cacık servieren."
+   ],
+   "tipp": "Ohne Panade und Fritteuse – trotzdem richtig knusprig.",
+   "id": "kanat",
+   "foto": {
+    "datei": "img/rezepte/kanat.jpg",
+    "autor": "NeoBatfreak",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Taiwanese_Pepper_Salt_Chicken_Drumettes_(%E9%B9%BD%E9%85%A5%E9%9B%9E).jpg"
+   }
+  },
+  {
+   "name": "Gulaschsuppe mit viel Paprika",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 70,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍲",
+   "zutaten": [
+    "400 g Rindergulasch",
+    "2 Zwiebeln",
+    "3 Paprika",
+    "1 EL Tomatenmark",
+    "1,2 l Brühe",
+    "Paprika edelsüß und scharf, Kümmel"
+   ],
+   "schritte": [
+    "Fleisch in kleinen Würfeln mit Zwiebeln kräftig anbraten.",
+    "Tomatenmark und Paprikapulver kurz mitrösten.",
+    "Mit Brühe ablöschen und 45 Minuten köcheln.",
+    "Paprikawürfel dazu und weitere 15 Minuten garen."
+   ],
+   "tipp": "Ohne Kartoffeln, dafür mehr Paprika – trotzdem richtig sättigend.",
+   "id": "gulaschsuppe",
+   "foto": {
+    "datei": "img/rezepte/gulaschsuppe.jpg",
+    "autor": "Silar",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:02021_1020_(2)_Goulash_soup_of_Poland.jpg"
+   }
+  },
+  {
+   "name": "Hühnersuppe mit Gemüse",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 60,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍜",
+   "zutaten": [
+    "2 Hähnchenschenkel",
+    "2 Karotten, ¼ Sellerie",
+    "1 Stange Lauch",
+    "1 Zwiebel",
+    "1,5 l Wasser",
+    "Petersilie, Salz, Pfeffer"
+   ],
+   "schritte": [
+    "Hähnchen mit Zwiebel in Wasser 40 Minuten köcheln, Schaum abschöpfen.",
+    "Fleisch herausnehmen, von Haut und Knochen lösen.",
+    "Gemüse in Würfeln in der Brühe 12 Minuten garen.",
+    "Fleisch zurück, mit Petersilie abschmecken."
+   ],
+   "tipp": "Nudeln weglassen oder nur eine Handvoll – die Suppe sättigt durch das Fleisch.",
+   "id": "huehnersuppe",
+   "foto": {
+    "datei": "img/rezepte/huehnersuppe.jpg",
+    "autor": "Cajsa Lilliehook from Portland",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Chicken_Vegetable_Soup_(8731954951).jpg"
+   }
+  },
+  {
+   "name": "Kürbissuppe mit Ingwer",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 35,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🎃",
+   "zutaten": [
+    "1 Hokkaido-Kürbis",
+    "1 Zwiebel",
+    "1 Stück Ingwer",
+    "800 ml Brühe",
+    "100 ml Kokosmilch light",
+    "Kürbiskerne"
+   ],
+   "schritte": [
+    "Kürbis mit Schale würfeln, Zwiebel und Ingwer anschwitzen.",
+    "Kürbis dazu, mit Brühe ablöschen, 20 Minuten köcheln.",
+    "Fein pürieren, Kokosmilch einrühren.",
+    "Mit gerösteten Kürbiskernen servieren."
+   ],
+   "tipp": "Hokkaido muss nicht geschält werden – die Schale wird weich.",
+   "id": "kuerbissuppe",
+   "foto": {
+    "datei": "img/rezepte/kuerbissuppe.jpg",
+    "autor": "Cremas_de_calabaza.jpg: Boca Dorada derivative work: Itzuvit",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Cremas_de_calabaza-2.jpg"
+   }
+  },
+  {
+   "name": "Brokkolicremesuppe",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥦",
+   "zutaten": [
+    "600 g Brokkoli",
+    "1 Zwiebel",
+    "1 kleine Kartoffel",
+    "900 ml Brühe",
+    "100 g Frischkäse light",
+    "Muskat"
+   ],
+   "schritte": [
+    "Zwiebel anschwitzen, Brokkoli und Kartoffel in Stücken dazu.",
+    "Mit Brühe 15 Minuten köcheln.",
+    "Mit Frischkäse fein pürieren.",
+    "Mit Muskat abschmecken."
+   ],
+   "tipp": "Frischkäse statt Sahne – cremig und leichter.",
+   "id": "brokkolisuppe",
+   "foto": {
+    "datei": "img/rezepte/brokkolisuppe.jpg",
+    "autor": "Alpha from Melbourne, Australia",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Cream_of_broccoli_soup.jpg"
+   }
+  },
+  {
+   "name": "Wirsingeintopf mit Hackbällchen",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 45,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "1 Wirsing",
+    "300 g mageres Hack",
+    "2 Karotten",
+    "1 Zwiebel",
+    "1,2 l Brühe",
+    "Kümmel, Muskat"
+   ],
+   "schritte": [
+    "Aus Hack kleine Bällchen formen und anbraten.",
+    "Zwiebel und Karotten dazu, mit Brühe ablöschen.",
+    "Wirsing in Streifen dazugeben, 25 Minuten köcheln.",
+    "Mit Kümmel und Muskat abschmecken."
+   ],
+   "tipp": "Kohl ist günstig, sättigt und hat kaum Kohlenhydrate.",
+   "id": "wirsing"
+  },
+  {
+   "name": "Grüner Bohneneintopf",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 45,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🫛",
+   "zutaten": [
+    "700 g grüne Bohnen",
+    "250 g Rindfleisch oder magere Mettwurst",
+    "1 Zwiebel, 2 Karotten",
+    "1 kleine Kartoffel",
+    "1,2 l Brühe",
+    "Bohnenkraut"
+   ],
+   "schritte": [
+    "Fleisch mit Zwiebel anbraten, mit Brühe ablöschen.",
+    "20 Minuten köcheln.",
+    "Bohnen, Karotten und gewürfelte Kartoffel dazu, 20 Minuten garen.",
+    "Mit Bohnenkraut abschmecken."
+   ],
+   "tipp": "Bohnenkraut macht Bohnen bekömmlicher.",
+   "id": "bohneneintopf",
+   "foto": {
+    "datei": "img/rezepte/bohneneintopf.jpg",
+    "autor": "E4024",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Green_bean_stew.jpg"
+   }
+  },
+  {
+   "name": "Bunte Gemüsesuppe",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 35,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥕",
+   "zutaten": [
+    "2 Karotten, 2 Zucchini",
+    "¼ Sellerie, 1 Lauch",
+    "200 g Blumenkohl",
+    "1 Dose Tomaten",
+    "1,2 l Brühe",
+    "Kräuter, 1 Dose weiße Bohnen"
+   ],
+   "schritte": [
+    "Gemüse würfeln und kurz anschwitzen.",
+    "Tomaten und Brühe dazu, 20 Minuten köcheln.",
+    "Bohnen dazugeben für mehr Eiweiß.",
+    "Mit frischen Kräutern servieren."
+   ],
+   "tipp": "Ein großer Topf für mehrere Tage – ideal zum Abnehmen.",
+   "id": "gemuesesuppe",
+   "foto": {
+    "datei": "img/rezepte/gemuesesuppe.jpg",
+    "autor": "Horacio Cambeiro",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Traditional_Vegetable_Soup_from_Argentina.jpg"
+   }
+  },
+  {
+   "name": "Kassler mit Sauerkraut",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 40,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥩",
+   "zutaten": [
+    "600 g mageres Kassler",
+    "800 g Sauerkraut",
+    "1 Zwiebel",
+    "Wacholder, Lorbeer",
+    "200 ml Brühe",
+    "Senf"
+   ],
+   "schritte": [
+    "Zwiebel anschwitzen, Sauerkraut und Gewürze dazu.",
+    "Mit Brühe ablöschen.",
+    "Kassler obenauf legen und zugedeckt 30 Minuten garen.",
+    "Mit Senf servieren, Kartoffelpüree nur eine kleine Portion."
+   ],
+   "tipp": "Sauerkraut ist fast ohne Kohlenhydrate und gut für die Verdauung.",
+   "id": "kassler",
+   "foto": {
+    "datei": "img/rezepte/kassler.jpg",
+    "autor": "Schwäbin",
+    "lizenz": "CC BY-SA 3.0 de",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Kasseler_und_Sauerkraut_02.jpg"
+   }
+  },
+  {
+   "name": "Schweinefilet mit Champignons",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🥩",
+   "zutaten": [
+    "500 g Schweinefilet",
+    "400 g Champignons",
+    "1 Zwiebel",
+    "150 ml Brühe",
+    "100 g Frischkäse light",
+    "Petersilie"
+   ],
+   "schritte": [
+    "Filet in Medaillons schneiden und kurz scharf anbraten, herausnehmen.",
+    "Zwiebel und Pilze anbraten.",
+    "Mit Brühe ablöschen, Frischkäse einrühren.",
+    "Medaillons zurück, 5 Minuten ziehen lassen."
+   ],
+   "tipp": "Schweinefilet ist eines der magersten Fleischstücke.",
+   "id": "schweinefilet",
+   "foto": {
+    "datei": "img/rezepte/schweinefilet.jpg",
+    "autor": "PattayaPatrol",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:DSCF0414_Four_bite-sized_bacon-wrapped_pork_medallions_served_with_a_side_of_creamy_pasta_coleslaw_greens_and_a_jug_of_savory_gravy.jpg"
+   }
+  },
+  {
+   "name": "Putengeschnetzeltes mit Paprika",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🍗",
+   "zutaten": [
+    "500 g Putenbrust",
+    "2 Paprika",
+    "1 Zwiebel",
+    "200 ml Brühe",
+    "100 g Frischkäse light",
+    "Paprika edelsüß"
+   ],
+   "schritte": [
+    "Pute in Streifen scharf anbraten, herausnehmen.",
+    "Zwiebel und Paprika anbraten.",
+    "Mit Brühe ablöschen, Frischkäse einrühren.",
+    "Fleisch zurück, kurz erhitzen. Dazu Zucchininudeln oder wenig Reis."
+   ],
+   "tipp": "Pute hat sehr viel Eiweiß und wenig Fett.",
+   "id": "putengeschnetzeltes",
+   "foto": {
+    "datei": "img/rezepte/putengeschnetzeltes.jpg",
+    "autor": "Katrin Gilger",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Putengeschnetzeltes_mit_Champignons.._(4510151167).jpg"
+   }
+  },
+  {
+   "name": "Hähnchenschnitzel aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍗",
+   "zutaten": [
+    "2 Hähnchenbrustfilets",
+    "1 Ei",
+    "40 g gemahlene Mandeln",
+    "20 g Parmesan",
+    "Salz, Paprika",
+    "Zitrone, Gurkensalat"
+   ],
+   "schritte": [
+    "Filets flach klopfen und würzen.",
+    "Durch das Ei ziehen und in Mandel-Parmesan-Mischung wenden.",
+    "Mit Öl besprühen und bei 190 °C 12 Minuten garen, einmal wenden.",
+    "Mit Zitrone und Gurkensalat servieren."
+   ],
+   "tipp": "Mandelpanade statt Paniermehl – knusprig und kohlenhydratarm.",
+   "id": "schnitzel",
+   "foto": {
+    "datei": "img/rezepte/schnitzel.jpg",
+    "autor": "Kobako",
+    "lizenz": "CC BY-SA 2.5",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg"
+   }
+  },
+  {
+   "name": "Hackbraten mit Gemüse",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 60,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍖",
+   "zutaten": [
+    "600 g mageres Hack",
+    "1 Ei, 2 EL Haferflocken",
+    "1 Zwiebel",
+    "1 Karotte gerieben",
+    "Senf, Majoran",
+    "Ofengemüse nach Wahl"
+   ],
+   "schritte": [
+    "Hack mit Ei, Haferflocken, Zwiebel, Karotte und Gewürzen verkneten.",
+    "Zu einem Laib formen und in eine Form legen.",
+    "Gemüse rundherum verteilen.",
+    "Bei 190 °C 45 Minuten backen."
+   ],
+   "tipp": "Geriebene Karotte macht den Braten saftig.",
+   "id": "hackbraten",
+   "foto": {
+    "datei": "img/rezepte/hackbraten.jpg",
+    "autor": "Renee Comet (photographer)",
+    "lizenz": "Public domain",
+    "quelle": "https://commons.wikimedia.org/wiki/File:MeatloafWithSauce.jpg"
+   }
+  },
+  {
+   "name": "Königsberger Klopse leicht",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 45,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍽️",
+   "zutaten": [
+    "500 g mageres Hack",
+    "1 Ei, 2 EL Haferflocken",
+    "1 Zwiebel",
+    "1 l Brühe",
+    "2 EL Kapern",
+    "100 g Frischkäse light, Zitrone"
+   ],
+   "schritte": [
+    "Hack mit Ei, Haferflocken und Zwiebel verkneten, Klopse formen.",
+    "In siedender Brühe 15 Minuten gar ziehen lassen.",
+    "Etwas Brühe mit Frischkäse und Kapern zur Soße rühren.",
+    "Mit Zitrone abschmecken. Dazu Blumenkohlreis."
+   ],
+   "tipp": "Frischkäse statt Mehlschwitze und Sahne.",
+   "id": "klopse",
+   "foto": {
+    "datei": "img/rezepte/klopse.jpg",
+    "autor": "Silar",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:02024_0278_K%C3%B6nigsberger_Klopse.jpg"
+   }
+  },
+  {
+   "name": "Rindergulasch mit Gemüse",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 120,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🍖",
+   "zutaten": [
+    "800 g Rindergulasch",
+    "3 Zwiebeln",
+    "2 Paprika",
+    "2 EL Tomatenmark",
+    "500 ml Brühe",
+    "Paprikapulver, Kümmel"
+   ],
+   "schritte": [
+    "Fleisch portionsweise scharf anbraten.",
+    "Zwiebeln und Tomatenmark dazu, mit Paprikapulver bestäuben.",
+    "Mit Brühe ablöschen und 90 Minuten schmoren.",
+    "Paprika dazugeben, 20 Minuten weiterschmoren. Dazu Rotkohl oder Salat."
+   ],
+   "tipp": "Viele Zwiebeln binden die Soße – kein Mehl nötig.",
+   "id": "gulasch",
+   "foto": {
+    "datei": "img/rezepte/gulasch.jpg",
+    "autor": "Silar",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:020230805_125640_goulash_with_spaetzle.jpg"
+   }
+  },
+  {
+   "name": "Tafelspitz mit Meerrettich",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 150,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥩",
+   "zutaten": [
+    "1 kg Tafelspitz",
+    "2 Karotten, ¼ Sellerie, 1 Lauch",
+    "1 Zwiebel",
+    "Lorbeer, Pfeffer",
+    "Meerrettich",
+    "Schnittlauch"
+   ],
+   "schritte": [
+    "Fleisch in siedendes Wasser geben und 2 Stunden leise köcheln.",
+    "Nach 1,5 Stunden das Gemüse dazugeben.",
+    "Fleisch in Scheiben schneiden.",
+    "Mit Gemüse, etwas Brühe und Meerrettich servieren."
+   ],
+   "tipp": "Die Brühe ergibt nebenbei eine leichte Suppe für den nächsten Tag.",
+   "id": "tafelspitz",
+   "foto": {
+    "datei": "img/rezepte/tafelspitz.jpg",
+    "autor": "Geolina163",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Heuriger_Zum_Renner_Tafelspitz_Apfelkren.jpg"
+   }
+  },
+  {
+   "name": "Forelle aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "2 Forellen (küchenfertig)",
+    "1 Zitrone",
+    "Petersilie, Dill",
+    "Salz, Pfeffer",
+    "1 EL Butter",
+    "Blattsalat"
+   ],
+   "schritte": [
+    "Forellen innen und außen würzen, mit Zitrone und Kräutern füllen.",
+    "Mit etwas Öl einpinseln.",
+    "Im Airfryer bei 190 °C 14–16 Minuten garen.",
+    "Mit zerlassener Butter und Salat servieren."
+   ],
+   "tipp": "Forelle aus der Region – mild und sehr eiweißreich.",
+   "id": "forelle",
+   "foto": {
+    "datei": "img/rezepte/forelle.jpg",
+    "autor": "Atelier Joly",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Baked_Trout_with_dill.jpg"
+   }
+  },
+  {
+   "name": "Kabeljau mit Senfsoße",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "600 g Kabeljaufilet",
+    "2 EL mittelscharfer Senf",
+    "200 ml Brühe",
+    "100 g Frischkäse light",
+    "Dill",
+    "Brokkoli"
+   ],
+   "schritte": [
+    "Fisch salzen und in wenig Brühe 8 Minuten gar ziehen lassen.",
+    "Restliche Brühe mit Senf und Frischkäse verrühren.",
+    "Dill unterheben.",
+    "Fisch mit Soße und Brokkoli servieren."
+   ],
+   "tipp": "Weißer Fisch ist mager und leicht verdaulich.",
+   "id": "kabeljau",
+   "foto": {
+    "datei": "img/rezepte/kabeljau.jpg",
+    "autor": "Benreis",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Kuhler_Pannfisch.jpg"
+   }
+  },
+  {
+   "name": "Matjes mit Joghurt-Gurken-Soße",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "4 Matjesfilets",
+    "200 g Joghurt",
+    "½ Gurke",
+    "1 kleiner Apfel",
+    "1 rote Zwiebel",
+    "Dill"
+   ],
+   "schritte": [
+    "Matjes kurz wässern und trocken tupfen.",
+    "Gurke, Apfel und Zwiebel fein würfeln.",
+    "Mit Joghurt und Dill verrühren.",
+    "Über den Matjes geben, dazu 2 kleine Pellkartoffeln."
+   ],
+   "tipp": "Joghurt statt Sahnesoße – leicht und frisch.",
+   "id": "matjes",
+   "foto": {
+    "datei": "img/rezepte/matjes.jpg",
+    "autor": "W.carter",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Soused_herring,_served_with_potato_salad_and_cucumber.jpg"
+   }
+  },
+  {
+   "name": "Fischfrikadellen aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 30,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "500 g Seelachsfilet",
+    "1 Ei",
+    "2 EL Haferflocken",
+    "1 Zwiebel",
+    "Dill, Zitronenschale",
+    "Salz, Pfeffer"
+   ],
+   "schritte": [
+    "Fisch fein hacken oder kurz im Mixer zerkleinern.",
+    "Mit Ei, Haferflocken, Zwiebel und Gewürzen mischen.",
+    "Kleine Frikadellen formen, mit Öl besprühen.",
+    "Bei 190 °C 12 Minuten garen, einmal wenden."
+   ],
+   "tipp": "Mit Remoulade aus Joghurt und Gurken servieren.",
+   "id": "fischfrikadellen",
+   "foto": {
+    "datei": "img/rezepte/fischfrikadellen.jpg",
+    "autor": "Benreis",
+    "lizenz": "CC BY 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Fish_Cakes_Mussel_Inn_Glasgow.JPG"
+   }
+  },
+  {
+   "name": "Seelachs mit Kräuterkruste",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🐟",
+   "zutaten": [
+    "2 Seelachsfilets",
+    "2 EL gemahlene Mandeln",
+    "1 EL Parmesan",
+    "Petersilie, Knoblauch",
+    "1 EL Olivenöl",
+    "Zitrone"
+   ],
+   "schritte": [
+    "Mandeln, Parmesan, Kräuter, Knoblauch und Öl mischen.",
+    "Auf die Filets drücken.",
+    "Im Airfryer bei 190 °C 10 Minuten garen.",
+    "Mit Zitrone und Gemüse servieren."
+   ],
+   "tipp": "Die Kruste schmeckt wie Paniermehl – ohne Kohlenhydrate.",
+   "id": "seelachs",
+   "foto": {
+    "datei": "img/rezepte/seelachs.jpg",
+    "autor": "AlejandroLinaresGarcia",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:El_Taxi_Campeche05.JPG"
+   }
+  },
+  {
+   "name": "Rahmspinat mit Spiegelei",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍳",
+   "zutaten": [
+    "600 g Blattspinat",
+    "1 Zwiebel",
+    "100 g Frischkäse light",
+    "4 Eier",
+    "Muskat",
+    "2 kleine Pellkartoffeln (optional)"
+   ],
+   "schritte": [
+    "Zwiebel anschwitzen, Spinat zusammenfallen lassen.",
+    "Frischkäse einrühren, mit Muskat würzen.",
+    "Spiegeleier braten.",
+    "Zusammen servieren."
+   ],
+   "tipp": "Ein Klassiker – leicht gemacht mit Frischkäse statt Sahne.",
+   "id": "spinatei",
+   "foto": {
+    "datei": "img/rezepte/spinatei.jpg",
+    "autor": "Robert Lender from Vienna, Austria",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Spinat_mit_Spiegelei_(51667939418).jpg"
+   }
+  },
+  {
+   "name": "Rührei mit Räucherlachs",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 10,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍳",
+   "zutaten": [
+    "5 Eier",
+    "100 g Räucherlachs",
+    "Schnittlauch",
+    "1 TL Butter",
+    "Pfeffer",
+    "Gurkenscheiben"
+   ],
+   "schritte": [
+    "Eier verquirlen und leicht würzen.",
+    "In Butter bei kleiner Hitze cremig stocken lassen.",
+    "Lachs und Schnittlauch unterheben.",
+    "Mit Gurke servieren."
+   ],
+   "tipp": "Perfektes Frühstück: viel Eiweiß, hält bis mittags satt.",
+   "id": "ruehreilachs",
+   "foto": {
+    "datei": "img/rezepte/ruehreilachs.jpg",
+    "autor": "Andy Li",
+    "lizenz": "CC0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Smoked_Salmon_%26_Avo_-_The_Boudica_2025-05-15.jpg"
+   }
+  },
+  {
+   "name": "Bauernfrühstück leicht",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 2,
+   "kh": "mittel",
+   "emoji": "🍳",
+   "zutaten": [
+    "2 kleine gekochte Kartoffeln",
+    "1 Paprika, 1 Zwiebel",
+    "100 g magerer Schinken",
+    "4 Eier",
+    "Schnittlauch",
+    "Gewürzgurke"
+   ],
+   "schritte": [
+    "Kartoffeln in Scheiben mit Zwiebel und Paprika anbraten.",
+    "Schinkenwürfel dazugeben.",
+    "Verquirlte Eier darüber gießen und stocken lassen.",
+    "Mit Schnittlauch und Gurke servieren."
+   ],
+   "tipp": "Nur wenig Kartoffel, dafür mehr Gemüse und Ei.",
+   "id": "bauernfruehstueck",
+   "foto": {
+    "datei": "img/rezepte/bauernfruehstueck.jpg",
+    "autor": "Kobako",
+    "lizenz": "CC BY-SA 2.5",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Bauernfr%C3%BChst%C3%BCck.jpg"
+   }
+  },
+  {
+   "name": "Krautsalat ohne Zucker",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 20,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥗",
+   "zutaten": [
+    "½ Weißkohl",
+    "1 Karotte",
+    "1 rote Zwiebel",
+    "3 EL Essig, 2 EL Öl",
+    "Kümmel",
+    "Salz, Pfeffer"
+   ],
+   "schritte": [
+    "Kohl fein hobeln, salzen und kräftig kneten.",
+    "Karotte raspeln, Zwiebel fein schneiden.",
+    "Mit Essig, Öl und Kümmel mischen.",
+    "Mindestens 1 Stunde ziehen lassen."
+   ],
+   "tipp": "Kneten macht den Kohl weich – Zucker braucht es nicht.",
+   "id": "krautsalat",
+   "foto": {
+    "datei": "img/rezepte/krautsalat.jpg",
+    "autor": "unbekannt",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Bowl%27o%27Coleslaw_modified.jpg"
+   }
+  },
+  {
+   "name": "Feldsalat mit Hähnchenstreifen",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🥗",
+   "zutaten": [
+    "150 g Feldsalat",
+    "2 Hähnchenbrustfilets",
+    "100 g Champignons",
+    "2 EL Walnüsse",
+    "Senf-Essig-Dressing",
+    "Radieschen"
+   ],
+   "schritte": [
+    "Hähnchen würzen und braten, in Streifen schneiden.",
+    "Pilze kurz anbraten.",
+    "Feldsalat waschen, mit Radieschen mischen.",
+    "Alles anrichten und mit Dressing und Walnüssen servieren."
+   ],
+   "tipp": "Feldsalat ist im Winter frisch aus der Region.",
+   "id": "feldsalat",
+   "foto": {
+    "datei": "img/rezepte/feldsalat.jpg",
+    "autor": "Schwäbin",
+    "lizenz": "CC BY-SA 3.0 de",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Ackersalat02.jpg"
+   }
+  },
+  {
+   "name": "Rote-Bete-Salat mit Feta",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 3,
+   "kh": "mittel",
+   "emoji": "🥗",
+   "zutaten": [
+    "500 g gekochte Rote Bete",
+    "100 g Feta",
+    "1 rote Zwiebel",
+    "2 EL Walnüsse",
+    "Essig, Öl",
+    "Petersilie"
+   ],
+   "schritte": [
+    "Rote Bete würfeln.",
+    "Zwiebel fein schneiden.",
+    "Mit Essig, Öl und Petersilie mischen.",
+    "Mit Feta und Walnüssen bestreuen."
+   ],
+   "tipp": "Rote Bete enthält etwas Zucker – mit Feta und Nüssen bleibt der Blutzucker ruhiger.",
+   "id": "rotebete",
+   "foto": {
+    "datei": "img/rezepte/rotebete.jpg",
+    "autor": "ponafotkas from Kiev, Ukraine",
+    "lizenz": "CC BY-SA 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Beetroot_salad_(5938226398).jpg"
+   }
+  },
+  {
+   "name": "Schwäbischer Wurstsalat leicht",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 15,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🥗",
+   "zutaten": [
+    "250 g Geflügel-Lyoner",
+    "2 Gewürzgurken",
+    "1 rote Zwiebel",
+    "Radieschen",
+    "Essig, Öl, Gurkenwasser",
+    "Schnittlauch"
+   ],
+   "schritte": [
+    "Wurst und Gurken in Streifen schneiden.",
+    "Zwiebel in Ringe, Radieschen in Scheiben.",
+    "Mit Essig, Öl und Gurkenwasser marinieren.",
+    "Mit Schnittlauch servieren."
+   ],
+   "tipp": "Geflügelwurst statt Schweinewurst spart viel Fett.",
+   "id": "wurstsalat",
+   "foto": {
+    "datei": "img/rezepte/wurstsalat.jpg",
+    "autor": "Rainer Z ...",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Wurstsalat-1.jpg"
+   }
+  },
+  {
+   "name": "Eiersalat mit Joghurt",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 20,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🥚",
+   "zutaten": [
+    "6 Eier",
+    "150 g Joghurt",
+    "1 TL Senf",
+    "2 Gewürzgurken",
+    "Schnittlauch",
+    "Salz, Pfeffer"
+   ],
+   "schritte": [
+    "Eier 10 Minuten hart kochen, abschrecken und würfeln.",
+    "Joghurt mit Senf verrühren.",
+    "Gurken und Schnittlauch dazu.",
+    "Mit den Eiern mischen und abschmecken."
+   ],
+   "tipp": "Joghurt statt Mayonnaise – genauso lecker, viel leichter.",
+   "id": "eiersalat",
+   "foto": {
+    "datei": "img/rezepte/eiersalat.jpg",
+    "autor": "Mushki Brichta",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Egg_salad_01.jpg"
+   }
+  },
+  {
+   "name": "Gefüllte Zucchini mit Feta",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🥒",
+   "zutaten": [
+    "2 Zucchini",
+    "150 g Feta",
+    "1 Tomate",
+    "1 Knoblauchzehe",
+    "Oregano",
+    "1 EL Olivenöl"
+   ],
+   "schritte": [
+    "Zucchini längs halbieren und aushöhlen.",
+    "Fruchtfleisch mit Tomate, Feta, Knoblauch und Oregano mischen.",
+    "Zucchini füllen und mit Öl beträufeln.",
+    "Im Airfryer bei 180 °C 15 Minuten backen."
+   ],
+   "tipp": "Als Beilage oder mit Hähnchen als ganze Mahlzeit.",
+   "id": "zucchinifeta",
+   "foto": {
+    "datei": "img/rezepte/zucchinifeta.jpg",
+    "autor": "Burkhard Mücke",
+    "lizenz": "CC BY-SA 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Gef%C3%BCllte_Mini-Zucchini.jpg"
+   }
+  },
+  {
+   "name": "Rosenkohl aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "500 g Rosenkohl",
+    "1 EL Olivenöl",
+    "Salz, Pfeffer",
+    "1 Knoblauchzehe",
+    "Parmesan",
+    "Zitrone"
+   ],
+   "schritte": [
+    "Rosenkohl putzen und halbieren.",
+    "Mit Öl, Salz und Knoblauch mischen.",
+    "Bei 190 °C 14–16 Minuten rösten, zweimal schütteln.",
+    "Mit Parmesan und Zitrone servieren."
+   ],
+   "tipp": "Geröstet schmeckt Rosenkohl nussig statt bitter.",
+   "id": "rosenkohl",
+   "foto": {
+    "datei": "img/rezepte/rosenkohl.jpg",
+    "autor": "Missvain",
+    "lizenz": "CC BY 4.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Roasted_Brussels_sprouts_-_December_2023_-_Sarah_Stierch_02.jpg"
+   }
+  },
+  {
+   "name": "Grünkohl mit magerer Wurst",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 60,
+   "portionen": 4,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "1 kg Grünkohl (frisch oder TK)",
+    "2 Zwiebeln",
+    "4 Geflügel-Mettwürstchen",
+    "500 ml Brühe",
+    "Senf",
+    "Pfeffer, Muskat"
+   ],
+   "schritte": [
+    "Zwiebeln anschwitzen, Grünkohl dazu.",
+    "Mit Brühe ablöschen und 40 Minuten schmoren.",
+    "Würstchen obenauf legen, 15 Minuten mitgaren.",
+    "Mit Senf servieren."
+   ],
+   "tipp": "Haferflocken statt Grütze zum Binden – oder ganz ohne.",
+   "id": "gruenkohl",
+   "foto": {
+    "datei": "img/rezepte/gruenkohl.jpg",
+    "autor": "Oliver Hallmann",
+    "lizenz": "CC BY 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCnkohl,_Pinkel,_Salzkartoffeln.jpg"
+   }
+  },
+  {
+   "name": "Spitzkohl-Hack-Pfanne",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 25,
+   "portionen": 3,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "1 Spitzkohl",
+    "400 g mageres Hack",
+    "1 Zwiebel",
+    "1 EL Tomatenmark",
+    "Kümmel, Paprika",
+    "Joghurt"
+   ],
+   "schritte": [
+    "Hack mit Zwiebel krümelig braten.",
+    "Tomatenmark und Gewürze dazu.",
+    "Spitzkohl in Streifen dazugeben, 10 Minuten braten.",
+    "Mit einem Klecks Joghurt servieren."
+   ],
+   "tipp": "In 25 Minuten fertig – und ein ganzer Kohlkopf passt rein.",
+   "id": "spitzkohl"
+  },
+  {
+   "name": "Kohlrabi-Schnitzel aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🥬",
+   "zutaten": [
+    "2 Kohlrabi",
+    "1 Ei",
+    "40 g gemahlene Mandeln",
+    "20 g Parmesan",
+    "Salz, Muskat",
+    "Kräuterquark"
+   ],
+   "schritte": [
+    "Kohlrabi schälen, in 1 cm Scheiben schneiden und 5 Minuten vorgaren.",
+    "Durch Ei ziehen, in Mandel-Parmesan wenden.",
+    "Im Airfryer bei 190 °C 12 Minuten backen.",
+    "Mit Kräuterquark servieren."
+   ],
+   "tipp": "Vegetarisches Schnitzel mit viel Biss.",
+   "id": "kohlrabi",
+   "foto": {
+    "datei": "img/rezepte/kohlrabi.jpg",
+    "autor": "Unknown",
+    "lizenz": "CC0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Brassica_oleracea_var._gongylodes_(kohlrabi).jpg"
+   }
+  },
+  {
+   "name": "Gefüllte Champignons aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 20,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🍄",
+   "zutaten": [
+    "12 große Champignons",
+    "100 g Frischkäse light",
+    "50 g Feta",
+    "Knoblauch, Petersilie",
+    "1 EL Parmesan",
+    "Salat"
+   ],
+   "schritte": [
+    "Stiele herausdrehen und fein hacken.",
+    "Mit Frischkäse, Feta, Knoblauch und Petersilie mischen.",
+    "Pilze füllen, mit Parmesan bestreuen.",
+    "Bei 180 °C 10 Minuten im Airfryer backen."
+   ],
+   "tipp": "Als Abendessen mit großem Salat oder als Beilage.",
+   "id": "champignons",
+   "foto": {
+    "datei": "img/rezepte/champignons.jpg",
+    "autor": "Stacy",
+    "lizenz": "CC BY 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Stuffed_portabella_mushrooms,_June_2009.jpg"
+   }
+  },
+  {
+   "name": "Ofenkürbis aus dem Airfryer",
+   "kueche": "deutsch",
+   "airfryer": true,
+   "zeit": 25,
+   "portionen": 2,
+   "kh": "mittel",
+   "emoji": "🎃",
+   "zutaten": [
+    "½ Hokkaido-Kürbis",
+    "1 EL Olivenöl",
+    "Rosmarin, Thymian",
+    "Salz, Pfeffer",
+    "100 g Feta",
+    "Kürbiskerne"
+   ],
+   "schritte": [
+    "Kürbis mit Schale in Spalten schneiden.",
+    "Mit Öl und Kräutern mischen.",
+    "Bei 190 °C 18 Minuten rösten, einmal wenden.",
+    "Mit Feta und Kürbiskernen servieren."
+   ],
+   "tipp": "Mit Feta oder Hähnchen dazu wird eine sättigende Mahlzeit draus.",
+   "id": "ofenkuerbis",
+   "foto": {
+    "datei": "img/rezepte/ofenkuerbis.jpg",
+    "autor": "Polonist",
+    "lizenz": "CC BY 2.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Tray_of_Roasted_Pumpkin,_Onion_and_Garlic.jpg"
+   }
+  },
+  {
+   "name": "Spargel mit Schinken und Kräuterquark",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 2,
+   "kh": "wenig",
+   "emoji": "🌱",
+   "zutaten": [
+    "1 kg weißer Spargel",
+    "150 g magerer Kochschinken",
+    "250 g Magerquark",
+    "Kräuter",
+    "2 kleine Kartoffeln (optional)",
+    "Zitrone"
+   ],
+   "schritte": [
+    "Spargel schälen und in Salzwasser mit Zitrone 12–15 Minuten garen.",
+    "Quark mit Kräutern und etwas Wasser cremig rühren.",
+    "Mit Schinken anrichten.",
+    "Kräuterquark statt Hollandaise dazu."
+   ],
+   "tipp": "Kräuterquark statt Sauce Hollandaise spart viele Kalorien.",
+   "id": "spargel",
+   "foto": {
+    "datei": "img/rezepte/spargel.jpg",
+    "autor": "GeoTrinity",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Simple_Spargel_Schinken_Butter.jpg"
+   }
+  },
+  {
+   "name": "Maultaschen in der Brühe",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 20,
+   "portionen": 4,
+   "kh": "mittel",
+   "emoji": "🥟",
+   "zutaten": [
+    "8 Maultaschen",
+    "1,2 l Rinderbrühe",
+    "2 Karotten",
+    "1 Lauch",
+    "Schnittlauch",
+    "Pfeffer"
+   ],
+   "schritte": [
+    "Gemüse in feine Streifen schneiden und in der Brühe 5 Minuten garen.",
+    "Maultaschen dazugeben und 10 Minuten ziehen lassen.",
+    "Mit Schnittlauch servieren.",
+    "Pro Person 2 Maultaschen und viel Gemüse."
+   ],
+   "tipp": "In der Brühe statt geschmälzt – deutlich leichter.",
+   "id": "maultaschen",
+   "foto": {
+    "datei": "img/rezepte/maultaschen.jpg",
+    "autor": "unbekannt",
+    "lizenz": "CC BY-SA 3.0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Maultaschensuppe.jpg"
+   }
+  },
+  {
+   "name": "Linsensalat mit Feta",
+   "kueche": "deutsch",
+   "airfryer": false,
+   "zeit": 30,
+   "portionen": 3,
+   "kh": "mittel",
+   "emoji": "🥗",
+   "zutaten": [
+    "200 g Berglinsen",
+    "1 Paprika, 1 Gurke",
+    "1 rote Zwiebel",
+    "100 g Feta",
+    "Petersilie",
+    "Essig, Öl, Senf"
+   ],
+   "schritte": [
+    "Linsen 20 Minuten bissfest kochen und abkühlen lassen.",
+    "Gemüse würfeln.",
+    "Mit Dressing und Petersilie mischen.",
+    "Feta darüberbröseln."
+   ],
+   "tipp": "Hält im Kühlschrank 3 Tage – gut für die Arbeit.",
+   "id": "linsensalat",
+   "foto": {
+    "datei": "img/rezepte/linsensalat.jpg",
+    "autor": "Benoît Prieur",
+    "lizenz": "CC0",
+    "quelle": "https://commons.wikimedia.org/wiki/File:Salade_de_lentilles,_potimarron_r%C3%B4ti_et_Feta.jpg"
+   }
   }
  ],
  "airfryerTipps": [
