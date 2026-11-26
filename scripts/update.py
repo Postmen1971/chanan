@@ -628,10 +628,19 @@ def update_news():
     for p in picked:
         p["link"] = eb_link(resolve_google_link(p["link"])) if "ebersbach.de" in p["link"] else resolve_google_link(p["link"])
         info = page_info(p["link"])
-        if info.get("summary") and info["summary"].lower() != p["title"].lower():
-            p["summary"] = info["summary"]
-        if info.get("image"):
-            p["image"] = info["image"]
+        summ = info.get("summary", "")
+        if "ebersbach.de" in p["link"] and info.get("html"):
+            # Stadtseite: echten Artikeltext statt der allgemeinen Seitenbeschreibung nehmen
+            parts = [strip_tags(x) for x in re.findall(r'class="[^"]*content--editor[^"]*"[^>]*>(.*?)</div>', info["html"], re.S)]
+            parts = [x for x in parts if len(x) > 40]
+            summ = parts[0][:700] if parts else ""
+        if "herzlich willkommen auf der offiziellen" in summ.lower():
+            summ = ""
+        if summ and summ.lower() != p["title"].lower():
+            p["summary"] = summ
+        img = info.get("image", "")
+        if img and "logo" not in img.lower():
+            p["image"] = img
     log("News-Links:", [p["link"][:80] for p in picked])
     write_json("news.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"), "items": picked})
 
