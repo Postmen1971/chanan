@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:01",
+ "updated": "2026-11-26T20:04",
  "items": [
   {
    "title": "Amateurfußball Region Esslingen: TSV Denkendorf gegen SV Ebersbach: Abwehrbollwerk trifft auf Offensivpower",
@@ -20,6 +20,24 @@
    "image": "https://www.ebersbach.de/resources/02%20Datenobjekte/Mitteilungen/St%C3%A4dtische%20Mitteilungen/Raichberg-Schulzentrum.jpg"
   },
   {
+   "title": "BlackEBERweek vom 23. bis 29. November: „Lass die Sau raus – Ebersbach gibt einen aus!“",
+   "source": "Stadt Ebersbach",
+   "link": "https://www.ebersbach.de//BlackEBERweek-vom-23-bis-29-November-Lass-die-Sau-raus-Ebersbach-gibt-einen-aus-article4935",
+   "date": null,
+   "region": "Ebersbach",
+   "summary": "Herzlich Willkommen auf der offiziellen Internetseite der Stadt Ebersbach an der Fils.",
+   "image": "https://www.ebersbach.de/resources/02%20Datenobjekte/Mitteilungen/St%C3%A4dtische%20Mitteilungen/2026_Aufruf%20BlackWeek.jpg"
+  },
+  {
+   "title": "Artenschutz spricht gegen Deponie bei Heiningen",
+   "source": "swp.de",
+   "link": "https://www.swp.de/lokales/goeppingen/deponie-bei-heiningen-artenschutz-spricht-gegen-deponie-bei-heiningen-79785181.html",
+   "date": "2026-11-26T18:01+00:00",
+   "region": "Göppingen",
+   "summary": "Ein 200-seitiges Gutachten untersucht, wie sich Natur- und Artenschutz auf mögliche Deponiestandorte auswirken. Demnach ist die Fläche im Kreis Göppingen „wenig geeignet“.",
+   "image": "https://cdn.swp.de/2025/07/08/07d8d4ad-8e68-422a-bcec-24df43f4d7e8.jpg?width=1200&crop=1920%2C1080%2C0%2C0&format=webp&token=02dc770eecc0a59d1e14b2ce9512b944c5db9fa1a16aae99c08d0a442438d192"
+  },
+  {
    "title": "Antje Maichl neue Leiterin: Ein perfektes Match für das Haus Linde",
    "source": "swp.de",
    "link": "https://www.swp.de/lokales/goeppingen/antje-maichl-neue-leiterin-ein-perfektes-match-fuer-das-haus-linde-79786649.html",
@@ -27,24 +45,6 @@
    "region": "Göppingen",
    "summary": "Die gebürtige Göppingerin tritt die Nachfolge von Wolfgang Baumung an, der zum Ende des Jahres in den Ruhestand geht.",
    "image": "https://cdn.swp.de/2026/11/26/8c6f11d1-1561-4cd4-866e-a78f74e12889.jpg?width=1200&crop=6048%2C3402%2C0%2C315&format=webp&token=085ddaf2885d0f603844c25d11e99b7e410954c33c77c09c799ef40df6c5253f"
-  },
-  {
-   "title": "Hospiz in Geislingen: Autohaus Stierle sponsert Dienstfahrzeug für Hospiz-Leiterin",
-   "source": "swp.de",
-   "link": "https://www.swp.de/lokales/geislingen/hospiz-in-geislingen-autohaus-stierle-sponsert-dienstfahrzeug-fuer-hospiz-leiterin-79782264.html",
-   "date": "2026-11-26T14:00+00:00",
-   "region": "Göppingen",
-   "summary": "Der neue vollelektrische Renault Twingo ist mit dem Hospiz-Logo versehen.",
-   "image": "https://cdn.swp.de/2026/11/25/b33ff651-97b4-4c7d-adbc-1e4e2a0d85a7.jpg?width=1200&crop=3937%2C2215%2C0%2C369&format=webp&token=26308f00c2ff2ac079cbb6257b06280f91470aa0346e07dd6d130bb54f8ee761"
-  },
-  {
-   "title": "Hochschulseelsorge in Geislingen: Vom Gebirgsjäger zum Seelsorger aus Leidenschaft und Überzeugung",
-   "source": "swp.de",
-   "link": "https://www.swp.de/lokales/geislingen/hochschulseelsorge-in-geislingen-seelsorger-aus-leidenschaft-und-ueberzeugung-79783552.html",
-   "date": "2026-11-26T13:55+00:00",
-   "region": "Göppingen",
-   "summary": "Pfarrer Andreas Honegger ist Gemeindepfarrer, Hochschulseelsorger und Leiter der Notfallseelsorge im Landkreis Göppingen. Für ihn gehört „Menschen in Not beizustehen“ zur DNA der Kirche.",
-   "image": "https://cdn.swp.de/2026/11/25/4d1818eb-af98-41af-a7fe-9a04a1c5d4fd.jpg?width=1200&crop=3937%2C2215%2C0%2C738&format=webp&token=bc147cadd634d994b7c69be86989175890a6b51ca68daed794a4b5b4c60f7d17"
   }
  ]
 }
