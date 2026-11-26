@@ -240,30 +240,164 @@ def parse_events_pdf(blob):
     return events
 
 
-def update_events():
-    try:
-        blob = fetch(EVENTS_PDF)
-        events = parse_events_pdf(blob)
-    except Exception as e:  # noqa: BLE001
-        log("Veranstaltungen: fehlgeschlagen:", e)
-        return
-    events = [e for e in events if e["title"]]
-    if len(events) < 20:
-        log(f"Veranstaltungen: nur {len(events)} Einträge erkannt – alte Datei bleibt")
-        return
+EB_EVENTS = "https://www.ebersbach.de/veranstaltung"
+GOE_EVENTS = "https://eventkalender.erlebe-dein-goeppingen.de/eventkalender"
+GOE_BASE = "https://eventkalender.erlebe-dein-goeppingen.de/"
+
+
+def eb_events_api():
+    """Termine der Stadt Ebersbach über deren Schnittstelle (mit Uhrzeit und Link)."""
+    page = fetch(EB_EVENTS).decode("utf-8", "replace")
+    m = re.search(r'document="([^"]+)"', page)
+    if not m:
+        return []
     out = []
-    for e in events:
-        last = e["end"] or e["start"]
-        if last < TODAY:
+    for pg in (1, 2):
+        api = ("https://www.ebersbach.de/api/event/list/event-appointment?document=" + urllib.parse.quote(m.group(1))
+               + f"&limit=24&page={pg}&filters[date][from]=" + urllib.parse.quote(TODAY.isoformat() + " 00:00:00"))
+        req = urllib.request.Request(api, headers={**UA, "Accept": "application/json", "X-Requested-With": "XMLHttpRequest"})
+        with urllib.request.urlopen(req, timeout=40) as r:
+            data = json.loads(r.read().decode("utf-8"))
+        for art in re.split(r"<article\b", data.get("results") or "")[1:]:
+            t = re.search(r"<h3[^>]*>(.*?)</h3>", art, re.S)
+            d = re.search(r'datetime="(\d{4}-\d\d-\d\d) (\d\d:\d\d)', art)
+            h = re.search(r'href="([^"]+)"', art)
+            if not t or not d:
+                continue
+            tm = d.group(2)
+            out.append({"start": d.group(1), "end": None, "time": None if tm == "00:00" else tm,
+                        "title": strip_tags(t.group(1)), "link": eb_link(h.group(1)) if h else EB_EVENTS,
+                        "org": "", "place": "", "desc": "", "region": "Ebersbach"})
+    return out
+
+
+def eb_event_details(ev):
+    try:
+        html = fetch(ev["link"], timeout=25).decode("utf-8", "replace")
+    except Exception as e:  # noqa: BLE001
+        log("Ebersbach-Detail nicht ladbar:", ev["link"][:80], e)
+        return
+    m = re.search(r'card-subtitle__location.*?card-subtitle__label">(.*?)</span>', html, re.S)
+    if m and not ev.get("place"):
+        ev["place"] = strip_tags(m.group(1)).replace(" | ", " · ")
+    m = re.search(r'class="[^"]*content--editor[^"]*"[^>]*>(.*?)</div>', html, re.S)
+    if m:
+        txt = strip_tags(m.group(1))
+        if len(txt) > 40:
+            ev["desc"] = txt[:900]
+    m = re.search(r"Veranstalter\s*</span>.*?accordion-body\">(.*?)</div>", html, re.S)
+    if m and not ev.get("org"):
+        ev["org"] = strip_tags(m.group(1))[:120]
+
+
+GOE_DATE = re.compile(r"(\d{1,2})\.(\d{1,2})\.(\d{2})")
+
+
+def goe_events():
+    """Veranstaltungen aus dem Eventkalender des Stadtmarketings Göppingen."""
+    html = fetch(GOE_EVENTS, timeout=60).decode("utf-8", "replace")
+    out = []
+    for blk in re.split(r'<div class="eventexcerpt[_a-z]*"', html)[1:]:
+        ds = re.search(r'class="datesec">(.*?)</div>', blk, re.S) or re.search(r'class="eventdatum">(.*?)</div>', blk, re.S)
+        title = re.search(r"<h3>(.*?)</h3>", blk, re.S) or re.search(r'class="title"[^>]*>(.*?)</div>', blk, re.S)
+        link = re.search(r'class="overlaylink" href="([^"]+)"', blk)
+        if not ds or not title or not link:
             continue
-        out.append({"start": e["start"].isoformat(),
-                    "end": e["end"].isoformat() if e["end"] else None,
-                    "title": e["title"], "org": e["org"], "place": e["place"],
-                    "importance": importance(e["title"])})
-    out.sort(key=lambda x: x["start"])
+        dtxt = strip_tags(ds.group(1))
+        dates = GOE_DATE.findall(dtxt)
+        if not dates:
+            continue
+        mk = lambda t: dt.date(2000 + int(t[2]), int(t[1]), int(t[0]))
+        start = mk(dates[0])
+        end = mk(dates[1]) if len(dates) > 1 else None
+        tm = re.search(r"(\d{1,2}:\d\d)", dtxt)
+        sub = re.search(r"<h4>(.*?)</h4>", blk, re.S)
+        desc = re.search(r'class="descsec">(.*?)</div>', blk, re.S)
+        org = place = ""
+        for icon, val in re.findall(r'--svgicon-url: var\(--ek-([a-z-]+)\)"></div>\s*<div class="content"[^>]*>(.*?)</div>', blk, re.S):
+            if "contributor" in icon or "organizer" in icon:
+                org = org or strip_tags(val)
+            elif "location" in icon or "address" in icon:
+                place = place or strip_tags(val)
+        img = re.search(r'<img class="mediafootage" src="([^"]+)"', blk)
+        title_s = strip_tags(title.group(1))
+        sub_s = strip_tags(sub.group(1)) if sub else ""
+        desc_s = strip_tags(desc.group(1)) if desc else ""
+        out.append({"start": start.isoformat(), "end": end.isoformat() if end else None,
+                    "time": tm.group(1) if tm else None,
+                    "title": title_s if not sub_s or len(title_s) > 40 else f"{title_s} – {sub_s}",
+                    "org": org, "place": place, "desc": desc_s[:900],
+                    "image": (GOE_BASE + img.group(1)) if img and not img.group(1).startswith("http") else (img.group(1) if img else ""),
+                    "link": GOE_BASE + link.group(1), "region": "Göppingen",
+                    "highlight": 'event-type="highlight"' in blk[:600]})
+    # doppelte (Highlight + Liste) zusammenführen
+    seen, uniq = set(), []
+    for e in out:
+        k = (e["link"], e["start"])
+        if k in seen:
+            continue
+        seen.add(k)
+        uniq.append(e)
+    return uniq
+
+
+def update_events():
+    items = []
+    # 1) Ebersbach über die Schnittstelle der Stadt
+    try:
+        eb = eb_events_api()
+    except Exception as e:  # noqa: BLE001
+        log("Ebersbach-Termine (Schnittstelle) fehlgeschlagen:", e)
+        eb = []
+    # Veranstalter/Ort aus dem Jahres-PDF ergänzen
+    pdf = []
+    try:
+        pdf = parse_events_pdf(fetch(EVENTS_PDF))
+    except Exception as e:  # noqa: BLE001
+        log("Veranstaltungs-PDF fehlgeschlagen:", e)
+    for e in eb:
+        for p in pdf:
+            if p["start"].isoformat() == e["start"] and similar(p["title"], e["title"]):
+                e["org"], e["place"] = p["org"], p["place"]
+                break
+    if not eb:  # Ersatz: nur das PDF
+        for p in pdf:
+            if (p["end"] or p["start"]) >= TODAY:
+                eb.append({"start": p["start"].isoformat(), "end": p["end"].isoformat() if p["end"] else None,
+                           "time": None, "title": p["title"], "org": p["org"], "place": p["place"],
+                           "desc": "", "link": EB_EVENTS, "region": "Ebersbach"})
+    eb = [e for e in eb if e["start"] >= TODAY.isoformat() or (e.get("end") or "") >= TODAY.isoformat()]
+    eb.sort(key=lambda e: e["start"])
+    for e in eb:
+        e["importance"] = importance(e["title"])
+    for e in [x for x in eb if x["importance"] >= 1 and "ebersbach.de//" in x["link"]][:12]:
+        eb_event_details(e)
+    items += eb
+    # 2) Göppingen
+    try:
+        goe = goe_events()
+        limit = (TODAY + dt.timedelta(days=45)).isoformat()
+        for e in goe:
+            s, en = e["start"], e["end"] or e["start"]
+            if en < TODAY.isoformat() or s > limit:
+                continue
+            days = (dt.date.fromisoformat(en) - dt.date.fromisoformat(s)).days
+            if days > 7:   # Dauerausstellungen u. ä. nicht anzeigen
+                continue
+            e["importance"] = 2 if e.pop("highlight", False) else max(1, importance(e["title"]))
+            if importance(e["title"]) == 0:
+                e["importance"] = 0
+            items.append(e)
+        log(f"Göppingen: {sum(1 for i in items if i['region'] == 'Göppingen')} Termine")
+    except Exception as e:  # noqa: BLE001
+        log("Göppingen-Termine fehlgeschlagen:", e)
+    if len(items) < 3:
+        log("Veranstaltungen: zu wenig Einträge – alte Datei bleibt")
+        return
+    items.sort(key=lambda x: (x["start"], x.get("time") or ""))
     write_json("events.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"),
-                               "source": "Veranstaltungskalender Stadt Ebersbach an der Fils",
-                               "items": out})
+                               "source": "Stadt Ebersbach an der Fils · Stadtmarketing Göppingen",
+                               "items": items})
 
 
 # ---------------------------------------------------------------- Nachrichten

@@ -297,7 +297,7 @@ body{
   </section>
 
   <section class="card" id="termine">
-    <div class="label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Was ist los in Ebersbach</div>
+    <div class="label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Was ist los · Ebersbach &amp; Göppingen</div>
     <div id="events"><div class="hint">Lade …</div></div>
   </section>
 
@@ -607,9 +607,19 @@ async function loadEvents(){
   const t0=today0();
   const up=(d&&d.items||[]).map(e=>({...e,s:parseDay(e.start),e2:e.end?parseDay(e.end):parseDay(e.start)}))
     .filter(e=>e.e2>=t0).sort((a,b)=>a.s-b.s);
-  let pick = up.filter(e=>(e.importance??1)>=1).slice(0,5);
-  if(pick.length<5) pick = pick.concat(up.filter(e=>!pick.includes(e)).slice(0,5-pick.length)).sort((a,b)=>a.s-b.s);
-  if(!pick.length){ box.innerHTML=`<div class="hint">Gerade keine Termine im Kalender der Stadt.</div>`; return }
+  // 5 Termine: wichtige zuerst nach Datum, höchstens 3 aus einem Ort, damit Ebersbach und Göppingen beide vorkommen
+  const good = up.filter(e=>(e.importance??1)>=1);
+  const cnt = {}; let pick = [];
+  for(const e of good){
+    const r = e.region||"Ebersbach";
+    const other = good.some(x=>(x.region||"Ebersbach")!==r && !pick.includes(x));
+    if((cnt[r]||0) >= 3 && other) continue;
+    pick.push(e); cnt[r]=(cnt[r]||0)+1;
+    if(pick.length===5) break;
+  }
+  if(pick.length<5) pick = pick.concat(up.filter(e=>!pick.includes(e)).slice(0,5-pick.length));
+  pick.sort((a,b)=>a.s-b.s || String(a.time||"").localeCompare(String(b.time||"")));
+  if(!pick.length){ box.innerHTML=`<div class="hint">Gerade keine Termine.</div>`; return }
   EVENTS = pick;
   box.innerHTML = pick.map((e,i)=>{
     const running = e.s<t0;
@@ -755,7 +765,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-26b";
+const VERSION = "2026-11-26c";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
