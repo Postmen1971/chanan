@@ -5,6 +5,13 @@ import json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 UA = {"User-Agent": "Familien-Dashboard/1.0 (github.com/Postmen1971/chanan)"}
 OUT = "kandidaten"
 SUCHE = {
+ 'tavuksote2': ['Chicken stir fry peppers', 'Tavuk sote yemeği'],
+ 'bugulama2': ['Levrek buğulama', 'Fish baked with tomatoes and peppers'],
+ 'wirsing2': ['Savoy cabbage soup', 'Wirsingeintopf Teller'],
+ 'schweinefilet2': ['Pork medallions mushroom sauce', 'Pork tenderloin medallions plate'],
+ 'seelachs2': ['Baked fish fillet herb crust', 'Fish fillet with crust plate'],
+ 'gruenkohl2': ['Grünkohl mit Pinkel', 'Grünkohl Teller Wurst'],
+ 'spitzkohl2': ['Cabbage with minced meat pan', 'Fried cabbage with ground beef'],
  "menemen": ["Menemen", "Menemen Turkish breakfast"],
  "mercimek": ["Mercimek çorbası", "Turkish red lentil soup"],
  "koefte": ["Izgara köfte", "Köfte grilled Turkish"],
