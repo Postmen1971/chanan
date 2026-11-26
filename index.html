@@ -608,7 +608,10 @@ async function loadEvents(){
   const up=(d&&d.items||[]).map(e=>({...e,s:parseDay(e.start),e2:e.end?parseDay(e.end):parseDay(e.start)}))
     .filter(e=>e.e2>=t0).sort((a,b)=>a.s-b.s);
   // 5 Termine: wichtige zuerst nach Datum, höchstens 3 aus einem Ort, damit Ebersbach und Göppingen beide vorkommen
-  const good = up.filter(e=>(e.importance??1)>=1);
+  // Highlights der nächsten 14 Tage zuerst, dann der Rest nach Datum
+  const soon = new Date(t0.getTime()+14*864e5);
+  const good = up.filter(e=>(e.importance??1)>=1)
+    .sort((a,b)=>((b.importance===2 && b.s<=soon)-(a.importance===2 && a.s<=soon)) || (a.s-b.s));
   const cnt = {}; let pick = [];
   for(const e of good){
     const r = e.region||"Ebersbach";
@@ -765,7 +768,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-26c";
+const VERSION = "2026-11-26d";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
