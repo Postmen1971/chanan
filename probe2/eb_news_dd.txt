@@ -1,0 +1,569 @@
+URL https://www.ebersbach.de//40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956
+FINAL https://www.ebersbach.de//40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956
+STATUS 200
+LEN 37751
+
+                                            
+<!DOCTYPE html>
+<html class="no-js" lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+                            <meta name="date" content="2026-11-18">
+            
+            <title>40 Millionen Euro für das Raichberg-Schulzentrum: Was die Machbarkeitsstudie zeigt und wie es weitergeht | Ebersbach an der Fils</title>
+            <meta name="description" content="Herzlich Willkommen auf der offiziellen Internetseite der Stadt Ebersbach an der Fils." />
+
+
+                            <link rel="canonical" href="https://www.ebersbach.de/mitteilung/40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956"/>
+                                                                        
+    
+        
+                                <meta property="og:title" content="40 Millionen Euro für das Raichberg-Schulzentrum: Was die Machbarkeitsstudie zeigt und wie es weitergeht">
+                                                                                            <meta property="og:type" content="website">
+                                                                        <meta property="og:image" content="https://www.ebersbach.de/resources/02%20Datenobjekte/Mitteilungen/St%C3%A4dtische%20Mitteilungen/Raichberg-Schulzentrum.jpg">
+                            <meta property="og:url" content="https://www.ebersbach.de/%2F40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956">
+            
+            <link rel="icon" href="https://www.ebersbach.de/assets/website/favicon.ico" sizes="any">
+    <link rel="icon" href="https://www.ebersbach.de/assets/website/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://www.ebersbach.de/assets/website/apple-touch-icon.png">
+    <link rel="manifest" href="https://www.ebersbach.de/assets/website/site.webmanifest">
+
+        
+        
+                        <!-- CCM -->
+                        <link rel="preconnect" href="https://ccm.ceasy.de">
+        <link rel="dns-prefetch" href="https://ccm.ceasy.de">
+        <script src="https://ccm.ceasy.de/public/app.js?apiKey=90fa24a847583e08429d9d01661a049795641fa75aced960&amp;domain=04290b2" referrerpolicy="origin"></script>
+                                                                <!-- END CCM -->
+                        
+                        <!-- Matomo -->
+    <link rel="preconnect" href="https://statistik.disgovery.de">
+    <link rel="dns-prefetch" href="https://statistik.disgovery.de">
+    <script>
+        var _paq = window._paq = window._paq || [];
+                _paq.push(["disableCookies"]);
+                _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://statistik.disgovery.de/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '135']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- END Matomo -->
+
+                
+                                                                
+                    <link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/templates/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/css/main.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/css/main-custom.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/layouts/print.min.css" media="print" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/layouts/default.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/layouts/ccm.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/twig-strap/default.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/twig-strap/detail.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/bootstrap/accordion.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/areas/accordion.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/bootstrap/tables.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/areas/editor.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/partials/skip-links.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/css/search.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/templates/navigation.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/partials/page-crumb.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/areas/image.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/partials/image-copyright-button.min.css" media="screen" rel="stylesheet" type="text/css" />
+        
+                                
+                        
+                    <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+        <script>
+            (function(html){
+                const browserClass = /Firefox/.test(navigator.userAgent) ? 'firefox' :
+                    /Edg/.test(navigator.userAgent) ? 'edge' :
+                        /Chrome/.test(navigator.userAgent) ? 'chrome' :
+                            /Safari/.test(navigator.userAgent) ? 'safari' :
+                                /OPR|Opera/.test(navigator.userAgent) ? 'opera' : '';
+                if (browserClass) {
+                    html.classList.add(browserClass);
+                }
+            })(document.documentElement);
+        </script>
+        <script src="/cache-buster-1795531527/bundles/hitcomfrontend/js/polyfills/all.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/head.min.js"></script>
+<script src="/cache-buster-1795682760/assets/website/js/head.min.js"></script>
+        
+            
+                
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement":
+        [
+        ]
+    }
+</script>
+        
+            </head>
+    <body data-page-id="18" data-parent-id="1" data-root-id="18" data-template="detail">
+        
+        <div class="skip-links" data-no-crawl="true"><div class="skip-links__header"><strong>Sprungmarken</strong></div><div class="skip-links__body"><button type="button" class="button button--content" aria-label="Direkt zum Inhalt springen"><span aria-hidden="true">Zum Inhalt springen</span></button><button type="button" class="button button--navigation" aria-label="Direkt zur Navigation springen"><span aria-hidden="true">Zur Navigation springen</span></button><button type="button" class="button button--search" aria-label="Direkt zur Suche springen"><span aria-hidden="true">Zur Suche springen</span></button></div></div>
+        <div class="access-keys visually-hidden" aria-hidden="true" data-no-crawl="true"><a href="https://www.ebersbach.de" accesskey="0" tabindex="-1">Zur Startseite</a><a href="/Aktuelles" accesskey="1" tabindex="-1">Aktuelles</a><a href="/Rathaus-Service" accesskey="2" tabindex="-1">Rathaus &amp; Service</a><a href="/Lebenswertes-Ebersbach" accesskey="3" tabindex="-1">Lebenswertes Ebersbach</a><a href="/Wirtschaft-Wohnen" accesskey="4" tabindex="-1">Wirtschaft &amp; Wohnen</a></div>
+                <div class="page">
+            <div class="page__wrapper">
+                                    <header class="page__header" data-no-crawl="true">
+                                
+    <div class="container-fluid ps-0">
+                    <div class="logo">
+    <div class="logo__inner">
+        <a href="https://www.ebersbach.de" class="logo__link" title="Zur Startseite" data-title-home="Zum Seitenanfang springen">
+            <span>
+                <img src="/assets/website/img/logo/ebersbach.svg" alt="">
+            </span>
+        </a>
+    </div>
+</div>
+
+        
+                    <div class="d-none d-lg-flex">
+                
+            
+
+
+
+                                    
+            
+                                                                                                                                                <div class="search search--preview">
+                <div class="search__preview" data-id="6b08739346ef7">​</div>
+            </div>
+            <script>
+                    ((window, document) => {
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const $search = document.querySelector('.search__preview[data-id=\'6b08739346ef7\']');
+
+                            const config = Gufi({
+                                endpoints: {
+                                    search: 'https://www.ebersbach.de/search/api/search?pool=website',
+                                    suggest: 'https://www.ebersbach.de/search/api/suggest?pool=website',
+                                    metrics: 'https://www.ebersbach.de/search/api/metrics?pool=website'
+                                },
+                                cssUrls: [
+                                    '/bundles/hitcomsearch/css/gufi-client/gufi.min.css',
+                                    '/assets/website/css/gufi.min.css'
+                                ],
+                                urls: {
+                                    list: '/suche'
+                                },
+                                translations: {
+                                    
+                                },
+                                hidePreview: false,
+                                                                                                
+                            });
+
+                            if ($search !== null) {
+                                                                config.preview({
+                                    element: $search
+                                });
+                                                            }
+                        });
+                    })(window, document);
+                </script>            
+                
+                            
+                    
+
+                </div>
+        
+                            
+        </div>
+
+                                                                            
+                         
+                        
+
+    
+            
+<div class="off-canvas" data-no-crawl="true">
+    <input type="checkbox" id="off-canvas__trigger" class="off-canvas__trigger">
+    <div class="off-canvas__wrapper">
+        <label for="off-canvas__trigger" class="off-canvas__toggle off-canvas__toggle--open" aria-label="Navigation öffnen">
+            <span class="lines" aria-hidden="true">≡</span>
+            <span class="text">Menü</span>
+        </label>
+
+        <label for="off-canvas__trigger" class="off-canvas__toggle off-canvas__toggle--off" aria-label="Navigation schließen">
+            <span aria-hidden="true">×</span>
+        </label>
+
+        <div class="off-canvas__inner off-canvas--has-footer">
+            <label for="off-canvas__trigger" class="off-canvas__toggle off-canvas__toggle--close" aria-label="Navigation schließen">
+                <span aria-hidden="true">×</span>
+            </label>
+
+                            <div class="off-canvas__search d-something-none">
+                    
+            
+
+
+
+                                    
+            
+                                                                                                                                                <div class="search search--preview">
+                <div class="search__preview" data-id="6b08739347acf">​</div>
+            </div>
+            <script>
+                    ((window, document) => {
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const $search = document.querySelector('.search__preview[data-id=\'6b08739347acf\']');
+
+                            const config = Gufi({
+                                endpoints: {
+                                    search: 'https://www.ebersbach.de/search/api/search?pool=website',
+                                    suggest: 'https://www.ebersbach.de/search/api/suggest?pool=website',
+                                    metrics: 'https://www.ebersbach.de/search/api/metrics?pool=website'
+                                },
+                                cssUrls: [
+                                    '/bundles/hitcomsearch/css/gufi-client/gufi.min.css',
+                                    '/assets/website/css/gufi.min.css'
+                                ],
+                                urls: {
+                                    list: '/suche'
+                                },
+                                translations: {
+                                    
+                                },
+                                hidePreview: false,
+                                                                                                
+                            });
+
+                            if ($search !== null) {
+                                                                config.offCanvas({
+                                    element: $search
+                                });
+                                                            }
+                        });
+                    })(window, document);
+                </script>            
+                
+                            
+                    
+
+                    </div>
+            
+            <div class="main-navigation" data-root-id="18">
+                <nav aria-label="Hauptmenü"></nav>
+            </div>
+
+                            <div class="off-canvas__footer">
+                                                                        <a href="https://www.ebersbach.de/karriere" class="button button--icon" target="_blank" title="In einem neuen Fenster" rel="noopener noreferrer">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/koffer.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Jobss und Karriere</span>
+                            </a>
+                                                                                                <a href="https://www.ebersbach.de/oeffnungszeiten" class="button button--icon" target="_self">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/uhr.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Online-Bürgerbüro</span>
+                            </a>
+                                                                                                <a href="https://www.ebersbach.de/online-buergerbuero" class="button button--icon" target="_blank" title="In einem neuen Fenster" rel="noopener noreferrer">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/buerger.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Online-Bürgerbüro</span>
+                            </a>
+                                                                                                <a href="https://www.ebersbach.de/hinweisgeber" class="button button--icon">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/hinweisgeber.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Kontakt</span>
+                            </a>
+                                                            </div>
+            
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    window.initMainNavigation && window.initMainNavigation('https://www.ebersbach.de/frontend/navigation.json?documentId=18&rootId=18', true);
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+                    
+
+                
+            
+                        </header>
+                                <main class="page__main">
+                            
+
+                            
+                
+        
+    
+        <section class="section section--crumb pt-5 pb-5 pb-sm-8" data-no-crawl="true">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col">
+                    <div class="meta-navigation meta-navigation--crumb">
+                                                    
+    
+    
+
+                                                        
+<nav class="meta-navigation__nav" aria-label="Brotkrumen-Navigation">
+    <ol class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de" class="meta-navigation__link">
+                <span>Startseite</span>
+            </a>
+        </li>
+                                                                                                                                                                                    
+                    <li class="meta-navigation__item">
+                <span>40 Millionen Euro für das Raichberg-Schulzentrum: Was die Machbarkeitsstudie zeigt und wie es weitergeht</span>
+            </li>
+            </ol>
+</nav>
+                                            </div>
+                                    </div>
+                            </div>
+        </div>
+    </section>
+
+
+            
+                <div class="dgf-detail dgf-detail--article">
+                    
+
+    
+    
+        
+                
+            <section  class="dgf-content-banner pb-md-4-75 pb-4 pt-4 pt-md-4-75 bg-lighter"><div class="container-xxl"><article
+	 class="bg-transparent border-0 card card--horizontal card--has-image"><div class='row'><figure class='col-md col-md-4 dgf-card-image'><div class="content--image "><a href="/resources/02%20Datenobjekte/Mitteilungen/St%C3%A4dtische%20Mitteilungen/Raichberg-Schulzentrum.jpg" class="rounded-1" target="_blank" rel="noopener noreferrer"><figure><picture><img src="/02%20Datenobjekte/Mitteilungen/St%C3%A4dtische%20Mitteilungen/2126/image-thumb__2126___auto_a4dde7c73ae5dbf60102d6e707a58007/Raichberg-Schulzentrum.2f6f0134.jpg" alt="" class="card-img-top rounded-1" loading="lazy"></picture></figure></a><div class="lightbox lightbox--hide"><div class="lightbox__header"><div class="lightbox__buttons"><button type="button" class="lightbox__button lightbox__button--close" tabindex="1"><span class="icon" aria-hidden="true"><img src="/bundles/hitcomfrontend/img/material-symbols/400/outlined/close.svg" width="32" height="32" alt="" loading="lazy"></span></button></div></div><div class="lightbox__body"><div class="lightbox__image"><figure><img src="/resources/02%20Datenobjekte/Mitteilungen/St%C3%A4dtische%20Mitteilungen/Raichberg-Schulzentrum.jpg" width="4608" height="3456" alt="" loading="lazy"></figure></div></div></div></div></figure><div class='col-md col-md-6'><div class='card-body pt-4 pt-md-0 px-0 px-md-1-5 pb-0'><h1 class="card-title fw-bold dgf-heading">40 Millionen Euro für das Raichberg-Schulzentrum: Was die Machbarkeitsstudie zeigt und wie es weitergeht</h1><p class='card-subtitle mt-4 '><span class="fw-bold">
+                                            Gemeindemitteilungen / Städtische Mitteilungen
+                                    </span></p><div class='card-text mt-2-5'><p class="mb-2"><time datetime="2026-11-18 10:46:56">18.11.2026</time></p></div></div></div></div></article></div></section>    
+
+
+                    
+
+                        <section class="container-xxl mt-5 mt-md-8">
+                <div class="row">
+                    
+                                        <div class="col-lg-8 col-md-10 mb-3 content--editor">
+                    <p>Viele Eltern möchten wissen, was die geplante Sanierung am Raichberg-Schulzentrum für ihre Kinder bedeutet und wie die Anliegen der Schulen berücksichtigt werden. Die Stadtverwaltung möchte deshalb erklären, wofür sie Fördermittel einwirbt, wann die Schulleitungen einbezogen werden und welche Entscheidungen noch ausstehen.</p>
+<h2>Warum die Stadt den Sanierungsbedarf nachweisen muss</h2>
+<p>Das Regierungspräsidium Stuttgart hat die Gebäude bei seiner ersten Einschätzung lediglich als in die Jahre gekommen bewertet. Im Vergleich mit anderen Schulen im Land stuft es den Sanierungsbedarf am Raichberg als deutlich weniger dringlich ein. Die Gebäude wurden über Jahre gut instand gehalten. Für den Förderantrag muss die Stadtverwaltung deshalb konkret belegen, welche Arbeiten trotz des insgesamt gepflegten Zustands erforderlich sind.</p>
+<p>Am 3. November wurde dazu im Ausschuss für Technik und Umwelt eine sogeannte Machbarkeitsstudie vorgestellt. Sie ist gewissermaßen Stufe null, bevor ein konkretes Sanierungskonzept erarbeitet werden kann. Die Studie fasst mögliche Arbeiten nach Bereichen zusammen. Dazu gehören Heizung und Sanitäranlagen, Betonbauteile, abgehängte Decken innen und außen sowie die fest installierte Netzwerktechnik. Diese ist im Maßnahmenpaket berücksichtigt, auch wenn sie in der Präsentation keinen eigenen Punkt hatte.</p>
+<p>Die Studie schätzt die Kosten des untersuchten Maßnahmenpakets auf rund 39,8 Millionen Euro brutto. Die Schätzung beruht auf Gebäudeflächen und üblichen Kostenkennwerten. Für die Antragsunterlagen wurden gemeinsam mit dem Hausmeister einzelne Mängel fotografiert, etwa ein defektes Urinal, kaputte Lichtschalter, defekte Sanitäranlagen, Wassereinbrüche oder eine defekte Trennwand. Die Fotos zeigen Beispiele. Die genaue Aufnahme und Bewertung der einzelnen Arbeiten folgt in der weiteren Planung. Ob und in welcher Höhe das Land einen Zuschuss gewährt, ist offen.</p>
+<h2>Warum für den Förderantrag kein pädagogisches Konzept erarbeitet wird</h2>
+<p>Die Fördermittel, um die sich die Stadtverwaltung mit diesem Antrag bemüht, sind ausschließlich für die bauliche und technische Sanierung der bestehenden Schulgebäude bestimmt. Für die Entscheidung über den Zuschuss prüft das Regierungspräsidium, welche Arbeiten für den Erhalt der Gebäude erforderlich und förderfähig sind. Ein pädagogisches Raumkonzept beantwortet eine andere Frage. Es leitet aus der künftigen Gestaltung von Unterricht und Schulleben ab, welche Räume dafür umgestaltet oder geschaffen werden müssten.</p>
+<p>Die Erarbeitung und bauliche Umsetzung eines solchen Konzepts gehören nicht zu diesem Förderantrag. Die dafür erforderlichen Umbauten müssten gesondert finanziert werden. Dafür stehen der Stadt derzeit keine Mittel zur Verfügung. Eine bauliche Umsetzung pädagogischer Konzepte ist deshalb auf absehbare Zeit nicht in Sicht. Ein Konzept jetzt schon auszuarbeiten, würde bei Eltern und Schulen Erwartungen wecken, für deren Erfüllung es derzeit keine finanzielle Grundlage gibt.</p>
+<h2>Welche Möglichkeiten es in den vorhandenen Gebäuden gibt</h2>
+<p>Sobald feststeht, welche Arbeiten das Land fördert und wie hoch der Zuschuss ausfällt, wird die Stadtverwaltung mit beiden Schulleitungen besprechen, welche der finanzierbaren Maßnahmen im Schulalltag am dringendsten gebraucht werden. In diesem Rahmen kann auch geprüft werden, ob sich etwa der Computerraum innerhalb des vorhandenen Gebäudes vergrößern lässt. Das hängt von den baulichen Möglichkeiten und der Finanzierung ab. Über Umfang und Reihenfolge der Arbeiten wird mit dem Gemeinderat beraten.</p>
+<p>Das Raichberg-Gymnasium hatte bereits früher einen neunjährigen Bildungsgang und damals mehr Schülerinnen und Schüler als heute. Auch die Realschule hatte früher höhere Schülerzahlen. Die Zahlen sind an beiden Schulen seit Jahren rückläufig. Darin spiegelt sich der allegemeine Rückgang der Geburtenzahlen im Land wider. Das Regierungspräsidium wertet dazu ihre eigene Schulstatistik aus und beurteilt den Bedarf an Klassen- und Fachräumen nach den Flächenvorgaben des Landes. Die vorhandenen Flächen am Raichberg liegen über dem Bedarf nach diesen Maßstäben. Für die Rückkehr zu G9 sind daher keine zusätzlichen Schulräume vorgesehen.</p>
+<h2>Warum die Stadt Schritt für Schritt vorgehen muss</h2>
+<p>Die Stadt trägt seit über 20 Jahren ein strukturelles Defizit im Ergebnishaushalt mit sich. Das bedeutet, dass die laufenden Einnahmen auf Dauer nicht ausreichen, um die laufenden Aufwendungen zu decken. Der Einbruch bei der Gewerbesteuer um rund drei Millionen Euro hat die Lage weiter verschärft. Zugleich muss die Stadt in den Hochwasserschutz, die Feuerwehr und den Katastrophenschutz investieren. Auch an anderen Schulen und in Kindergärten stehen Sanierungen an.</p>
+<p>Bürgermeisterin Manuela Raichle sagt dazu: „Ich verstehe gut, dass Eltern und Schulleitungen sich für ihre Kinder und Schulen mehr wünschen. Auch ich würde gern mehr möglich machen. Aber die Stadt kann das Defizit nicht immer weiter vor sich herschieben. Jeder Euro kann nur einmal ausgegeben werden. Wir haben auch noch Feuerwehr, Katastrophenschutz und Hochwasserschutz - hier geht es im Ernstfall auch um Menschenleben. Zudem haben wir mehrere Schulen, Kindergärten und Sporthallen, die sich in einem ähnlichen Zustand, wie der Raichberg befinden. Deshalb bitte ich um Verständnis, dass die Stadt die dringendsten Arbeiten zuerst angehen muss. Am Raichberg ist dies die Sanierung von Beton, Heizung und Sanitäranlagen.“</p>
+<p>Die Stadtverwaltung wird weitere Fördermöglichkeiten prüfen und Programme dort kombinieren, wo die Förderbedingungen es zulassen. Zuerst sollen die seit Jahren notwendigen Arbeiten angegangen werden. Ob darüber hinaus kleinere Verbesserungen möglich sind, lässt sich Schritt für Schritt klären, sobald Fördermittelzusage und eine mögliche Finanzierung feststeht.</p>
+                </div>
+                        
+                </div>
+            </section>
+            
+            
+        <section class="container-xxl mt-5 mt-md-8">
+            <div class="accordion accordion-flush" id="accordion-6b0873934e3ed">
+
+                
+                
+                                                                
+                                                                
+                                                                
+                
+                
+                
+            </div>
+        </section>
+
+    
+
+                
+
+
+                    
+
+    
+
+                </div>
+                                    </main>
+                                    <footer class="page__footer" data-no-crawl="true">
+                                <div class="pt-8 pb-8 bg-black">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col offset-xl-4 mb-7 heading">
+                                            <h2>Stadt Ebersbach an der Fils</h2>
+                                    </div>
+                <div class="col-auto d-flex">
+                                            <div class="meta-navigation meta-navigation--social">
+                            <nav class="meta-navigation__nav" aria-label="Social Media Links">
+    <ul class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <a href="https://www.facebook.com/profile.php?id=100079581845548" class="meta-navigation__link button button--icon" title="Facebookseite der Stadt Ebersbach" target="_blank">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/social-media-icons/facebook.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span class="visually-hidden" aria-hidden="true">Facebook</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.instagram.com/stadt_ebersbach_an_der_fils/" class="meta-navigation__link button button--icon" title="Instagramseite der Stadt Ebersbach" target="_blank">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/social-media-icons/instagram.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span class="visually-hidden" aria-hidden="true">Instagram</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.youtube.com/@stadtebersbachanderfils2391" class="meta-navigation__link button button--icon" title="YouTubeseite der Stadt Ebersbach" target="_blank">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/social-media-icons/youtube.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span class="visually-hidden" aria-hidden="true">YouTube</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        </div>
+                                                                <div class="top-link focus-within">
+                            <button type="button" class="button button--icon" aria-label="Zum Seitenanfang springen">
+                                <span class="icon" aria-hidden="true">
+                                    <img src="/assets/website/img/arrow.svg" width="24" height="24" alt="" loading="lazy">
+                                </span>
+                                <span class="visually-hidden">Zum Seitenanfang springen</span>
+                            </button>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+        <div class="container-xxl">
+            <div class="row gy-6">
+                <div class="col-lg-4 m-p">
+                                            <p class="mt-0">
+                            Marktplatz 1<br>
+                            73061 Ebersbach
+                        </p>
+                        <p class="hyphenate">
+                            <a title="Telefonnummer der Stadt Ebersbach" href="tel:+4971631610">07163 161-0</a><br>
+                            <a href="#" data-mailto-token="mvocvpnVnovyo9zwzmnwvxc9yz" data-mailto-vector="-5" title="E-Mail an rathaus(at)stadt.ebersbach.de"><span>rathaus(at)stadt.ebersbach.de</span></a>
+                        </p>
+                        <p class="hyphenate">
+                            <a class="button button-invert first-row-link mb-4" href="/oeffnungszeiten">Öffnungszeiten</a>
+                            <a class="button button-invert first-row-link" href="/bekanntmachungen">Öffentliche Bekanntmachungen</a>
+                        </p>
+                                    </div>
+                                <div class="col-lg-3">
+                                            <div class="meta-navigation meta-navigation--accessibility">
+                            <nav class="meta-navigation__nav" aria-label="Infos zur Barrierefreiheit">
+    <ul class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/bedienung-der-website" class="meta-navigation__link" title="Bedienung der Website">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/accessibility-icons/outlined/bedienung-der-website.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span aria-hidden="true">Bedienung der Website</span>
+            </a>
+        </li> 
+                        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/erklaerung-zur-barrierefreiheit" class="meta-navigation__link" title="Erklärung zur Barrierefreiheit">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/accessibility-icons/outlined/erklaerung-zur-barrierefreiheit.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span aria-hidden="true">Erklärung zur Barrierefreiheit</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/fehler-melden" class="meta-navigation__link" title="Fehler melden">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/accessibility-icons/outlined/fehler-melden.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span aria-hidden="true">Fehler melden</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        </div>
+                         <a class="button button-invert sec-row-link mt-4" href="/barrierefrei-durch-ebersbach">Barrierefrei durch Ebersbach</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="pb-6 bottom-white">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col">
+                                            <div class="meta-navigation meta-navigation--legal">
+                            <nav class="meta-navigation__nav" aria-label="Rechtliches">
+    <ul class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <button type="button" class="meta-navigation__button" onclick="CCM.openControlPanel();" aria-label="Cookie-Einstellungen">
+                <span aria-hidden="true">Cookie-Einstellungen</span>
+            </button>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/impressum" class="meta-navigation__link" title="Impressum">
+                <span aria-hidden="true">Impressum</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/datenschutz" class="meta-navigation__link" title="Datenschutz">
+                <span aria-hidden="true">Datenschutz</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/whistleblower" class="meta-navigation__link" title="Whistleblower">
+                <span aria-hidden="true">Whistleblower</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.hitcom.de" class="meta-navigation__link" target="_blank" title="Im neuen Fenster: Website der hitcom GmbH">
+                <span aria-hidden="true">by hitcom</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+                                    </footer>
+                            </div>
+        </div>
+        
+        
+                        <script src="/cache-buster-1795531527/bundles/hitcomfrontend/js/bootstrap/v5/bootstrap.bundle.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/body.min.js"></script>
+<script src="/cache-buster-1795682760/assets/website/js/main.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/default.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/ccm.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/areas/accordion.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/partials/skip-links.min.js"></script>
+<script src="/cache-buster-1795526323/bundles/hitcomsearch/js/gufi-client/gufi.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/templates/navigation.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/areas/image.min.js"></script>
+            </body>
+</html>

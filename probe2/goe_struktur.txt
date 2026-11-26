@@ -1,0 +1,75 @@
+LEN 1205029
+
+SCRIPT len=20 start=132 head='window.IS_DEV=false;'
+
+SCRIPT len=21 start=169 head='window.DEV_INFO=null;'
+
+SCRIPT len=52 start=1816 head="window.COOKIES={DOMAIN:'erlebe-dein-goeppingen.de'};"
+
+SCRIPT len=264 start=1885 head="\r\n\t\t\t\t\t\t\t  window.dataLayer = window.dataLayer || [];\r\n\t\t\t\t\t\t\t  function gtag(){dataLayer.push(arguments);}\r\n\t\t\t\t\t\t\t  gtag('js', new Date());\r\n\t\t\t\t\t\t\t  gtag('config', 'G-D5P51F0Z0M', { 'anonymize_ip': true });\r\n\t\t\t\t\t\t\t  window.COOKIES.GA_ID='G-D5P51F0Z0M';\r\n\t\t\t\t\t\t"
+
+SCRIPT len=129 start=2166 head="window.COOKIES.SLUGS=['essential','googleanalytics','youtube','vimeo','googlemaps','goeppingen360','instagramfeed','bookingkit'];"
+
+SCRIPT len=5302 start=2312 head='window.COOKIES.UNLOCKBOXES={};window.COOKIES.UNLOCKBOXES.youtube="<div class=\\"unlockbox\\" cookie-slug=\\"youtube\\">\t\t\t\t\t\t\t\t\t\t<div class=\\"message\\">An dieser Stelle finden Sie Inhalte aus YouTube. Um mit Inhalten aus YouTube und anderen externer Quellen zu interagieren oder diese darzustellen, brauc'
+
+SCRIPT len=12321 start=7631 head='window.COOKIES.POPUPBOX="<div class=\\"cookiepopupbox\\">\t\t\t\t<div class=\\"cookiesettingbox\\" aria-hidden=\\"true\\">\t\t\t\t<div class=\\"cookiesection intro\\">\t\t\t\t<div class=\\"text\\">Wir verwenden Cookies und andere Technologien auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfe'
+
+SCRIPT len=914 start=450093 head='\r\n\t\tglobalThis.docroot=this;\r\n\t\tconsole.log(this);\r\n\t\tconsole.log(globalThis);\r\n\t\tif(this!==globalThis){\r\n\t\t\tlet tmp_doc=this.getRootNode({composed:true});\r\n\t\t\tif(tmp_doc!==null){\r\n\t\t\t\tglobalThis.docroot=tmp_doc;\r\n\t\t\t}\r\n\t\t}\r\n\t\t\r\n\t\tconsole.log("docroot:", globalThis.docroot);\r\n\t\tconst GET={\'params\':\''
+
+SCRIPT len=0 start=451024 head=''
+
+SCRIPT len=0 start=451115 head=''
+
+SCRIPT len=0 start=451194 head=''
+
+SCRIPT len=0 start=451276 head=''
+
+SCRIPT len=0 start=451364 head=''
+
+SCRIPT len=0 start=451446 head=''
+
+SCRIPT len=0 start=451526 head=''
+
+SCRIPT len=0 start=451608 head=''
+
+SCRIPT len=0 start=451689 head=''
+
+SCRIPT len=0 start=451785 head=''
+
+SCRIPT len=0 start=451881 head=''
+
+SCRIPT len=0 start=451944 head=''
+
+SCRIPT len=0 start=452035 head=''
+
+SCRIPT len=0 start=452130 head=''
+
+SCRIPT len=0 start=452215 head=''
+
+SCRIPT len=0 start=452314 head=''
+
+SCRIPT len=0 start=452413 head=''
+
+SCRIPT len=0 start=452536 head=''
+
+SCRIPT len=0 start=452637 head=''
+
+SCRIPT len=0 start=452726 head=''
+
+SCRIPT len=275 start=1204713 head='\r\n\t\tif (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {\r\n\t\t\tdocument.body.innerHTML = "<h1>Um diese Seite anschauen zu können müssen Sie einen zeitgemäßen Browser verwenden wie z.B. Google Chrome, Microsoft Edge, Apple Safari oder Mozilla Firefox.</h1>";\r\n\t\t}\r\n\t'
+
+KW h2suz6b91v at 463229: 'ading="lazy" onload="docroot.mediafootage_img_onload(event)" />\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\t<div class="textoverlay">\r\n\t\t\t\t\t<div class="title" id="aria165920309817957160412622">Historische Stadtführungen</div>\r\n\t\t\t\t\t<div class="eventdatum"><span><no-wrap>Sa 12.12.26</no-wrap> <no-wrap> 10:30&thinsp;–&thinsp;12:00 Uhr</no-wrap></span></div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<a class="overlaylink" href="h2suz6b91v" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria165920309817957160412622"></a>\r\n\t\t\t</div><div class="eventtexcerpt_highlight" event-excerpt-id="2023/09/01/13/41/52522551/" event-categoryid="go9j09cb4h"  style="--filter-color: #437c00" event-type="highlight">\r\n\t\t\t\t<div class="media" \r\n\t\t\t\tmedia-type="img" \r\n\t\t\t\ttarget-id="uploadcontainer5085873971795716041546" \r\n\t\t\t\tmedia-id="2026/10/09/08/33/22288422/" \r\n\t\t\t\timg-size="512" \r\n\t\t\t\tbuffer-behavior="" \r\n\t\t\t\t\r\n\t\t\t\tstyle="--aspect-ratio:0.75; --obj-pos-x:50.4573%; --obj-pos-y:55.8774%;" " >\r\n\t\t\t\t<img class'
+
+KW Stadtführungen at 463030: '7777777778; --obj-pos-x:50%; --obj-pos-y:50%;" " >\r\n\t\t\t\t<img class="mediafootage" src="data/media/2024/12/17/09/14/57617691/1_historische-stadtfuehrung-1_512.jpg"  width="512" height="288"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\t<div class="textoverlay">\r\n\t\t\t\t\t<div class="title" id="aria165920309817957160412622">Historische Stadtführungen</div>\r\n\t\t\t\t\t<div class="eventdatum"><span><no-wrap>Sa 12.12.26</no-wrap> <no-wrap> 10:30&thinsp;–&thinsp;12:00 Uhr</no-wrap></span></div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<a class="overlaylink" href="h2suz6b91v" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria165920309817957160412622"></a>\r\n\t\t\t</div><div class="eventtexcerpt_highlight" event-excerpt-id="2023/09/01/13/41/52522551/" event-categoryid="go9j09cb4h"  style="--filter-color: #437c00" event-type="highlight">\r\n\t\t\t\t<div class="media" \r\n\t\t\t\tmedia-type="img" \r\n\t\t\t\ttarget-id="uploadcontainer5085873971795716041'
+
+KW Historische at 463018: '-ratio:1.7777777777778; --obj-pos-x:50%; --obj-pos-y:50%;" " >\r\n\t\t\t\t<img class="mediafootage" src="data/media/2024/12/17/09/14/57617691/1_historische-stadtfuehrung-1_512.jpg"  width="512" height="288"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\t<div class="textoverlay">\r\n\t\t\t\t\t<div class="title" id="aria165920309817957160412622">Historische Stadtführungen</div>\r\n\t\t\t\t\t<div class="eventdatum"><span><no-wrap>Sa 12.12.26</no-wrap> <no-wrap> 10:30&thinsp;–&thinsp;12:00 Uhr</no-wrap></span></div>\r\n\t\t\t\t</div>\r\n\t\t\t\t<a class="overlaylink" href="h2suz6b91v" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria165920309817957160412622"></a>\r\n\t\t\t</div><div class="eventtexcerpt_highlight" event-excerpt-id="2023/09/01/13/41/52522551/" event-categoryid="go9j09cb4h"  style="--filter-color: #437c00" event-type="highlight">\r\n\t\t\t\t<div class="media" \r\n\t\t\t\tmedia-type="img" \r\n\t\t\t\ttarget-id="uploadcontainer5085873'
+
+KW 12.12.2026 none
+
+KW 2026-12 at 679314: '\t<div class="bottomsec">\t\r\n\t\t\t\t\t<div class="mediasec">\r\n\t\t\t\t\t\t<div class="media" \r\n\t\t\t\tmedia-type="img" \r\n\t\t\t\ttarget-id="uploadcontainer101793809917957160418192" \r\n\t\t\t\tmedia-id="2026/10/14/10/26/14578531/" \r\n\t\t\t\timg-size="256" \r\n\t\t\t\tbuffer-behavior="" \r\n\t\t\t\t\r\n\t\t\t\tstyle="--aspect-ratio:; --obj-pos-x:50%; --obj-pos-y:50%;" " >\r\n\t\t\t\t<img class="mediafootage" src="data/media/2026/10/14/10/26/14578531/2026-12-04_italia_256.svg"    alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class="textsec">\r\n\t\t\t\t\t\t<div class="descsec">\r\n\t\t\t\t\t\t\t𝗕𝗲𝗹𝗹𝗮 𝗜𝘁𝗮𝗹𝗶𝗮 - 𝗱𝗲𝘂𝘁𝘀𝗰𝗵-𝗶𝘁𝗮𝗹𝗶𝗲𝗻𝗶𝘀𝗰𝗵𝗲 𝗧𝗮𝗻𝘇𝗽𝗮𝗿𝘁𝘆\nmit DJ Frank 💃🏻🕺🏻\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class="infosec">\r\n\t\t\t\t\t\t\t<div class="svgiconwrapper "  >\r\n\t\t\t\t<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>\r\n\t\t\t\t<div class="content" id="aria158255480517957160418194"> Tanzlokal Bamboleo Göppingen</div>\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class="svgiconwrapp'
+
+KW "title" at 455962: 'ner200562391117957160404729" \r\n\t\t\t\tmedia-id="goeppingen_logo_berge.svg" \r\n\t\t\t\timg-size="0" \r\n\t\t\t\tbuffer-behavior="" \r\n\t\t\t\t\r\n\t\t\t\tstyle="--aspect-ratio:; --obj-pos-x:50%; --obj-pos-y:50%;" " >\r\n\t\t\t\t<img class="mediafootage" src="data/media/goeppingen_logo_berge.svg"    alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t</div>\r\n\t\t\t</a>\r\n\t\t\t<div class="title">Eventkalender</div>\r\n\t\t\t\r\n\t\t\t<a class="accessibilitybt" href="https://erlebe-dein-goeppingen.de/leichte-sprache" target="_blank" aria-label="Erklärung zur Barrierefreiheit in Leichter Sprache">\r\n\t\t\t\t<div class="text">Erklärung zur Barrierefreiheit</div>\r\n\t\t\t\t<div class="svgicon"></div>\r\n\t\t\t</a>\r\n\t\t\t<button class="svgiconbutton showmenubt" tabindex="0" aria-label="" role="button" style="--svgicon-url: var(--menu-icon-burger);"has-extradom><div class="beforedom extradom">Menü</div><div class="svgicon"></div></button>\r\n\t\t\t\r\n\t\t</div>\r\n        <div class="ek_eventhighlightexcerpts" hide-scr'
+
+KW "start" none
+
+KW dates at 490233: '</div>\r\n\t\t\t<div class="monthsec"><h2 class="monthname" in-month="11" in-year="2026">November </h2><div class="eventexcerpt" id="aria188518671817957160418585" event-excerpt-id="2026/08/12/16/01/25241583/" event-categoryid="go9ifet2i3" filter-ids="go9ifet2i3,go9iu7j8ju"  style="--filter-color: #673AB7"  event-type="standard">\r\n\t\t\t\t<div class="topsec">\r\n\t\t\t\t\t<div class="datebar">\t\r\n\t\t\t\t\t\t<div class="datesec">\r\n\t\t\t\t\t\t\t<span><no-wrap>Do 8.10.26 – </no-wrap><no-wrap>Fr 29.1.27</no-wrap></span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class="kwsec" aria-hidden="true">\r\n\t\t\t\t\t\t\tKW41-KW53, KW53 2027, KW1 2027-KW4 2027\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class="titlesec">\r\n\t\t\t\t\t\t<h3>TOT:END:ANZ</h3>\r\n\t\t\t\t\t\t<h4>Ausstellung</h4>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t\r\n\t\t\t\t<div class="bottomsec">\t\r\n\t\t\t\t\t<div class="mediasec">\r\n\t\t\t\t\t\t<div class="media" \r\n\t\t\t\tmedia-type="img" \r\n\t\t\t\ttarget-id="uploadcontainer178367225317957160418583" \r\n\t\t\t\tmedia-id="2026/08/12/16/04/03665435/" \r\n\t\t\t\timg-size="256" \r\n\t\t\t\tbuffer-behavi'

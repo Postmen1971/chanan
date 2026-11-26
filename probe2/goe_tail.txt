@@ -1,0 +1,1390 @@
+div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer198476695817957160418439" 
+				media-id="2026/08/30/10/27/06140661/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.7777777777778; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2026/08/30/10/27/06140661/270430_kv1_256.jpg"  width="256" height="144"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							MAY WE DANCE? - YES WE DO! 
+Tanz-in-den-Mai-Disco mit DJ Wulle B. für alle Freestyler.
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria17399610411795716041844"> ODEON Kultur & Kontakt e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria20601792051795716041844"> Altes E-Werk</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span><span class="httext">#Partys</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hltjvgin27" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria11711567921795716041844"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="5" in-year="2027">Mai 2027</h2><div class="eventexcerpt" id="aria14747324371795716042164" event-excerpt-id="2025/06/18/13/25/40416605/" event-categoryid="go9ifet2i3" filter-ids="go9ifet2i3,go9j09cb4h,go9iu7j8xk,go9iu7j8m5"  style="--filter-color: #673AB7"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Di 4.5.27</no-wrap> <no-wrap> 20:00&thinsp;–&thinsp;22:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW18 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Spark & Valer Sabadus Countertenor</h3>
+						<h4>Meisterkonzert</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer55726938417957160421637" 
+				media-id="2026/07/21/10/32/13748557/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.7890625; --obj-pos-x:50.6479%; --obj-pos-y:51.0163%;" " >
+				<img class="mediafootage" src="data/media/2026/07/21/10/32/13748557/spark--sabadus--gregor-hohenberg_512.jpg"  width="404" height="512"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Die preisgekrönte klassische Band Spark und Valer Sabadus, einer der weltbesten Countertenöre, präsentieren mit „Closer to Paradise“ ein faszinierendes Programm über ...
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria113198265217957160421639"> Kulturkreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria85285920617957160421639"> Stadthalle</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria24034631517957160421639"> 24 € - 44 €</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #673AB7">Kultur</span><span class="cattext"  style="--filter-color: #437c00">Freizeit</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Musik</span><span class="httext">#Bühne</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="h8ervuwva5" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria14747324371795716042164"></a>
+			</div><div class="eventexcerpt" id="aria89108873917957160419056" event-excerpt-id="2026/07/01/09/49/45849963/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9iu7j8m5,go9iu7j8ju,go9iu7j8zu"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Mi 12.5.27</no-wrap> <no-wrap> 20:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW19 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>KARDINALFEHLER</h3>
+						<h4>Kirchenkomödie in zwei Akten </h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer16568107517957160419054" 
+				media-id="2026/07/02/14/26/03638958/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.4970760233918; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2026/07/02/14/26/03638958/kardinalfehler-3_c_dietrich-dettmann_256.jpg"  width="256" height="171"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Bischof Konrad Glöckner und sein kleines deutsches Bistum gelten in Rom als Musterbeispiel einer heilen Welt: keine Skandale, kaum Kirchenaustritte. 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria154084708717957160419056"> Stadt Göppingen - Kulturbüro </div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria184695927017957160419056"> Stadthalle</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span><span class="httext">#Ausstellungen</span><span class="httext">#Sonstige Kulturveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hjzdd2jjor" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria89108873917957160419056"></a>
+			</div><div class="eventexcerpt" id="aria99281868917957160424697" event-excerpt-id="2024/01/11/11/07/10933319/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9iu7j87b,go9iu7j8e6"  style="--filter-color: #437c00"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 14.5.27</no-wrap> <no-wrap> 08:00&thinsp;–&thinsp;18:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW19 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Maimarkt</h3>
+						<h4>vom Marktplatz bis zum Schillerplatz</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer159740016717957160424694" 
+				media-id="2024/01/11/11/05/54479861/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.615141955836; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/11/11/05/54479861/seifen_512.jpg"  width="512" height="317"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Erlebt euren Göppinger Krämermarkt am 14. Mai 2027 von 8:00-18 Uhr in der Göppinger Innenstadt!
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria177643344817957160424696"> Stadt Göppingen - Kulturbüro & Märkte </div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria51633149217957160424697"> Innenstadt</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Märkte</span><span class="httext">#Sonstige Freizeitveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="gsczbehxdz" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria99281868917957160424697"></a>
+			</div><div class="eventexcerpt" id="aria1302405417957160421961" event-excerpt-id="2025/04/09/13/40/44088083/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9iu7j8qp,go9iu7j8xk,go9iu7j80e"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 11.12.26&thinsp;/&thinsp;</no-wrap><no-wrap>15.1.&thinsp;/&thinsp;</no-wrap><no-wrap>19.2.&thinsp;/&thinsp;</no-wrap><no-wrap>19.3.&thinsp;/&thinsp;</no-wrap><no-wrap>16.4.&thinsp;/&thinsp;</no-wrap><no-wrap>14.5.&thinsp;/&thinsp;</no-wrap><no-wrap>18.6.&thinsp;/&thinsp;</no-wrap><no-wrap>24.9.27</no-wrap> <no-wrap> jeweils 19:30&thinsp;–&thinsp;21:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50, KW2 2027, KW7 2027, KW11 2027, KW15 2027, KW19 2027, KW24 2027, KW38 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Meditatives Tanzen</h3>
+						<h4>Körper und Seele in Bewegung</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer98846115517957160421959" 
+				media-id="2024/01/22/08/19/43799922/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.75; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/22/08/19/43799922/24-1_med_256.jpg"  width="192" height="256"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Die meditativen Tänze lassen uns zur Ruhe kommen, bringen uns ins Gleichgewicht und geben uns neuen Schwung. In dieser Ausgeglichenheit werden wir offen für heilsame innere und äußere Bilder und erleben eine wohltuende Gemeinschaft untereinander.
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria18734301151795716042196"> Kath. Erwachsenenbildung Kreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria1701143831795716042196"> Katholisches Gemeindehaus St. Maria</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria20135195751795716042196"> 5,00€</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Glauben</span><span class="httext">#Musik</span><span class="httext">#Sonstige Bildungsveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="h69lvxw1zn" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria1302405417957160421961"></a>
+			</div><div class="eventexcerpt" id="aria20382540017957160421231" event-excerpt-id="2025/08/13/10/32/52838246/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9iu7j8m5,go9iu7j8xk,go9iu7j8e6"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Mi 26.5.27</no-wrap> <no-wrap> 20:00&thinsp;–&thinsp;22:30 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW21 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>TRUE COLLINS</h3>
+						<h4>Konzert</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer171776049617957160421229" 
+				media-id="2025/08/13/10/27/23525464/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:; --obj-pos-x:51.2703%; --obj-pos-y:40.5206%;" " >
+				<img class="mediafootage" src="data/media/2025/08/13/10/27/23525464/true-collins_256.svg"    alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Es gibt nicht allzu viele Vertreter der Musikbranche, die man als lebende Legende bezeichnen könnte. Jedoch dem britischen Superstar PHIL COLLINS gebührt ohne Zweifel diese Bezeichnung.
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria11560589231795716042123"> True Collins c/o Herr Tom Ludwig</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria190045183317957160421231"> Stadthalle</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria68281059117957160421231"> 47,76€</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span><span class="httext">#Musik</span><span class="httext">#Sonstige Freizeitveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="ha4duordye" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria20382540017957160421231"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="6" in-year="2027">Juni 2027</h2><div class="eventexcerpt" id="aria101247229617957160418922" event-excerpt-id="2026/07/13/13/32/17139884/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9iu7j8m5,go9iu7j8xk,go9iu7j8e6,go9iu7j8zu"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Di 1.6.27</no-wrap> <no-wrap> 20:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW22 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>HEIDELBERGER SINFONIKER </h3>
+						<h4>Antje Weithaas Violine 
+Johannes Klumpp Leitung </h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer123621029117957160418921" 
+				media-id="2026/07/13/13/44/24755175/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.3333333333333; --obj-pos-x:50.2541%; --obj-pos-y:45.2179%;" " >
+				<img class="mediafootage" src="data/media/2026/07/13/13/44/24755175/publicpreview-2.jfif"  width="1920" height="1440"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Seit über drei Jahrzehnten sorgen die Heidelberger Sinfoniker mit unverwechselbarem Klang, höchster Präzision und ansteckender Musizierfreude für Begeisterung bei Publikum und Presse. 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria180392149117957160418922"> Stadt Göppingen - Kulturbüro </div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria75923220817957160418922"> Stadthalle</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span><span class="httext">#Musik</span><span class="httext">#Sonstige Freizeitveranstaltungen</span><span class="httext">#Sonstige Kulturveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hkcrsni8x8" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria101247229617957160418922"></a>
+			</div><div class="eventexcerpt" id="aria2770095917957160420397" event-excerpt-id="2026/02/03/15/43/37149554/" event-categoryid="go9j09cb1h" filter-ids="go9j09cb1h,go9iu7j80e"  style="--filter-color: #006cc3"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Mi 9.12.26&thinsp;/&thinsp;</no-wrap><no-wrap>Mo 18.1.&thinsp;/&thinsp;</no-wrap><no-wrap>Mi 24.2.&thinsp;/&thinsp;</no-wrap><no-wrap>Do 8.4.&thinsp;/&thinsp;</no-wrap><no-wrap>10.6.&thinsp;/&thinsp;</no-wrap><no-wrap>Mi 21.7.&thinsp;/&thinsp;</no-wrap><no-wrap>Di 31.8.27</no-wrap> <no-wrap> jeweils 14:00&thinsp;–&thinsp;17:30 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50, KW3 2027, KW8 2027, KW14 2027, KW23 2027, KW29 2027, KW35 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Entdecken Sie Ihre Talente! </h3>
+						<h4>Individuelle Beratung in Einzelterminen
+
+</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer63768022417957160420395" 
+				media-id="2024/01/09/10/42/24315478/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.703125; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/09/10/42/24315478/k_427_1_256.jpg"  width="180" height="256"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Weiterbildungsberatung 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria85181207817957160420396"> Kath. Erwachsenenbildung Kreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria181770159317957160420397"> Geschäftsstelle Kath. Erwachsenenbildung, 2. OG</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria177649495517957160420397"> kostenlos</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #006cc3">Bildung</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Sonstige Bildungsveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hfgietqeeq" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria2770095917957160420397"></a>
+			</div><div class="eventexcerpt" id="aria124825489317957160425129" event-excerpt-id="2023/11/14/11/56/58040147/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9ifet2di,h5puwgxmuu,go9iu7j850,go9iu7j8zu,go9iu7j8xk"  style="--filter-color: #437c00"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 11.6 – </no-wrap><no-wrap>Mo 14.6.27</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW23 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Göppinger Maientag </h3>
+						<h4>Historisches Kinder- & Heimatfest</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer152584713517957160425127" 
+				media-id="2025/03/05/13/44/25643093/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.5014662756598; --obj-pos-x:48.995%; --obj-pos-y:55.167%;" " >
+				<img class="mediafootage" src="data/media/2025/03/05/13/44/25643093/bild_maientag_2025_512.jpg"  width="512" height="341"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Seit 1650 wird mit dem Maientag das Ende des Dreißigjährigen Krieges gefeiert. Damit ist das Fest eines der ältesten Kinderfeste Süddeutschlands und Höhepunkt im Festleben der Hohenstaufenstadt.
+
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria107151719917957160425129"> Stadt Göppingen</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria43230434617957160425129"> Festgelände rund um die EWS Arena</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span><span class="cattext"  style="--filter-color: #d73300">Jugend</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Maientag</span><span class="httext">#Feste</span><span class="httext">#Sonstige Kulturveranstaltungen</span><span class="httext">#Musik</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="gql2kpul3n" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria124825489317957160425129"></a>
+			</div><div class="eventexcerpt" id="aria1302405417957160421961" event-excerpt-id="2025/04/09/13/40/44088083/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9iu7j8qp,go9iu7j8xk,go9iu7j80e"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 11.12.26&thinsp;/&thinsp;</no-wrap><no-wrap>15.1.&thinsp;/&thinsp;</no-wrap><no-wrap>19.2.&thinsp;/&thinsp;</no-wrap><no-wrap>19.3.&thinsp;/&thinsp;</no-wrap><no-wrap>16.4.&thinsp;/&thinsp;</no-wrap><no-wrap>14.5.&thinsp;/&thinsp;</no-wrap><no-wrap>18.6.&thinsp;/&thinsp;</no-wrap><no-wrap>24.9.27</no-wrap> <no-wrap> jeweils 19:30&thinsp;–&thinsp;21:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50, KW2 2027, KW7 2027, KW11 2027, KW15 2027, KW19 2027, KW24 2027, KW38 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Meditatives Tanzen</h3>
+						<h4>Körper und Seele in Bewegung</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer98846115517957160421959" 
+				media-id="2024/01/22/08/19/43799922/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.75; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/22/08/19/43799922/24-1_med_256.jpg"  width="192" height="256"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Die meditativen Tänze lassen uns zur Ruhe kommen, bringen uns ins Gleichgewicht und geben uns neuen Schwung. In dieser Ausgeglichenheit werden wir offen für heilsame innere und äußere Bilder und erleben eine wohltuende Gemeinschaft untereinander.
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria18734301151795716042196"> Kath. Erwachsenenbildung Kreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria1701143831795716042196"> Katholisches Gemeindehaus St. Maria</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria20135195751795716042196"> 5,00€</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Glauben</span><span class="httext">#Musik</span><span class="httext">#Sonstige Bildungsveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="h69lvxw1zn" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria1302405417957160421961"></a>
+			</div><div class="eventexcerpt" id="aria125510356617957160423355" event-excerpt-id="2024/09/11/10/25/00543272/" event-categoryid="go9ifet2i3" filter-ids="go9ifet2i3,go9iu7j8m5"  style="--filter-color: #673AB7"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Do 24.6.27</no-wrap> <no-wrap> 20:00&thinsp;–&thinsp;22:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW25 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Lukas Sternath 
+Klavier</h3>
+						<h4>Meisterkonzert</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer12284067217957160423354" 
+				media-id="2026/07/21/10/41/41371460/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.4970760233918; --obj-pos-x:49.8476%; --obj-pos-y:43.4112%;" " >
+				<img class="mediafootage" src="data/media/2026/07/21/10/41/41371460/lukas-sternath_2--julia-wesely_web_256.jpg"  width="256" height="171"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Die Reise hat gerade erst begonnen: Der Pianist Lukas Sternath steht am Anfang einer großen Karriere. Dabei war der gebürtige Wiener schon früh ein...
+
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria160354933717957160423355"> Kulturkreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria131510816217957160423355"> Stadthalle</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria194904972617957160423355"> 24 - 44 €</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="gztx94y8tk" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria125510356617957160423355"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="7" in-year="2027">Juli 2027</h2><div class="eventexcerpt" id="aria2770095917957160420397" event-excerpt-id="2026/02/03/15/43/37149554/" event-categoryid="go9j09cb1h" filter-ids="go9j09cb1h,go9iu7j80e"  style="--filter-color: #006cc3"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Mi 9.12.26&thinsp;/&thinsp;</no-wrap><no-wrap>Mo 18.1.&thinsp;/&thinsp;</no-wrap><no-wrap>Mi 24.2.&thinsp;/&thinsp;</no-wrap><no-wrap>Do 8.4.&thinsp;/&thinsp;</no-wrap><no-wrap>10.6.&thinsp;/&thinsp;</no-wrap><no-wrap>Mi 21.7.&thinsp;/&thinsp;</no-wrap><no-wrap>Di 31.8.27</no-wrap> <no-wrap> jeweils 14:00&thinsp;–&thinsp;17:30 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50, KW3 2027, KW8 2027, KW14 2027, KW23 2027, KW29 2027, KW35 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Entdecken Sie Ihre Talente! </h3>
+						<h4>Individuelle Beratung in Einzelterminen
+
+</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer63768022417957160420395" 
+				media-id="2024/01/09/10/42/24315478/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.703125; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/09/10/42/24315478/k_427_1_256.jpg"  width="180" height="256"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Weiterbildungsberatung 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria85181207817957160420396"> Kath. Erwachsenenbildung Kreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria181770159317957160420397"> Geschäftsstelle Kath. Erwachsenenbildung, 2. OG</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria177649495517957160420397"> kostenlos</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #006cc3">Bildung</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Sonstige Bildungsveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hfgietqeeq" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria2770095917957160420397"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="8" in-year="2027">August 2027</h2><div class="eventexcerpt" id="aria72117332717957160425126" event-excerpt-id="2023/11/14/12/15/32621773/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2di,go9ifet2fs,go9iu7j850,go9iu7j8zu,gwsq80onkw"  style="--filter-color: #437c00"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>So 1.8.27</no-wrap> <no-wrap> 11:00&thinsp;–&thinsp;18:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW30 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>11. Göppinger Schloss-Straßen-Fest</h3>
+						<h4>Kinder- & Familienfest</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer104260501817957160425123" 
+				media-id="2025/07/09/15/33/31355422/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.666015625; --obj-pos-x:49.6443%; --obj-pos-y:33.1131%;" " >
+				<img class="mediafootage" src="data/media/2025/07/09/15/33/31355422/_dsc8449_512.jpg"  width="341" height="512"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Auch in diesem Jahr gibt für Daheimgebliebene Familien am ersten Sonntag im August wieder das Göppinger Schloss-Straßen-Fest. 
+ 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria54587019517957160425125"> Stadtmarketing Göppingen</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria180034855317957160425126"> Schlossplatz</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #d73300">Jugend</span><span class="cattext"  style="--filter-color: #8d7300">Kinder</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Feste</span><span class="httext">#Sonstige Kulturveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="gql335fxsd" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria72117332717957160425126"></a>
+			</div><div class="eventexcerpt" id="aria20935224951795716041811" event-excerpt-id="2026/10/21/11/55/47505527/" event-categoryid="go9ifet2fs" filter-ids="go9ifet2fs,go9iu7j850,go9iu7j8e6"  style="--filter-color: #8d7300"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Mo 2.8 – </no-wrap><no-wrap>Sa 7.8.27</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW31 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Göppingen spielt!</h3>
+						<h4>Aktionswoche</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer46062107817957160418108" 
+				media-id="2026/01/28/14/57/11530214/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.5014662756598; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2026/01/28/14/57/11530214/2016-08-01_goeppingercity_goeppingen-spielt_0002_512.jpg"  width="512" height="341"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Spiel-Aktionswoche vom 2. bis 7. August verwandelt sich die Göppinger Innenstadt und Ihre Geschäfte wieder in eine bunte Mitmachwelt! 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria9586790441795716041811"> Göppinger City e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria19328320201795716041811"> Göppingen</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #8d7300">Kinder</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Feste</span><span class="httext">#Sonstige Freizeitveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hneyapfh4n" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria20935224951795716041811"></a>
+			</div><div class="eventexcerpt" id="aria2770095917957160420397" event-excerpt-id="2026/02/03/15/43/37149554/" event-categoryid="go9j09cb1h" filter-ids="go9j09cb1h,go9iu7j80e"  style="--filter-color: #006cc3"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Mi 9.12.26&thinsp;/&thinsp;</no-wrap><no-wrap>Mo 18.1.&thinsp;/&thinsp;</no-wrap><no-wrap>Mi 24.2.&thinsp;/&thinsp;</no-wrap><no-wrap>Do 8.4.&thinsp;/&thinsp;</no-wrap><no-wrap>10.6.&thinsp;/&thinsp;</no-wrap><no-wrap>Mi 21.7.&thinsp;/&thinsp;</no-wrap><no-wrap>Di 31.8.27</no-wrap> <no-wrap> jeweils 14:00&thinsp;–&thinsp;17:30 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50, KW3 2027, KW8 2027, KW14 2027, KW23 2027, KW29 2027, KW35 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Entdecken Sie Ihre Talente! </h3>
+						<h4>Individuelle Beratung in Einzelterminen
+
+</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer63768022417957160420395" 
+				media-id="2024/01/09/10/42/24315478/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.703125; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/09/10/42/24315478/k_427_1_256.jpg"  width="180" height="256"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Weiterbildungsberatung 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria85181207817957160420396"> Kath. Erwachsenenbildung Kreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria181770159317957160420397"> Geschäftsstelle Kath. Erwachsenenbildung, 2. OG</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria177649495517957160420397"> kostenlos</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #006cc3">Bildung</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Sonstige Bildungsveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hfgietqeeq" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria2770095917957160420397"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="9" in-year="2027">September 2027</h2><div class="eventexcerpt" id="aria15152382311795716042116" event-excerpt-id="2025/09/08/08/56/58710820/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9iu7j850,go9iu7j87b,go9iu7j8xk,go9iu7j8bv"  style="--filter-color: #437c00"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 10.9.</no-wrap> <no-wrap> 19:00&thinsp;–&thinsp;01:00 Uhr</no-wrap>, </span><span><no-wrap>Sa 11.9.27</no-wrap> <no-wrap> 12:00&thinsp;–&thinsp;01:00 Uhr</no-wrap>, </span><span><no-wrap>So 12.9.27</no-wrap> <no-wrap> 11:00&thinsp;–&thinsp;20:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW36 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>42. Göppinger Stadtfest </h3>
+						<h4>Fest </h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer44301921517957160421158" 
+				media-id="2025/09/08/09/10/33941888/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.5014662756598; --obj-pos-x:50.6606%; --obj-pos-y:70.3308%;" " >
+				<img class="mediafootage" src="data/media/2025/09/08/09/10/33941888/2016-09-10_stadtfest-2_sascha_512.jpg"  width="512" height="341"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Immer am zweiten Wochenende im September findet das Stadtfest statt, dieses Jahr sogar das Göppinger Stadtfest. 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria10615099841795716042116"> Interessengemeinschaft Göppinger Stadtfest e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria2933193581795716042116"> Innenstadt</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Feste</span><span class="httext">#Märkte</span><span class="httext">#Musik</span><span class="httext">#Partys</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hawz6vgm5g" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria15152382311795716042116"></a>
+			</div><div class="eventexcerpt" id="aria205566762817957160425769" event-excerpt-id="2023/09/01/13/41/51975182/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2di,go9ifet2fs,go9iu7j89l,go9iu7j850,go9iu7j8e6"  style="--filter-color: #437c00"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 17.9 – </no-wrap><no-wrap>So 19.9.27</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW37 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Märklintage & Internationale Modellbahnausstellung IMA</h3>
+						<h4>Ausstellung, Messe & Fest</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer92612684417957160425767" 
+				media-id="2025/02/28/10/28/23065819/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.5014662756598; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2025/02/28/10/28/23065819/_dsc8731_512.jpg"  width="512" height="341"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							In diesem Jahr stehen in Göppingen wieder alle Zeichen auf Märklin und die Vorfreude steigt! Vom 17.-19. September finden wieder die Märklintage und die Internationale Modellbahnausstellung statt.
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria103892671717957160425769"> Gebr. Märklin & Cie. GmbH</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria185194703017957160425769"> Stauferpark Göppingen</div>
+				
+			</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #d73300">Jugend</span><span class="cattext"  style="--filter-color: #8d7300">Kinder</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Messen</span><span class="httext">#Feste</span><span class="httext">#Sonstige Freizeitveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="gobimtdxce" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria205566762817957160425769"></a>
+			</div><div class="eventexcerpt" id="aria192768013117957160419749" event-excerpt-id="2026/05/08/10/46/01606168/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9iu7j8m5,go9iu7j8e6"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Sa 18.9.27</no-wrap> <no-wrap> 19:00&thinsp;–&thinsp;21:30 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW37 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>BÜLENT CEYLAN </h3>
+						<h4>Diktatürk!</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer80609762117957160419747" 
+				media-id="2026/05/08/10/53/36265964/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.7777777777778; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2026/05/08/10/53/36265964/2027-09-18_buelent-ceylan_256.jpg"  width="256" height="144"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Bülent hat die Nase voll. Überall Diktatoren! Egal ob Politik, Mode, Beziehung oder Ernährung - ständig 
+will Dir einer sagen, was Du zu tun hast.
+
+Aber nicht mit Bülent. Ab heute wird zurückdiktiert!
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria58703838117957160419749"> Stadthalle </div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria180806567917957160419749"> Stadthalle</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria83538710917957160419749"> Tickets ab 46,40€</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span><span class="httext">#Sonstige Freizeitveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hibvkelpug" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria192768013117957160419749"></a>
+			</div><div class="eventexcerpt" id="aria1302405417957160421961" event-excerpt-id="2025/04/09/13/40/44088083/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9ifet2i3,go9iu7j8qp,go9iu7j8xk,go9iu7j80e"  style="--filter-color: #437c00"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Fr 11.12.26&thinsp;/&thinsp;</no-wrap><no-wrap>15.1.&thinsp;/&thinsp;</no-wrap><no-wrap>19.2.&thinsp;/&thinsp;</no-wrap><no-wrap>19.3.&thinsp;/&thinsp;</no-wrap><no-wrap>16.4.&thinsp;/&thinsp;</no-wrap><no-wrap>14.5.&thinsp;/&thinsp;</no-wrap><no-wrap>18.6.&thinsp;/&thinsp;</no-wrap><no-wrap>24.9.27</no-wrap> <no-wrap> jeweils 19:30&thinsp;–&thinsp;21:00 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50, KW2 2027, KW7 2027, KW11 2027, KW15 2027, KW19 2027, KW24 2027, KW38 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Meditatives Tanzen</h3>
+						<h4>Körper und Seele in Bewegung</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer98846115517957160421959" 
+				media-id="2024/01/22/08/19/43799922/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:0.75; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2024/01/22/08/19/43799922/24-1_med_256.jpg"  width="192" height="256"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Die meditativen Tänze lassen uns zur Ruhe kommen, bringen uns ins Gleichgewicht und geben uns neuen Schwung. In dieser Ausgeglichenheit werden wir offen für heilsame innere und äußere Bilder und erleben eine wohltuende Gemeinschaft untereinander.
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria18734301151795716042196"> Kath. Erwachsenenbildung Kreis Göppingen e.V.</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria1701143831795716042196"> Katholisches Gemeindehaus St. Maria</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria20135195751795716042196"> 5,00€</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span><span class="cattext"  style="--filter-color: #673AB7">Kultur</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Glauben</span><span class="httext">#Musik</span><span class="httext">#Sonstige Bildungsveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="h69lvxw1zn" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria1302405417957160421961"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="11" in-year="2027">November 2027</h2><div class="eventexcerpt" id="aria429114117179571604251" event-excerpt-id="2023/11/16/11/56/45132147/" event-categoryid="go9j09cb4h" filter-ids="go9j09cb4h,go9iu7j89l,go9iu7j8gp,go9iu7j82p,go9iu7j8m5"  style="--filter-color: #437c00"  event-type="highlight">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Sa 13.11 – </no-wrap><no-wrap>So 14.11.27</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW45 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Die Gesundheits– & Familienmesse "vitawell"</h3>
+						<h4></h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer214627210217957160425097" 
+				media-id="2026/11/19/11/07/54803745/" 
+				img-size="512" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.5014662756598; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2026/11/19/11/07/54803745/mdb111509356_6ff5af0320_512.jpg"  width="512" height="341"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Zahlreiche Aussteller, darunter Dienstleister, Kliniken, Therapeuten, Ernährungsexperten und viele weitere, präsentieren sich auf der vitawell in Göppingen mit ihren Produkten, Dienstleistungen und Angeboten und bieten ein hohes Maß an Fachinformationen für gesundheitsbewusste Menschen. 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria50646056517957160425099"> NPG Messe und Veranstaltungs-GmbH</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria1179848395179571604251"> Stadthalle</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria1847623671179571604251"> 0,00</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #437c00">Freizeit</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Messen</span><span class="httext">#Sport</span><span class="httext">#Vorträge</span><span class="httext">#Bühne</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="gqn9yatmk3" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria429114117179571604251"></a>
+			</div></div><div class="monthsec"><h2 class="monthname" in-month="12" in-year="2027">Dezember 2027</h2><div class="eventexcerpt" id="aria89875809117957160418081" event-excerpt-id="2026/10/22/15/13/54293495/" event-categoryid="go9ifet2i3" filter-ids="go9ifet2i3,go9j09cb4h,go9iu7j8m5,hm2il0tfhe,go9iu7j8zu,go9iu7j8e6,"  style="--filter-color: #673AB7"  event-type="standard">
+				<div class="topsec">
+					<div class="datebar">	
+						<div class="datesec">
+							<span><no-wrap>Do 16.12.27</no-wrap> <no-wrap> 20:00&thinsp;–&thinsp;22:30 Uhr</no-wrap></span>
+						</div>
+						<div class="kwsec" aria-hidden="true">
+							KW50 2027
+						</div>
+					</div>
+					<div class="titlesec">
+						<h3>Özcan Cosar - VIP</h3>
+						<h4>Zusatztermin</h4>
+					</div>
+				
+				</div>
+				
+				<div class="bottomsec">	
+					<div class="mediasec">
+						<div class="media" 
+				media-type="img" 
+				target-id="uploadcontainer187311578717957160418079" 
+				media-id="2026/10/22/15/14/50780952/" 
+				img-size="256" 
+				buffer-behavior="" 
+				
+				style="--aspect-ratio:1.7777777777778; --obj-pos-x:50%; --obj-pos-y:50%;" " >
+				<img class="mediafootage" src="data/media/2026/10/22/15/14/50780952/Oezcancosar_1920x1080-foto_borisbreuer_artwork-pilaupictures_256.jpg"  width="256" height="144"  alt="" loading="lazy" onload="docroot.mediafootage_img_onload(event)" />
+				
+				
+				
+				
+			</div>
+					</div>
+					<div class="textsec">
+						<div class="descsec">
+							Özcan Cosar ist zurück - mit "VIP"! 
+						</div>
+						<div class="infosec">
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-contributor-contact-name)"></div>
+				<div class="content" id="aria4096873701795716041808"> EWS Arena Betriebsgesellschaft mbH</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-location-address)"></div>
+				<div class="content" id="aria118950990817957160418081"> EWS Arena</div>
+				
+			</div>
+							<div class="svgiconwrapper "  >
+				<div class="svgicon" style="--svgicon-url: var(--ek-event-ticketprice)"></div>
+				<div class="content" id="aria162251457517957160418081"> Ab 48,30 €</div>
+				
+			</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="cathtagsec">
+					<div class="catsec">
+						<span class="cattext"  style="--filter-color: #673AB7">Kultur</span><span class="cattext"  style="--filter-color: #437c00">Freizeit</span>
+					</div>
+					<div class="htsec">
+						<span class="httext">#Bühne</span><span class="httext">#Comedy</span><span class="httext">#Sonstige Kulturveranstaltungen</span><span class="httext">#Sonstige Freizeitveranstaltungen</span>
+					</div>
+				</div>
+				<a class="overlaylink" href="hng7g6ug3b" target="_self" on-init="virtualizeHrefLink" rel="noopener" aria-labelledby="aria89875809117957160418081"></a>
+			</div></div>
+			<div class="nohits">- keine Treffer -</div>
+		</div>
+        <div class="ek_logo_footer">
+			<div class="svgicon"></div>
+		</div>
+    </div>
+    <div class="scrolltotopbt" onclick="BLUEPRINTS.scrolltotopbt_onclick(event);">
+			<div class="svgicon"></div>
+		</div>
+    <div class="ek_paricipatebt" tabindex="0" onclick=" MAILFORMS.openPopupForm('register');" tabindex="0">
+			Mitmachen
+		</div>
+	<script>
+		if (window.navigator.userAgent.match(/MSIE|Trident/) !== null) {
+			document.body.innerHTML = "<h1>Um diese Seite anschauen zu können müssen Sie einen zeitgemäßen Browser verwenden wie z.B. Google Chrome, Microsoft Edge, Apple Safari oder Mozilla Firefox.</h1>";
+		}
+	</script>
+</body>
+
+</html>
+
