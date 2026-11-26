@@ -205,6 +205,17 @@ body{
 #modal .close{position:absolute;right:18px;top:16px;width:48px;height:48px;border-radius:50%;border:1px solid var(--stroke);
   background:rgba(255,255,255,.15);color:#fff;font-size:24px;cursor:pointer}
 .small{font-size:12px;color:var(--faint)}
+.ev,.nw{cursor:pointer}
+.ev:active,.nw:active{opacity:.6}
+.info-img{height:220px;border-radius:20px;background-size:cover;background-position:center;margin:-6px 0 16px}
+.info-title{font-size:30px !important;line-height:1.15;margin-top:2px}
+.info-meta{font-size:17px;color:var(--muted);margin:10px 0 14px;line-height:1.5}
+.info-text{font-size:19px;line-height:1.55;max-height:38vh;overflow:auto}
+.info-btns{display:flex;gap:12px;margin-top:22px}
+.btn{border:1px solid var(--stroke);background:rgba(255,255,255,.14);color:#fff;border-radius:16px;padding:14px 22px;
+  font:700 17px Inter,sans-serif;cursor:pointer}
+.btn.primary{background:#fff;color:#1d2440;border-color:#fff}
+.btn:active{transform:scale(.96)}
 .upd{font-size:11px;color:var(--faint);position:absolute;right:18px;top:20px}
 .err{color:#ffd0d0}
 
@@ -555,15 +566,39 @@ function openLink(u){
   const w = window.open(u, "_blank", "noopener");
   if(!w) location.href = u;
 }
+/* Info-Fenster für Termine und Nachrichten */
+function openInfo(o){
+  const img = o.image ? `<div class="info-img" style="background-image:url('${esc(o.image)}')"></div>` : "";
+  $("mcard").innerHTML = `<button class="close" aria-label="Schließen">✕</button>
+    ${img}
+    <div class="label">${o.kind}</div>
+    <h2 class="info-title">${esc(o.title)}</h2>
+    <div class="info-meta">${o.meta||""}</div>
+    <div class="info-text">${o.text ? esc(o.text).replace(/\n+/g,"<br><br>") : '<span class="small">Mehr steht auf der Originalseite.</span>'}</div>
+    <div class="info-btns">
+      ${o.link ? `<button class="btn primary" id="infoGo">Zur Originalseite ↗</button>` : ""}
+      <button class="btn" id="infoClose">Schließen</button>
+    </div>`;
+  $("modal").classList.add("open");
+  $("mcard").querySelector(".close").onclick=closeModal;
+  $("infoClose").onclick=closeModal;
+  if(o.link) $("infoGo").onclick=()=>{ closeModal(); openLink(o.link) };
+}
+let NEWS=[], EVENTS=[];
 async function loadNews(){
   let d;
   try{ d = await getJSON("data/news.json"); store.set("news",d) }catch(e){ d = store.get("news") }
   const box=$("news"), items=(d&&d.items)||[];
   if(!items.length){ box.innerHTML=`<div class="hint">Die Nachrichten werden heute Nacht zum ersten Mal geholt.</div>`; return }
-  box.innerHTML = items.slice(0,5).map((n,i)=>`<div class="nw ${n.region==="Ebersbach"?"eb":""}" data-l="${esc(n.link)}">
+  NEWS = items.slice(0,5);
+  box.innerHTML = NEWS.map((n,i)=>`<div class="nw ${n.region==="Ebersbach"?"eb":""}" data-i="${i}">
     <div class="no">${i+1}</div><div style="min-width:0"><div class="t">${esc(n.title)}</div>
     <div class="m">${n.region==="Ebersbach"?"📍 Ebersbach":"Göppingen"} · ${esc(n.source)}${n.date?" · "+ago(n.date):""}</div></div></div>`).join("");
-  box.querySelectorAll(".nw").forEach(el=>el.onclick=()=>openLink(el.dataset.l));
+  box.querySelectorAll(".nw").forEach(el=>el.onclick=()=>{
+    const n=NEWS[el.dataset.i];
+    openInfo({kind:"Nachricht · "+(n.region==="Ebersbach"?"Ebersbach":"Göppingen"), title:n.title, image:n.image,
+      meta:`${esc(n.source)}${n.date?" · "+ago(n.date):""}`, text:n.summary, link:n.link});
+  });
 }
 async function loadEvents(){
   let d;
@@ -575,16 +610,23 @@ async function loadEvents(){
   let pick = up.filter(e=>(e.importance??1)>=1).slice(0,5);
   if(pick.length<5) pick = pick.concat(up.filter(e=>!pick.includes(e)).slice(0,5-pick.length)).sort((a,b)=>a.s-b.s);
   if(!pick.length){ box.innerHTML=`<div class="hint">Gerade keine Termine im Kalender der Stadt.</div>`; return }
-  box.innerHTML = pick.map(e=>{
+  EVENTS = pick;
+  box.innerHTML = pick.map((e,i)=>{
     const running = e.s<t0;
     const shown = running ? t0 : e.s;
     const n = daysFrom(e.s);
     const until = e.end ? ` · bis ${pad(e.e2.getDate())}.${pad(e.e2.getMonth()+1)}.` : "";
-    return `<div class="ev"><div class="cal"><div class="m">${MK[shown.getMonth()]}</div><div class="d">${shown.getDate()}</div></div>
+    return `<div class="ev" data-i="${i}"><div class="cal"><div class="m">${MK[shown.getMonth()]}</div><div class="d">${shown.getDate()}</div></div>
       <div style="min-width:0"><div class="tt">${e.importance===2?'<span class="star">★</span> ':''}${esc(e.title)}</div>
-      <div class="pl">${esc(e.place||e.org||"")}${until}</div></div>
+      <div class="pl">${e.region==="Göppingen"?"📍 Göppingen · ":""}${e.time?esc(e.time)+" · ":""}${esc(e.place||e.org||"")}${until}</div></div>
       <div class="rl">${running?"läuft":relDay(n)}</div></div>`;
   }).join("");
+  box.querySelectorAll(".ev").forEach(el=>el.onclick=()=>{
+    const e=EVENTS[el.dataset.i];
+    const d=`${TAGE[e.s.getDay()]}, ${e.s.getDate()}. ${MON[e.s.getMonth()]}`+(e.end?` bis ${e.e2.getDate()}. ${MON[e.e2.getMonth()]}`:"")+(e.time?` · ${esc(e.time)} Uhr`:"");
+    openInfo({kind:"Veranstaltung · "+(e.region||"Ebersbach"), title:e.title, image:e.image,
+      meta:`📅 ${d}${e.place?`<br>📍 ${esc(e.place)}`:""}${e.org?`<br>👥 ${esc(e.org)}`:""}`, text:e.desc, link:e.link});
+  });
 }
 
 /* ======================================================================
@@ -592,15 +634,25 @@ async function loadEvents(){
    ====================================================================== */
 let R=null, rIdx=0, rFilter="alle";
 const FILTERS=[["alle","Alle"],["türkisch","Türkisch"],["deutsch","Deutsch"],["airfryer","Airfryer"]];
+// Feste, gemischte Reihenfolge (abwechselnd türkisch/deutsch), damit sich nichts schnell wiederholt
+let ORDER=[];
+function mixOrder(list){
+  let seed=20261126; const rnd=()=>(seed=(seed*1103515245+12345)%2147483648)/2147483648;
+  const sh=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+  const tr=sh(list.filter(r=>r.kueche==="türkisch")), de=sh(list.filter(r=>r.kueche!=="türkisch")), out=[];
+  while(tr.length||de.length){ if(tr.length) out.push(tr.shift()); if(de.length) out.push(de.shift()) }
+  return out;
+}
 function rList(){
   if(!R) return [];
-  return R.rezepte.filter(r=> rFilter==="alle" || (rFilter==="airfryer"?r.airfryer:r.kueche===rFilter));
+  return ORDER.filter(r=> rFilter==="alle" || (rFilter==="airfryer"?r.airfryer:r.kueche===rFilter));
 }
 function dayNo(){const n=new Date();return Math.floor((n - new Date(n.getFullYear(),0,0))/864e5)}
 async function loadRezepte(){
   try{ R = await getJSON("data/rezepte.json"); store.set("rezepte",R) }catch(e){ R = store.get("rezepte") }
   if(!R) return;
-  rIdx = dayNo() % R.rezepte.length;
+  ORDER = mixOrder(R.rezepte);
+  rIdx = dayNo();
   renderChips(); renderRezept(); renderTip();
 }
 function renderChips(){
@@ -703,7 +755,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-26a";
+const VERSION = "2026-11-26b";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();

@@ -319,6 +319,39 @@ def google_news(query):
     return out
 
 
+def eb_link(link):
+    """Links der Stadt Ebersbach reparieren: Die Schnittstelle liefert …de/%2FName, richtig ist …de//Name."""
+    link = htmlmod.unescape(link or "")
+    link = re.sub(r"ebersbach\.de/%2F", "ebersbach.de//", link, flags=re.I)
+    if link.startswith("//"):
+        link = "https://www.ebersbach.de" + link
+    elif link.startswith("/"):
+        link = "https://www.ebersbach.de/" + link
+    return link
+
+
+def page_info(url):
+    """Kurzbeschreibung und Bild einer Seite (og:description / description / og:image)."""
+    try:
+        html = fetch(url, timeout=25).decode("utf-8", "replace")
+    except Exception as e:  # noqa: BLE001
+        log("Info nicht ladbar:", url[:80], e)
+        return {}
+
+    def meta(*names):
+        for n in names:
+            m = (re.search(r'<meta[^>]+(?:property|name)=["\']%s["\'][^>]+content=["\']([^"\']+)' % re.escape(n), html, re.I)
+                 or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\']%s["\']' % re.escape(n), html, re.I))
+            if m:
+                return strip_tags(m.group(1))
+        return ""
+    desc = meta("og:description", "description", "twitter:description")
+    img = meta("og:image", "twitter:image")
+    if img.startswith("/"):
+        img = urllib.parse.urljoin(url, img)
+    return {"summary": desc[:700], "image": img if img.startswith("http") else "", "html": html}
+
+
 def city_news():
     page = fetch(CITY_NEWS).decode("utf-8", "replace")
     m = re.search(r'document="([^"]+)"', page)
@@ -336,12 +369,7 @@ def city_news():
         href = re.search(r'href="([^"]+)"', art)
         if not t:
             continue
-        link = href.group(1) if href else CITY_NEWS
-        # Die Stadt-Links haben absichtlich einen doppelten Schrägstrich (…de//Name-news-article123)
-        if link.startswith("//"):
-            link = "https://www.ebersbach.de" + link
-        elif link.startswith("/"):
-            link = "https://www.ebersbach.de/" + link
+        link = eb_link(href.group(1)) if href else CITY_NEWS
         out.append({"title": strip_tags(t.group(1)), "source": "Stadt Ebersbach", "link": link, "date": None})
     return out
 
@@ -464,7 +492,12 @@ def update_news():
         log(f"News: nur {len(picked)} Meldungen – alte Datei bleibt")
         return
     for p in picked:
-        p["link"] = resolve_google_link(p["link"])
+        p["link"] = eb_link(resolve_google_link(p["link"])) if "ebersbach.de" in p["link"] else resolve_google_link(p["link"])
+        info = page_info(p["link"])
+        if info.get("summary") and info["summary"].lower() != p["title"].lower():
+            p["summary"] = info["summary"]
+        if info.get("image"):
+            p["image"] = info["image"]
     log("News-Links:", [p["link"][:80] for p in picked])
     write_json("news.json", {"updated": dt.datetime.now().isoformat(timespec="minutes"), "items": picked})
 
