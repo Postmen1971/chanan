@@ -1,0 +1,892 @@
+URL https://www.ebersbach.de/veranstaltung
+FINAL https://www.ebersbach.de/veranstaltung
+STATUS 200
+LEN 53107
+
+                                            
+<!DOCTYPE html>
+<html class="no-js" lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+                            <meta name="date" content="2026-11-11">
+            
+            <title>Veranstaltungskalender | Ebersbach an der Fils</title>
+            <meta name="description" content="Der Ebersbacher Veranstaltungskalender wird von der Stadtverwaltung und dem Verbund Ebersbacher Vereine (VEV) herausgegeben." />
+
+
+                            
+                                                                                <meta property="og:title" content="Veranstaltungskalender">
+                                                                                                                        <meta property="og:description" content="Der Ebersbacher Veranstaltungskalender wird von der Stadtverwaltung und dem Verbund Ebersbacher Vereine (VEV) herausgegeben.">
+                                                                                                                        <meta property="og:type" content="website">
+                                                                                                                                                                                                                        <meta property="og:url" content="https://www.ebersbach.de/Aktuelles/Veranstaltungskalender">
+                                                        
+            <link rel="icon" href="https://www.ebersbach.de/assets/website/favicon.ico" sizes="any">
+    <link rel="icon" href="https://www.ebersbach.de/assets/website/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://www.ebersbach.de/assets/website/apple-touch-icon.png">
+    <link rel="manifest" href="https://www.ebersbach.de/assets/website/site.webmanifest">
+
+        
+        
+                        <!-- CCM -->
+                        <link rel="preconnect" href="https://ccm.ceasy.de">
+        <link rel="dns-prefetch" href="https://ccm.ceasy.de">
+        <script src="https://ccm.ceasy.de/public/app.js?apiKey=90fa24a847583e08429d9d01661a049795641fa75aced960&amp;domain=04290b2" referrerpolicy="origin"></script>
+                                                                <!-- END CCM -->
+                        
+                        <!-- Matomo -->
+    <link rel="preconnect" href="https://statistik.disgovery.de">
+    <link rel="dns-prefetch" href="https://statistik.disgovery.de">
+    <script>
+        var _paq = window._paq = window._paq || [];
+                _paq.push(["disableCookies"]);
+                _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://statistik.disgovery.de/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '135']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- END Matomo -->
+
+                
+                                                                
+                <link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/templates/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/css/main.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/css/main-custom.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/layouts/print.min.css" media="print" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/layouts/default.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/layouts/ccm.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/partials/skip-links.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/css/search.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/templates/navigation.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/areas/banner.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/partials/page-crumb.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/areas/editor.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/twig-strap/default.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfrontend/css/twig-strap/list.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomfilter/css/templates/filter.min.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/cache-buster-1795682759/assets/website/bundles/hitcomevent/css/templates/list.min.css" media="screen" rel="stylesheet" type="text/css" />
+                
+                        
+                <script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+        <script>
+            (function(html){
+                const browserClass = /Firefox/.test(navigator.userAgent) ? 'firefox' :
+                    /Edg/.test(navigator.userAgent) ? 'edge' :
+                        /Chrome/.test(navigator.userAgent) ? 'chrome' :
+                            /Safari/.test(navigator.userAgent) ? 'safari' :
+                                /OPR|Opera/.test(navigator.userAgent) ? 'opera' : '';
+                if (browserClass) {
+                    html.classList.add(browserClass);
+                }
+            })(document.documentElement);
+        </script>
+        <script src="/cache-buster-1795531527/bundles/hitcomfrontend/js/polyfills/all.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/head.min.js"></script>
+<script src="/cache-buster-1795682760/assets/website/js/head.min.js"></script>
+                
+                
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement":
+        [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item":
+                {
+                    "@id": "https://www.ebersbach.de/Aktuelles",
+                    "name": "Aktuelles"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item":
+                {
+                    "@id": "https://www.ebersbach.de/veranstaltung",
+                    "name": "Veranstaltungskalender"
+                }
+            }
+        ]
+    }
+</script>
+        
+            </head>
+    <body class="has-banner-image" data-page-id="23" data-parent-id="21" data-root-id="18" data-template="default">
+        
+        <div class="skip-links" data-no-crawl="true"><div class="skip-links__header"><strong>Sprungmarken</strong></div><div class="skip-links__body"><button type="button" class="button button--content" aria-label="Direkt zum Inhalt springen"><span aria-hidden="true">Zum Inhalt springen</span></button><button type="button" class="button button--navigation" aria-label="Direkt zur Navigation springen"><span aria-hidden="true">Zur Navigation springen</span></button><button type="button" class="button button--search" aria-label="Direkt zur Suche springen"><span aria-hidden="true">Zur Suche springen</span></button></div></div>
+        <div class="access-keys visually-hidden" aria-hidden="true" data-no-crawl="true"><a href="https://www.ebersbach.de" accesskey="0" tabindex="-1">Zur Startseite</a><a href="/Aktuelles" accesskey="1" tabindex="-1">Aktuelles</a><a href="/Rathaus-Service" accesskey="2" tabindex="-1">Rathaus &amp; Service</a><a href="/Lebenswertes-Ebersbach" accesskey="3" tabindex="-1">Lebenswertes Ebersbach</a><a href="/Wirtschaft-Wohnen" accesskey="4" tabindex="-1">Wirtschaft &amp; Wohnen</a></div>
+                <div class="page">
+            <div class="page__wrapper">
+                                    <header class="page__header" data-no-crawl="true">
+                                
+    <div class="container-fluid ps-0">
+                    <div class="logo">
+    <div class="logo__inner">
+        <a href="https://www.ebersbach.de" class="logo__link" title="Zur Startseite" data-title-home="Zum Seitenanfang springen">
+            <span>
+                <img src="/assets/website/img/logo/ebersbach.svg" alt="">
+            </span>
+        </a>
+    </div>
+</div>
+
+        
+                    <div class="d-none d-lg-flex">
+                
+            
+
+
+
+                                    
+            
+                                                                                                                                                <div class="search search--preview">
+                <div class="search__preview" data-id="6b08734b989fa">​</div>
+            </div>
+            <script>
+                    ((window, document) => {
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const $search = document.querySelector('.search__preview[data-id=\'6b08734b989fa\']');
+
+                            const config = Gufi({
+                                endpoints: {
+                                    search: 'https://www.ebersbach.de/search/api/search?pool=website',
+                                    suggest: 'https://www.ebersbach.de/search/api/suggest?pool=website',
+                                    metrics: 'https://www.ebersbach.de/search/api/metrics?pool=website'
+                                },
+                                cssUrls: [
+                                    '/bundles/hitcomsearch/css/gufi-client/gufi.min.css',
+                                    '/assets/website/css/gufi.min.css'
+                                ],
+                                urls: {
+                                    list: '/suche'
+                                },
+                                translations: {
+                                    
+                                },
+                                hidePreview: false,
+                                                                                                
+                            });
+
+                            if ($search !== null) {
+                                                                config.preview({
+                                    element: $search
+                                });
+                                                            }
+                        });
+                    })(window, document);
+                </script>            
+                
+                            
+                    
+
+                </div>
+        
+                            
+        </div>
+
+                                                                            
+                         
+                        
+
+    
+            
+<div class="off-canvas" data-no-crawl="true">
+    <input type="checkbox" id="off-canvas__trigger" class="off-canvas__trigger">
+    <div class="off-canvas__wrapper">
+        <label for="off-canvas__trigger" class="off-canvas__toggle off-canvas__toggle--open" aria-label="Navigation öffnen">
+            <span class="lines" aria-hidden="true">≡</span>
+            <span class="text">Menü</span>
+        </label>
+
+        <label for="off-canvas__trigger" class="off-canvas__toggle off-canvas__toggle--off" aria-label="Navigation schließen">
+            <span aria-hidden="true">×</span>
+        </label>
+
+        <div class="off-canvas__inner off-canvas--has-footer">
+            <label for="off-canvas__trigger" class="off-canvas__toggle off-canvas__toggle--close" aria-label="Navigation schließen">
+                <span aria-hidden="true">×</span>
+            </label>
+
+                            <div class="off-canvas__search d-something-none">
+                    
+            
+
+
+
+                                    
+            
+                                                                                                                                                <div class="search search--preview">
+                <div class="search__preview" data-id="6b08734b99490">​</div>
+            </div>
+            <script>
+                    ((window, document) => {
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const $search = document.querySelector('.search__preview[data-id=\'6b08734b99490\']');
+
+                            const config = Gufi({
+                                endpoints: {
+                                    search: 'https://www.ebersbach.de/search/api/search?pool=website',
+                                    suggest: 'https://www.ebersbach.de/search/api/suggest?pool=website',
+                                    metrics: 'https://www.ebersbach.de/search/api/metrics?pool=website'
+                                },
+                                cssUrls: [
+                                    '/bundles/hitcomsearch/css/gufi-client/gufi.min.css',
+                                    '/assets/website/css/gufi.min.css'
+                                ],
+                                urls: {
+                                    list: '/suche'
+                                },
+                                translations: {
+                                    
+                                },
+                                hidePreview: false,
+                                                                                                
+                            });
+
+                            if ($search !== null) {
+                                                                config.offCanvas({
+                                    element: $search
+                                });
+                                                            }
+                        });
+                    })(window, document);
+                </script>            
+                
+                            
+                    
+
+                    </div>
+            
+            <div class="main-navigation" data-root-id="18">
+                <nav aria-label="Hauptmenü"></nav>
+            </div>
+
+                            <div class="off-canvas__footer">
+                                                                        <a href="https://www.ebersbach.de/karriere" class="button button--icon" target="_blank" title="In einem neuen Fenster" rel="noopener noreferrer">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/koffer.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Jobss und Karriere</span>
+                            </a>
+                                                                                                <a href="https://www.ebersbach.de/oeffnungszeiten" class="button button--icon" target="_self">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/uhr.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Online-Bürgerbüro</span>
+                            </a>
+                                                                                                <a href="https://www.ebersbach.de/online-buergerbuero" class="button button--icon" target="_blank" title="In einem neuen Fenster" rel="noopener noreferrer">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/buerger.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Online-Bürgerbüro</span>
+                            </a>
+                                                                                                <a href="https://www.ebersbach.de/hinweisgeber" class="button button--icon">
+                                                                    <span class="icon" aria-hidden="true">
+                                        <img src="/assets/website/img/hinweisgeber.svg" width="24" height="24" alt="" loading="lazy">
+                                    </span>
+                                                                <span>Kontakt</span>
+                            </a>
+                                                            </div>
+            
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    window.initMainNavigation && window.initMainNavigation('https://www.ebersbach.de/frontend/navigation.json?documentId=23&rootId=18', true);
+                });
+            </script>
+        </div>
+    </div>
+</div>
+
+                    
+
+                
+            
+
+
+
+                                    
+            
+                                    
+                
+
+
+    <div class="banner banner--image">
+                                                <picture>
+                                                                                                                                                                                        <source srcset="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_f317eaa49cafe1a82678f7d804687b5e/Header-Veranstaltungskalender-Seite.e0224c00.webp" media="(min-width: 992px)" type="image/webp">
+                                                                                                                <source srcset="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_f317eaa49cafe1a82678f7d804687b5e/Header-Veranstaltungskalender-Seite.e0224c00.jpg" media="(min-width: 992px)" type="image/jpeg">
+                                                                                                                                                                                                                                                    <source srcset="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_eea267ceaa6759c277cb9a0d55158cb1/Header-Veranstaltungskalender-Seite.aa651eda.webp" media="(min-width: 768px)" type="image/webp">
+                                                                                                                <source srcset="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_eea267ceaa6759c277cb9a0d55158cb1/Header-Veranstaltungskalender-Seite.aa651eda.jpg" media="(min-width: 768px)" type="image/jpeg">
+                                                                                                                                                                                                                <source srcset="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_a4dde7c73ae5dbf60102d6e707a58007/Header-Veranstaltungskalender-Seite.a3cdb1ee.webp" type="image/webp">
+                                                                                <source srcset="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_a4dde7c73ae5dbf60102d6e707a58007/Header-Veranstaltungskalender-Seite.a3cdb1ee.jpg" type="image/jpeg">
+                                                            <img src="/02%20Datenobjekte/HEADER%20Bilder/565/image-thumb__565___auto_a4dde7c73ae5dbf60102d6e707a58007/Header-Veranstaltungskalender-Seite.a3cdb1ee.jpg" alt="Kleine braune Würfel mit verschiedenen Symbolen wie zum Beispiel Uhr, Eurozeichen, Händedruck und zahlreiche mehr umrahmen einen großen Würfel, der den blauen Schriftzug Veranstaltungen und Termine trägt">
+        </picture>
+    
+                <script>
+            document.body.classList.add('has-banner-image');
+        </script>
+    </div>
+
+
+
+
+                
+                            
+                    
+
+    
+                        </header>
+                                <main class="page__main">
+                            
+
+                            
+                
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+        
+                                                                                                                
+        <section class="section section--crumb pt-5 pb-5 pb-sm-8" data-no-crawl="true">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col">
+                    <div class="meta-navigation meta-navigation--crumb">
+                                                    
+    
+    
+
+                                                        
+<nav class="meta-navigation__nav" aria-label="Brotkrumen-Navigation">
+    <ol class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de" class="meta-navigation__link">
+                <span>Startseite</span>
+            </a>
+        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                        <li class="meta-navigation__item meta-navigation__item--parent">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a href="/Aktuelles" class="meta-navigation__link">
+                            <span>Aktuelles</span>
+                        </a>
+                                                        </li>
+                                                                                                    
+                                        <li class="meta-navigation__item">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span>Veranstaltungskalender</span>
+                                                        </li>
+                                                                                                                        
+                                                                                                                                                                                    
+            </ol>
+</nav>
+                                            </div>
+                                    </div>
+                            </div>
+        </div>
+    </section>
+
+
+        
+
+
+
+                                    
+            
+                                    
+
+        
+    
+
+
+
+
+
+
+
+
+<section id="container-1" class="section section--container section--padding-bottom">
+        <div class="container-xxl">
+        
+        <div class="row">
+            <div class="col-lg-12">
+                                                                                                                        
+                                                                                                                                    
+
+
+
+                                    <div class="content content--headline content--margin-bottom" id="content-1-1">
+            
+                                    
+
+
+
+
+<header>
+    <h1>
+                <span class="hyphenate">Veranstaltungskalender</span>
+            </h1>
+</header>
+
+                
+                            </div>
+                    
+                                                                                                                                                            
+
+
+
+                                    <div class="content content--editor content--margin-bottom" id="content-1-2">
+            
+                                    
+    
+    
+                                                                                                                <p>Der <a class="pdf" href="/resources/02%20Datenobjekte/PDF-Dateien/Ebersbacher%20Veranstaltungskalender.pdf" target="_blank" title="Verlinkung auf den Ebersbacher Veranstaltungskalender" rel="noopener">Ebersbacher Veranstaltungskalender 2026 (PDF)</a> (Datei wird nicht aktualisert) ist eine Kooperation der Stadt Ebersbach an der Fils und des Verbund Ebersbacher Vereine (VEV). Alle in ihm genannten Termine werden kurz vor der Veranstaltung zweimal in der Rubrik Veranstaltungshinweise im Stadtblatt veröffentlicht.</p><p>Vereine, die ihre Veranstaltungen auf dieser Seite ebenfalls vorstellen möchten, wenden sich bitte an <a href="https://www.ebersbach.de/mitarbeiter/Linder-staff305">Frau Linder</a>, die einen entsprechenden Leitfaden zur Verfügung stellt.</p>
+                        
+    
+                
+                            </div>
+                    
+                                                                                                                                                            
+
+
+
+                                    <div class="content content--event-list" id="content-1-3">
+            
+                                                    
+        
+    
+    <disgovery-list-widget endpoint="https://www.ebersbach.de/api/event/list/event-appointment" document="def502007b541c7fea21771d7e5f9a3ded99f960d5e0425c0a8d44a23bc77a11009cb9fecfa450d37fa6d174d09590de442b1638b646c46b566af65da97ff7283761bcbf1dc31b9b29e2e32f12f1c6f6ea8537f2d411" template="default" type="EventAppointment" label="Veranstaltung|Veranstaltungen" limit="24" listView="grid" options="{&quot;image_visible&quot;:1,&quot;location_visible&quot;:1,&quot;time_visible&quot;:1,&quot;organizer_visible&quot;:1,&quot;icons_visible&quot;:1,&quot;title_heading_type&quot;:&quot;h3&quot;}" filters="{&quot;organizer&quot;:[],&quot;location&quot;:[],&quot;catchmentArea&quot;:[],&quot;district&quot;:[],&quot;eventTypes&quot;:[],&quot;categories&quot;:[],&quot;date&quot;:[&quot;2026-11-26 18:58:35&quot;,null]}">
+
+        
+            
+<template id="filter-template--tags">
+    <div class="dgf-filter__tags">
+        <div class="dgf-filter__tags__list">
+            <slot></slot>         </div>
+    </div>
+</template>
+
+<template id="filter-template--select">
+    <div class="dgf-select">
+                <div class="h3 mb-3 dgf-select__heading" id="dgf-select-heading-id-placeholder-heading"><slot></slot></div>
+        <div class="dropdown dgf-select__dropdown" aria-labelledby="dgf-select-heading-id-placeholder-heading">
+                            <button class="dropdown-toggle dgf-filter__button" type="button" id="dgf-filter-button-id-placeholder-button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+        <slot name="filter-button">Filter-Button</slot>     </button>
+
+
+            <div class="dropdown-menu dgf-select__dropdown-menu" aria-labelledby="dgf-filter-button-id-placeholder-button" role="group">
+                <ul class="dgf-select__list">
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--search">
+    <div class="dgf-search">
+        <div class="dgf-search__form d-flex">
+            <input class="dgf-search__input" type="search" name="query" placeholder="Suchen" aria-label="Suchen"/>
+            <button class="button p-2 dgf-search__button" aria-label="Suchen">
+                <span  class="icon icon--l"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/search.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>            </button>
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--checkbox">
+    <div class="dropdown dgf-filter__dropdown">
+                    <button class="dropdown-toggle dgf-filter__button" type="button" id="dgf-filter-button-id-placeholder-button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+        <slot name="filter-button">Filter-Button</slot>     </button>
+
+
+        <div class="dropdown-menu dgf-filter__dropdown-menu" aria-labelledby="dgf-filter-button-id-placeholder-button" role="group">
+            <ul class="dgf-filter__list">
+                <slot></slot>             </ul>
+
+                <div class="dgf-filter__footer">
+        <button class="link dgf-filter__button--reset">
+            <span  class="icon icon--fluid"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/refresh.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>            Zurücksetzen
+        </button>
+        <button class="button dgf-filter__button--submit">Filtern</button>
+    </div>
+
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--range">
+    <div class="dropdown dgf-filter__dropdown">
+                    <button class="dropdown-toggle dgf-filter__button" type="button" id="dgf-filter-button-id-placeholder-button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+        <slot name="filter-button">Filter-Button</slot>     </button>
+
+
+        <div class="dropdown-menu dgf-filter__dropdown-menu" aria-labelledby="dgf-filter-button-id-placeholder-button" role="group">
+            <button class="dgf-filter__geolocation-permission-button button">Standort ermitteln</button>
+            <div class="dgf-filter__range">
+                <label class="dgf-filter__range__label">
+                    Im Umkreis von
+                    <div class="dgf-filter__range__slider">
+                        <input type="range" name="range" min="1" max="20" value="5" class="dgf-filter__range__input" />
+                        <span class="dgf-filter__range__value">5</span>
+                    </div>
+                </label>
+            </div>
+
+                <div class="dgf-filter__footer">
+        <button class="link dgf-filter__button--reset">
+            <span  class="icon icon--fluid"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/refresh.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>            Zurücksetzen
+        </button>
+        <button class="button dgf-filter__button--submit">Filtern</button>
+    </div>
+
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--datePicker">
+    <div class="dropdown dgf-filter__dropdown">
+                    <button class="dropdown-toggle dgf-filter__button" type="button" id="dgf-filter-button-id-placeholder-button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+        <slot name="filter-button">Filter-Button</slot>     </button>
+
+
+        <div class="dropdown-menu dgf-filter__dropdown-menu" aria-labelledby="dgf-filter-button-id-placeholder-button" role="group">
+            <div class="dgf-filter__date">
+                <input type="date" name="dateFrom" class="dgf-filter__input" />
+                <input type="date" name="dateTo" class="dgf-filter__input" />
+            </div>
+
+                <div class="dgf-filter__footer">
+        <button class="link dgf-filter__button--reset">
+            <span  class="icon icon--fluid"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/refresh.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>            Zurücksetzen
+        </button>
+        <button class="button dgf-filter__button--submit">Filtern</button>
+    </div>
+
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--timePicker">
+    <div class="dropdown dgf-filter__dropdown">
+                    <button class="dropdown-toggle dgf-filter__button" type="button" id="dgf-filter-button-id-placeholder-button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+        <slot name="filter-button">Filter-Button</slot>     </button>
+
+
+        <div class="dropdown-menu dgf-filter__dropdown-menu" aria-labelledby="dgf-filter-button-id-placeholder-button" role="group">
+            <div class="dgf-filter__date">
+                <input type="date" name="timeFrom" class="dgf-filter__input" />
+                <input type="date" name="timeTo" class="dgf-filter__input" />
+            </div>
+
+                <div class="dgf-filter__footer">
+        <button class="link dgf-filter__button--reset">
+            <span  class="icon icon--fluid"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/refresh.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>            Zurücksetzen
+        </button>
+        <button class="button dgf-filter__button--submit">Filtern</button>
+    </div>
+
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--letter">
+    <div class="dropdown dgf-filter__dropdown">
+                    <button class="dropdown-toggle dgf-filter__button" type="button" id="dgf-filter-button-id-placeholder-button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
+        <slot name="filter-button">Filter-Button</slot>     </button>
+
+
+        <div class="dropdown-menu dgf-filter__dropdown-menu" aria-labelledby="dgf-filter-button-id-placeholder-button" role="group">
+            <div class="dgf-filter__letter">
+                <p class="dgf-filter__letter__label">Wählen Sie einen Buchstaben aus.</p>
+                <div class="dgf-filter__letter__grid"></div>
+            </div>
+                <div class="dgf-filter__footer">
+        <button class="link dgf-filter__button--reset">
+            <span  class="icon icon--fluid"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/refresh.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>            Zurücksetzen
+        </button>
+        <button class="button dgf-filter__button--submit">Filtern</button>
+    </div>
+
+        </div>
+    </div>
+</template>
+
+<template id="filter-template--switch">
+    <div class="dgf-filter__dropdown">
+        <button class="dgf-filter__button dgf-filter__button--switch" type="button">
+            <span class="toggle" aria-hidden="true"></span>
+            <span><slot name="filter-button">Filter-Button</slot></span>         </button>
+    </div>
+</template>
+
+<template id="filter-template--button">
+    <div class="dgf-filter__dropdown">
+        <button class="dgf-filter__button dgf-filter__button--submit" type="button">
+            <slot name="filter-button">Filter-Button</slot>         </button>
+    </div>
+</template>
+
+
+<template id="filter-template--reload">
+    <div class="dgf-filter__reload">
+        <p class="dgf-filter__reload__status">
+            <span class="dgf-filter__reload__current-count"
+                data-status-pattern="%current% von %total% %label% angezeigt"></span>
+        </p>
+        <div class="dgf-filter__reload__progress-bar">
+            <div class="dgf-filter__reload__progress-bar__fill"></div>
+        </div>
+        <button class="button dgf-filter__reload__button"
+                data-label-pattern="Weitere %label% laden"></button>
+    </div>
+</template>
+
+
+
+
+            
+            <div class="dgf-filter__container">
+                <filter-search name="search" placeholder="Nach einer Veranstaltung suchen" button-name="Suchen"></filter-search>
+                <button class="dgf-filter--button button p-2 d-md-none ms-3" id="button--filter-314" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false" aria-label="frontend.twigstrap.filter.openFilter">
+                    <span  class="icon icon--l"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/tune.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>                </button>
+                <div class="dgf-filter d-md-block dropdown-menu" aria-labelledby="button--filter-314">
+                    <div class="dgf-filter__header d-md-none">
+                                                                                                <h2 class="h2 dgf-heading d-flex"><span  class="me-3-5 icon icon--fluid"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/tune.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>Alle Filter</h2>                    </div>
+                    <div class="row dgf-filter__group">
+                        <filter-time class="col-12 col-md-auto" name="today" time-from="2026-11-26 00:00:00" time-to="2026-11-26 23:59:59" button-name="Heute"></filter-time>
+                        <filter-time class="col-12 col-md-auto" name="tomorrow" time-from="2026-11-27 00:00:00" time-to="2026-11-27 23:59:59" button-name="Morgen"></filter-time>
+                        <filter-time class="col-12 col-md-auto" name="weekend" time-from="2026-11-27 00:00:00" time-to="2026-11-29 23:59:59" button-name="Wochenende"></filter-time>
+                        <filter-time class="col-12 col-md-auto" name="time" time-from="" time-to="" button-name="Datum / Zeitraum"></filter-time>
+
+                        <filter-checkbox class="col-12 col-md-auto" name="eventTypes" filters="[]" buckets="" button-name="Veranstaltungsart"></filter-checkbox>
+                        <filter-checkbox class="col-12 col-md-auto" name="organizer" filters="[]" buckets="" button-name="Veranstalter"></filter-checkbox>
+                        <filter-checkbox class="col-12 col-md-auto" name="district" filters="[]" buckets="" button-name="Stadtteil / Ortsteil"></filter-checkbox>
+
+                    </div>
+                </div>
+            </div>
+
+        
+        <div class="dgf-filter__results">
+
+            <section class="dgf-list dgf-list--event dgf-list--grid">
+
+                    <div class="dgf-list__header">
+                                                                                                    <div class="dgf-list__tags">
+                    <b>0 Event.eventAppointmentss:</b>
+                </div>
+                        <hr>
+        
+                    <div class="row align-items-center">
+                <div class="col-auto">
+                    <button class="dgf-list__button dgf-list__button--grid button p-2" aria-pressed="true" aria-label="Kachelansicht">
+                        <span  class="icon icon--l"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/grid_view.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>                    </button>
+                    <button class="dgf-list__button dgf-list__button--list button p-2 ms-2-5" aria-pressed="false" aria-label="Listenansicht">
+                        <span  class="icon icon--l"
+    ><img src="/bundles/hitcomfrontend/img/material-design-icons/outlined/format_list_bulleted.svg" class="icon__image" aria-hidden="true" width="24" height="24" alt="" loading="lazy" ></span>                    </button>
+                                    </div>
+            </div>
+            </div>
+
+                <div class="dgf-list__body row dgf-row"></div>
+
+            </section>
+
+        </div>
+
+
+    </disgovery-list-widget>
+
+    
+
+                
+                            </div>
+                    
+                                                                                    </div>
+
+            
+                    </div>
+    </div>
+    </section>
+
+                
+                            
+                    
+
+                </main>
+                                    <footer class="page__footer" data-no-crawl="true">
+                                <div class="pt-8 pb-8 bg-black">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col offset-xl-4 mb-7 heading">
+                                            <h2>Stadt Ebersbach an der Fils</h2>
+                                    </div>
+                <div class="col-auto d-flex">
+                                            <div class="meta-navigation meta-navigation--social">
+                            <nav class="meta-navigation__nav" aria-label="Social Media Links">
+    <ul class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <a href="https://www.facebook.com/profile.php?id=100079581845548" class="meta-navigation__link button button--icon" title="Facebookseite der Stadt Ebersbach" target="_blank">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/social-media-icons/facebook.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span class="visually-hidden" aria-hidden="true">Facebook</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.instagram.com/stadt_ebersbach_an_der_fils/" class="meta-navigation__link button button--icon" title="Instagramseite der Stadt Ebersbach" target="_blank">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/social-media-icons/instagram.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span class="visually-hidden" aria-hidden="true">Instagram</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.youtube.com/@stadtebersbachanderfils2391" class="meta-navigation__link button button--icon" title="YouTubeseite der Stadt Ebersbach" target="_blank">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/social-media-icons/youtube.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span class="visually-hidden" aria-hidden="true">YouTube</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        </div>
+                                                                <div class="top-link focus-within">
+                            <button type="button" class="button button--icon" aria-label="Zum Seitenanfang springen">
+                                <span class="icon" aria-hidden="true">
+                                    <img src="/assets/website/img/arrow.svg" width="24" height="24" alt="" loading="lazy">
+                                </span>
+                                <span class="visually-hidden">Zum Seitenanfang springen</span>
+                            </button>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+        <div class="container-xxl">
+            <div class="row gy-6">
+                <div class="col-lg-4 m-p">
+                                            <p class="mt-0">
+                            Marktplatz 1<br>
+                            73061 Ebersbach
+                        </p>
+                        <p class="hyphenate">
+                            <a title="Telefonnummer der Stadt Ebersbach" href="tel:+4971631610">07163 161-0</a><br>
+                            <a href="#" data-mailto-token="mvocvpnVnovyo9zwzmnwvxc9yz" data-mailto-vector="-5" title="E-Mail an rathaus(at)stadt.ebersbach.de"><span>rathaus(at)stadt.ebersbach.de</span></a>
+                        </p>
+                        <p class="hyphenate">
+                            <a class="button button-invert first-row-link mb-4" href="/oeffnungszeiten">Öffnungszeiten</a>
+                            <a class="button button-invert first-row-link" href="/bekanntmachungen">Öffentliche Bekanntmachungen</a>
+                        </p>
+                                    </div>
+                                <div class="col-lg-3">
+                                            <div class="meta-navigation meta-navigation--accessibility">
+                            <nav class="meta-navigation__nav" aria-label="Infos zur Barrierefreiheit">
+    <ul class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/bedienung-der-website" class="meta-navigation__link" title="Bedienung der Website">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/accessibility-icons/outlined/bedienung-der-website.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span aria-hidden="true">Bedienung der Website</span>
+            </a>
+        </li> 
+                        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/erklaerung-zur-barrierefreiheit" class="meta-navigation__link" title="Erklärung zur Barrierefreiheit">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/accessibility-icons/outlined/erklaerung-zur-barrierefreiheit.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span aria-hidden="true">Erklärung zur Barrierefreiheit</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/fehler-melden" class="meta-navigation__link" title="Fehler melden">
+                <span class="icon" aria-hidden="true">
+                    <img src="/bundles/hitcomfrontend/img/accessibility-icons/outlined/fehler-melden.svg" width="24" height="24" alt="" loading="lazy">
+                </span>
+                <span aria-hidden="true">Fehler melden</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        </div>
+                         <a class="button button-invert sec-row-link mt-4" href="/barrierefrei-durch-ebersbach">Barrierefrei durch Ebersbach</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="pb-6 bottom-white">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col">
+                                            <div class="meta-navigation meta-navigation--legal">
+                            <nav class="meta-navigation__nav" aria-label="Rechtliches">
+    <ul class="meta-navigation__list">
+        <li class="meta-navigation__item">
+            <button type="button" class="meta-navigation__button" onclick="CCM.openControlPanel();" aria-label="Cookie-Einstellungen">
+                <span aria-hidden="true">Cookie-Einstellungen</span>
+            </button>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/impressum" class="meta-navigation__link" title="Impressum">
+                <span aria-hidden="true">Impressum</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/datenschutz" class="meta-navigation__link" title="Datenschutz">
+                <span aria-hidden="true">Datenschutz</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.ebersbach.de/whistleblower" class="meta-navigation__link" title="Whistleblower">
+                <span aria-hidden="true">Whistleblower</span>
+            </a>
+        </li>
+        <li class="meta-navigation__item">
+            <a href="https://www.hitcom.de" class="meta-navigation__link" target="_blank" title="Im neuen Fenster: Website der hitcom GmbH">
+                <span aria-hidden="true">by hitcom</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+                                    </footer>
+                            </div>
+        </div>
+        
+        
+                        <script src="/cache-buster-1795531527/bundles/hitcomfrontend/js/bootstrap/v5/bootstrap.bundle.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/body.min.js"></script>
+<script src="/cache-buster-1795682760/assets/website/js/main.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/default.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/layouts/ccm.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/partials/skip-links.min.js"></script>
+<script src="/cache-buster-1795526323/bundles/hitcomsearch/js/gufi-client/gufi.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/templates/navigation.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfrontend/js/twig-strap/list.min.js"></script>
+<script src="/cache-buster-1795682760/assets/bundles/hitcomfilter/js/templates/filter.min.js"></script>
+            </body>
+</html>

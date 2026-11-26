@@ -1,0 +1,1106 @@
+URL https://www.goeppingen.de/
+FINAL https://www.goeppingen.de/start.html
+STATUS 200
+LEN 78337
+
+<!doctype html>
+<html lang="de" dir="ltr">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, shrink-to-fit=no">
+  <meta name="generator" content="dvv-Mastertemplates 24.2.5-RELEASE">
+  <meta name="keywords" content="Gemeinde, Buerger, Wirtschaft">
+  <meta name="keywords" content="Göppingen, Stadt Göppingen, Stadtverwaltung Göppingen, Rathaus Göppingen">
+  <meta name="description" content="Die Startseite von Göppingen.de">
+  <meta name="author" content="Straub Annegret">
+  <meta name="og:title" content="Startseite">
+  <meta name="og:description" content="Die Startseite von Göppingen.de">
+  <meta name="og:image" content="https://www.goeppingen.de/site/Goeppingen-Internet-2021/get/params_E-901805414/20347710/Parken-Innenstadt-App.jpg">
+  <meta name="og:image:alt" content="Zahlreiche Blumen vom Boden aus betrachtet, in der Mitte ist der blaue Himmel zu sehen">
+  <meta name="og:type" content="website">
+  <meta name="og:locale" content="de">
+  <meta name="og:url" content="https://www.goeppingen.de/start.html">
+  <meta name="geo.placename" content="Hauptstraße 1, 73033 GÃ¶ppingen, Deutschland">
+  <meta name="geo.region" content="DE-BW">
+  <meta name="geo.position" content="48.703380;9.653660">
+  <meta name="ICBM" content="48.703380,9.653660">
+  <meta name="robots" content="index, follow">
+  <title>Startseite | Stadt Göppingen</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/favicon/safari-pinned-tab.svg" color="#d51130">
+  <link rel="shortcut icon" href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/favicon/favicon.ico">
+  <link href="/common/js/jQuery/jquery-ui-themes/1.13.2/base/jquery-ui.min.css" rel="stylesheet" type="text/css">
+  <link href="/site/Goeppingen-Internet-2021/resourceTemplate/GP/-/18558010/24.2.0/resource.dynamic.css" rel="stylesheet" type="text/css">
+  <link href="/common/js/jQuery/external/lightbox/dvv-lightbox-min.css" rel="stylesheet" type="text/css">
+  <meta name="msapplication-config" content="/site/Goeppingen-Internet-2021/get/documents/Goeppingen/Goeppingen_Layout_2021/img/favicon/browserconfig.xml">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <script src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/js/vendors/mburger/mburger-css-1.3.3/dist/mburger.js" type="module"></script>
+  <script src="/common/js/jQuery/3.7.1/jquery.min.js"></script>
+  <script src="/common/js/jQuery/external/hoverIntent/jquery.hoverIntent.min.js"></script>
+  <script src="/common/js/jQuery/external/touchwipe/jquery.touchwipe.min.js"></script>
+  <script src="/common/js/jQuery/external/superfish/js/superfish.min.js"></script>
+  <script src="/common/js/jQuery/external/lightbox/dvv-lightbox-min.js"></script>
+  <script src="/common/js/jQuery/jquery-ui/1.14.1/jquery-ui.min.js"></script>
+  <script src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/mergedScript_de.js"></script>
+  <script src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/js/bootstrap.bundle.min.js"></script>
+  <script src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/js/functions.js"></script>
+  <script src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/js/vendors/mmenu/mmenu-js-8.5.24/dist/mmenu.js"></script>
+  <script src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/js/mobilemenu.js"></script>
+  <script defer src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/search-autocomplete/autocomplete.js"></script>
+  <script>
+jQuery(function($) {$("a[data-lightboxgroup^='lightbox']").lightBox();});jQuery.extend(jQuery.fn.lightBox.defaults, {imageBtnPrev: "/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/apps/prev.png", imageBtnNext: "/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/apps/next.png", imageBtnClose: "/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/apps/close.png", maxHeight: "viewport", maxWidth: "viewport"});
+jQuery(function () {
+    jQuery('.pbsearch-autocomplete').pbsearch_autocomplete({
+        url: '/site/Goeppingen-Internet-2021/search-autocomplete/18558007/index.html',
+        delay: 300,
+        maxTerms: 5,
+        minLength: 3,
+        rows: 20,
+        avoidParallelRequests: true
+    });
+});
+jQuery(function(){jQuery('ul.sf-menu').superfish();});
+</script>
+  <link href="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/css/styles.css" rel="stylesheet" type="text/css">
+ </head>
+ <body id="node18558007" class="home standard body_node Ebene0"><a id="pageTop"></a>
+  <div class="search-overlay">
+   <div class="outer-close toggle-overlay"><a class="close"><span><i class="fal fa-times"></i></span></a>
+   </div>
+   <div class="search-overlay__inner">
+    <div class="c-meta__search">
+     <form class="c-quicksearch noprint" name="search" action="/site/Goeppingen-Internet-2021/search/18558007/quickSearchResult.html" role="search" method="GET"><input type="hidden" name="quicksearch" value="true"> <input class="c-quicksearch__input pbsearch-autocomplete" name="query" id="qs_query8535402944621568000" type="search" placeholder="SUCHBEGRIFF EINGEBEN" aria-label="Suche" onfocus="if(this.value == this.defaultValue){this.value = '';}"> <button class="c-quicksearch__button" type="submit" value="Search" aria-label="Suche starten"><i class="fas fa-search"></i></button>
+     </form>
+    </div>
+   </div>
+  </div>
+  <div class="l-header__skiplinks">
+   <ul class="c-skiplinks">
+    <li><a class="c-skiplinks__item" href="#navigation">Gehe zum Navigationsbereich</a></li>
+    <li><a class="c-skiplinks__item" href="#inhalt">Gehe zum Inhalt</a></li>
+   </ul>
+  </div>
+  <div class="c-loginout"><a class="logon" href="/auth/index.html?secure=true&amp;url=%2Fstart.html" rel="nofollow" title="anmelden"><img src="/master/img/leer8x8.gif" alt="anmelden" width="16" height="16"></a>
+  </div>
+  <div class="l-page">
+   <header class="l-header">
+    <div class="l-header__row1">
+     <div class="l-header__brand" role="banner"><a href="/start.html" title="Zur Startseite von Stadt Göppingen" aria-label="Zur Startseite von Stadt Göppingen"> <img src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/logo.svg" alt="Logo: Stadt Göppingen (Link zur Startseite)"> </a>
+     </div>
+     <div class="l-header__row1_right">
+      <div class="l-header__row1_search"><a href="#" class="toggle-overlay" aria-label="Zur suche" title="Zur Suche"> <i class="fas fa-search"></i> <!--img src="/site/Goeppingen-Internet-2021/resourceCached/24.2.0/img/lupe.svg"" alt="Icon f&uuml;r Aufruf Suche"--> </a>
+      </div>
+      <div class="l-header__row1_navigation">
+       <nav id="navigation" class="l-navigation" aria-label="Hauptnavigation">
+        <ul class="sf-menu">
+         <li><a href="/start/informieren.html">Informieren</a>
+          <ul>
+           <li><a href="/start/informieren/aktuelle+meldungen.html">Aktuelle Meldungen</a></li>
+           <li><a href="/start/informieren/veranstaltungen.html">Veranstaltungen</a></li>
+           <li><a href="/start/informieren/stellenangebote.html">Stellenangebote</a>
+            <ul>
+             <li><a href="/start/informieren/vereinbarkeit+beruf+und+familie.html">Vereinbarkeit Beruf und Familie </a></li>
+            </ul></li>
+           <li><a href="/start/informieren/ausbildung+und+studium.html">Ausbildung und Studium</a>
+            <ul>
+             <li><a href="/20531466.html">Ausbildung</a></li>
+             <li><a href="/start/informieren/studium.html">Studium</a></li>
+             <li><a href="/start/informieren/praktikum.html">Praktikum</a></li>
+             <li><a href="/start/informieren/freiwilligendienste.html">Freiwilligendienste</a></li>
+            </ul></li>
+           <li><a href="/start/informieren/stadtplan+_+geoportal.html">Stadtplan / GeoPortal</a>
+            <ul>
+             <li><a href="/start/informieren/nutzungsbedingungen+und+haftungshinweis.html">Nutzungsbedingungen und Haftungshinweis</a></li>
+            </ul></li>
+           <li><a href="/start/informieren/bauen+und+wohnen.html">Bauen und Wohnen</a>
+            <ul>
+             <li><a href="/start/informieren/mietspiegel.html">Mietspiegel</a></li>
+             <li><a href="/start/informieren/staedtische+bauplaetze.html">Städtische Bauplätze</a></li>
+             <li><a href="/start/informieren/bauplatzboerse.html">Bauplatzbörse</a></li>
+             <li><a href="/start/informieren/grundstuecksbewertung.html">Grundstücksbewertung</a>
+              <ul>
+               <li><a href="/start/informieren/geschaeftsstelle+und+ansprechpartner.html">Geschäftsstelle und Ansprechpartner</a></li>
+               <li><a href="/start/informieren/gutachterausschuss.html">Gutachterausschuss</a></li>
+               <li><a href="/start/informieren/bodenrichtwerte.html">Bodenrichtwerte</a></li>
+               <li><a href="/start/informieren/kaufpreissammlung.html">Kaufpreissammlung</a></li>
+               <li><a href="/start/informieren/gutachten+grundstuecksbewertung.html">Gutachten Grundstücksbewertung</a></li>
+               <li><a href="/start/informieren/grundstuecksmarktbericht.html">Grundstücksmarktbericht</a></li>
+               <li><a href="/start/informieren/gebuehren.html">Gebühren</a></li>
+               <li><a href="/start/informieren/grundsteuerreform.html">Grundsteuerreform</a></li>
+              </ul></li>
+             <li><a href="/start/informieren/erbbaurecht.html">Erbbaurecht</a></li>
+             <li><a href="/start/informieren/bauluecken+und+baulandstein.html">Baulücken und Baulandstein</a></li>
+             <li><a href="/start/informieren/baugemeinschaften.html">Baugemeinschaften</a></li>
+             <li><a href="/start/informieren/digitaler+bauantrag.html">Digitaler Bauantrag</a></li>
+             <li><a href="/start/informieren/oeffentlichkeitsbeteiligungen.html">Öffentlichkeitsbeteiligungen</a></li>
+             <li><a href="/start/informieren/Bebauungsplan.html">Bebauungsplan</a></li>
+             <li><a href="/start/informieren/flaechennutzungsplan.html">Flächennutzungsplan</a></li>
+             <li><a href="/start/informieren/sanierung+_+foerderung.html">Sanierung / Förderung</a>
+              <ul>
+               <li><a href="/start/informieren/sanierungsgebiet+boehringer-areal.html">Sanierungsgebiet Boehringer-Areal</a></li>
+               <li><a href="/start/informieren/sanierungsgebiet+_am+fischbergele_.html">Sanierungsgebiet "Am Fischbergele"</a></li>
+              </ul></li>
+            </ul></li>
+           <li><a href="/start/informieren/ausschreibungen.html">Ausschreibungen</a>
+            <ul>
+             <li><a href="/start/informieren/europaweite+ausschreibung.html">Europaweite Ausschreibung</a></li>
+             <li><a href="/start/informieren/oeffentliche+ausschreibung.html">Öffentliche Ausschreibung</a></li>
+             <li><a href="/start/informieren/beabsichtigte+beschraenkte+ausschreibung.html">Beabsichtigte beschränkte Ausschreibung</a></li>
+             <li><a href="/start/informieren/vergebene+auftraege.html">Vergebene Aufträge</a></li>
+            </ul></li>
+           <li><a href="/start/informieren/bevoelkerungsschutz.html">Bevölkerungsschutz</a></li>
+           <li><a href="/start/informieren/Bekanntmachungen.html">Bekanntmachungen</a></li>
+           <li><a href="/start/informieren/buergerapp.html">BürgerApp</a></li>
+           <li><a href="/start/informieren/geppo.html">GEPPO</a></li>
+           <li><a href="/start/informieren/impressum.html">Impressum</a></li>
+           <li><a href="/start/informieren/datenschutz.html">Datenschutz</a></li>
+           <li><a href="/start/informieren/barrierefreiheit.html">Barrierefreiheit</a></li>
+           <li><a href="/start/informieren/leichte+sprache.html">Leichte Sprache</a></li>
+           <li><a href="/start/informieren/gebaerdensprache.html">Gebärdensprache</a></li>
+          </ul></li>
+         <li><a href="/start/kennenlernen.html">Kennenlernen</a>
+          <ul>
+           <li><a href="/start/kennenlernen/portrait.html">Portrait</a>
+            <ul>
+             <li><a href="/start/kennenlernen/geschichte.html">Geschichte</a></li>
+             <li><a href="/start/kennenlernen/gegenwart.html">Gegenwart</a></li>
+             <li><a href="/start/kennenlernen/virtuelle+stadtfuehrungen.html">Virtuelle Stadtführungen</a></li>
+             <li><a href="/start/kennenlernen/ehrenbuerger.html">Ehrenbürger</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/stadtbezirke.html">Stadtbezirke</a>
+            <ul>
+             <li><a href="/start/kennenlernen/bartenbach.html">Bartenbach</a></li>
+             <li><a href="/start/kennenlernen/bezgenriet.html">Bezgenriet</a></li>
+             <li><a href="/start/kennenlernen/faurndau.html">Faurndau</a>
+              <ul>
+               <li><a href="/start/kennenlernen/1150+jahre+faurndau.html">1150 Jahre Faurndau</a></li>
+              </ul></li>
+             <li><a href="/start/kennenlernen/hohenstaufen.html">Hohenstaufen</a></li>
+             <li><a href="/start/kennenlernen/holzheim.html">Holzheim</a></li>
+             <li><a href="/start/kennenlernen/jebenhausen.html">Jebenhausen</a></li>
+             <li><a href="/start/kennenlernen/maitis.html">Maitis</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/stadtpolitik.html">Stadtpolitik</a>
+            <ul>
+             <li><a href="/start/kennenlernen/oberbuergermeister.html">Oberbürgermeister</a></li>
+             <li><a href="/start/kennenlernen/erster+buergermeister.html">Erster Bürgermeister</a></li>
+             <li><a href="/start/kennenlernen/baubuergermeisterin.html">Baubürgermeisterin</a></li>
+             <li><a href="/start/kennenlernen/gemeinderat.html">Gemeinderat</a>
+              <ul>
+               <li><a href="/start/kennenlernen/mitglieder.html">Mitglieder</a></li>
+              </ul></li>
+             <li><a href="/start/kennenlernen/haushalt.html">Haushalt</a>
+              <ul>
+               <li><a href="/start/kennenlernen/haushalt+2027.html">Haushalt 2027</a></li>
+               <li><a href="/start/kennenlernen/haushalt+2026.html">Haushalt 2026</a></li>
+               <li><a href="/start/kennenlernen/eroeffnungsbilanz.html">Eröffnungsbilanz</a></li>
+               <li><a href="/start/kennenlernen/jahresabschluss.html">Jahresabschluss</a></li>
+              </ul></li>
+             <li><a href="/start/kennenlernen/beflaggung.html">Beflaggung</a></li>
+             <li><a href="/start/kennenlernen/stadtrecht.html">Stadtrecht</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/staedtepartnerschaften.html">Städtepartnerschaften</a>
+            <ul>
+             <li><a href="/start/kennenlernen/foggia.html">Foggia</a></li>
+             <li><a href="/start/kennenlernen/klosterneuburg.html">Klosterneuburg</a></li>
+             <li><a href="/start/kennenlernen/pessac.html">Pessac</a></li>
+             <li><a href="/start/kennenlernen/sonneberg.html">Sonneberg</a></li>
+             <li><a href="/start/kennenlernen/patenschaften.html">Patenschaften</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/wirtschaft.html">Wirtschaftsstandort</a>
+            <ul>
+             <li><a href="/start/kennenlernen/standortvorteile.html">Standortvorteile</a></li>
+             <li><a href="/start/kennenlernen/kernkompetenz.html">Kernkompetenz</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/gewerbeflaechen.html">Gewerbeflächen</a></li>
+           <li><a href="/start/kennenlernen/staedtische+unternehmen.html">Städtische Unternehmen</a></li>
+           <li><a href="/start/kennenlernen/feuerwehr.html">Feuerwehr</a></li>
+           <li><a href="/start/kennenlernen/SEG.html">Stadtentwässerung</a>
+            <ul>
+             <li><a href="/start/kennenlernen/organisation.html">Organisation</a></li>
+             <li><a href="/start/kennenlernen/ausbildung+und+karriere.html">Ausbildung und Karriere</a></li>
+             <li><a href="/start/kennenlernen/informationen.html">Informationen</a></li>
+             <li><a href="/start/kennenlernen/seg+erleben.html">SEG erleben</a></li>
+             <li><a href="/start/kennenlernen/umweltmanagement.html">Umweltmanagement</a></li>
+             <li><a href="/start/kennenlernen/kanalnetz.html">Kanalnetz</a></li>
+             <li><a href="/start/kennenlernen/klaerwerk.html">Klärwerk</a></li>
+             <li><a href="/20402451.html">Projekte</a></li>
+             <li><a href="/20402660.html">Historie</a></li>
+             <li><a href="/start/kennenlernen/faq.html">FAQ</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/buergerstiftung.html">Bürgerstiftung</a>
+            <ul>
+             <li><a href="/start/kennenlernen/projekte.html">Projekte</a></li>
+             <li><a href="/start/kennenlernen/angebote.html">Angebote</a></li>
+             <li><a href="/start/kennenlernen/projektfoerderung.html">Projektförderung</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/demokratie+leben.html">Demokratie leben</a></li>
+           <li><a href="/start/kennenlernen/fairtrade.html">Fairtrade</a></li>
+           <li><a href="/start/kennenlernen/migration+und+teilhabe.html">Migration und Teilhabe</a>
+            <ul>
+             <li><a href="/start/kennenlernen/intregrationsbeauftragte.html">Intregrationsbeauftragte</a></li>
+             <li><a href="/start/kennenlernen/integrationsausschuss.html">Integrationsausschuss</a></li>
+             <li><a href="/start/kennenlernen/interkulturelle+elternarbeit.html">Interkulturelle Elternarbeit</a></li>
+            </ul></li>
+           <li><a href="/start/kennenlernen/chancengleichheit.html">Chancengleichheit</a></li>
+          </ul></li>
+         <li><a href="/start/organisieren.html">Organisieren</a>
+          <ul>
+           <li><a href="/start/organisieren/was+erledige+ich+wo_.html">Was erledige ich wo?</a>
+            <ul>
+             <li><a href="/start/organisieren/lebenslagen.html">Lebenslagen</a></li>
+             <li><a href="/start/organisieren/a-z+liste.html">A-Z Liste</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/dienststellen.html">Dienststellen</a></li>
+           <li><a href="/start/organisieren/buergerbuero.html">Bürgerbüro</a></li>
+           <li><a href="/start/organisieren/standesamt.html">Standesamt</a>
+            <ul>
+             <li><a href="/start/organisieren/eheschliessungen.html">Eheschließungen</a></li>
+             <li><a href="/start/organisieren/geburten.html">Geburten</a></li>
+             <li><a href="/start/organisieren/sterbefaelle.html">Sterbefälle</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/auslaenderbehoerde.html">Ausländerbehörde</a>
+            <ul>
+             <li><a href="/start/organisieren/asylangelegenheiten.html">Asylangelegenheiten</a></li>
+             <li><a href="/start/organisieren/allgemeines+auslaenderrecht.html">Allgemeines Ausländerrecht</a></li>
+             <li><a href="/start/organisieren/eu-buergerinnen+und+-buerger.html">EU-Bürgerinnen und -Bürger</a></li>
+             <li><a href="/start/organisieren/verpflichtungserklaerungen.html">Verpflichtungserklärungen</a></li>
+             <li><a href="/start/organisieren/umverteilungsantraege.html">Umverteilungsanträge</a></li>
+             <li><a href="/start/organisieren/beschleunigtes+fachkraefteverfahren.html">Beschleunigtes Fachkräfteverfahren</a></li>
+             <li><a href="/start/organisieren/freiwillige+ausreisen.html">Freiwillige Ausreisen</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/bezirksaemter.html">Bezirksämter</a>
+            <ul>
+             <li><a href="/start/organisieren/Bartenbach.html">Bartenbach</a>
+              <ul>
+               <li><a href="/start/organisieren/bezirksbeirat.html">Bezirksbeirat</a></li>
+              </ul></li>
+             <li><a href="/18593097.html">Bezgenriet</a>
+              <ul>
+               <li><a href="/20189275.html">Bezirksbeirat</a></li>
+              </ul></li>
+             <li><a href="/start/organisieren/Faurndau.html">Faurndau</a>
+              <ul>
+               <li><a href="/start/organisieren/Bezirksbeirat.html">Bezirksbeirat</a></li>
+              </ul></li>
+             <li><a href="/18593119.html">Hohenstaufen</a>
+              <ul>
+               <li><a href="/20189447.html">Bezirksbeirat</a></li>
+              </ul></li>
+             <li><a href="/start/organisieren/Holzheim.html">Holzheim</a>
+              <ul>
+               <li><a href="/start/organisieren/bezirksbeirat+holzheim.html">Bezirksbeirat Holzheim</a></li>
+              </ul></li>
+             <li><a href="/18593141.html">Jebenhausen</a>
+              <ul>
+               <li><a href="/20189616.html">Bezirksbeirat</a></li>
+              </ul></li>
+             <li><a href="/18593152.html">Maitis</a>
+              <ul>
+               <li><a href="/20189667.html">Bezirksbeirat</a></li>
+              </ul></li>
+            </ul></li>
+           <li><a href="/start/organisieren/kinder+und+jugendliche.html">Kinder und Jugendliche</a>
+            <ul>
+             <li><a href="/start/organisieren/kinder-+und+jugendtreffs.html">Kinder- und Jugendtreffs</a></li>
+             <li><a href="/start/organisieren/schulsozialarbeit.html">Schulsozialarbeit</a></li>
+             <li><a href="/start/organisieren/netzwerk+jugend.html">Netzwerk Jugend</a></li>
+             <li><a href="/start/organisieren/jugendgremium.html">Jugendgremium</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/senioren.html">Senioren</a>
+            <ul>
+             <li><a href="/start/organisieren/stadtseniorenrat.html">Stadtseniorenrat</a></li>
+             <li><a href="/start/organisieren/adressen.html">Adressen</a></li>
+             <li><a href="/start/organisieren/seniorennetzwerk.html">Seniorennetzwerk</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/stadtjaeger.html">Stadtjäger</a></li>
+           <li><a href="/start/organisieren/friedhoefe.html">Friedhöfe</a>
+            <ul>
+             <li><a href="/20238418.html">Geschichte</a></li>
+             <li><a href="/start/organisieren/hinweise+bei+sterbefaellen.html">Hinweise bei Sterbefällen</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/maengelmelder.html">Mängelmelder</a></li>
+           <li><a href="/start/organisieren/sozialleistungen.html">Sozialleistungen</a>
+            <ul>
+             <li><a href="/start/organisieren/elterngeld.html">Elterngeld</a></li>
+             <li><a href="/start/organisieren/euro+wc-schluessel.html">Euro WC-Schlüssel</a></li>
+             <li><a href="/start/organisieren/grundsicherungsleistungen.html">Grundsicherungsleistungen</a></li>
+             <li><a href="/start/organisieren/kriegsopferfuersorge.html">Kriegsopferfürsorge</a></li>
+             <li><a href="/start/organisieren/landesblindenhilfe.html">Landesblindenhilfe</a></li>
+             <li><a href="/start/organisieren/landesfamilienpass.html">Landesfamilienpass</a></li>
+             <li><a href="/start/organisieren/mehrlingsgeburten.html">Mehrlingsgeburten</a></li>
+             <li><a href="/start/organisieren/rentenantraege.html">Rentenanträge</a></li>
+             <li><a href="/start/organisieren/rundfunkbeitrag.html">Rundfunkbeitrag</a></li>
+             <li><a href="/start/organisieren/schwerbehindertenausweis.html">Schwerbehindertenausweis</a></li>
+             <li><a href="/start/organisieren/sozialhilfe.html">Sozialhilfe</a></li>
+             <li><a href="/start/organisieren/wohngeld.html">Wohngeld</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/wirtschaftsservice.html">Wirtschaftsservice</a>
+            <ul>
+             <li><a href="/start/organisieren/netzwerke.html">Netzwerke</a></li>
+             <li><a href="/start/organisieren/preise+und+wettbewerbe.html">Preise und Wettbewerbe</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/veranstaltungsorte.html">Veranstaltungsorte</a>
+            <ul>
+             <li><a href="/start/organisieren/stadthalle.html">Stadthalle</a></li>
+             <li><a href="/start/organisieren/altes+e-werk.html">Altes E-Werk</a></li>
+             <li><a href="/start/organisieren/ews-arena.html">EWS-Arena</a></li>
+             <li><a href="/start/organisieren/wasenhalle+jebenhausen.html">Wasenhalle Jebenhausen</a></li>
+             <li><a href="/start/organisieren/turn-+und+festhalle+bartenbach.html">Turn- und Festhalle Bartenbach</a></li>
+            </ul></li>
+           <li><a href="/start/organisieren/praeventionsnetzwerk+kinderarmut.html">Präventionsnetzwerk Kinderarmut</a></li>
+           <li><a href="/start/organisieren/lokales+buendnis+fuer+familien.html">Lokales Bündnis für Familien</a></li>
+          </ul></li>
+         <li><a href="/start/gestalten.html">Gestalten</a>
+          <ul>
+           <li><a href="/start/gestalten/beteiligung.html">Beteiligung</a></li>
+           <li><a href="/start/gestalten/klimaschutz.html">Klimaschutz</a>
+            <ul>
+             <li><a href="/start/gestalten/treibhausgasneutrale+stadtverwaltung.html">Treibhausgasneutrale Stadtverwaltung</a></li>
+             <li><a href="/start/gestalten/klimaschutz+fuer+goeppingen.html">Klimaschutz für Göppingen</a></li>
+             <li><a href="/start/gestalten/kommunale+waermeplanung.html">Kommunale Wärmeplanung</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/klimafolgenanpassung.html">Klimafolgenanpassung</a>
+            <ul>
+             <li><a href="/start/gestalten/hitzeaktionsplan.html">Hitzeaktionsplan</a></li>
+             <li><a href="/start/gestalten/hochwasserschutz.html">Hochwasserschutz</a></li>
+             <li><a href="/start/gestalten/starkregenrisikomanagement.html">Starkregenrisikomanagement</a></li>
+             <li><a href="/start/gestalten/biotopverbundplanung.html">Biotopverbundplanung</a></li>
+             <li><a href="/start/gestalten/stadtklimaanalyse.html">Stadtklimaanalyse</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/stadtentwicklung.html">Stadtentwicklung</a>
+            <ul>
+             <li><a href="/start/gestalten/innenstadtforum+2030.html">Innenstadtforum 2030</a></li>
+             <li><a href="/start/gestalten/konzepte+und+satzungen.html">Konzepte und Satzungen</a>
+              <ul>
+               <li><a href="/start/gestalten/stek+2030.html">STEK 2030</a></li>
+               <li><a href="/start/gestalten/Gestaltungs-+und+Werbesatzung.html">Gestaltungssatzung</a></li>
+               <li><a href="/start/gestalten/werbesatzung.html">Werbesatzung</a></li>
+               <li><a href="/19926374.html">Farbkonzept</a></li>
+               <li><a href="/start/gestalten/richtlinie+zur+sondernutzungssatzung.html">Richtlinie zur Sondernutzungssatzung</a></li>
+               <li><a href="/start/gestalten/vergnuegungsstaettenkonzeption.html">Vergnügungsstättenkonzeption</a></li>
+               <li><a href="/start/gestalten/stadtbildanalyse.html">Stadtbildanalyse</a></li>
+               <li><a href="/start/gestalten/masterplan+innenstadt.html">Masterplan Innenstadt</a></li>
+              </ul></li>
+             <li><a href="/start/gestalten/klimaangepasstes+stadtentwicklungs-+und+mobilitaetskonzept.html">Klimaangepasstes Stadtentwicklungs- und Mobilitätskonzept</a></li>
+             <li><a href="/start/gestalten/gestaltungsbeirat.html">Gestaltungsbeirat</a>
+              <ul>
+               <li><a href="/start/gestalten/neubesetzung+gestaltungsbeirat.html">Neubesetzung Gestaltungsbeirat</a></li>
+              </ul></li>
+             <li><a href="/start/gestalten/entwicklung+stauferpark+sued.html">Entwicklung Stauferpark Süd</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/mobilitaet+und+verkehr.html">Mobilität und Verkehr</a>
+            <ul>
+             <li><a href="/start/gestalten/radverkehr.html">Radverkehr</a>
+              <ul>
+               <li><a href="/start/gestalten/radverkehrskonzept+2030.html">Radverkehrskonzept 2030</a></li>
+               <li><a href="/start/gestalten/fahrradparken.html">Fahrradparken</a></li>
+               <li><a href="/start/gestalten/fahrradverleih.html">Fahrradverleih</a></li>
+               <li><a href="/start/gestalten/radkultur.html">RadKULTUR</a></li>
+               <li><a href="/start/gestalten/service+rund+ums+rad.html">Service rund ums Rad</a></li>
+               <li><a href="/start/gestalten/stadtradeln.html">Stadtradeln</a></li>
+              </ul></li>
+             <li><a href="/start/gestalten/parkierungskonzept.html">Parkierungskonzept</a></li>
+             <li><a href="/start/gestalten/laermaktionsplan.html">Lärmaktionsplan</a></li>
+             <li><a href="/start/gestalten/strassenzustandserfassung.html">Straßenzustandserfassung</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/fachkraefte.html">Fachkräfte</a>
+            <ul>
+             <li><a href="/start/gestalten/qualifizierung+und+karriereberatung.html">Qualifizierung und Karriereberatung</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/existenzgruendung.html">Existenzgründung</a>
+            <ul>
+             <li><a href="/start/gestalten/foerderung+fuer+it-infrastruktur.html">Förderung für IT-Infrastruktur</a></li>
+             <li><a href="/start/gestalten/igz+impuls-+und+gruenderzentrum.html">IGZ Impuls- und Gründerzentrum</a></li>
+             <li><a href="/start/gestalten/netzwerke+fuer+gruender.html">Netzwerke für Gründer</a>
+              <ul>
+               <li><a href="/start/gestalten/netzwerktreffen+fuer+gruender.html">Netzwerktreffen für Gründer</a></li>
+              </ul></li>
+             <li><a href="/start/gestalten/beratungsangebote.html">Beratungsangebote</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/staedtische+bauprojekte.html">Städtische Bauprojekte</a>
+            <ul>
+             <li><a href="/start/gestalten/wc-anlage+schlosswaeldle.html">WC-Anlage Schlosswäldle</a></li>
+             <li><a href="/start/gestalten/kindertagesstaette+im+freihof.html">Kindertagesstätte Im Freihof </a></li>
+             <li><a href="/start/gestalten/boehringer-areal.html">Boehringer-Areal</a></li>
+             <li><a href="/start/gestalten/grundschule+holzheim.html">Grundschule Holzheim </a></li>
+             <li><a href="/start/gestalten/hohenstaufen-gymnasium.html">Hohenstaufen-Gymnasium </a></li>
+             <li><a href="/start/gestalten/kita+an+der+ass.html">Kita an der ASS</a></li>
+             <li><a href="/start/gestalten/interims-kita+bartenbach.html">Interims-Kita Bartenbach</a></li>
+             <li><a href="/start/gestalten/jms+zimmertheater.html">JMS Zimmertheater</a></li>
+             <li><a href="/start/gestalten/neuer+zob.html">Neuer ZOB</a></li>
+            </ul></li>
+           <li><a href="/start/gestalten/sauberkeit.html">Sauberkeit</a></li>
+           <li><a href="/start/gestalten/sicherheit.html">Sicherheit</a>
+            <ul>
+             <li><a href="/start/gestalten/sicherheitsbefragung.html">Sicherheitsbefragung</a></li>
+             <li><a href="/start/gestalten/videoueberwachung.html">Videoüberwachung</a></li>
+             <li><a href="/start/gestalten/buergerdialog+sicherheit.html">Bürgerdialog Sicherheit</a></li>
+             <li><a href="/start/gestalten/waffen-+und+messerverbotszone.html">Waffen- und Messerverbotszone</a></li>
+             <li><a href="/start/gestalten/move+savely.html">Move Savely</a></li>
+            </ul></li>
+          </ul></li>
+         <li><a href="/start/engagieren.html">Engagieren</a>
+          <ul>
+           <li><a href="/start/engagieren/koordinierungsstelle+engagement.html">Koordinierungsstelle Engagement</a></li>
+           <li><a href="/start/engagieren/engagement-angebote.html">Engagement-Angebote</a></li>
+           <li><a href="/start/engagieren/vereinsdatenbank+plus.html">Vereinsdatenbank PLUS</a></li>
+           <li><a href="/start/engagieren/raumangebote.html">Raumangebote </a></li>
+           <li><a href="/start/engagieren/finanzierung+_+foerdermittel.html">Finanzierung &amp; Fördermittel</a></li>
+           <li><a href="/start/engagieren/fortbildungen.html">Fortbildungen</a></li>
+           <li><a href="/start/engagieren/dank+an+engagierte.html">Dank an Engagierte</a></li>
+           <li><a href="/start/engagieren/tipps+_+tricks+im+ehrenamt.html">Tipps &amp; Tricks im Ehrenamt</a></li>
+          </ul></li>
+         <li><a href="/start/lernen.html">Lernen</a>
+          <ul>
+           <li><a href="/start/lernen/kindertagesstaetten.html">Kindertagesstätten</a>
+            <ul>
+             <li><a href="/start/lernen/Kommunale+Einrichtungen.html">Kommunale Einrichtungen</a></li>
+             <li><a href="/start/lernen/Katholische+Einrichtungen.html">Katholische Einrichtungen</a></li>
+             <li><a href="/start/lernen/Evangelische+Einrichtungen.html">Evangelische Einrichtungen</a></li>
+             <li><a href="/start/lernen/Freie+Einrichtungen.html">Freie Einrichtungen</a></li>
+            </ul></li>
+           <li><a href="/start/lernen/schulen.html">Schulen</a>
+            <ul>
+             <li><a href="/start/lernen/Grundschulen.html">Grundschulen</a>
+              <ul>
+               <li><a href="/start/lernen/Blumhardt_Grundschule.html">Blumhardt-Grundschule</a></li>
+               <li><a href="/start/lernen/Bodenfeld_Grundschule.html">Bodenfeld-Grundschule</a></li>
+               <li><a href="/start/lernen/Grundschule+Bezgenriet.html">Grundschule Bezgenriet</a></li>
+               <li><a href="/start/lernen/Grundschule+Hohenstaufen.html">Grundschule Hohenstaufen</a></li>
+               <li><a href="/start/lernen/Grundschule+Holzheim.html">Grundschule Holzheim</a></li>
+               <li><a href="/start/lernen/Grundschule+im+Stauferpark.html">Grundschule im Stauferpark</a></li>
+               <li><a href="/start/lernen/Haierschule+Faurndau.html">Haierschule Faurndau</a></li>
+               <li><a href="/start/lernen/Janusz_Korczak_Schule.html">Janusz-Korczak-Schule</a></li>
+               <li><a href="/start/lernen/Meerbach_Grundschule.html">Meerbach-Grundschule</a></li>
+               <li><a href="/start/lernen/Schiller_Grundschule.html">Schiller-Grundschule</a></li>
+               <li><a href="/start/lernen/Suedstadt_Grundschule.html">Südstadt-Grundschule</a></li>
+               <li><a href="/start/lernen/Uhland_Grundschule.html">Uhland-Grundschule</a></li>
+               <li><a href="/start/lernen/Ursenwangschule.html">Ursenwangschule</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/Grund_+und+Werkrealschulen.html">Grund- und Werkrealschulen</a>
+              <ul>
+               <li><a href="/start/lernen/Walther_Hensel_Schule.html">Walther-Hensel-Schule</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/Gemeinschaftsschule.html">Gemeinschaftsschule</a></li>
+             <li><a href="/start/lernen/Realschulen.html">Realschulen</a></li>
+             <li><a href="/start/lernen/Gymnasien.html">Gymnasien</a></li>
+             <li><a href="/start/lernen/sbbz.html">SBBZ</a></li>
+             <li><a href="/start/lernen/Sonstige+Schulen.html">Sonstige Schulen</a></li>
+             <li><a href="/start/lernen/digitalisierung+an+schulen.html">Digitalisierung an Schulen</a></li>
+             <li><a href="/start/lernen/Schuelerbefoerderung.html">Schülerbeförderung</a></li>
+             <li><a href="/start/lernen/Betreuung+und+Mittagsverpflegung.html">Betreuung und Mittagsverpflegung</a></li>
+             <li><a href="/start/lernen/Ferienbetreuung+an+Grundschulen.html">Ferienbetreuung</a></li>
+             <li><a href="/start/lernen/gesamtelternbeirat.html">Gesamtelternbeirat</a></li>
+            </ul></li>
+           <li><a href="/start/lernen/hochschule.html">Hochschule</a></li>
+           <li><a href="/start/lernen/Jugendmusikschule.html">Jugendmusikschule</a>
+            <ul>
+             <li><a href="/start/lernen/JMS+Aktuell.html">JMS Aktuell</a></li>
+             <li><a href="/start/lernen/Wir+ueber+uns.html">Wir über uns</a>
+              <ul>
+               <li><a href="/start/lernen/Haus+Illig.html">Haus Illig</a></li>
+               <li><a href="/start/lernen/Unsere+Paedagogen.html">Unsere Pädagogen</a></li>
+               <li><a href="/start/lernen/Elternvertretung.html">Elternvertretung</a></li>
+               <li><a href="/start/lernen/Internationale+Partnerschaften.html">Internationale Partnerschaften</a></li>
+               <li><a href="/start/lernen/Unsere+Zertifikate.html">Unsere Zertifikate</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/unsere+kooperationen.html">Unsere Kooperationen</a></li>
+             <li><a href="/start/lernen/Juge.html">Jugend musiziert</a></li>
+             <li><a href="/start/lernen/Unterrichtsangebot.html">Unterrichtsangebot</a>
+              <ul>
+               <li><a href="/start/lernen/Musikal_+Frueherziehung.html">Musikal. Früherziehung</a></li>
+               <li><a href="/start/lernen/Musikal_+Grundausbildung.html">Musikal. Grundausbildung</a></li>
+               <li><a href="/start/lernen/Instrumenteninformation.html">Instrumenteninformation</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/Unterrichtsgebuehren.html">Unterrichtsgebühren</a></li>
+             <li><a href="/20217834.html">Veranstaltungen</a></li>
+             <li><a href="/start/lernen/Ensemblearbeit.html">Ensemblearbeit</a>
+              <ul>
+               <li><a href="/start/lernen/Musikwerkstatt.html">Musikwerkstatt</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/JSO.html">Jugendsinfonieorch.</a>
+              <ul>
+               <li><a href="/start/lernen/Probenplan.html">Probenplan</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/Jazzico.html">Jazzico</a></li>
+             <li><a href="/start/lernen/Jugendkapelle.html">Jugendkapelle</a>
+              <ul>
+               <li><a href="/start/lernen/Fotogalerie.html">Fotogalerie</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/StBo.html">Städt. Blasorchester</a>
+              <ul>
+               <li><a href="/start/lernen/fotogalerie.html">Fotogalerie</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/Historie.html">Historie</a>
+              <ul>
+               <li><a href="/start/lernen/Konzertreise++JSO+nach+Rom+22.html">Konzertreise JSO nach Rom 22</a></li>
+               <li><a href="/start/lernen/Jugendkapelle+in+Amsterdam+2022.html">Jugendkapelle in Amsterdam 2022</a></li>
+               <li><a href="/start/lernen/Happy+Birthday+Open+Air+2022.html">Happy Birthday Open Air 2022</a></li>
+               <li><a href="/start/lernen/Landes-Musik-Festival+2022.html">Landes-Musik-Festival 2022</a></li>
+               <li><a href="/start/lernen/Fruehjahrskonzert+2022.html">Frühjahrskonzert 2022</a></li>
+               <li><a href="/start/lernen/Weihnachtskonzert+2019.html">Weihnachtskonzert 2019</a></li>
+               <li><a href="/start/lernen/JSO+Spanienreise+19.html">JSO Spanienreise 19</a></li>
+               <li><a href="/start/lernen/neue+seite.html">JSO Göppingen beim Venezia Music Festival 18</a></li>
+               <li><a href="/start/lernen/JSO+Goeppingen+in+Suedfrankreich+17.html">JSO Göppingen in Südfrankreich 17</a></li>
+               <li><a href="/start/lernen/Weihnachtsfloeten+2016.html">Weihnachtsflöten 2016</a></li>
+               <li><a href="/start/lernen/Weihnachtskonzert+2016.html">Weihnachtskonzert 2016</a></li>
+               <li><a href="/start/lernen/JSO+in+Barcelona+16.html">JSO in Barcelona 16</a></li>
+               <li><a href="/start/lernen/VII_+Internationales+Festival+der+Strassenmusik+2016.html">VII. Internationales Festival der Straßenmusik 2016</a></li>
+               <li><a href="/start/lernen/Jugendkapelle+in+Venedig+2016.html">Jugendkapelle in Venedig 2016</a></li>
+               <li><a href="/start/lernen/Vokalensemble+2016.html">Vokalensemble 2016</a></li>
+               <li><a href="/start/lernen/New+York+2015.html">New York 2015</a></li>
+               <li><a href="/start/lernen/Kinderkonzert+2015.html">Kinderkonzert 2015</a></li>
+               <li><a href="/start/lernen/Jugend+musiziert+2015.html">Jugend musiziert 2015</a>
+                <ul>
+                 <li><a href="/start/lernen/Regionalwettbewerb+2015+in+Goeppingen.html">Ergebnisse 2015</a></li>
+                 <li><a href="/20219528.html">Fotogalerie</a></li>
+                </ul></li>
+               <li><a href="/start/lernen/Deutscher+Jugendorchesterpreis+15.html">Deutscher Jugendorchesterpreis 15</a></li>
+               <li><a href="/start/lernen/VI_+Combo+Meeting+15.html">VI. Combo Meeting 15</a></li>
+               <li><a href="/start/lernen/Meisterkurs+mit+Guy+Braunstein+15.html">Meisterkurs mit Guy Braunstein 15</a></li>
+               <li><a href="/start/lernen/Musizierstunde+in+Zell+15.html">Musizierstunde in Zell 15</a></li>
+               <li><a href="/start/lernen/JSO+im+Tunnel+2014.html">JSO im Tunnel 2014</a></li>
+               <li><a href="/start/lernen/Jazzico+in+Italien+2014.html">Jazzico in Italien 2014</a></li>
+               <li><a href="/start/lernen/JSO+in+London+14.html">JSO in London 14</a></li>
+               <li><a href="/start/lernen/JSO+beim+Sommefestival+14.html">JSO beim Festival 14</a></li>
+               <li><a href="/start/lernen/Jahresfortbildung+14.html">Jahresfortbildung 14</a></li>
+               <li><a href="/start/lernen/Haensel+_+Gretel+13.html">Hänsel &amp; Gretel 13</a></li>
+               <li><a href="/start/lernen/Percussion+in+Concert+2013.html">Percussion Concert 13</a></li>
+               <li><a href="/start/lernen/Toskana+Jugendkapelle+13.html">Toskana Jugendkapelle 13</a></li>
+               <li><a href="/start/lernen/Combo+Meeting+2013.html">Combo Meeting 2013</a></li>
+               <li><a href="/start/lernen/JSO+in+Wien+2013.html">JSO in Wien 2013</a></li>
+               <li><a href="/start/lernen/Kinderkonzert+2013.html">Kinderkonzert 2013</a>
+                <ul>
+                 <li><a href="/start/lernen/jugend+musiziert.html">Jugend musiziert</a>
+                  <ul>
+                   <li><a href="/start/lernen/ergebnisse+2015.html">Ergebnisse 2015</a></li>
+                   <li><a href="/20218645.html">Fotogalerie</a></li>
+                  </ul></li>
+                </ul></li>
+               <li><a href="/start/lernen/JMS+bei+Kunstnacht+2013.html">JMS bei Kunstnacht 2013</a></li>
+               <li><a href="/start/lernen/Erfolgreich+in+Bad+Boll+13.html">Erfolgreich in Bad Boll 13</a></li>
+               <li><a href="/start/lernen/Ensembles+in+Zell+13.html">Ensembles in Zell 13</a></li>
+               <li><a href="/start/lernen/Peter+und+der+Wolf+2013.html">Peter und der Wolf 2013</a></li>
+               <li><a href="/start/lernen/Weihnachtskonzert+2012.html">Weihnachtskonzert 2012</a></li>
+               <li><a href="/start/lernen/Weihnachtsmarkt+2012.html">Weihnachtsmarkt 2012</a></li>
+               <li><a href="/start/lernen/Integrative+Musikwerstatt+bei+Inklusionsparty.html">Integrative Musikwerstatt bei Inklusionsparty</a></li>
+               <li><a href="/start/lernen/Barcelonareise+2012.html">Barcelonareise 2012</a></li>
+               <li><a href="/start/lernen/V_+Internationales+Festival+der+Strassenmusik+2012.html">V. Internationales Festival der Straßenmusik 2012</a></li>
+               <li><a href="/start/lernen/Rigareise+2011.html">Rigareise 2011</a></li>
+               <li><a href="/start/lernen/Suedafrikareise+2010.html">Südafrikareise 2010</a></li>
+               <li><a href="/start/lernen/Italienreise+2010.html">Italienreise 2010</a></li>
+               <li><a href="/start/lernen/XI_+Jazz-Meeting+Open+Air+2023.html">XI. Jazz-Meeting Open Air 2023</a></li>
+               <li><a href="/start/lernen/Internationale+Jugendbegegnung+in+Barcelona+2023.html">Internationale Jugendbegegnung in Barcelona 2023</a></li>
+               <li><a href="/start/lernen/jso+in+paris+und+pessac+2024.html">JSO in Paris und Pessac 2024</a></li>
+              </ul></li>
+             <li><a href="/start/lernen/Schulleitung.html">Schulleitung</a></li>
+             <li><a href="/start/lernen/Online-Anmeldung+und+Downloads.html">Online-Anmeldung und Downloads</a></li>
+             <li><a href="/start/lernen/Foerderer+_+Partner.html">Förderer &amp; Partner</a></li>
+             <li><a href="/start/lernen/App.html">App</a></li>
+             <li><a href="/start/lernen/faq+-+schnell+informiert.html">FAQ - schnell informiert</a></li>
+             <li><a href="/start/lernen/unsere+stellenangebote.html">Unsere Stellenangebote</a></li>
+            </ul></li>
+           <li><a href="/start/lernen/volkshochschule.html">Volkshochschule</a></li>
+           <li><a href="/start/lernen/kinder-uni.html">Kinder-Uni</a></li>
+           <li><a href="/start/lernen/maks.html">MAKS</a></li>
+          </ul></li>
+         <li><a href="/start/erleben.html">Erleben</a>
+          <ul>
+           <li><a href="/start/erleben/sehenswuerdigkeiten.html">Sehenswürdigkeiten</a></li>
+           <li><a href="/start/erleben/zu+gast+in+goeppingen.html">Zu Gast in Göppingen</a></li>
+           <li><a href="/start/erleben/kultur.html">Kultur</a>
+            <ul>
+             <li><a href="/start/erleben/spielzeit.html">SpielZeit</a></li>
+             <li><a href="/start/erleben/kulturfuechse.html">Kulturfüchse</a></li>
+             <li><a href="/start/erleben/interkulturelle+wochen.html">Interkulturelle Wochen</a></li>
+             <li><a href="/start/erleben/kulturfoerderung.html">Kulturförderung</a></li>
+             <li><a href="/start/erleben/kulturkonzeption.html">Kulturkonzeption</a>
+              <ul>
+               <li><a href="/start/erleben/wie+laeuft+der+prozess+ab_.html">Wie läuft der Prozess ab?</a></li>
+               <li><a href="/start/erleben/wann+passiert+was_.html">Wann passiert was?</a></li>
+               <li><a href="/start/erleben/wer+ist+beteiligt_.html">Wer ist beteiligt?</a></li>
+               <li><a href="/start/erleben/was+sind+die+ergebnisse_.html">Was sind die Ergebnisse?</a></li>
+               <li><a href="/start/erleben/digitale+raumboerse.html">Digitale Raumbörse</a></li>
+              </ul></li>
+             <li><a href="/start/erleben/kulturpreise.html">Kulturpreise</a></li>
+             <li><a href="/start/erleben/kulturvereine+und+initiativen.html">Kulturvereine und Initiativen</a>
+              <ul>
+               <li><a href="/start/erleben/suchmaske+kulturvereine.html">Suchmaske Kulturvereine</a>
+                <ul>
+                 <li><a href="/start/erleben/suchmaske+kulturvereine+info.html">Suchmaske Kulturvereine Info</a></li>
+                </ul></li>
+              </ul></li>
+            </ul></li>
+           <li><a href="/start/erleben/stadtfuehrungen.html">Stadtführungen</a></li>
+           <li><a href="/start/erleben/ipunkt.html">ipunkt</a></li>
+           <li><a href="/start/erleben/sport.html">Sport</a>
+            <ul>
+             <li><a href="/start/erleben/sonstige+organisationen.html">Sonstige Organisationen</a></li>
+             <li><a href="/start/erleben/sportentwicklungsplan.html">Sportentwicklungsplan</a></li>
+             <li><a href="/start/erleben/sportlerehrung.html">Sportlerehrung</a></li>
+            </ul></li>
+           <li><a href="/start/erleben/museen.html">Museen</a>
+            <ul>
+             <li><a href="/start/erleben/museum+im+storchen.html">Museum im Storchen</a>
+              <ul>
+               <li><a href="/start/erleben/Aktuelles.html">Aktuelles</a></li>
+               <li><a href="/start/erleben/Veranstaltungen.html">Veranstaltungen</a></li>
+               <li><a href="/start/erleben/Vermittlung.html">Vermittlung</a></li>
+               <li><a href="/start/erleben/museumsgeschichte.html">Museumsgeschichte</a></li>
+               <li><a href="/start/erleben/dauerausstellung.html">Dauerausstellung</a></li>
+               <li><a href="/start/erleben/publikationen.html">Publikationen</a></li>
+               <li><a href="/start/erleben/Partner+und+Links.html">Partner und Links</a></li>
+              </ul></li>
+             <li><a href="/start/erleben/naturkundliches+museum.html">Naturkundliches Museum</a>
+              <ul>
+               <li><a href="/start/erleben/Museumsgeschichte.html">Museumsgeschichte</a></li>
+               <li><a href="/start/erleben/sammlungen.html">Sammlungen</a></li>
+               <li><a href="/start/erleben/Dauerausstellung.html">Dauerausstellung</a></li>
+               <li><a href="/start/erleben/Publikation.html">Publikationen</a></li>
+               <li><a href="/start/erleben/partner+und+links.html">Partner und Links</a></li>
+              </ul></li>
+             <li><a href="/start/erleben/juedisches+museum.html">Jüdisches Museum</a>
+              <ul>
+               <li><a href="/20952425.html">Vermittlung</a></li>
+               <li><a href="/20952440.html">Veranstaltungen</a></li>
+               <li><a href="/20952448.html">Museumsgeschichte</a></li>
+               <li><a href="/20952456.html">Dauerausstellung</a></li>
+               <li><a href="/20952493.html">Publikationen</a></li>
+               <li><a href="/20952512.html">Partner und Links</a></li>
+              </ul></li>
+             <li><a href="/start/erleben/staufer-ausstellung.html">Staufer-Ausstellung</a>
+              <ul>
+               <li><a href="/start/erleben/vermittlung.html">Vermittlung</a></li>
+               <li><a href="/25332307.html">Veranstaltungen</a></li>
+               <li><a href="/20952549.html">Museumsgeschichte</a></li>
+               <li><a href="/start/erleben/Ausstellung.html">Ausstellung</a></li>
+               <li><a href="/20952579.html">Publikationen</a></li>
+               <li><a href="/20952597.html">Partner und Links</a></li>
+              </ul></li>
+             <li><a href="/start/erleben/weitere+museen.html">Weitere Museen</a></li>
+            </ul></li>
+           <li><a href="/start/erleben/maientag.html">Maientag</a>
+            <ul>
+             <li><a href="/start/erleben/historie.html">Historie</a></li>
+             <li><a href="/start/erleben/maientags-plaketten.html">Maientags-Plaketten</a></li>
+             <li><a href="/start/erleben/bewerbungen+maientag+2027.html">Bewerbungen Maientag 2027</a></li>
+            </ul></li>
+           <li><a href="/start/erleben/kunsthalle.html">Kunsthalle</a></li>
+           <li><a href="/start/erleben/stadtbibliothek.html">Stadtbibliothek</a></li>
+           <li><a href="/start/erleben/maerkte.html">Märkte</a>
+            <ul>
+             <li><a href="/start/erleben/wochenmarkt-haendler.html">Wochenmarkt-Händler</a></li>
+             <li><a href="/start/erleben/jahrmaerkte.html">Jahrmärkte</a></li>
+            </ul></li>
+           <li><a href="/start/erleben/stadtarchiv.html">Stadtarchiv</a>
+            <ul>
+             <li><a href="/start/erleben/bestaende.html">Bestände</a></li>
+             <li><a href="/start/erleben/archivgeschichte.html">Archivgeschichte</a></li>
+             <li><a href="/start/erleben/archivpaedagogik.html">Archivpädagogik</a></li>
+            </ul></li>
+          </ul></li>
+        </ul>
+       </nav>
+       <div class="mobile-nav-button-wrapper"><button class="mburger mburger--collapse" title="Öffnet die Navigation" id="mobile-nav-button" tabindex="0" aria-label="Öffne die Navigation"> <b></b> <b></b> <b></b> Menü </button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="l-header__stage">
+     <div class="v-top">
+      <div class="composedcontent-goeppingen-standardseite-2021 composedcontent-goeppingen-standardseite-2021--goeppingen-standardseite-2021 block_23352864" id="cc_23352864">
+       <figure class="basecontent-image basecontent-image--bild c-image resized resizedW1140 resizedH760">
+        <div class="image-inner" id="img_23352871">
+         <img alt="Panoramabild auf die Stadt Göppingen, mittig ist im Hintergrund der Hohenstaufen zu sehen." src="/site/Goeppingen-Internet-2021/data/18558007/resize/Waldweihnacht.jpg?f=%2Fsite%2FGoeppingen-Internet-2021%2Fget%2Fparams_E1441863721%2F23352871%2FWaldweihnacht.jpg&amp;w=1140&amp;h=760">
+        </div>
+       </figure>
+      </div>
+      <div class="l-header__search">
+       <div class="l-quicksearch">
+        <form class="c-quicksearch noprint" name="search" action="/site/Goeppingen-Internet-2021/search/18558007/quickSearchResult.html" role="search" method="GET"><input type="hidden" name="quicksearch" value="true"> <input class="c-quicksearch__input pbsearch-autocomplete" name="query" id="qs_query2211084871410575360" type="search" placeholder="SUCHBEGRIFF EINGEBEN" aria-label="Suche" onfocus="if(this.value == this.defaultValue){this.value = '';}"> <button class="c-quicksearch__button" type="submit" value="Search" aria-label="Suche starten"><i class="fas fa-search"></i></button>
+        </form>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="l-header__row3">
+     <div class="l-breadcrumb noprint">
+      <nav class="c-breadcrumb" aria-label="breadcrumb">
+       <ul class="breadcrumb">
+        <li class="breadcrumb-item current"><span aria-current="page" class="active">Startseite</span></li>
+       </ul>
+      </nav>
+     </div>
+    </div>
+   </header>
+   <div class="l-main" role="main">
+    <div class="l-main-inner">
+     <div id="inhalt" class="l-content ">
+      <article class="composedcontent-goeppingen-standardseite-2021 composedcontent-goeppingen-standardseite-2021--goeppingen-standardseite-2021 block_19336551" id="cc_19336551">
+       <div class="v-row composedcontent-tng_zeile--zeile subcolumns oben" id="row_19336558">
+        <div id="id19336559" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_19336559">
+          <div id="id19336560">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19336560" id="cc_19336560">
+             <figure class="basecontent-image basecontent-image--bild c-image resized resizedW730 resizedH400">
+              <div class="image-inner" id="img_20347710">
+               <a class="internerLink" href="/start/informieren/handy-parken+wird+bis+ende+2029+fortgefuehrt.html"><img alt="Zahlreiche Blumen vom Boden aus betrachtet, in der Mitte ist der blaue Himmel zu sehen" src="/site/Goeppingen-Internet-2021/data/18558007/resize/Parken-Innenstadt-App.jpg?f=%2Fsite%2FGoeppingen-Internet-2021%2Fget%2Fparams_E-901805414%2F20347710%2FParken-Innenstadt-App.jpg&amp;w=730&amp;h=400"></a><a data-caption="caption_20347710" data-lightboxgroup="lightbox" href="/site/Goeppingen-Internet-2021/get/params_E-901805414/20347710/Parken-Innenstadt-App.jpg" title="Original-Bild anzeigen"><span class="zoomIcon linkedZoomIcon"></span></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Bis 2029</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Parken via App wird fortgesetzt</h2>
+             <p class="c-text basecontent-line-break-text--text">Das bargeldlose Bezahlen von Parkgebühren per Smartphone-App hat sich in Göppingen etabliert. Der Ausschuss für Umwelt und Technik hat vergangene Woche die Fortführung der Zusammenarbeit mit dem Anbieter EasyPark um weitere drei Jahre beschlossen. Für die Stadt entstehen dadurch weiterhin keine zusätzlichen Kosten.</p>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/informieren/handy-parken+wird+bis+ende+2029+fortgefuehrt.html">Mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+          <div id="id19336565">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19336565" id="cc_19336565">
+             <figure class="basecontent-image basecontent-image--bild c-image resized resizedW730 resizedH400">
+              <div class="image-inner" id="img_19336627">
+               <a data-caption="caption_19336627" data-lightboxgroup="lightbox" href="/site/Goeppingen-Internet-2021/get/params_E-1083076735/19336627/Rathaus_klein.jpg" title="Original-Bild anzeigen"><img alt="Das Rathaus in Göppingen am Abend. Im vorderen Teil ist ein Stück des Marktplatzes zu sehen." src="/site/Goeppingen-Internet-2021/data/18558007/resize/Rathaus_klein.jpg?f=%2Fsite%2FGoeppingen-Internet-2021%2Fget%2Fparams_E-1083076735%2F19336627%2FRathaus_klein.jpg&amp;w=730&amp;h=400"><span class="zoomIcon"></span></a>
+              </div>
+             </figure>
+             <h3 class="c-h3 basecontent-dvv-sub-heading-3--uberschrift-3">Stadt Göppingen</h3>
+             <p class="c-text basecontent-line-break-text--text">Hauptstraße 1<br>73033 Göppingen</p>
+             <div aria-hidden="true" class="c-separator basecontent-dvv-trenner--trenner" id="id19336658">
+              <hr class="trenner-sep sep100">
+             </div>
+             <p class="c-text basecontent-line-break-text--text"><a class="telLink neuFensterLink" href="tel:07161%20650-0" target="_blank">07161 650-0</a><br><a class="mailLink neuFensterLink" href="mailto:stadtverwaltung@goeppingen.de" target="_blank">E-Mail</a></p>
+             <div aria-hidden="true" class="c-separator basecontent-dvv-trenner--trenner" id="id19336766">
+              <hr class="trenner-sep sep100">
+             </div>
+             <h3 class="c-h3 basecontent-dvv-sub-heading-3--uberschrift-3">Öffnungszeiten</h3>
+             <div class="basecontent-table basecontent-table--tabelle">
+              <table class="hide-grid" id="grid_19336770">
+               <tbody>
+                <tr>
+                 <td>Mo</td>
+                 <td>8 - 13 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Di, Mi, Fr</td>
+                 <td>8 - 12 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Do</td>
+                 <td>13:30 - 18 Uhr</td>
+                </tr>
+               </tbody>
+              </table>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="v-row composedcontent-tng_zeile--zeile subcolumns news" id="row_19336775">
+        <div id="id19454623" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_19454623">
+          <div id="id19454712">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19454712" id="cc_19454712">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19454713">
+               <a class="internerLink" href="/start/informieren/bauuntergrund+besser+als+angenommen.html"><img alt="Modell einer künftigen Kindertagesstätte." src="/site/Goeppingen-Internet-2021/get/params_E1588766052/19454713/Kita_ASS.jpg"></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Kita an der ASS</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Baukosten sinken</h2>
+             <p class="c-text basecontent-line-break-text--text">Die Stadt spart rund 130.000 Euro Kosten beim Bau der neuen Kita an der Albert-Schweitzer-Schule. Möglich macht dies ein besser zu bebauender Baugrund.</p>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/informieren/bauuntergrund+besser+als+angenommen.html">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+          <div id="id19454629">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19454629" id="cc_19454629">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19454630">
+               <a class="internerLink" href="/start/kennenlernen/haushalt+2027.html"><img alt="Gestapelte Münzen stehen neben einem Taschenrechner und dem Modell eines Hauses" src="/site/Goeppingen-Internet-2021/get/params_E-725964934/19454630/HH_Sonderseite.jpg"></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Sonderseite</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Haushalt 2027</h2>
+             <p class="c-text basecontent-line-break-text--text">Auf einer Sonderseite informiert die Stadt transparent zur Entwicklung des städtischen Haushalts 2027.</p>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/kennenlernen/haushalt+2027.html">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+          <div id="id19454703">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19454703" id="cc_19454703">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19454704">
+               <a class="internerLink" href="/start/kennenlernen/chancengleichheit.html"><img alt="Ein oranger Rollkoffer und ein Teddybär stehen in einer geöffneten Tür" src="/site/Goeppingen-Internet-2021/get/params_E-674568308/19454704/OrangeDays.jpg"></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Programmheft</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Orange Days 2026</h2>
+             <p class="c-text basecontent-line-break-text--text"><span class="text-justify">Auch in diesem Jahr setzt die Stadt anlässlich der Orange Days ein Zeichen gegen Gewalt an Frauen und Mädchen.</span></p>
+             <p class="c-text basecontent-line-break-text--text"><a class="pdfLink dateiLink linkTyp_pdf neuFensterLink" href="/site/Goeppingen-Internet-2021/get/documents_E-2078802693/Goeppingen/Goeppingen_Anleitungen/Chancengleichheit/Orange%20Days%202026.pdf" target="_blank">mehr erfahren<span class="dateiGroesse dateiArt"> (PDF, 13,3 <abbr title="Megabytes" lang="en">MB</abbr>)</span></a></p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="composedcontent-html-element composedcontent-html-element--html-element">
+        <div class="basecontent-html-editor basecontent-html-editor--html-editor">
+         <script defer src="https://eventkalender.erlebe-dein-goeppingen.de/widgets/goeppingen-de-upcoming-widget.js"></script>
+        </div>
+       </div>
+       <div class="v-row composedcontent-tng_zeile--zeile subcolumns v-row--100 allg" id="row_19441605">
+        <div id="id19444598" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_19444598">
+          <div id="id19441607">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441607" id="cc_19441607">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19441645">
+               <img alt="Das Göppinger Rathaus im Sommer. Fünf Fahnen wegen vor dem Gebäude." src="/site/Goeppingen-Internet-2021/get/params_E364075727/19441645/Rathaus.jpg">
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Karriere</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Stellenangebote</h2>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/informieren/stellenangebote.html">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+          <div id="id19441612">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441612" id="cc_19441612">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19441675">
+               <a class="internerLink" href="/start/informieren/dem+verbrechen+auf+der+spur.html"><img alt="Eine Lupe wird über einen Fingerabdruck gehalten" src="/site/Goeppingen-Internet-2021/get/params_E998128466/19441675/Fingerabdruck.jpg"></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Verbrecherjagd</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Kinder-Uni</h2>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/informieren/dem+verbrechen+auf+der+spur.html">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+          <div id="id19441617">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441617" id="cc_19441617">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19441678">
+               <a class="internerLink" href="/start/informieren/buergerapp.html"><img alt="Eine Person hält ein Smartphone vor dem Rathaus in Göppingen." src="/site/Goeppingen-Internet-2021/get/params_E1215952289/19441678/BuergerApp-News.jpg"></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Digitales Rathaus</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Bürger-App</h2>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/informieren/buergerapp.html">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+          <div id="id19441640">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441640" id="cc_19441640">
+             <figure class="basecontent-image basecontent-image--bild c-image">
+              <div class="image-inner" id="img_19441682">
+               <a class="internerLink" href="/start/informieren/offener+brief+zur+deponiestandortsuche+in+der+region+stuttgart.html"><img alt="Isometrische Außenansicht der Stadtbibliothek Göppingen" src="/site/Goeppingen-Internet-2021/get/params_E219791626/19441682/Luftbild-Suchgebiet-ohne-Markierung.jpg"></a>
+              </div>
+             </figure>
+             <h4 class="basecontent-dvv-sub-heading-4 basecontent-dvv-sub-heading-4--uberschrift-4">Deponiestandort</h4>
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Offener Brief</h2>
+             <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/informieren/offener+brief+zur+deponiestandortsuche+in+der+region+stuttgart.html">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="v-row composedcontent-tng_zeile--zeile subcolumns gesucht" id="row_19441699">
+        <div id="id19441700" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_19441700">
+          <div id="id19441701">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441701" id="cc_19441701">
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Häufig gesucht</h2>
+            </div>
+           </div>
+          </div>
+          <div id="id19441731">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441731" id="cc_19441731">
+             <div class="c-list basecontent-list--liste text-left">
+              <ul>
+               <li><a class="internerLink" href="/start/informieren/aktuelle+meldungen.html">Aktuelles</a></li>
+               <li><a class="internerLink neuFensterLink" href="/start/informieren/Bekanntmachungen.html" target="_blank">Öffentliche Bekanntmachungen</a></li>
+               <li><a class="httpsLink externerLink neuFensterLink" href="https://geoportal.goeppingen.de/stadtplan/" rel="external noopener" target="_blank" title="Geoportal der Stadt Göppingen">Geoportal</a></li>
+               <li><a class="httpsLink externerLink neuFensterLink" href="https://termine-reservieren.de/termine/stadt-goeppingen/" rel="external noopener" target="_blank" title="Online-Terminvergabe">Online-Terminvergabe</a></li>
+               <li><a class="internerLink" href="/start/organisieren/maengelmelder.html">Mängelmelder</a></li>
+               <li><a class="internerLink" href="/start/informieren/ausbildung+und+studium.html">Ausbildung</a></li>
+               <li><a class="externerLink neuFensterLink" href="http://goeppingen.gremien.info" rel="external noopener" target="_blank" title="Ratsinformationssystem">Ratsinformationssystem</a></li>
+               <li><a class="internerLink" href="/start/informieren/stellenangebote.html">Stellenangebote</a></li>
+               <li><a class="internerLink" href="/start/gestalten/sicherheit.html">Sicherheit</a></li>
+              </ul>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="v-row composedcontent-tng_zeile--zeile subcolumns v-row--100 gross" id="row_19441776">
+        <div id="id19441777" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_19441777">
+          <div id="id19441778">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19441778" id="cc_19441778">
+             <figure class="basecontent-responsive-image basecontent-responsive-image--bild--responsiv- c-image">
+              <div class="image-inner" id="img_19441792">
+               <img alt="" sizes="100vw" src="/site/Goeppingen-Internet-2021/get/params_E1525416129/19441792/Waldweihnacht.jpg" srcset="/site/Goeppingen-Internet-2021/get/params_E1525416129_Nfirst/19441792/Waldweihnacht.jpg 2280w, /site/Goeppingen-Internet-2021/get/params_E1525416129_N1140x530/19441792/Waldweihnacht.jpg 1140w, /site/Goeppingen-Internet-2021/get/params_E1525416129_N570x265/19441792/Waldweihnacht.jpg 570w">
+              </div>
+             </figure>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div id="id19447214" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_19447214">
+          <div id="id19447215">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_19447215" id="cc_19447215">
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">18. Göppinger Waldweihnacht</h2>
+             <p class="c-text basecontent-line-break-text--text"><span class="text-justify">Lichterglanz, Tannenduft, Hüttenzauber und ganz viel Weihnachtsstimmung: Die Göppinger Waldweihnacht verwandelt die Innenstadt auch in diesem Jahr wieder in eine einzigartige winterliche Wohlfühllandschaft. Vom 19. November bis 28. Dezember 2026 lädt der Stadtmarketingverein "Göppinger City" zum Genießen, Entdecken und gemeinsamen Verweilen ein.</span></p>
+             <p class="c-text basecontent-line-break-text--text"><a class="httpsLink externerLink neuFensterLink" href="https://www.goeppinger-city.de/goeppinger-waldweihnacht/" rel="external noopener" target="_blank">mehr erfahren</a></p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </article>
+      <div class="clear">
+       <br><a href="#pageTop" class="goPageTop noprint">Zum Seitenanfang</a>
+      </div>
+      <div class="l-contentfooter row noprint">
+       <div class="col-12 toplink"><a href="#pageTop" class="goPageTop noprint" title="zum Seitenanfang"><i class="fas fa-arrow-circle-up"></i></a>
+       </div>
+      </div> <!-- content-custom.vm end -->
+     </div>
+     <div class="l-slot-info">
+      <div class="composedcontent-goeppingen-standardseite-2021 composedcontent-goeppingen-standardseite-2021--goeppingen-standardseite-2021 block_18702722" id="cc_18702722">
+       <div class="v-row composedcontent-tng_zeile--zeile subcolumns" id="row_18702723">
+        <div id="id18702724" class="col-lg-12">
+         <div class="v-col composedcontent-tng_spalte--spalte subrows" id="col_18702724">
+          <div id="id18702725">
+           <div>
+            <div class="v-box composedcontent-tng_box--box boxborder block_18702725" id="cc_18702725">
+             <h2 class="c-h2 basecontent-sub-heading--uberschrift-2">Kontakt</h2>
+             <p class="c-text basecontent-line-break-text--text"><a class="telLink neuFensterLink" href="tel:071616500" target="_blank">07161 650-0</a><br><a class="mailLink neuFensterLink" href="mailto:Stadtverwaltung@goeppingen.de" target="_blank">E-Mail</a></p>
+             <h3 class="c-h3 basecontent-dvv-sub-heading-3--uberschrift-3 fa-clock">Öffnungszeiten</h3>
+             <div class="basecontent-table basecontent-table--tabelle">
+              <table class="hide-grid" id="grid_18702758">
+               <thead>
+                <tr class="head">
+                 <th>Wochentag</th>
+                 <th>Uhrzeit</th>
+                </tr>
+               </thead>
+               <tbody>
+                <tr>
+                 <td>Montag</td>
+                 <td>7 bis 13 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Dienstag</td>
+                 <td>8 bis 13 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Mittwoch</td>
+                 <td>8 bis 13 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Donnerstag</td>
+                 <td>13.30 bis 18 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Freitag</td>
+                 <td>8 bis 13 Uhr</td>
+                </tr>
+                <tr>
+                 <td>Samstag</td>
+                 <td>9 bis 12 Uhr</td>
+                </tr>
+               </tbody>
+              </table>
+             </div>
+             <h3 class="c-h3 basecontent-dvv-sub-heading-3--uberschrift-3 fa-building">Anschrift</h3>
+             <p class="c-text basecontent-line-break-text--text">Stadtverwaltung Göppingen<br>Hauptstraße 1<br>73033 Göppingen</p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer class="l-footer noprint">
+    <div class="row-outer">
+     <div class="row">
+      <div class="col-3">
+       <h3>Rechtliches</h3>
+       <ul>
+        <li><a href="/GP/impressum.html" role="button" title="Impressum">Impressum</a></li>
+        <li><a href="/GP/datenschutz.html" role="button" title="Datenschutz">Datenschutz</a></li>
+        <li><a href="/GP/barrierefreiheit.html" role="button" title="Barrierefreiheit">Barrierefreiheit</a></li> <!--<li><a href="/GP/kontakt.html" role="button" title="Kontakt">Kontakt</a></li>-->
+        <li><a href="/GP/18800825.html" role="button" title="Leichte Sprache">Leichte Sprache</a></li>
+        <li><a href="/GP/20243885.html" role="button" title="Gebärdensprache">Gebärdensprache</a></li>
+        <li><a href="/GP/20569749.html" role="button" title="Amtliche Bekanntmachungen">Bekanntmachungen</a></li>
+       </ul>
+      </div>
+      <div class="col-3">
+       <h3>Kontakt</h3>
+       <p>Stadt Göppingen<br> Hauptstraße 1<br> 73033 Göppingen<br> (07161) 650-0<br> <a class="mailLink neuFensterLink" title="stadtverwaltung@goeppingen.de" href="mailto:stadtverwaltung@goeppingen.de">Email</a></p>
+      </div>
+      <div class="col-6">
+       <div class="bottom" id="bottom-slot">
+        <div class="composedcontent-goeppingen-standardseite-2021 composedcontent-goeppingen-standardseite-2021--goeppingen-standardseite-2021 block_19046113" id="cc_19046113">
+         <h3 class="c-h3 basecontent-dvv-sub-heading-3--uberschrift-3">Willkommen in Göppingen</h3>
+         <p class="c-text basecontent-line-break-text--text">Die Hohenstaufenstadt Göppingen - das ist die Symbiose zwischen der Tradition der Staufer, deren Name mit den Begriffen Kunst, Kultur und Wissenschaft verbunden ist, dem Gewerbefleiß, dem Tüftlergeist und Erfindungsreichtum der Göppingerinnen und Göppinger sowie der Innovations- und Wettbewerbskraft unserer Industrie.</p>
+         <p class="c-text basecontent-line-break-text--text"><a class="internerLink" href="/start/kennenlernen/portrait.html" title="Göppingen Portrait">MEHR ERFAHREN</a></p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="row-outer--last">
+     <div class="row">
+      <div class="col-6">
+       Copyright © 2021 - 2026 Stadtverwaltung Göppingen
+      </div>
+      <div class="col-6">
+       Design <a href="https://infodesignerin.de/">infodesignerin.de</a> &nbsp;|&nbsp;&nbsp; powered by <a href="https://www.komm.one/cms" target="_blank">Komm.ONE</a>
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div> <!-- l-page end -->
+  <script src="/site/Goeppingen-Internet-2021/data/18558007/tracking/tracking.js"></script>
+  <script async defer src="https://statistik.komm.one/matomo/piwik.js"></script>
+  <noscript>
+   <img alt="" src="https://statistik.komm.one/matomo/piwik.php?idsite=66&amp;action_name=Deutsch%20/%20Startseite%2018558007">
+  </noscript> <!-- postprocessor.groovy duration 3 ms -->
+ </body>
+</html><!--
+  copyright Komm.ONE
+  node       18558007 Startseite
+  locale     de Deutsch
+  server     aipcms7_i1rrzscms24p-n1
+  duration   519 ms
+-->

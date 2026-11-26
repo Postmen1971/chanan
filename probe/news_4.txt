@@ -1,0 +1,6 @@
+URL https://www.handball-world.news/artikel/matschke-ueber-ex-verein-wetzlar-wundere-mich-dass-sie-1275267
+FINAL https://www.handball-world.news/artikel/matschke-ueber-ex-verein-wetzlar-wundere-mich-dass-sie-1275267
+STATUS 0
+LEN 35
+
+FEHLER <HTTPError 403: 'Forbidden'>

@@ -1,0 +1,6 @@
+URL https://rausgegangen.de/goppingen/
+FINAL https://rausgegangen.de/goppingen/
+STATUS 0
+LEN 35
+
+FEHLER <HTTPError 403: 'Forbidden'>

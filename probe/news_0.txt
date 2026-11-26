@@ -1,0 +1,6 @@
+URL https://www.ebersbach.de/%2F40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956
+FINAL https://www.ebersbach.de/%2F40-Millionen-Euro-fuer-das-Raichberg-Schulzentrum-Was-die-Machbarkeitsstudie-zeigt-und-wie-es-weitergeht-article4956
+STATUS 0
+LEN 35
+
+FEHLER <HTTPError 404: 'Not Found'>
