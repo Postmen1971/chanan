@@ -424,7 +424,8 @@ function phaseNow(now){
 }
 let lastPhase="";
 function applyPhase(){
-  const p = phaseNow(new Date());
+  // Feste Farben: Blau-Lila wie gewünscht (nicht mehr nach Tageszeit wechseln)
+  const p = "night";
   if(p===lastPhase) return; lastPhase=p;
   const s=document.documentElement.style, c=PHASES[p];
   s.setProperty("--bg1",c.bg[0]);s.setProperty("--bg2",c.bg[1]);s.setProperty("--bg3",c.bg[2]);
@@ -702,7 +703,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-25e";
+const VERSION = "2026-11-26a";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
