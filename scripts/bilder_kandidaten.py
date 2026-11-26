@@ -29,6 +29,82 @@ SUCHE = {
  "blumenkohl": ["Roasted cauliflower", "Roasted cauliflower florets"],
  "roulade": ["Rinderrouladen Rotkohl", "Rinderroulade"],
  "sucuk": ["Sucuklu yumurta", "Sucuk eggs pan"],
+ 'mercimekkoefte': ['Mercimek köftesi', 'Turkish lentil balls'],
+ 'kisir': ['Kısır', 'Kisir bulgur salad'],
+ 'pirasa': ['Zeytinyağlı pırasa', 'Pırasa yemeği'],
+ 'enginar': ['Zeytinyağlı enginar', 'Artichoke Turkish olive oil'],
+ 'ispanak': ['Ispanak yemeği', 'Spinach with minced meat Turkish'],
+ 'kurufasulye': ['Kuru fasulye', 'Turkish white bean stew'],
+ 'nohut': ['Nohut yemeği', 'Chickpea stew Turkish'],
+ 'tuerlue': ['Türlü', 'Turkish vegetable stew'],
+ 'musakka': ['Patlıcan musakka', 'Turkish moussaka eggplant'],
+ 'muecver': ['Mücver', 'Mucver zucchini fritters'],
+ 'tavuksote': ['Tavuk sote', 'Chicken sauté Turkish'],
+ 'cilbir': ['Çılbır', 'Cilbir poached eggs yogurt'],
+ 'saksuka': ['Şakşuka', 'Turkish saksuka eggplant'],
+ 'yayla': ['Yayla çorbası', 'Turkish yogurt soup'],
+ 'domatescorba': ['Domates çorbası', 'Tomato soup bowl'],
+ 'tavukcorba': ['Tavuk çorbası', 'Chicken soup bowl lemon'],
+ 'huenkar': ['Hünkâr beğendi', 'Hunkar begendi'],
+ 'izmirkoefte': ['İzmir köfte', 'Izmir kofte'],
+ 'kuzusis': ['Kuzu şiş', 'Lamb shish kebab'],
+ 'adana': ['Adana kebabı', 'Adana kebab'],
+ 'piyaz': ['Piyaz', 'Piyaz bean salad'],
+ 'gavurdagi': ['Gavurdağı salatası', 'Gavurdagi salad'],
+ 'patlicansalata': ['Patlıcan salatası', 'Turkish eggplant salad'],
+ 'haydari': ['Haydari', 'Haydari yogurt dip'],
+ 'muhammara': ['Muhammara', 'Muhammara dip'],
+ 'barbunya': ['Barbunya pilaki', 'Barbunya beans'],
+ 'bugulama': ['Balık buğulama', 'Steamed fish Turkish tomatoes'],
+ 'hamsi': ['Hamsi tava', 'Fried anchovies Turkish'],
+ 'uskumru': ['Uskumru ızgara', 'Grilled mackerel'],
+ 'kabakdolma': ['Kabak dolması', 'Stuffed zucchini Turkish'],
+ 'lahana': ['Lahana sarması', 'Turkish cabbage rolls'],
+ 'sarma': ['Yaprak sarma', 'Stuffed grape leaves'],
+ 'bamya': ['Bamya yemeği', 'Okra stew'],
+ 'bezelye': ['Bezelye yemeği', 'Peas stew Turkish'],
+ 'firintavuk': ['Fırında tavuk', 'Roast chicken legs vegetables'],
+ 'ispanakliyumurta': ['Ispanaklı yumurta', 'Spinach eggs pan'],
+ 'lahmacun': ['Lahmacun', 'Lahmacun Turkish pizza'],
+ 'kanat': ['Chicken wings air fryer', 'Grilled chicken wings'],
+ 'gulaschsuppe': ['Gulaschsuppe', 'Goulash soup bowl'],
+ 'huehnersuppe': ['Hühnersuppe', 'Chicken vegetable soup'],
+ 'kuerbissuppe': ['Kürbissuppe', 'Pumpkin soup bowl'],
+ 'brokkolisuppe': ['Broccoli soup', 'Brokkolisuppe'],
+ 'wirsing': ['Wirsingeintopf', 'Savoy cabbage stew'],
+ 'bohneneintopf': ['Bohneneintopf', 'Green bean stew'],
+ 'gemuesesuppe': ['Gemüsesuppe', 'Vegetable soup bowl'],
+ 'kassler': ['Kassler Sauerkraut', 'Sauerkraut Kassler'],
+ 'schweinefilet': ['Schweinefilet Champignons', 'Pork tenderloin mushrooms'],
+ 'putengeschnetzeltes': ['Putengeschnetzeltes', 'Turkey strips sauce'],
+ 'schnitzel': ['Schnitzel', 'Chicken schnitzel'],
+ 'hackbraten': ['Hackbraten', 'Meatloaf German'],
+ 'klopse': ['Königsberger Klopse', 'Königsberger Klopse Kapern'],
+ 'gulasch': ['Rindergulasch', 'Beef goulash'],
+ 'tafelspitz': ['Tafelspitz', 'Tafelspitz Meerrettich'],
+ 'forelle': ['Forelle', 'Baked trout'],
+ 'kabeljau': ['Kabeljau Senfsoße', 'Cod fillet mustard sauce'],
+ 'matjes': ['Matjes', 'Matjes Hering'],
+ 'fischfrikadellen': ['Fischfrikadellen', 'Fish cakes'],
+ 'seelachs': ['Seelachs', 'Pollock fillet baked'],
+ 'spinatei': ['Spinat Spiegelei', 'Creamed spinach fried egg'],
+ 'ruehreilachs': ['Rührei Lachs', 'Scrambled eggs smoked salmon'],
+ 'bauernfruehstueck': ['Bauernfrühstück', "German farmer's breakfast"],
+ 'krautsalat': ['Krautsalat', 'Coleslaw cabbage salad'],
+ 'feldsalat': ['Feldsalat', "Lamb's lettuce salad chicken"],
+ 'rotebete': ['Rote Bete Salat', 'Beetroot salad feta'],
+ 'wurstsalat': ['Wurstsalat', 'Swabian sausage salad'],
+ 'eiersalat': ['Eiersalat', 'Egg salad'],
+ 'zucchinifeta': ['Gefüllte Zucchini', 'Stuffed zucchini feta'],
+ 'rosenkohl': ['Rosenkohl', 'Roasted Brussels sprouts'],
+ 'gruenkohl': ['Grünkohl', 'Kale stew German'],
+ 'spitzkohl': ['Spitzkohl', 'Pointed cabbage minced meat'],
+ 'kohlrabi': ['Kohlrabi', 'Kohlrabi slices'],
+ 'champignons': ['Gefüllte Champignons', 'Stuffed mushrooms'],
+ 'ofenkuerbis': ['Roasted pumpkin', 'Ofenkürbis'],
+ 'spargel': ['Spargel Schinken', 'White asparagus ham'],
+ 'maultaschen': ['Maultaschen', 'Maultaschen Brühe'],
+ 'linsensalat': ['Linsensalat', 'Lentil salad feta'],
 }
 
 def get(url, timeout=40):
@@ -41,7 +117,7 @@ def get(url, timeout=40):
                 time.sleep(10 * (versuch + 1)); continue
             raise
 
-def commons(q, n=5):
+def commons(q, n=4):
     api = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6"
            f"&gsrlimit={n}&gsrsearch={urllib.parse.quote(q + ' filetype:bitmap')}"
            "&prop=imageinfo&iiprop=url|extmetadata|size&iiurlwidth=800")
@@ -72,7 +148,7 @@ for key, qs in SUCHE.items():
         except Exception as e:
             print("Fehler", key, q, e, file=sys.stderr); continue
         for c in cands:
-            if c["title"] in seen or k >= 6:
+            if c["title"] in seen or k >= 5:
                 continue
             seen.add(c["title"])
             fn = f"{key}_{k}.jpg"
