@@ -423,9 +423,12 @@ GOOD_SOURCES = ["nwz", "swp", "südwest presse", "swr", "stuttgarter zeitung", "
                 "filstalexpress", "stadt ebersbach", "landkreis göppingen", "staatsanzeiger", "esslinger zeitung"]
 BLAULICHT = ["unfall", "zusammenstoß", "kollidier", "kollision", "polizei", "feuerwehr", "brand", "verletzt",
              "eisplatten", "lkw", "festgenommen", "einbruch", "diebstahl", "betrunken", "fahrerflucht", "blaulicht"]
-SPORT_SOURCES = ["fupa", "kicker", "transfermarkt"]
 SPORT = ["frisch auf", "fußball", "handball", "sv ", "fc ", "tsv", "tabelle", "liga", "spieltag", "trainer",
-         "torjäger", "derby", "punktspiel", " sieg", "niederlage"]
+         "torjäger", "derby", "punktspiel", " sieg", "niederlage", "amateurfußball", "kreisliga",
+         "bezirksliga", "landesliga", "oberliga", "regionalliga", "bundesliga", " tor ", "elfmeter",
+         "turnier", "meisterschaft", "pokal", "volleyball", "basketball", "tischtennis", "tennis", "ringen",
+         "leichtathletik", "marathon", "spvgg", "tsg ", "sportverein", "sportfreunde", "kicker", "matschke"]
+SPORT_SOURCES = ["fupa", "kicker", "transfermarkt", "handball-world", "sport", "reviersport", "liga"]
 CITY_NEWS = "https://www.ebersbach.de/nachrichten"
 
 
@@ -609,9 +612,10 @@ def update_news():
         if any(similar(n["title"], p["title"]) for p in picked):
             continue
         t = " " + n["title"].lower() + " "
-        is_sport = any(w in t for w in SPORT) or any(x in n["source"].lower() for x in SPORT_SOURCES)
+        is_sport = (any(w in t for w in SPORT) or any(x in n["source"].lower() for x in SPORT_SOURCES)
+                    or "/sport" in (n.get("link") or "").lower())
         is_blau = any(w in t for w in BLAULICHT)
-        if (is_sport and sport >= 1) or (is_blau and blau >= 1):
+        if is_sport or (is_blau and blau >= 1):   # Sport ganz raus
             continue
         if n["region"] == "Ebersbach" and ebers >= 3 and goe_left:
             continue   # Platz für Göppingen lassen
