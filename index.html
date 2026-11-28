@@ -280,7 +280,7 @@ body{
     <div class="r-body">
       <div class="r-head">
         <div style="flex:1;min-width:0">
-          <div class="label" style="margin-bottom:6px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 13.9A4 4 0 0 1 7 6a5 5 0 0 1 10 0 4 4 0 0 1 1 7.9V20H6z"/><path d="M6 17h12"/></svg>Rezept des Tages</div>
+          <div class="label" style="margin-bottom:6px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 13.9A4 4 0 0 1 7 6a5 5 0 0 1 10 0 4 4 0 0 1 1 7.9V20H6z"/><path d="M6 17h12"/></svg>Rezept-Idee</div>
           <div class="r-name" id="rname"></div>
         </div>
         <div class="nav"><button id="rprev" aria-label="Vorheriges">‹</button><button id="rnext" aria-label="Nächstes">›</button></div>
@@ -665,12 +665,12 @@ async function loadRezepte(){
   try{ R = await getJSON("data/rezepte.json"); store.set("rezepte",R) }catch(e){ R = store.get("rezepte") }
   if(!R) return;
   ORDER = mixOrder(R.rezepte);
-  rIdx = dayNo();
+  rIdx = Math.floor(Math.random()*R.rezepte.length);   // bei jedem Öffnen ein anderes Rezept
   renderChips(); renderRezept(); renderTip();
 }
 function renderChips(){
   $("chips").innerHTML = FILTERS.map(([k,l])=>`<button class="chip ${k===rFilter?"on":""}" data-f="${k}">${l}</button>`).join("");
-  $("chips").querySelectorAll(".chip").forEach(b=>b.onclick=()=>{rFilter=b.dataset.f; rIdx=dayNo(); renderChips(); renderRezept()});
+  $("chips").querySelectorAll(".chip").forEach(b=>b.onclick=()=>{rFilter=b.dataset.f; rIdx=Math.floor(Math.random()*1000); holdRezept(); renderChips(); renderRezept()});
 }
 function current(){const l=rList(); if(!l.length) return null; return l[((rIdx%l.length)+l.length)%l.length]}
 function renderRezept(){
@@ -712,8 +712,19 @@ function openModal(){
 }
 function closeModal(){$("modal").classList.remove("open")}
 $("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
-$("rprev").onclick=()=>{rIdx--;renderRezept()};
-$("rnext").onclick=()=>{rIdx++;renderRezept()};
+$("rprev").onclick=()=>{rIdx--;holdRezept();renderRezept()};
+$("rnext").onclick=()=>{rIdx++;holdRezept();renderRezept()};
+// Rezepte wechseln automatisch alle 40 Sekunden; nach Antippen 3 Minuten Pause, bei offenem Fenster gar nicht
+let rHold=0;
+function holdRezept(){ rHold=Date.now()+180e3 }
+setInterval(()=>{
+  if(!R || Date.now()<rHold || $("modal").classList.contains("open")) return;
+  rIdx++; renderRezept();
+}, 40e3);
+// Tablet wieder eingeschaltet / Seite wieder sichtbar: gleich ein neues Rezept
+document.addEventListener("visibilitychange",()=>{
+  if(!document.hidden && R && !$("modal").classList.contains("open")){ rIdx += 1+Math.floor(Math.random()*5); renderRezept() }
+});
 $("rimg").onclick=openModal; $("rname").onclick=openModal;
 
 /* Tipp oben: wechselt zwischen Airfryer- und Gesund-Tipps */
@@ -768,7 +779,7 @@ setInterval(renderTip, 45e3);
 let lastDay=new Date().getDate();
 setInterval(()=>{const d=new Date().getDate(); if(d!==lastDay){lastDay=d; loadAbfall(); loadEvents(); loadRezepte()}}, 60e3);
 // Neue Version auf GitHub? Dann von selbst neu laden (prüft alle 10 Minuten)
-const VERSION = "2026-11-26d";
+const VERSION = "2026-11-28a";
 setInterval(async()=>{
   try{
     const t = await (await fetch("index.html?v="+Date.now(), {cache:"no-store"})).text();
